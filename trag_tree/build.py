@@ -56,7 +56,13 @@ def build_forest(tree_num_max=30, entities_file_name="entities_file", search_met
 
     nlp = ruler.enhance_spacy(list(entities_list))
 
-    hash.change_filter(len(entities_list))
+    # Only call change_filter for search_method 7 (cuckoo filter)
+    if search_method == 7:
+        try:
+            hash.change_filter(len(entities_list))
+        except ImportError as e:
+            print(f"Warning: cuckoo_filter_module not available: {e}")
+            print("Cuckoo filter functionality will be disabled.")
 
     data = []
     root_list = set()

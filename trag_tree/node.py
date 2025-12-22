@@ -6,11 +6,17 @@ import ctypes
 # from bloom_filter_py import BloomFilterCPP
 
 # cd bloom_filter_cpp && rm -r build && mkdir build && cd build && cmake .. && make && cd ../..
-current_dir = os.path.dirname(os.path.abspath(__file__))
-so_path = os.path.join(current_dir, "..", "bloom_filter_cpp", "build")
-# sys.path.append(current_dir)
-sys.path.append(so_path)
-import bloomfilter
+# bloomfilter模块只在search_method==6时使用，延迟导入以避免不必要的依赖
+bloomfilter = None
+try:
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    so_path = os.path.join(current_dir, "..", "bloom_filter_cpp", "build")
+    # sys.path.append(current_dir)
+    sys.path.append(so_path)
+    import bloomfilter
+except ImportError:
+    # bloomfilter模块未安装或编译，仅在需要时会报错
+    pass
 
 class EntityNode:
 
