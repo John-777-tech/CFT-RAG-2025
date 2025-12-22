@@ -1,0 +1,800 @@
+[
+  {
+    "question": "Summarize the following email: Huntley/question\n",
+    "answer": "The necessary information (the content of the Huntley/question email or relevant relations) to summarize the email is not provided. Please share the email text or related details for a summary.",
+    "expected_answer": "Phillip,   Could you please do me a favor?\nI would like  to read your current title policy to see what it says about easements.\nYou  should have received a copy during your closing.\nI don't know how many  pages it will be but let me know how you want to handle getting a copy  made.\nI'll be happy to make the copy, or whatever makes it easy for  you.\nThanks,\n",
+    "time": 9.469208002090454,
+    "answer_length": 193
+  },
+  {
+    "question": "Summarize the following email: Expense Reports Awaiting Your Approval\n",
+    "answer": "The email notifies that expense reports are pending your approval.\n\n(Note: The provided tree relations of the word \"your\" indicate its contextual connections in relevant content, but the core message of the email titled \"Expense Reports Awaiting Your Approval\" is that expense reports are waiting for the recipient's approval.)",
+    "expected_answer": "The following reports have been waiting for your approval for more than 4 days.\nPlease review.\nOwner: James W Reitmeyer Report Name: JReitmeyer 10/24/01 Days In Mgr.\nQueue: 5\n",
+    "time": 16.622395992279053,
+    "answer_length": 327
+  },
+  {
+    "question": "Summarize the following email: Re-start/Integration Planning\n",
+    "answer": "The email titled \"Re-start/Integration Planning\" involves the topic \"start\", which has an upward hierarchical relation to \"rob\" and downward sub-nodes including \"also\", \"this\", \"dave\", \"my\", and \"hi\".",
+    "expected_answer": "We have for the last couple of weeks started to compile the Re-start/Integration Plans for Netco.\nSo far, we have primarily focussed on the mid/back plans where the technology requirements have been the driving factors.\nSeveral plans are in the final stages of completion including:-  +\tInfrastructure\t\tJenny Rub +\tDevelopment\t\tJay Webb +\tEnronOnline\t\tWebb / Forster +\tHR\t\t\tDavid Oxley +\tCash Management\tTom Myers +\tCredit\t\t\tDebbie Brackett  The rest will be completed shortly.\nWe now need to focus o",
+    "time": 11.43656611442566,
+    "answer_length": 200
+  },
+  {
+    "question": "Summarize the following email: RM Simulation Storyline Scripts - Ready for Legal Review\n",
+    "answer": "The email content for \"RM Simulation Storyline Scripts - Ready for Legal Review\" is not provided, so a summary cannot be generated. Please share the full email text to get a concise summary.",
+    "expected_answer": "Michelle Here are my very minor comments.\nHowever we still need to wait on any additions, based on meeting with SME's today.\nOne concern is the firing of the learner who performs  bad in the final two scenarios.\nDo we face any copyright issues using the CNN type themes?\nIn addition, I think we need to stay clear of anything that remotely seems like California or anything that really happen with Enron?\n(i.e.\nSo-cal Waha) In addition, comments on regulatory issues may be a problem (i.e.\nCalifornia",
+    "time": 10.066351175308228,
+    "answer_length": 190
+  },
+  {
+    "question": "Summarize the following email: Answer\n",
+    "answer": "The email content to be summarized is not provided in the given information, so a summary cannot be generated. Please include the text of the email for a concise summary.",
+    "expected_answer": "For purposes of an accelerated distribution from the PSA,  a \"single sum distribution,\" in Section 6.2 means that a PSA account is distributed all at once, as distinguished from another form of payout as may have been selected by a participant in his or her deferral agreement.\nSection 6.2 is clear in that the account balance shall be determined as of the last day of the month preceding the date on which the Committee receives the written request of the Participant.\nA PSA account balance is refle",
+    "time": 5.088768005371094,
+    "answer_length": 170
+  },
+  {
+    "question": "Summarize the following email: BCP Seat Assignments\n",
+    "answer": "The email content for \"BCP Seat Assignments\" is not provided in the given information, so a summary cannot be generated. Please share the actual email text to get a concise summary.",
+    "expected_answer": "All:  Attached you will find a list that reflects your seat assignments for Business Continuity Planning (BCP).\nThese seats are located on the 30th and 31st Floors of Enron Center North (ECN).\nAs previously communicated, you will report to these designated seats in the event of an outage in ECS.\nThe exception to this is as follows: If your seat assignment is located on the 31st Floor, you will report to your original location that you occupied prior to your move into ECS.\nThis will hold true unt",
+    "time": 6.705862998962402,
+    "answer_length": 181
+  },
+  {
+    "question": "Summarize the following email: Farewell Drinks\n",
+    "answer": "The content of the \"Farewell Drinks\" email is not provided in the given information, so a summary cannot be generated. Please share the actual text of the email to get a concise summary.",
+    "expected_answer": "As our last day is Friday, November 30th, we would love to toast the good times and special memories that we have shared with you over the past five years.\nPlease join us at Teala's (W. Dallas) on Thursday, November 29th, beginning at 5pm.\nLooking forward to being with you,   Lara and Janel     Lara Leibman\n",
+    "time": 7.281950950622559,
+    "answer_length": 186
+  },
+  {
+    "question": "Summarize the following email: Slide for John Sheriff\n",
+    "answer": "The email content for \"Slide for John Sheriff\" is not provided in the given information, so a summary cannot be generated. Please share the actual content of the email to get a concise summary.",
+    "expected_answer": "Hi John,  I was wondering if you had a chance to put together that slide for us.\nI know you are really busy and we appreciate your help.\nThanks.\nSavita\n",
+    "time": 6.805149078369141,
+    "answer_length": 193
+  },
+  {
+    "question": "Summarize the following email: URGENT - ENA Associates & Analysts\n",
+    "answer": "The urgent email concerns ENA Associates (which has \"your\" as a downward sub-node) and Analysts.",
+    "expected_answer": "All,  The below Analyst & Associate recruiting dates require ENA participation at Manager level at above.\nIn order to resource each of your departments it is important to have ENA's involvement and participation in the interviews and debrief sessions on Fantastic Friday and Super Saturday events.\nThese de-brief sessions will allow you the opportunity to select candidates you wish to join your groups.\nThe target  is to assign potential candidates to business units and departments from the outset.",
+    "time": 17.000821113586426,
+    "answer_length": 96
+  },
+  {
+    "question": "Summarize the following email: Increased Security at Enron Center\n",
+    "answer": "The email content for \"Increased Security at Enron Center\" is not provided in the given information, so a summary cannot be generated. Please share the email text to get a concise summary.",
+    "expected_answer": "Late on October 25th, we received information about a nonspecific threat to the Enron Center.\nWe communicated with law enforcement officials who found the threat unsubstantiated and without merit.\nNonetheless we take all threats seriously and have increased the security presence at the Enron Center still further.\nOnce again, if you observe suspicious behavior, please call security at 3-6200.\n",
+    "time": 7.805730104446411,
+    "answer_length": 188
+  },
+  {
+    "question": "Summarize the following email: Greetings\n",
+    "answer": "The email starts with the greeting \"Greetings\" but no additional content is provided.",
+    "expected_answer": "Hi John,  The events surrounding the Enron demise are quite disturbing not only to me but to many of us over here.\nOur hearts go out to all the employees who will not only loose their employment but also most, if not all, of their savings.\nAs you know, I've always thought a lot of you; not only for your trading skills, but also as a person.\nYou are one of the largest and most influential traders in the market, yet do not have the annoying ego so often found in traders of your stature.\nI'm absolu",
+    "time": 10.467554807662964,
+    "answer_length": 85
+  },
+  {
+    "question": "Summarize the following email: Meeting on Wednesday, January 2 - 9:30 am\n",
+    "answer": "There is a meeting scheduled for Wednesday, January 2 at 9:30 am.",
+    "expected_answer": "Kevin Presto is requesting that you attend a meeting regarding Organizing an Action Plan for the Start-up of Netco.\nThe meeting will be held in ECS 06716 at 9:30 am, Wednesday, January 2, 2002.\nFor Tim and Chris, could you please call 713-584-2067.\nThis is the telephone number in the conference room.\nIf you should have any questions, please call T Jae Black at 3-5800.\nThanks\n",
+    "time": 5.917448282241821,
+    "answer_length": 65
+  },
+  {
+    "question": "Summarize the following email: STEAG Power LLC\n",
+    "answer": "The email content from STEAG Power LLC is not provided in the given information, so a summary cannot be generated. Please include the relevant email text to get a concise summary.",
+    "expected_answer": "Harry - I got kicked out of the system, so I'm sending this from Tom's account.\nHe can fill you in on the potential deal with STEAG.\nI left my resume on your chair.\nI'll e-mail a copy when I have my home account running.\nMy contact info is:\n",
+    "time": 5.4667840003967285,
+    "answer_length": 179
+  },
+  {
+    "question": "Summarize the following email: ConEd - Lakewood Peaker\n",
+    "answer": "The necessary content of the email \"ConEd - Lakewood Peaker\" is not provided (the Information and Relations sections are empty), so a summary cannot be generated. Please share the actual email text to get a concise summary.",
+    "expected_answer": "Harry:  Got the bid documents for ConEd's offering of peaking capacity for PJM East (Lakewood, New Jersey).\nCan't imagine they would entertain an Enron bid right now without confiscatory credit pricing.\nDo you want to bid anyway?\nLet me know.\n",
+    "time": 4.542861223220825,
+    "answer_length": 223
+  },
+  {
+    "question": "Summarize the following email: Relocation\n",
+    "answer": "The email content related to \"Relocation\" is not provided in the given information, so a summary cannot be generated. Please include the full text of the email to get a concise summary.",
+    "expected_answer": "Thank you for allowing me to explain the UBS relocation policy.\nI have included a repayment agreement that must be printed out, signed and faxed back to 203-205-3934 at your earliest convenience.\nI look forward to working with you in the future.\nThanks\n",
+    "time": 7.763943910598755,
+    "answer_length": 185
+  },
+  {
+    "question": "Summarize the following email: IMPORTANT MESSAGE TO ALL EMPLOYEES PARTICIPATING IN THE ENRON CORP  SAVINGS & ESOP PLANS\n",
+    "answer": "This is an important message addressed to all employees participating in Enron Corp's Savings and ESOP Plans.",
+    "expected_answer": "PLEASE READ THIS IMPORTANT INFORMATION CONCERNING THE ENRON STOCK FUND IN THE ENRON CORP. SAVINGS AND ESOP PLANS  On Friday, January 11, trading of Enron stock was suspended on the New York Stock Exchange (NYSE).\nAll Savings and ESOP Plan transactions, including 401(k) payroll contributions,  involving this fund were placed in a pending status until trading resumed.\nAs announced by Enron's Office of the Chair on Wednesday, January 16, Enron stock would now be traded Over The Counter (OTC).\nUpon ",
+    "time": 8.753141164779663,
+    "answer_length": 109
+  },
+  {
+    "question": "Summarize the following email: UBS issues\n",
+    "answer": "The necessary information (content of the email regarding UBS issues) is not provided, so a summary cannot be generated. Please share the email content to get a relevant summary.",
+    "expected_answer": "1) The enforceability of my existing contract with Enron, namely section 16.\nWhat happens to my contract with Enron and will I be forced to repay both my sign on bonus and my retention bonus to Enron?\n2) Section 1(f) and the last sentence of section 1(c) seem redundant.\nWill I get paid the retention bonus absent voluntary termination (i.e.\nfor both with cause and without cause involuntary termination) ?\n3) Who will be my employer?\nAnd will all stock and stock option grants be in UBS AG stock?\n4)",
+    "time": 4.517228603363037,
+    "answer_length": 178
+  },
+  {
+    "question": "Summarize the following email: YOU HAVE 48 HOURS - Message from Louise Kitchen\n",
+    "answer": "The email content corresponding to the title \"YOU HAVE 48 HOURS - Message from Louise Kitchen\" is not provided in the given information, so a summary cannot be generated. Please share the full content of the email to get a concise summary.",
+    "expected_answer": "It appears that the following email may not have been clear.\nYou have to copy all documents yourself.\nThis is my cheat sheet if it helps:    H Drives: 1.\nEach person will have to move any data over personally from the old H drive (which is now Z:) drive to their new H drive.\n2.\nThe Z: drive (old H:) will be removed from UBS employees on Thursday night.\nO Drives: 1.\nFor the old O or M drives go to O:\\ESTATE\\ O (or M ?\npending location of data) and copy to the new common O.\nThe Estate O and M will",
+    "time": 8.336654901504517,
+    "answer_length": 239
+  },
+  {
+    "question": "Summarize the following email: Sunshine Kids Benefit Golf Tournament - March 18th\n",
+    "answer": "The email is about the Sunshine Kids Benefit Golf Tournament scheduled for March 18th.",
+    "expected_answer": "Dear Members:  NESA is pleased to be holding its 3rd Annual Benefit Golf Tournament on Monday, March 18th, 2002 at the prestigious Champions Golf Club.\nProceeds will again benefit The Sunshine Kids Foundation.\nThis is your opportunity to secure a corporate ($2000) or individual ($500) sponsorship which includes a foursome or a single tee time, respectively for this outstanding tournament and great cause.\nAttached are registration forms.\nNESA has been proud to donate over $50,000 in the last two ",
+    "time": 10.26824688911438,
+    "answer_length": 86
+  },
+  {
+    "question": "Summarize the following email: NOTIFICATION:  Outlook Outage - Friday, December 28, 2001\n",
+    "answer": "The email is a notification of an Outlook outage taking place on Friday, December 28, 2001. No additional details (e.g., duration, cause) are provided in the given content.",
+    "expected_answer": "This is a notice to inform you that the server where your Outlook mailbox resides is scheduled for an outage tonight.\nYour mailbox will be temporarily unavailable starting anytime after 8pm and may continue to be unavailable until 12 a.m., when all server maintenance work have been completed.\nOutlook Web Access (OWA) will also be unavailable during this time.\nBlackberry users:  Message delivery may be delayed for a few minutes.\nIf you have any questions, please call the Resolution Center at x314",
+    "time": 6.907439708709717,
+    "answer_length": 172
+  },
+  {
+    "question": "Summarize the following email: Enron/Dynegy Merger; Antitrust Issues\n",
+    "answer": "The email content regarding the Enron/Dynegy Merger and Antitrust Issues was not provided in the information section, so a summary cannot be generated. Please share the actual email text to get a concise summary.",
+    "expected_answer": "As you know, Enron has signed a merger agreement by which Dynegy will acquire Enron.\nWe expect the transaction to close following shareholder and regulatory approvals and various conditions to closing.\nEven though Enron has entered into this agreement, U.S. and foreign antitrust laws require that Enron and Dynegy continue to operate independently of each other.\nIn particular, to the extent that Enron and Dynegy are competitors in various businesses or markets, their respective activities must be",
+    "time": 3.952332019805908,
+    "answer_length": 212
+  },
+  {
+    "question": "Summarize the following email: An Inbound Message For You Has Been Quarantined\n",
+    "answer": "The email notifies the recipient that an inbound message intended for them has been quarantined. No additional details (such as sender, reason for quarantine, or action steps) are provided in the available information.",
+    "expected_answer": "You have received this message because someone has attempted to send you an e-mail from outside of Enron with an attachment type that Enron does not allow into our messaging environment.\nYour e-mail has been quarantined and is being held at the MailSweeper server.\nSender:  daphneco64@alltel.net\n",
+    "time": 16.33007788658142,
+    "answer_length": 218
+  },
+  {
+    "question": "Summarize the following email: Products\n",
+    "answer": "The necessary content of the email about Products is not provided, so a summary cannot be generated. Please share the full email text for a proper summary.",
+    "expected_answer": "Hey Rob,  I am trying to create index products for Feb and I don't see the Jan products  to copy.\nI need HPL HSCX, HPL HSCX E, HPL Agua Dulce, HPL Thompsonville, and  Corpus Christi Pool.\nThanks,\n",
+    "time": 7.35330605506897,
+    "answer_length": 155
+  },
+  {
+    "question": "Summarize the following email: IR Moves\n",
+    "answer": "The necessary content of the \"IR Moves\" email is not provided in the given information, so a summary cannot be generated. Please share the email's text to get a concise summary.",
+    "expected_answer": "Now I see how you guys have been winning all of your games - through  cheating.\nYou are supposed to have at least one player on IR each week.\nA  designated IR player cannot play.\nThere are no IR moves during the week.\nThat means that at least one person on your team should score no points each  week.\nout\n",
+    "time": 9.175236225128174,
+    "answer_length": 177
+  },
+  {
+    "question": "Summarize the following email: DUES\n",
+    "answer": "The necessary content of the email titled \"DUES\" is not provided in the given information, so a summary cannot be generated. Please include the full text of the email to get a concise summary.",
+    "expected_answer": "I have not received your dues yet.\nI am giving you a one week reprieve.\nIf  I do not receive your dues ($110) by this Sunday, you will forfeit.\nMy address is:  2302 Travis St.. #8225 Houston  77006\n",
+    "time": 6.579589128494263,
+    "answer_length": 192
+  },
+  {
+    "question": "Summarize the following email: Pick-Ups\n",
+    "answer": "The necessary information (the content of the email about Pick-Ups) is missing, so a summary cannot be provided. Please share the email text to get a concise summary.",
+    "expected_answer": "Please e-mail me who you want to add and drop.\nCheck you roster to make sure that it is legal.\nI still need your dues by Sunday or you forfeit.\nI have only received dues from Dave and Steve!\n",
+    "time": 4.137790203094482,
+    "answer_length": 166
+  },
+  {
+    "question": "Summarize the following email: Trade?\n",
+    "answer": "The email content is not provided, so a summary cannot be generated. Please share the full content of the email to get a concise summary.",
+    "expected_answer": "I would like to trade for your 2nd pick in the draft.\nI can offer you a 2nd  round pick and a 9th round pick.\nWhat do you think?\nEric\n",
+    "time": 7.226928949356079,
+    "answer_length": 137
+  },
+  {
+    "question": "Summarize the following email: Draft\n",
+    "answer": "The draft email content is not provided in the given information, so a summary cannot be generated. Please share the text of the draft email to get a concise summary.",
+    "expected_answer": "By unanimous vote we will pre-determine the draft order.\nSo, if nobidy has  any objections, I will pick the draft order here at work under the scrutinhy  of several other players ( Dave B, O. Winfree, M. Lenhart, M. Walters).\nAlso, by majority vote, will have a required tight end posn.\nMeaning the  starting lineups will include 1QB, 2 RBs, 3 WRs, 1 TE, 1 K, 1 Def.\nPlease e-mail back if you are ok with me picking the draft order.\nEric\n",
+    "time": 4.906789779663086,
+    "answer_length": 166
+  },
+  {
+    "question": "Summarize the following email: Draft change request\n",
+    "answer": "The necessary content of the \"Draft change request\" email is not provided in the given information, so a summary cannot be generated. Please share the actual content of the email to get a concise summary.",
+    "expected_answer": "There are some conflicts with the draft date, so we will probably need to  have it on a different date.\nPlease tell me if you prefer 9/2 ( the day  before the season starts) or 8/20.\nWe could also do it during the week, but  it will probably takle 3 or 4 hrs.\nLet me know suggestions.\n",
+    "time": 7.069161891937256,
+    "answer_length": 204
+  },
+  {
+    "question": "Summarize the following email: Game Tonight\n",
+    "answer": "The email content for \"Game Tonight\" is not provided, so a summary cannot be generated. Please share the full text of the email to get a concise summary.",
+    "expected_answer": "I don't know the YMCA's policy on rain outs so  I will assume that we still  have a game tonight.\nOur game is at 7:45 tonight.\nPlease let me know if you  will be there.\nEric\n",
+    "time": 7.0968639850616455,
+    "answer_length": 153
+  },
+  {
+    "question": "Summarize the following email: Rotation\n",
+    "answer": "The email content related to \"Rotation\" is not provided in the given information, so a summary cannot be generated. Please include the full text of the email to get a concise summary.",
+    "expected_answer": "Hey Lisa,  Long time no hear!\nI guess you are too cool for all of us little people now.\nBrenda is looking for someone to fill Bryan Hull's spot in risk when he  leaves.\nI know that you are looking for a rotation, so I was wondering if  you have an interest.\nLet me know.\nEric\n",
+    "time": 7.10625696182251,
+    "answer_length": 183
+  },
+  {
+    "question": "Summarize the following email: A note on PMA's\n",
+    "answer": "The content of the email titled \"A note on PMA's\" is not provided in the given information, so a summary cannot be generated. Please share the email's content to get a concise summary.",
+    "expected_answer": "You may notice that 9911 PMA's are $(208,881) or approx 10% to the final  P&L.\nYou will also notice that the detail following the majority of the  adjustments is Unaccounted For Gas.\nAt the close of business for the 991  P&L, we saw a gain of approx.\n$250,000 because of a blowout in UA4.\nWe  thought that it would be prudent to top level this amount and use it to  offset the PMA's we would take as a result of this UA4 blowout.\nTherefore,  the net impact of 9911 PMA's is $41,119 or 2% of last day ",
+    "time": 4.73856520652771,
+    "answer_length": 184
+  },
+  {
+    "question": "Summarize the following email: Fire Drill Scheduled\n",
+    "answer": "The email content for \"Fire Drill Scheduled\" is not provided in the given information, so a summary cannot be generated. Please share the full text of the email to get a concise summary.",
+    "expected_answer": "As required by the Houston Fire Department, a fire drill has been scheduled for the Enron Center Campus.\nEnron Center North, 1400 Smith St., approximately  3:15 PM on Thursday, December 20th, 2001  \tEnron Center South, 1500 Louisiana St., approximately 3:45 PM on Thursday, December 20th, 2001  Please advise all clients, contractors, and visitors that this will be a fire drill only.\nThe fire alarm will sound at 3:15 PM in Enron Center North and 3:45 PM in Enron Center South.\nYou will be asked to ",
+    "time": 8.412224054336548,
+    "answer_length": 186
+  },
+  {
+    "question": "Summarize the following email: Your mailbox is over its size limit\n",
+    "answer": "Your mailbox is over its size limit.",
+    "expected_answer": "Your mailbox has exceeded one or more size limits set by your administrator.\nYour mailbox size is 112231 KB.\nMailbox size limits: \tYou will receive a warning when your mailbox reaches 75000 KB.\nYou cannot send mail when your mailbox reaches 100000 KB.You may not be able to send or receive new mail until you reduce your mailbox size.\nTo make more space available, delete any items that you are no longer using or move them to your personal folder file (.pst).\nItems in all of your mailbox folders in",
+    "time": 13.740914106369019,
+    "answer_length": 36
+  },
+  {
+    "question": "Summarize the following email: Special Limited-Time Offer: SAVE $10, plus get FREE SHIPPING!\n",
+    "answer": "The email announces a special limited-time offer featuring a $10 discount and free shipping.",
+    "expected_answer": "******************************************* Save $10 Today and Get Free Shipping!\nShop now!\nOffer expires December 31, 2001 *******************************************  Dear Barnes & Noble.com Customer:  Order now.\nThere are only 5 DAYS in this special End-of-Holidays sale.\nFor a limited time you can save $10 off your order of $40 or more, and if you order two or more items, you will qualify for FREE SHIPPING*!\n",
+    "time": 3.250718832015991,
+    "answer_length": 92
+  },
+  {
+    "question": "Summarize the following email: Christmas Arches\n",
+    "answer": "The email content for \"Christmas Arches\" is not provided in the given information, so a summary cannot be generated. Please share the actual content of the email to get a concise summary.",
+    "expected_answer": "The following is the information need for the arch set up.\nIf you would like to volunteer to help fill out the attachment form* and drop by 1906 CLaiborne.\nIf you would like to email me that you will help please email your NAME, ADDRESS, AND PHONE to ccvca@ev1.net  *(Note:  We do not send attachments through ccvevents, because of viruses.\nCraig will get the form to me in text form and I will email it to you later.\nYou may not be aware, but I have received several virus from people on the ccveven",
+    "time": 4.008627891540527,
+    "answer_length": 187
+  },
+  {
+    "question": "Summarize the following email: Change of Control Provisions\n",
+    "answer": "The email content related to \"Change of Control Provisions\" is not provided in the given information, so a summary cannot be generated. Please share the full email text for a concise summary.",
+    "expected_answer": "As many of you know, I have a provision in my employment contract which provides for a payment of $20 million per year for the remaining term of my contract in the event of a change of control of Enron.\nThe merger with Dynegy, or a similar transaction with any other company, would trigger this provision on closing.\nAssuming the merger with Dynegy is closed within 6-9 months, as we expect, this provision would entitle me to total payments of slightly more than $60 million.\nMany CEOs have change o",
+    "time": 8.522788047790527,
+    "answer_length": 191
+  },
+  {
+    "question": "Summarize the following email: DRAFT:  INFORMATION, Please Read: UBSWE Migration postponed\n",
+    "answer": "This is a draft email informing recipients that the UBSWE migration has been postponed, and it requests the recipients to read the information provided.",
+    "expected_answer": "Due to a variety of circumstances we did not migrate employees to the UBSWE environment tonight (Monday, February 4, 2002).\nWe will communicate further details of the migration plan on Tuesday, February 5, 2002.\nThank you for your cooperation in advance, please contact the Resolution Center at x 3-1411 should you have any questions.\nUBSW Energy Global Infrastructure\n",
+    "time": 5.96220588684082,
+    "answer_length": 152
+  },
+  {
+    "question": "Summarize the following email: Ski Trip 2002\n",
+    "answer": "The necessary information (the content of the \"Ski Trip 2002\" email) is not provided, so a summary cannot be generated. Please share the email text to get a concise summary.",
+    "expected_answer": "Hello Everyone,   Well, I looked around again for another inexpensive  ski trip for us to take this year.\nThe path has seemed to lead the same  direction as it did last year.\nLake Tahoe is by far the cheapest  package deal I can find.\nI have already spoken to most of you who went  last year and everyone seems to agree it was a good time and great  atmosphere.\nThe dates for this adventure are leaving the evening of  January 30th (Wed.) and returning on Febuary 3rd (Sun.).\nThe vacation package is ",
+    "time": 7.000221014022827,
+    "answer_length": 173
+  },
+  {
+    "question": "Summarize the following email: New Years\n",
+    "answer": "The email content for \"New Years\" is not provided in the given information, so a summary cannot be generated. Please share the actual email text to get a concise summary.",
+    "expected_answer": "There is a pretty large group of us going to the  Firehouse for New Year's eve this year.\nMost of the people that attended  the Christmas party and most of the people who went to Schroeder Hall last  year.\nAnyway just wanted to spread the word to a few of you who may not  have gotten the word.\nTickets are $25 apiece and probably need to be  purchased before the end of next week.\nRoger thinks it will sell out  before Christmas.\nHope everyone has a great day.\nJoe if you would  like for us to buy y",
+    "time": 5.300589084625244,
+    "answer_length": 170
+  },
+  {
+    "question": "Summarize the following email: Employee Reinstatement\n",
+    "answer": "The email content for \"Employee Reinstatement\" is not provided in the given information, so a summary cannot be generated. Please share the relevant email text to get a concise summary.",
+    "expected_answer": "Please see the below message from Kevin Sweeney.\nSally  Per our conversation yesterday, below is a list of EGM employees that we would like to reinstate.\nPlease use this for changes to the budget and I will provide a justification memo by lunch time today.\n1.)\nBill Kasemervisz - Manager  2.)\nMarilyn Schoppe - Staff  3.)\nTara Bryce - Staff or Specialist 4.)\nPaula Lacour - Staff or Specialist  5.)\nElizabeth Hernandez - Sr.\nSpecialist   6.)\nLinda Ewing - Specialist   Thanks\n",
+    "time": 7.485412120819092,
+    "answer_length": 185
+  },
+  {
+    "question": "Summarize the following email: Headcount for 1998 - 2001\n",
+    "answer": "The email content regarding headcount for 1998-2001 is not provided in the given information, so a summary cannot be generated. Please share the actual email text to get a concise summary.",
+    "expected_answer": "Sally, The attached file shows the detail of plan headcount for December 31, 1998 through 2001.\nThe only number that I still have a question about, is for EGM December 2001, the number I have in the file only represents the people moving into Networks from EGM (Brent's group).\nI left a message with Tom Myers, to get the correct number.\nI have also added the graphs that we discussed, which show increase in headcount along with increase in deal counts.\nIf you have any questions, let me know.\nThank",
+    "time": 7.100566625595093,
+    "answer_length": 188
+  },
+  {
+    "question": "Summarize the following email: ClickAtHome Portal is HERE!\n",
+    "answer": "The email announces that the ClickAtHome Portal is now available. (Note: The provided hierarchical relations about \"portal\" do not include specific details about ClickAtHome Portal beyond the announcement of its arrival.)",
+    "expected_answer": "Version 2.0 of the ClickAtHome Portal is now available!\nLog into www.clickathome.net now, from work or home!\nAccess the PEP System through the portal!\nChoose your reviewers and fill out your evaluations in the comfort and privacy of your home!\nOutlook Web Access and eHRonline will be available SOON!\nThe ClickAtHome portal is fully customizable for you!\nYOU choose the content on each page, as well as the look and feel!\nNote: the ClickAtHome portal must be launched through an Internet Explorer bro",
+    "time": 12.461917161941528,
+    "answer_length": 221
+  },
+  {
+    "question": "Summarize the following email: EGM Good Job!\n",
+    "answer": "The email subject line praises a good job done in relation to an EGM (Extraordinary General Meeting). No further content is provided to elaborate on specifics like who is being praised or the details of the good job.",
+    "expected_answer": "During the morning meeting today Rick Buy commented on what a good job EGM has done in the officialization process.\nHe took your names because he wanted to know who to thank for this.\nHis comments are based on the summary graph - his words - EGM has by far the most books but never shows up on the log - who can we thank for that?\n",
+    "time": 9.631819009780884,
+    "answer_length": 216
+  },
+  {
+    "question": "Summarize the following email: EA Staff Meeting\n",
+    "answer": "The necessary content of the \"EA Staff Meeting\" email is not provided in the given information, so a summary cannot be generated. Please share the actual email text to get a concise summary.",
+    "expected_answer": "When: Thursday, May 31, 2001 9:00 AM-10:00 AM (GMT-06:00) Central Time (US & Canada).\nWhere: EB3270  *~*~*~*~*~*~*~*~*~*  Due to this past Memorial Holiday our EA Staff Meeting has been rescheduled this week at the indicated time.\nIf you have any questions or concerns, please call me at x33278.\nThank you,\n",
+    "time": 6.432493209838867,
+    "answer_length": 190
+  },
+  {
+    "question": "Summarize the following email: Log as of 06/04 and weekly summary for 05/28\n",
+    "answer": "The necessary content of the email (Log as of 06/04 and weekly summary for 05/28) is not provided, so a summary cannot be generated. Please share the actual content of the email to get a concise summary.",
+    "expected_answer": "Attached please find the weekly summary report for the week of 05/28-06/01.\nAdditionally, the daily log for 06/04 is attached her with.\nIf you have any questions or comments please advise.\nRegards,\n",
+    "time": 8.24399995803833,
+    "answer_length": 203
+  },
+  {
+    "question": "Summarize the following email: Reminder - Final PRC - Friday, June 8\n",
+    "answer": "The content of the email is not provided. Based on the title alone, it is a reminder regarding the \"Final PRC\" event scheduled for Friday, June 8. No additional details (e.g., time, location, preparation requirements) can be summarized without the email body.",
+    "expected_answer": "JUST A REMINDER!\nGlobal Risk Management Operations Mid-Year PRC Meeting Will be held on Friday, June 8, 2001 8:00am* - ?\nDoubleTree Hotel Granger A Room  Breakfast and Lunch will be provided.\n*Sally Beck, Wes Colwell, & Greg Piper will join meeting at 10:00 AM\n",
+    "time": 12.123868227005005,
+    "answer_length": 259
+  },
+  {
+    "question": "Summarize the following email: Update on SAP System Response\n",
+    "answer": "The content of the email titled \"Update on SAP System Response\" is not provided in the given information, so it cannot be summarized. The provided data only includes tree-type hierarchical relations involving the term \"system\" (such as its upward层级 and downward subnodes like \"portal\") but no actual email content related to the SAP system response update.\n\nWait, but wait—did I miss something? Let me double-check. The user's input has Information section with relations about \"system\" but no email text. So the answer should state that the email content is not present, hence summary is not possible. Is that the case? Yes, because without the email's content, we can't summarize it. So the response should be clear about that.</think_never_used_51bce0c785ca2f68081bfa7d91973934>The content of the email \"Update on SAP System Response\" is not provided in the given information. The available data only includes tree-type hierarchical relations involving the term \"system\" (e.g., its upward associated terms like \"our\", \"hi\", \"this\" and downward subnode \"portal\") but no actual details about the SAP system response update mentioned in the email title. Thus, a summary of the email cannot be generated based on the provided information.",
+    "expected_answer": "As you may recall, the SAP system response time was slow during the September Quarter-end close period.\nThe Integrated Solutions Center (ISC) has been working diligently to address the root causes of this issue and can report that significant progress has been made.\nWith the October month-end close fast approaching, we want to provide you with an update as to the progress made in identifying and addressing the root causes for slow system response.\nPoor Performing Programs The ISC has identified ",
+    "time": 19.28977608680725,
+    "answer_length": 1237
+  },
+  {
+    "question": "Summarize the following email: Status of the sale of POPS to AEP\n",
+    "answer": "The necessary content of the email regarding the status of the sale of POPS to AEP is not included in the provided information, so a summary cannot be generated. Please provide the email text for a concise summary.",
+    "expected_answer": "We are getting closer to finishing up the agreement to sale a license to use POPS and its source code to AEP.\nIt looks like we agree in principal but I'm not comfortable with some of the language proposed by AEP.\nSince Barbara Gary is out until next Tuesday I don't anticipate us finishing up the agreement until the end of next week at the earliest.\nGiven the timing we need to be able to turn around and deliver the application & documentation by the end of November in order to receive all of the ",
+    "time": 9.174362182617188,
+    "answer_length": 214
+  },
+  {
+    "question": "Summarize the following email: Org Chart - Introduction\n",
+    "answer": "The email content for \"Org Chart - Introduction\" is not provided in the given information, so a summary cannot be generated. Please share the actual content of the email to get a concise summary.",
+    "expected_answer": "Sally - Lloyd Will and I would like to swing by and make a quick introduction.\nAlso....we would love to talk you out of a high level org chart of your organization.\nI work for Ozzie Pagan in EES and am tasked with getting the EES Retail Operation Center (ROC) off the ground.\nMy technology guys report in to Anthony Dayao (thru Mike Fink).\nWe have linked up with Lloyd Will in ENA so that we don't have to hire operators and re-create the functions he has already pioneered with the hourly and cash d",
+    "time": 5.865440130233765,
+    "answer_length": 195
+  },
+  {
+    "question": "Summarize the following email: Exec. Summary for Project Green Light\n",
+    "answer": "The email content for the \"Exec. Summary for Project Green Light\" is not provided in the given information, so a summary cannot be generated. Please share the actual content of the email to get a concise summary.",
+    "expected_answer": "Good morning Sally.\nPlease find attached the executive summary for Project Green Light.\nPlease let me know if you have any questions/changes.\nThanks.\n- Tom\n",
+    "time": 7.791454076766968,
+    "answer_length": 212
+  },
+  {
+    "question": "Summarize the following email: Enron Management Committee Extended Meeting\n",
+    "answer": "There is insufficient information provided to summarize the Enron Management Committee Extended Meeting email, as the given relations do not include any details related to the meeting (e.g., agenda, decisions, attendees).",
+    "expected_answer": "Hi everyone -  It looks as though the best date for the Management Committee Extended Meeting is Wednesday, January 23 beginning at 12:00 noon and extending until approximately 5:00 p.m.\nThe meeting will be in 50M Dining Room and lunch will be provided.\nKen hopes that everyone will be able to attend.\nPlease let me know for planning purposes.\nRosie\n",
+    "time": 12.427551984786987,
+    "answer_length": 221
+  },
+  {
+    "question": "Summarize the following email: Numbers\n",
+    "answer": "The email content to summarize is not provided in the given information. Please share the email text for a concise summary.",
+    "expected_answer": "To set the record straight, EES are maintaining their business as usual stance.\nThis means that Anthony does NOT have to cut any people if he so wishes.\nHe may, however, take this opportunity to sever low performers as part of the bigger severance plan if necessary.\nRegards\n",
+    "time": 3.047300100326538,
+    "answer_length": 123
+  },
+  {
+    "question": "Summarize the following email: Fariba Karimi looking for another role Feb 1st\n",
+    "answer": "Fariba Karimi is looking for another role as of February 1st.",
+    "expected_answer": "Sally and Kevin,  Fariba Karimi does the Accounting for Equity Trading.\nShe has been in our group for about a year as a Senior Specialist.\nShe will be released from her current role at the end of January.\nShe is very interested in finding another spot at Enron.\nIf you are aware of anything in either Operations or Accounting, please give me or her a call at 5-2510.\nThanks,\n",
+    "time": 12.805176019668579,
+    "answer_length": 61
+  },
+  {
+    "question": "Summarize the following email: Congratulations\n",
+    "answer": "The email consists of the single word \"Congratulations\".",
+    "expected_answer": "Congratulations on the birth of your daughter!\nMeagan called this afternoon  to tell me the news.\nI will perhaps get more details when I get home  tonight.\nI hope that Laura and the baby are doing well.\nLet us know what we  can do to help.\nI am sure that Jackson is a proud brother.\nWe will be  anxious to meet our newest neighbor.\n--Sally\n",
+    "time": 8.196923017501831,
+    "answer_length": 56
+  },
+  {
+    "question": "Summarize the following email: Missed our Timing\n",
+    "answer": "The email titled \"Missed our Timing\" relates to the missed timing associated with \"our\" (which has an upward connection to February) and involves related elements including looking, this, Steve, Patti, James, he, Karimi, so, my, and hi.",
+    "expected_answer": "I didn't get back from the meeting with Causey and Buy until just before 6:00  today - not that the meeting was long - Rick Causey was just running late so  we cooled our heels outside his office for quite a while before getting  started.\nI decided that midnight would be outside the bounds of office  dedication, so I did not call!\nEnjoy your time off tomorrow and on Monday.\nMy plans are to take off next week, and to be back in the office to work the  week between Christmas and New Years.\nI would",
+    "time": 13.163504123687744,
+    "answer_length": 236
+  },
+  {
+    "question": "Summarize the following email: Speaking Engagement - October 23, 2000\n",
+    "answer": "The content of the email \"Speaking Engagement - October 23, 2000\" is not provided in the given information, so a summary cannot be generated. Please share the email's body text to get a concise summary.",
+    "expected_answer": "Thanks in advance for agreeing to speak at the Global Operations Controller  Forum.\nI know that we are catching you before a tee time on Monday, so I  especially appreciate your joining us to kick off the event that morning.\nDress for the forum is casual, so feel free to do the same.\nThere will be  approximately 30 Enron business controllers present at the meeting.\nAll have  responsibility for mid and back office operations for the following Enron  entities:  Enron North America, Enron Europe, E",
+    "time": 4.943575859069824,
+    "answer_length": 202
+  },
+  {
+    "question": "Summarize the following email: October 23 Speaking Engagement\n",
+    "answer": "The email content for \"October 23 Speaking Engagement\" is not provided in the given information, so a summary cannot be generated. Please share the full text of the email to get a concise summary.",
+    "expected_answer": "Thanks in advance for agreeing to speak at the Global Operations Controller  Forum.\nThere will be approximately 30 Enron business controllers present at  the meeting.\nAll have responsibility for mid and back office operations for  the following Enron entities:  Enron North America, Enron Europe, Enron South  America, Enron Global Markets, Enron Industrial Markets, Enron Broadband  Services and Enron Energy Services.\nAttendees will be here from Houston,  Calgary, Tokyo, Sydney, London and New Yor",
+    "time": 4.602665185928345,
+    "answer_length": 196
+  },
+  {
+    "question": "Summarize the following email: Dinner with UT Students\n",
+    "answer": "The necessary content of the email titled \"Dinner with UT Students\" is not provided, so a summary cannot be generated. Please share the email text to get a concise summary.",
+    "expected_answer": "I sent an e:mail message yesterday saying that I could make dinner in Austin  on Wednesday, October 25.\nThat date does not work for me now.\nI need to  attend a get together for the CommodityLogic team that evening, that was just  set up today.\nAs of last week, I am now co-leading CommodityLogic (under  Enron Networks) along with Tom Gros.\nThis is in addition to my role within  ENA.\nAs a new lead over the group, it is important for me to join the team  for their team building next Wednesday.\nLet ",
+    "time": 4.574286937713623,
+    "answer_length": 172
+  },
+  {
+    "question": "Summarize the following email: vacation plans\n",
+    "answer": "The email discusses vacation plans related to holidays, specific locations like Lake Tahoe and Thompsonville (with pool activities), the month of February, and plans associated with various groups or individuals (e.g., our, your, my plans, associates' plans).  \n\n(Note: This summary is derived from the tree-type relations provided, focusing on vacation-relevant elements such as holiday contexts, vacation spots, activity-related locations, time references, and personal/group plan associations.)",
+    "expected_answer": "I always compile a contact list for Energy Operations during the holidays  (Thanksgiving, Christmas and New Years).\nJust let me know who appropriate  contacts will be, especially for the DPR and MPR, during the dates that you  are out.\nSounds as if you should see a white Christmas!\n--Sally\n",
+    "time": 24.983257055282593,
+    "answer_length": 497
+  },
+  {
+    "question": "Summarize the following email: Global Operation Controllers Forum\n",
+    "answer": "The necessary content of the email titled \"Global Operation Controllers Forum\" is not provided in the given information, so a summary cannot be generated. Please share the actual email text to get a concise summary.",
+    "expected_answer": "Attached is a memo that I have sent to Mike Jordan regarding the Operations  Controller forum set for October 22, 23 and 24.\nI want to send the official  invitation early next week.\nI have conferred with Mike on attendees from  EEL.\nSince I do not know all of the reporting relationships in London, I  did want to share this list with you and get your input as well before it is  finalized.\nPlease let me know your thoughts on attendees per the attached.\nMike was not sure that you would want to be i",
+    "time": 8.733680009841919,
+    "answer_length": 215
+  },
+  {
+    "question": "Summarize the following email: Info for Sally Beck Jornada\n",
+    "answer": "The email content corresponding to the title \"Info for Sally Beck Jornada\" is not provided, so a summary cannot be generated. Please share the full email content to get a concise summary.",
+    "expected_answer": "Diana,  Here's info you requested.\nPer our conversation earlier, please try to  arrange someone with experience/knowledge of Jornada device for training for  Sally & me both.\nSally is not very technical & will need to be walked thru.\nIf she doesn't learn how to properly use it, she will not use it, if you know  what I mean.\nAny help you can give me in setting up training w/ someone that  will be able to answer our questions is greatly appreciated.\nPlease have  person contact me directly as I kee",
+    "time": 10.700029850006104,
+    "answer_length": 187
+  },
+  {
+    "question": "Summarize the following email: Welcome to Chicago and ENA\n",
+    "answer": "The email content for \"Welcome to Chicago and ENA\" is not provided in the given information, so a summary cannot be generated. Please share the full text of the email to get a concise summary.",
+    "expected_answer": "Thanks for you message.\nI am glad to know that you like what you see in the  office to date.\nI am planning a trip to Chicago soon, so I will look forward  to seeing you there.\n",
+    "time": 9.328286409378052,
+    "answer_length": 192
+  },
+  {
+    "question": "Summarize the following email: United Way Kick Off\n",
+    "answer": "The necessary information (content of the \"United Way Kick Off\" email) is not provided to generate a summary. Please share the email text for a concise summary.",
+    "expected_answer": "Great job, as usual, on the United Way kick off today.\nI saw Amy Leeand  Eylesse Kalmans as I left the Hyatt and I told them.\nPlease pass the kudos  along to the rest of your team.\nThe theme was timely, the staging was great,  the questions on the gameshow were even educational for newer Enron  employees, giving a little histsory and folklore about Enron.\n(I knew the  WLEC 1 answer!)\nI especially enjoyed the breakfast at Depelchin last Friday.\nTheir programs  are important to all of us and the t",
+    "time": 7.576016187667847,
+    "answer_length": 160
+  },
+  {
+    "question": "Summarize the following email: United Way Executive Solicitation\n",
+    "answer": "The necessary information (the content of the \"United Way Executive Solicitation\" email) is missing. Please provide the email text to enable a concise summary.",
+    "expected_answer": "The United Way Executive Solicitiation is underway.\nYou should have received  an e:mail message about a week or ten days ago which let you know that you  this year pledges should be made on line.\nMark Frevert reminded everyone at  today's ENA staff meeting to complete their pledges by Tuesday, August 8.\nIf  you have not already done so, I would encourage you to complete your pledges  before Tuesday.\nPatti Thompson can tell you where to go on line to do this.\nPeggy:  United Way may not apply in C",
+    "time": 6.945487976074219,
+    "answer_length": 159
+  },
+  {
+    "question": "Summarize the following email: Accomplishments\n",
+    "answer": "The necessary information (the content of the email's Accomplishments section) is not provided, so a summary cannot be generated. Please share the relevant email content to get a concise summary of the accomplishments.",
+    "expected_answer": "Attached are my accomplishments for the first half of 2000.\nI should have  had these for you on Tuesday for your PRC.\nHopefully, better late than  never.\nI am not certain how the coporate-wide PRC process will work in late  July for VP's.\nI have provided a copy of this to Dave Delainey for the ENA  PRC which will take place on July 7.\nI thought that I would provide you a  copy as well.\nI will also have Patti deliver a hard copy to Sharron next week.\n",
+    "time": 6.985161781311035,
+    "answer_length": 218
+  },
+  {
+    "question": "Summarize the following email: People to consider recruiting\n",
+    "answer": "The necessary content of the email about \"People to consider recruiting\" is not provided in the given information, so a summary cannot be generated. Please include the full text of the email to get a concise summary.",
+    "expected_answer": "I asked my new hire to suggest names of people that she knows that would be  good for to consider hiring.\nHere is her response.\nTony Vasut had called  her and asked for this list as well.\nDo you have him keyed in on our blitz  effort for hiring of risk personnel?\nOr is he working on some other  initiative?\nI have not reviewed the names nor Shona's comments in detail  yet, but I wanted to pass these along for inclusion in our efforts.\n--Sally\n",
+    "time": 5.076602220535278,
+    "answer_length": 216
+  },
+  {
+    "question": "Summarize the following email: Can we reschedule lunch to another day?\n",
+    "answer": "The sender is asking if lunch can be rescheduled to another day.",
+    "expected_answer": "Hi Ted,  It's Patti.\nAn all day meeting has been scheduled for Wednesday, May 31 -  the day you and Sally were scheduled for lunch.\nAny possibility of  rescheduling to another day?\nSally is available Thursday, June 1.\nJust let me know.\nThanks,\n",
+    "time": 3.1679670810699463,
+    "answer_length": 64
+  },
+  {
+    "question": "Summarize the following email: ENA Role\n",
+    "answer": "The email content regarding the \"ENA Role\" is not provided in the given information, so a summary cannot be generated. Please share the actual email text to get a concise summary.",
+    "expected_answer": "Congratulations on your added role of Chairman and CEO of ENA.\nI didn't  realize that when I said hello in the elevator last week that we would be  seeing more of you in Houston.\nI look forward to working with you when you  arrive.\n",
+    "time": 8.372858047485352,
+    "answer_length": 179
+  },
+  {
+    "question": "Summarize the following email: Contact at Enron Field\n",
+    "answer": "The content of the email titled \"Contact at Enron Field\" is not provided in the given information, so a summary cannot be generated. Please share the actual email text to get a concise summary.",
+    "expected_answer": "Below is the name and phone number of the woman that I worked with to arrange  our tour of Enron  Field.\nShe may not be the person to talk with regarding  displaying a boat, but  will very likely be able to give the correct  contact.\nIt was nice to meet you.\nI have enjoyed getting to know Bethany  through NCL.\nGood luck!\n",
+    "time": 8.204602003097534,
+    "answer_length": 193
+  },
+  {
+    "question": "Summarize the following email: Organisational Announcement.\n",
+    "answer": "The content of the email (Organisational Announcement) is not provided, so a summary cannot be generated. Please share the full email text for a concise summary.",
+    "expected_answer": "Below is an announcement that was sent to employees within Enron Europe tod= ay=20 from Fernley Dyson and me.\nMost of you have probably become aware of the= =20 assignment that Brent will have over the next few months in London.\nWe=20 anticipate that he will be back in the Houston office by the end of the=20 second quarter.\nI thought that you would like to see how we have described= =20 the role that he will play in London.\n=20  Brent will retain his current role within North America, and will b",
+    "time": 6.87911581993103,
+    "answer_length": 161
+  },
+  {
+    "question": "Summarize the following email: Operations/Controls Review - Next Set of Locations and Schedules\n",
+    "answer": "The necessary content of the email \"Operations/Controls Review - Next Set of Locations and Schedules\" is not provided in the given information. Please share the email body to get a concise summary.",
+    "expected_answer": "Ted Murphy, Tom Bauer, Jim Brown and I met yesterday to schedule the next  series of operations/controls reviews of Enron offices or certain companies  in which Enron holds an ownership interest.\nAttached is a copy of that  schedule.\nPlease contact Ted or me if you have any questions.\nYou will note  that the full make-up of the teams is being worked on currently.\nWe have  identified the lead on each review, however, from RAC, Operations and AA.\n",
+    "time": 9.034478902816772,
+    "answer_length": 197
+  },
+  {
+    "question": "Summarize the following email: FAS 133 Offsite\n",
+    "answer": "The email content for \"FAS 133 Offsite\" is not provided in the given information, so a summary cannot be generated. Please share the actual content of the email to get a concise summary.",
+    "expected_answer": "Barry, Sally asked me to forward this to you FYI.\nA lot of people will be tied up  all day Feb 29 at this offsite.\nShe would, however, like to set up time to  meet with you in Houston on Wednesday, March 1.\nSally is available from 1:30  - 5:00 in the afternoon.\nPlease let me know if there is a one hour slot that  will work for you.\nThanks,\n",
+    "time": 8.52738094329834,
+    "answer_length": 186
+  },
+  {
+    "question": "Summarize the following email: Canadian Promotions/Trip\n",
+    "answer": "The email content for \"Canadian Promotions/Trip\" is not provided in the information section, so a summary cannot be generated. Please share the full email text to get a concise summary.",
+    "expected_answer": "FYI - I had included Diane Seib and Melinda Whalen (from Calgary) in my  promotion memo from Energy Operations.\nI believe that they both work under  Peggy Hedstrom in operational roles.\nI am sure that they didn't mind having  their names included twice in promotional memos!\nPeggy says that you and Juanita are headed to Calgary next week, and she  wondered if I would be coming.\nI will be in South America in what should be  summer there.\nI do plan to make a trip to Calgary soon.\nIn addition to  ot",
+    "time": 7.290313005447388,
+    "answer_length": 185
+  },
+  {
+    "question": "Summarize the following email: Out of Office - Thursday, February 3\n",
+    "answer": "The email is an out-of-office notification stating the sender will be out of office on Thursday, February 3.",
+    "expected_answer": "I will be attending a funeral in Austin on Thursday.\nI can be reached on my  cell phone (713-417-1951) in the morning and afternoon while driving to and  from Austin.\nIf you need immediate information and I can not be reached on  my cell phone, please contact Brent Price at x37647.\nI will be back in the  office on Friday.\n",
+    "time": 9.12181305885315,
+    "answer_length": 108
+  },
+  {
+    "question": "Summarize the following email: Brenda Herod's new pager #\n",
+    "answer": "There is insufficient information to summarize the email about Brenda Herod's new pager number, as the email content or relevant details are not provided.\n\n\n**Answer:** No email content provided to summarize Brenda Herod's new pager number.",
+    "expected_answer": "Please  update my listing for direct reports.\nDo you distribute a copy of  this to my direct reports?\nIf so, please get an updated copy to them as  well.\nThanks!\n",
+    "time": 8.591181755065918,
+    "answer_length": 240
+  },
+  {
+    "question": "Summarize the following email: Thanks for January 1, 2000\n",
+    "answer": "Based on the provided information, there is insufficient relevant data to summarize the email \"Thanks for January 1, 2000\". The given content only lists general upward hierarchy relations of the word \"thanks\" in various tree-type contexts, none of which mention information related to the specific date January 1, 2000 or the content of this email.\n\nAnswer: There is insufficient information in the provided data to summarize the email \"Thanks for January 1, 2000\". The given relations about the word \"thanks\" do not include content related to this specific email.",
+    "expected_answer": "I wanted to extend my thanks in advance to all of you who will join me in the  office on January 1, 2000.\nI appreciate your willingness to devote part of  your holiday weekend to the continuing success story at Enron.\nAs a company, Enron has spent much time and effort to ensure that business  will continue smoothly as we move into the year 2000.\nKen Walther, in  working with many of you, has done an excellent job of preparing a work plan  for January 1.\nYour  work on the first  will be the final",
+    "time": 14.031761884689331,
+    "answer_length": 564
+  },
+  {
+    "question": "Summarize the following email: Recap of 4/23 Meeting on Commercialization\n",
+    "answer": "The email content for the \"Recap of 4/23 Meeting on Commercialization\" is not provided in the given information, so a summary cannot be generated. Please share the actual text of the email to get a concise recap.",
+    "expected_answer": "Three weeks ago I started a 15 minute meeting in my office on Monday mornings  for a key group working on the commercialization effort of mid and back  office services.\nAttendees are my key operations personnel involved, Todd  Busby (for a preview of what's to come), Rahil and Fred Philipson.\nThe  purpose of the meeting is to review progress on items agreed to for the  previous week and to establish priorities for the current week.\nI have been  capturing all of this on the white board in my offi",
+    "time": 7.6985108852386475,
+    "answer_length": 212
+  },
+  {
+    "question": "Summarize the following email: Preparation for Year End Associate PRC Meeting\n",
+    "answer": "The provided information does not contain the actual content of the email \"Preparation for Year End Associate PRC Meeting\" (only tree-structured relations about the term \"associate\" are given, with no details on meeting preparation such as agenda, tasks, deadlines, etc.). Therefore, a summary of the email cannot be generated based on the provided data.",
+    "expected_answer": "I will serve as a representative to the  Associates PRC meeting that will  take place on December 12.\nAs a PRC rep, I have been assigned the Associates  to represent in the meeting as indicated below.\nThe Associates Program has  provided me with your name as the supervisor of record as of October 1 of the  Associate as listed.\nPlease send the following information to me by December 1.\nAssociate's accomplishments for the second half of 2000 (prepared by the  associate or summarized by you)   Desc",
+    "time": 19.16036581993103,
+    "answer_length": 354
+  },
+  {
+    "question": "Summarize the following email: Suggestions for Floor Meeting Locations\n",
+    "answer": "The email content for \"Suggestions for Floor Meeting Locations\" is not provided in the given information, so a summary cannot be generated. Please share the full text of the email to get a concise summary.",
+    "expected_answer": "The floors chosen for these meetings appear to be geared to the IT teams.\nBetween my operations teams dedicated to EA, EGM and EIM, I have roughly 500  employees in the Enron building.\nDo you want all of them to choose one of  the floors noted in your e-mail message, or would it be better to schedule  one or two floor meetings in locations that more easily incorporate this  segment of Net Works?\nI have noted below the approximate number of employees  per floor (including only those floors with a",
+    "time": 7.4289610385894775,
+    "answer_length": 205
+  },
+  {
+    "question": "Summarize the following email: Net Works Floor Meetings - DATES AND LOCATIONS HAVE CHANGED PLEASE  READ\n",
+    "answer": "The email notifies recipients that the dates and locations for Net Works Floor Meetings have changed and requests them to read the details provided.",
+    "expected_answer": "Please put the 17th meeting on my calendar.\nI may or may not attend, but  want to have that on the calendar just in case.\nThanks.\n",
+    "time": 8.0594642162323,
+    "answer_length": 148
+  },
+  {
+    "question": "Summarize the following email: Weekly Focus on Commercialization of Services\n",
+    "answer": "The necessary content of the email \"Weekly Focus on Commercialization of Services\" is not provided in the given information, so a summary cannot be generated. Please share the email's content for a concise summary.",
+    "expected_answer": "Expect Patti to contact you about setting aside 15 minutes each Monday to  meet in my office as a team to quickly prioritize tasks for the week  regarding the commercialization of our services.\nWhile we will certainly  draw upon the knowledge of  others within Operations, we will consider this  to be the core resource team.\nWe want to continue to build momentum for this  effort.\nKnowing that we are all stretched in managing the day-to-day  business, this quick focus each week on the key tasks wi",
+    "time": 4.11735987663269,
+    "answer_length": 214
+  },
+  {
+    "question": "Summarize the following email: AEP-HPL Transition Issues\n",
+    "answer": "The email content for \"AEP-HPL Transition Issues\" is not provided in the given information, so a summary cannot be generated. Please share the full email text to get a concise summary.",
+    "expected_answer": "FYI - See attachment for latest attempt at satisfying the \"ill-defined\".\nIf  this is not on target, we will keep working until it is!\n- Sally\n",
+    "time": 9.388881921768188,
+    "answer_length": 184
+  },
+  {
+    "question": "Summarize the following email: Gordon Heaney's Acceptance\n",
+    "answer": "The necessary information (the content of Gordon Heaney's acceptance email) is not provided, so a summary cannot be generated. Please share the email text to get a concise summary.",
+    "expected_answer": "Thought you might like to see this note from Max on the doorstep review in  Monterrey.\nBeth is a great addition and has made a very positive impact  already.\n--Sally\n",
+    "time": 7.086087942123413,
+    "answer_length": 180
+  },
+  {
+    "question": "Summarize the following email: Follow Up Items\n",
+    "answer": "The necessary content of the email titled \"Follow Up Items\" is missing (the Information section is empty). Please provide the full text of the email to get a concise summary.",
+    "expected_answer": "An update on two of the items that we discussed before you went out of town:  Due Diligence Teams for Acquisitions Identified  I have worked with my operations controllers in EWS and have identified a  short list of individuals that we could use in the due diligence efforts on  potential acquisitions.\nWe have identified our target teams for due  diligence efforts around commodities.\nWhile each person on the list has  other duties currently, all have back ups that would allow them to be devoted  ",
+    "time": 4.030347108840942,
+    "answer_length": 174
+  },
+  {
+    "question": "Summarize the following email: Commercialization of Back Office Services\n",
+    "answer": "The provided information only includes tree-type relational data about the term \"office\" (such as its upward hierarchical relations like management, hi, associates and downward child nodes like todd busby) but does not contain any content of the email titled \"Commercialization of Back Office Services\". Therefore, a summary of the email cannot be generated based on the given information.",
+    "expected_answer": "As part of the modelling process, Marc is going to meet with James Scribner  on Tuesday morning at 9:00 am to review our operations pricing model.\nIf you  can join them, you might find it interesting.\nThey plan to meet in James'  office - EB3756.\n--Sally\n",
+    "time": 9.52934718132019,
+    "answer_length": 389
+  },
+  {
+    "question": "Summarize the following email: Promotions Luncheon for Directors and Senior Directors\n",
+    "answer": "The necessary content of the email (e.g., date, time, location, purpose details, agenda, RSVP instructions) is not provided in the given information, so a summary cannot be generated. Please share the full email text to get a concise summary.",
+    "expected_answer": "Brent Price, Bob Hall, Leslie Reeves and I would like to invite you to lunch  on Friday, February 9 in recognition of your promotions to Director and  Senior Director.\nWe appreciate your contributions to the continuing success  of Enron's wholesale services business and feel that these promotions are  worthy of celebration.\nPlease RSVP to Patti Thompson (x39106).\nDetails on time and location will  follow.\n",
+    "time": 7.483903884887695,
+    "answer_length": 242
+  },
+  {
+    "question": "Summarize the following email: ASE on February 12-13, 2001 in Dallas, TX\n",
+    "answer": "The email refers to an ASE event held in Dallas, TX on February 12-13, 2001, with relevant aspects including energy and our (as indicated by the relations linked to the month February).",
+    "expected_answer": "On January 12, I hosted a brainstorming session at the Four Seasons hotel i= n=20 downtown Houston in which we assembled a number of ideas regarding mid and= =20 back office services we could offer to the commodity industry.\nTo complete=  a=20 plan for launching this strategic commercial venture, we are hosting an=20 integrated design session facilitated by Cap Gemini Ernst & Young (CGEY) at= =20 their Accelerated Solutions Environment in Dallas, Texas.\n=20  I am personally extending an invitati",
+    "time": 19.41465187072754,
+    "answer_length": 185
+  },
+  {
+    "question": "Summarize the following email: you don't need access to stack manager?\n",
+    "answer": "The email asks whether the recipient does not need access to the stack manager.",
+    "expected_answer": "I assume that since you didn't respond to my first two emails, none of you require access to stack manager.\nIf this is incorrect, please respond to my previous emails.\nThanks,\n",
+    "time": 15.049414873123169,
+    "answer_length": 79
+  },
+  {
+    "question": "Summarize the following email: quick PJM update\n",
+    "answer": "The email content for the \"quick PJM update\" is not provided in the information section, so a summary cannot be generated. Please share the actual text of the email to get a concise summary.",
+    "expected_answer": "FYI if you haven't already heard...........A quick update on PJM:  1) GPU: The PA PUC ruled in favor of the First Energy merger, but deferred a rate increase.\nCollaberative meeting are supposed to be taking place over the next month, but Enron's regulatory view is that a setlement will not be able to be reached.\nThe question is if First Energy is still interested in persuing the merger if a rate increase does not occur.\nIf the merger does not occur, I think this increases our chances of a deal t",
+    "time": 7.483607053756714,
+    "answer_length": 190
+  },
+  {
+    "question": "Summarize the following email: Executive Committee\n",
+    "answer": "The necessary content of the email to the Executive Committee is not provided in the given information, so a summary cannot be generated. Please share the email text for a concise summary.",
+    "expected_answer": "With the formation of the Management Committee we are discontinuing the Enron Executive Committee.\nInstead of weekly Executive Committee meetings with a subset of Enron's Managing Directors, we will hold quarterly meetings which will include all of Enron's Managing Directors.\nThese meetings will allow a wider dissemination of information and views and will enable more substantive discussions about the opportunities and challenges we face.\nThe members of the Management Committee will continue to ",
+    "time": 4.757722854614258,
+    "answer_length": 188
+  },
+  {
+    "question": "Summarize the following email: Power Trading Systems Requirements\n",
+    "answer": "The necessary content of the email \"Power Trading Systems Requirements\" is not provided in the given information, so a summary cannot be generated. Please share the email's content for an accurate summary.",
+    "expected_answer": "When: Tuesday, January 29, 2002 1:00 PM-2:30 PM (GMT-06:00) Central Time (US & Canada).\nWhere: ECS6980  *~*~*~*~*~*~*~*~*~*   As promised, please find the attached agenda for our follow-up meeting regarding CPM and additional P&L requirements.\nSee you at 1:00...  Steve\n",
+    "time": 8.980349063873291,
+    "answer_length": 205
+  },
+  {
+    "question": "Summarize the following email: Access Card Information\n",
+    "answer": "The access node in the tree structure has these key features:  \n1. Most instances have a child node \"portal\".  \n2. Its upward hierarchy varies:  \n   - Paths with \"your\" (e.g., via associates, emma, north) or \"it\" (e.g., via rob, tournament, lake tahoe) when portal is present.  \n   - Paths with \"hi\" (management, however, price) or \"my\" (gary, tony vasut) when portal is absent.  \n\nThis summarizes the access card-related tree relations provided.  \n(Note: The summary is derived from the given tree structure relations about the \"access\" node, as no explicit email content was provided beyond the tree relations.)",
+    "expected_answer": "Subject: Access Card Information  Dear Colleagues,  We know you have many questions about your new benefits plan, payroll issues and other changes that will occur over the next few weeks.\nHuman Resources and Communications are preparing a thorough Q&A, which we will send to you tomorrow and will regularly update as more information is available.\nMeanwhile, please read the announcement below from Security about how you can obtain a new UBS Warburg access card that will allow you to enter our new ",
+    "time": 57.140180826187134,
+    "answer_length": 613
+  },
+  {
+    "question": "Summarize the following email: Are You Living in Debt, Paycheck to Paycheck?23636\n",
+    "answer": "The email content corresponding to the subject \"Are You Living in Debt, Paycheck to Paycheck?23636\" is not provided in the given information, so a summary cannot be generated. Please share the full text of the email to get a concise summary.",
+    "expected_answer": "FOLLOW ME TO FINANCIAL FREEDOM!!\nI Am looking for people with good work ethics and extrordinary desire to earn at least $10,000 per month working from home!\nNO SPECIAL SKILLS OR EXPERIENCE REQUIRED.\nWe will give you all the training and personal support you will need to ensure your success!\nThis LEGITIMATE HOME-BASED INCOME OPPORTUNITY can put you back in control of your time, your finances, and your life!\nIf you've tried other opportunities in the past that have failed to live up their promises",
+    "time": 7.8559370040893555,
+    "answer_length": 241
+  },
+  {
+    "question": "Summarize the following email: TW's Firm Capacity Procedures\n",
+    "answer": "TW's Firm Capacity Procedures are directly subordinate to the node \"this\" in multiple tree-type hierarchies. Across these hierarchies, \"this\" connects to various intermediate nodes (including hi, it, our, your, my, start), each of which links to distinct higher-level nodes (e.g., management, tournament, price, several, etc.).\n\n\nThis summary captures the core hierarchical relationships of the procedures as described: all instances of the procedures are immediately under \"this\", which in turn has different parent nodes leading to diverse top-level nodes across various tree structures.",
+    "expected_answer": "Attached is the current version of TW's Firm Capacity Procedures.\n(Posting requirements are defined in another document.)\nThese procedures outline the definitions of certificated/sustainable, operational/short-term sustainable and operational non-sustainable capacity and how we will determine how much and when capacity is available in each of these categories.\nI thought I would go ahead and distribute this because there have been some questions - though I understand some of the recent FERC rulin",
+    "time": 39.51725697517395,
+    "answer_length": 589
+  },
+  {
+    "question": "Summarize the following email: Reduced %\n",
+    "answer": "The email content to summarize (including details about the \"Reduced %\") is not provided in the information section. Please share the full email text so a concise summary can be generated.",
+    "expected_answer": "Of interest - Gas Logistics combined 2001 payroll is $8,209,648.\nThe 2002 Plans were built with a 4.25% combined merit and other which equates to $348,910.\nAt 3.75% the combined merit and other equates to $307,862, a reduction of $41,048.\nOver the next few days, I will be rebuilding the 2002 revised plan for distribution.\nDonna\n",
+    "time": 4.902352809906006,
+    "answer_length": 188
+  },
+  {
+    "question": "Summarize the following email: Outstanding A/R Issues Back to January, 1998\n",
+    "answer": "The necessary content of the email titled \"Outstanding A/R Issues Back to January, 1998\" is not provided in the given information, so a summary cannot be generated. Please share the email's content to get a concise summary.",
+    "expected_answer": "On September 24, 2001, Alice gave each of you a list of your outstanding accounts receivable \tback to January, 1998.\nIn meeting with Alice today, I understand, we have NOT cleaned up very \tmany of these issues.\nAlice will be getting with each one of you AGAIN to review your accounts.\nMy expectation is \tthat there has been some clean up activity before Performance Reviews at which time I will \task Alice for an update.\nAlice, Raetta and Larry are all available as needed to help you in \tthis effort",
+    "time": 5.546751022338867,
+    "answer_length": 223
+  },
+  {
+    "question": "Summarize the following email: EDI Confirmations Between Transwestern and El Paso\n",
+    "answer": "The email content regarding \"EDI Confirmations Between Transwestern and El Paso\" is not included in the provided information, so a summary cannot be generated. Please share the relevant email details to proceed.",
+    "expected_answer": "Everyone,  Attached is a proposed EDI confirmation process and timeline for Transwestern EDI confirmations with El Paso.\nPlease review and let me know if there are any changes that need to be made to this document.\nI have also included sections with changes to the current process and proposed system enhancements.\nMary\n",
+    "time": 7.771054983139038,
+    "answer_length": 211
+  },
+  {
+    "question": "Summarize the following email: Carlton Resolution - PLEASE READ!!!!\n",
+    "answer": "The necessary content of the email \"Carlton Resolution - PLEASE READ!!!!\" is not provided in the given information, so a summary cannot be generated. Please include the email text to get a concise summary.",
+    "expected_answer": "I want to remind everyone when NNG calls on the Carlton Resolution, we can NOT \tallow ANY deliveries at Carlton.\nAt each cycle, please be sure you monitor any deliveries at Carlton \tand let Steve, Gary or Darrell know if you see any nominations.\nAt that \tpoint Carlton Deliveries should be allocated to zero (0).\nIf you have any questions, or we need to discuss further, please let me know.\nThanks.\nLynn\n",
+    "time": 5.891787767410278,
+    "answer_length": 205
+  },
+  {
+    "question": "Summarize the following email: TW Negotiated Rate Settlement Offer\n",
+    "answer": "The email content for \"TW Negotiated Rate Settlement Offer\" is not provided in the information section, so a summary cannot be generated. Please share the actual content of the email to get a concise summary.",
+    "expected_answer": "All:    As part of the TW Negotiated Rate Settlement Hearing, it has been suggested that the following modification to CAS and other associated systems be made:  EBB sytem that allows a shipper interested in capacity to simply enter a receipt and delivery point; the system will automatically let the interested shipper know how much, if any, capacity is available (advantage: although it doesn't provide the IS's the \"last look\" auction their looking for, it at least provides an open process for an",
+    "time": 6.290838003158569,
+    "answer_length": 208
+  },
+  {
+    "question": "Summarize the following email: Capacity Posting Procedures\n",
+    "answer": "The email \"Capacity Posting Procedures\" covers procedures associated with diverse contexts—including specific names (e.g., Jackson, Emma), places (Lake Tahoe), time (February), organizational terms (management), and others—linked via relational terms like our, your, my, it, hi, start within its hierarchical structure.",
+    "expected_answer": "Effective November 1, 2001, Northern implemented new posting procedures regarding capacity availability.\nThese procedures are attached.\nSeveral changes have been implemented.\nIn summary, the following changes have been incorporated:  The Unsubscribed Capacity Report has been updated to reflect the gas day two (2) days in the future vs fourteen (14) days.\na \"new\" Short Term Sustainable Capacity (STSC) Report has been posted beginning on the November 1st gas day.\nThis report is displayed on Northe",
+    "time": 29.564184188842773,
+    "answer_length": 319
+  },
+  {
+    "question": "Summarize the following email: Supported Internet Email Addresses\n",
+    "answer": "The necessary content of the email titled \"Supported Internet Email Addresses\" is not provided, so a summary cannot be generated. Please share the actual content of the email for a concise summary.",
+    "expected_answer": "Enron Global Technology is in the process of decommissioning the support for all non-standard Internet Email address formats.\nThe only Internet Email address format that will be supported, once this effort is completed, is firstname.lastname@enron.com.\nWe will no longer support Internet Email address formats such as name@enron.com, name@ect.enron.com, name@ei.enron.com  (where \"name\" is an abbreviation, acronym or alternative to an employees firstname and/or lastname).\nEvery Enron employee has a",
+    "time": 6.158092021942139,
+    "answer_length": 197
+  },
+  {
+    "question": "Summarize the following email: Borderline\n",
+    "answer": "The email content labeled \"Borderline\" is not provided in the information section, so a summary cannot be generated. Please share the actual text of the email to get a concise summary.",
+    "expected_answer": "Borderline An Update from Northern Border Pipeline's Customer Services and Gas Control Departments  No: 2001-21                                                    Date: October 26, 2001    Web Site Change  On Monday, October 29, the look and feel of Northern Border Pipeline's informational posting site will officially change.\nIn addition, the URL tied to the site will be slightly modified.\nThe new main URL will be www.nbpl.enron.com (nbpl versus nbp).\nWe recognize that it may take a bit of time ",
+    "time": 4.648660898208618,
+    "answer_length": 184
+  },
+  {
+    "question": "Summarize the following email: Actual Volumes in TMS for October 26th\n",
+    "answer": "The content of the email titled \"Actual Volumes in TMS for October 26th\" is not provided in the given information, so a summary cannot be generated. Please share the email's body text to get a concise summary.",
+    "expected_answer": "There is a problem between PGAS and TMS.\nThe actual volumes for the 26th are not correct in TMS.\nIn doing the Bushton PVR report I found that the actual volume in TMS did not match the actual volume in PGAS for the PVR measured.\nI then began to look at other points, Spearman, Beaver Co's, etc; and found the same problem existed.\nRandy Janzen 3-5962\n",
+    "time": 6.906163215637207,
+    "answer_length": 209
+  },
+  {
+    "question": "Summarize the following email: End User Measurement\n",
+    "answer": "The email content related to \"End User Measurement\" is not provided in the given information, so a summary cannot be generated. Please share the actual email text to get a concise summary.",
+    "expected_answer": "Lynn & Raetta,  In a conference call with Frank Semin, Courtney Barker, Gary Anderson and Ellis Stern today it was discussed on how the end of the month volumes have been estimated in the past dealing with 16 and 31 days charts.\nAlso, it was discussed on how this affects DDVC and other penalties that are billed from a Gas Logistics perspective.\nFrank is needing to respond to MidAmerican on how NNG actualizes daily volume at their untelemetered (chart/index) end user points.\nFrank would like to s",
+    "time": 6.418961048126221,
+    "answer_length": 188
+  },
+  {
+    "question": "Summarize the following email: Information, Please Read:  UBSW Energy Migration\n",
+    "answer": "The email titled \"Information, Please Read: UBSW Energy Migration\" relates to a tree structure involving energy, where energy's upward hierarchical relation is february, and its downward subnodes include new year, first energy, your, and it.",
+    "expected_answer": "Attention UBS Warburg Energy Users:  Please be aware that IT will begin migrations to UBSW Energy this evening.\nPlease log off of your machines tonight.\nWhen you arrive in the morning, you will login with your Enron ID and password.\nYou will be required to change your password immediately.\nYou will also have an email in your Inbox tomorrow morning explaining your \"next steps\".\nIf you have any questions, please call 3-1411.\nThanks,\n",
+    "time": 14.435943126678467,
+    "answer_length": 241
+  },
+  {
+    "question": "Summarize the following email: **IMPORTANT** Stack Manager Users\n",
+    "answer": "The actual content of the email titled \"IMPORTANT Stack Manager Users\" is not provided in the given information. Therefore, a summary cannot be generated without the email's text. Please share the full content of the email to get a concise summary.",
+    "expected_answer": "We are in the process of confirming that all traders are set up correctly and ready to trade when the system goes live.\nWe need to make sure that your Stack Managers are accessing the correct database.\nIn order to do this, we need to know how you access Stack Manager:  1) Through Terminal Server (the one that opens up a desktop within a desktop and it actually appears that you have two Start buttons).\nor 2) By opening the Stack Manager directly from your \"native\" desktop.\nPlease reply to this me",
+    "time": 4.016745090484619,
+    "answer_length": 248
+  },
+  {
+    "question": "Summarize the following email: You may lose your layouts for CQG....\n",
+    "answer": "The email starts by warning that the recipient may lose their layouts for CQG. Regarding the word \"your\" in the email, its upward relations include queue, james, emma, jackson, she, our, february, energy, price, patti; its downward relations include this, associate, thanks, my, dave, so, access, mgr, hi, he, it (combining unique nodes from the provided tree relations).  \n\n(Note: The email content is partially provided, so the summary includes the visible key message plus the linguistic relations of the word \"your\" as per the given information.)",
+    "expected_answer": "A new version of CQG has been deployed to all current CQG users.\nWhen you log out and log back in you may not initially see your saved layouts.\nIf this occurs, please follow the below instructions to retrieve your layouts.\nIf you need assistance please contact the resolution center at x31411 and your floor support technician will be able to assist.\nThank You.\n",
+    "time": 29.33240294456482,
+    "answer_length": 550
+  },
+  {
+    "question": "Summarize the following email: PG&E BANKRUPTCY CASE-- IMPORTANT\n",
+    "answer": "The content of the email \"PG&E BANKRUPTCY CASE-- IMPORTANT\" is not provided, so a summary cannot be generated. Please share the email's text to get a concise summary.",
+    "expected_answer": "As you may be aware, Enron Corp. is a member of the Official Unsecured Creditors' Committee appointed in the Pacific Gas and Electric Company bankruptcy case.\nMichael Tribolet with the Risk Assessment and Control Group is Enron's designated representative on the committee and he is being assisted by Lisa Mellencamp in the Enron North America Corp. legal group.\nPlease be advised that they will be restricted from disclosing certain of the information that they receive.\nAttached are Ethical Wall Pr",
+    "time": 7.609851837158203,
+    "answer_length": 166
+  },
+  {
+    "question": "Summarize the following email: EOL Average Deal Count by Trader and Product as of 6-07-01\n",
+    "answer": "The necessary content of the email (EOL Average Deal Count by Trader and Product as of 6-07-01) is not provided in the information section, so a summary cannot be generated. Please include the email text for a proper summary.",
+    "expected_answer": "The following file contains a graphical view of the North American Gas average deal count by Trader and Product for EOL.\nThis information is for comparative analysis only.\nDo not update links when opening this file.\nIf you have any questions regarding this breakout, please let me know .\nAdam Johnson EnronOnline x54877\n",
+    "time": 7.410235166549683,
+    "answer_length": 225
+  },
+  {
+    "question": "Summarize the following email: Huh?\n",
+    "answer": "The email contains only the single word \"Huh?\", an expression typically indicating confusion or surprise.",
+    "expected_answer": "It's good to hear from you even though you wrote to the wrong nephew.\nHow's everything going in the big H.  School is going pretty well, my classes are going pretty well except one that really sucks bad.\nTell everyone I said Hello.\nI look forward to seeing everyone at Thanksgiving, I'll relay the message to Brad.\nBrandon\n",
+    "time": 3.6038360595703125,
+    "answer_length": 105
+  },
+  {
+    "question": "Summarize the following email: 2002 Holiday Schedule\n",
+    "answer": "The email is about the 2002 Holiday Schedule. Hierarchically, it relates upward to \"due\" and has \"hi\" as a downward sub-item.",
+    "expected_answer": "Below is the Enron 2002 holiday schedule.\nRemember, Enron's offices will be closed in observance of Martin Luther King Day this coming Monday, January 21.\nEnjoy the long weekend!\nNew Year's Day\t \tTuesday, January 1  Martin Luther King Day \tMonday, January 21 President's Day\t\t\tMonday, February 18 Memorial Day\t\t\tMonday, May 27 Independence Day \t\tThursday, July 4 Labor Day \t\t\tMonday, September 2 Thanksgiving Day\t\tThursday, November 28 Thanksgiving Observance \tFriday, November 29\n",
+    "time": 16.017318964004517,
+    "answer_length": 125
+  },
+  {
+    "question": "Summarize the following email: Board Dinner - October 8th\n",
+    "answer": "The content of the email titled \"Board Dinner - October 8th\" is not provided in the given information, so a summary cannot be generated. Please include the email's body text to request a summary.",
+    "expected_answer": "Ken Lay is very interested in providing opportunities for the Enron Corp. Board of Directors to become well-acquainted with Enron's management team.\nYou are invited to join Enron's Board on Monday evening, October 8, at the Four Seasons, Austin Room.\nPlease come for cocktails at 6:45 p.m., followed by the Executive Session of the Board at 7:00 p.m.\nThe group invited includes Management Committee members who either head up corporate functions or are the CEOs of business units.\nAn agenda will be p",
+    "time": 8.095444917678833,
+    "answer_length": 195
+  },
+  {
+    "question": "Summarize the following email: LJM/Raptor valuations\n",
+    "answer": "The necessary content of the email regarding LJM/Raptor valuations is not provided, so a summary cannot be generated. Please share the email text for a concise summary.",
+    "expected_answer": "Ryan,  In the follow up to the meeting we had on Wednesday I would like to reinforce one point I made.\nI feel strongly that I cannot support the valuations my group has produced so far for the LJM/Raptor related transactions without examination of all the related legal documents.\nI feel that we did solid work based on verbal information,  but I cannot guarantee the quality of the final product without looking at the contracts.\nThese transactions are too complex and controversial to bypass due di",
+    "time": 7.448563814163208,
+    "answer_length": 168
+  }
+]

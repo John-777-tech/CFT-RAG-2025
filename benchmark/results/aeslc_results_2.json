@@ -1,0 +1,37 @@
+[
+  {
+    "question": "摘要以下邮件: Huntley/question\n",
+    "answer": "Chris Dorland 询问关于 Huntley 的最新进展。",
+    "expected_answer": "Phillip,   Could you please do me a favor?\nI would like  to read your current title policy to see what it says about easements.\nYou  should have received a copy during your closing.\nI don't know how many  pages it will be but let me know how you want to handle getting a copy  made.\nI'll be happy to make the copy, or whatever makes it easy for  you.\nThanks,\n",
+    "time": 32.94355010986328,
+    "answer_length": 33
+  },
+  {
+    "question": "摘要以下邮件: Expense Reports Awaiting Your Approval\n",
+    "answer": "有费用报告等待您的审批。",
+    "expected_answer": "The following reports have been waiting for your approval for more than 4 days.\nPlease review.\nOwner: James W Reitmeyer Report Name: JReitmeyer 10/24/01 Days In Mgr.\nQueue: 5\n",
+    "time": 30.051076889038086,
+    "answer_length": 12
+  },
+  {
+    "question": "摘要以下邮件: Re-start/Integration Planning\n",
+    "answer": "该邮件讨论重启与集成的规划事宜。",
+    "expected_answer": "We have for the last couple of weeks started to compile the Re-start/Integration Plans for Netco.\nSo far, we have primarily focussed on the mid/back plans where the technology requirements have been the driving factors.\nSeveral plans are in the final stages of completion including:-  +\tInfrastructure\t\tJenny Rub +\tDevelopment\t\tJay Webb +\tEnronOnline\t\tWebb / Forster +\tHR\t\t\tDavid Oxley +\tCash Management\tTom Myers +\tCredit\t\t\tDebbie Brackett  The rest will be completed shortly.\nWe now need to focus o",
+    "time": 31.75214195251465,
+    "answer_length": 16
+  },
+  {
+    "question": "摘要以下邮件: RM Simulation Storyline Scripts - Ready for Legal Review\n",
+    "answer": "RM模拟故事线的脚本已准备好，可供法务部门审查。",
+    "expected_answer": "Michelle Here are my very minor comments.\nHowever we still need to wait on any additions, based on meeting with SME's today.\nOne concern is the firing of the learner who performs  bad in the final two scenarios.\nDo we face any copyright issues using the CNN type themes?\nIn addition, I think we need to stay clear of anything that remotely seems like California or anything that really happen with Enron?\n(i.e.\nSo-cal Waha) In addition, comments on regulatory issues may be a problem (i.e.\nCalifornia",
+    "time": 11.155632019042969,
+    "answer_length": 24
+  },
+  {
+    "question": "摘要以下邮件: Answer\n",
+    "answer": "邮件内容缺失，无法生成摘要。",
+    "expected_answer": "For purposes of an accelerated distribution from the PSA,  a \"single sum distribution,\" in Section 6.2 means that a PSA account is distributed all at once, as distinguished from another form of payout as may have been selected by a participant in his or her deferral agreement.\nSection 6.2 is clear in that the account balance shall be determined as of the last day of the month preceding the date on which the Committee receives the written request of the Participant.\nA PSA account balance is refle",
+    "time": 15.943476915359497,
+    "answer_length": 14
+  }
+]
