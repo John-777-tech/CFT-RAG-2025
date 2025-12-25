@@ -1,0 +1,771 @@
+==========================================
+AESLC Baseline RAG vs Cuckoo Filter Abstract RAG 对比
+==========================================
+
+[1/4] 运行Baseline RAG benchmark...
+加载数据集: ./datasets/processed/aeslc.json
+✓ 成功加载 1906 条数据
+
+正在加载向量数据库和实体树...
+✓ Vector DB加载完成 (0.00秒)
+✓ Baseline RAG模式，跳过Forest和NLP构建 (0.00秒)
+✓ 初始化完成 (0.00秒)
+
+
+开始测试 30 个问题...
+================================================================================
+
+[1/30] Summarize the following email: Huntley/question
+...
+
+[1;31mGeneration Time: 24.423602 seconds[0m
+  回答长度: 1102 字符
+  耗时: 24.45秒
+
+[2/30] Summarize the following email: Expense Reports Awaiting Your...
+
+[1;31mGeneration Time: 9.458402 seconds[0m
+  回答长度: 933 字符
+  耗时: 9.48秒
+
+[3/30] Summarize the following email: Re-start/Integration Planning...
+
+[1;31mGeneration Time: 45.688640 seconds[0m
+  回答长度: 2128 字符
+  耗时: 45.72秒
+
+[4/30] Summarize the following email: RM Simulation Storyline Scrip...
+
+[1;31mGeneration Time: 8.384914 seconds[0m
+  回答长度: 495 字符
+  耗时: 8.41秒
+
+[5/30] Summarize the following email: Answer
+...
+
+[1;31mGeneration Time: 19.511461 seconds[0m
+  回答长度: 984 字符
+  耗时: 19.54秒
+
+[6/30] Summarize the following email: BCP Seat Assignments
+...
+
+[1;31mGeneration Time: 12.715509 seconds[0m
+  回答长度: 534 字符
+  耗时: 12.74秒
+
+[7/30] Summarize the following email: Farewell Drinks
+...
+
+[1;31mGeneration Time: 10.512090 seconds[0m
+  回答长度: 820 字符
+  耗时: 10.53秒
+
+[8/30] Summarize the following email: Slide for John Sheriff
+...
+
+[1;31mGeneration Time: 41.523840 seconds[0m
+  回答长度: 3487 字符
+  耗时: 41.55秒
+
+[9/30] Summarize the following email: URGENT - ENA Associates & Ana...
+
+[1;31mGeneration Time: 16.532399 seconds[0m
+  回答长度: 669 字符
+  耗时: 16.56秒
+
+[10/30] Summarize the following email: Increased Security at Enron C...
+
+[1;31mGeneration Time: 10.403164 seconds[0m
+  回答长度: 435 字符
+  耗时: 10.43秒
+  💾 Checkpoint已保存 (10/30)
+
+[11/30] Summarize the following email: Greetings
+...
+
+[1;31mGeneration Time: 16.172296 seconds[0m
+  回答长度: 819 字符
+  耗时: 16.20秒
+
+[12/30] Summarize the following email: Meeting on Wednesday, January...
+
+[1;31mGeneration Time: 10.299289 seconds[0m
+  回答长度: 644 字符
+  耗时: 10.33秒
+
+[13/30] Summarize the following email: STEAG Power LLC
+...
+
+[1;31mGeneration Time: 9.889911 seconds[0m
+  回答长度: 414 字符
+  耗时: 9.92秒
+
+[14/30] Summarize the following email: ConEd - Lakewood Peaker
+...
+
+[1;31mGeneration Time: 10.956667 seconds[0m
+  回答长度: 442 字符
+  耗时: 10.99秒
+
+[15/30] Summarize the following email: Relocation
+...
+
+[1;31mGeneration Time: 11.500549 seconds[0m
+  回答长度: 582 字符
+  耗时: 11.53秒
+
+[16/30] Summarize the following email: IMPORTANT MESSAGE TO ALL EMPL...
+
+[1;31mGeneration Time: 18.065801 seconds[0m
+  回答长度: 650 字符
+  耗时: 18.09秒
+
+[17/30] Summarize the following email: UBS issues
+...
+
+[1;31mGeneration Time: 23.461573 seconds[0m
+  回答长度: 2605 字符
+  耗时: 23.49秒
+
+[18/30] Summarize the following email: YOU HAVE 48 HOURS - Message f...
+
+[1;31mGeneration Time: 15.339094 seconds[0m
+  回答长度: 743 字符
+  耗时: 15.37秒
+
+[19/30] Summarize the following email: Sunshine Kids Benefit Golf To...
+
+[1;31mGeneration Time: 12.483005 seconds[0m
+  回答长度: 521 字符
+  耗时: 12.51秒
+
+[20/30] Summarize the following email: NOTIFICATION:  Outlook Outage...
+
+[1;31mGeneration Time: 36.629911 seconds[0m
+  回答长度: 2089 字符
+  耗时: 36.65秒
+  💾 Checkpoint已保存 (20/30)
+
+[21/30] Summarize the following email: Enron/Dynegy Merger; Antitrus...
+
+[1;31mGeneration Time: 15.747736 seconds[0m
+  回答长度: 585 字符
+  耗时: 15.77秒
+
+[22/30] Summarize the following email: An Inbound Message For You Ha...
+
+[1;31mGeneration Time: 24.448035 seconds[0m
+  回答长度: 1141 字符
+  耗时: 24.47秒
+
+[23/30] Summarize the following email: Products
+...
+
+[1;31mGeneration Time: 24.588189 seconds[0m
+  回答长度: 717 字符
+  耗时: 24.62秒
+
+[24/30] Summarize the following email: IR Moves
+...
+
+[1;31mGeneration Time: 31.000840 seconds[0m
+  回答长度: 1729 字符
+  耗时: 31.03秒
+
+[25/30] Summarize the following email: DUES
+...
+
+[1;31mGeneration Time: 22.840912 seconds[0m
+  回答长度: 1098 字符
+  耗时: 22.88秒
+
+[26/30] Summarize the following email: Pick-Ups
+...
+
+[1;31mGeneration Time: 23.762411 seconds[0m
+  回答长度: 1601 字符
+  耗时: 23.79秒
+
+[27/30] Summarize the following email: Trade?
+...
+
+[1;31mGeneration Time: 21.277434 seconds[0m
+  回答长度: 989 字符
+  耗时: 21.31秒
+
+[28/30] Summarize the following email: Draft
+...
+
+[1;31mGeneration Time: 27.917904 seconds[0m
+  回答长度: 1439 字符
+  耗时: 27.95秒
+
+[29/30] Summarize the following email: Draft change request
+...
+
+[1;31mGeneration Time: 625.636101 seconds[0m
+  回答长度: 929 字符
+  耗时: 625.67秒
+
+[30/30] Summarize the following email: Game Tonight
+...
+
+[1;31mGeneration Time: 36.433792 seconds[0m
+  回答长度: 953 字符
+  耗时: 36.46秒
+  💾 Checkpoint已保存 (30/30)
+
+💾 最终checkpoint已保存: ./benchmark/results/aeslc_baseline_final.json
+
+================================================================================
+测试结果汇总
+================================================================================
+总问题数: 30
+总耗时: 1218.45秒
+平均响应时间: 40.61秒
+平均回答长度: 1076 字符
+================================================================================
+
+✓ 结果已保存到: ./benchmark/results/aeslc_baseline_final.json
+
+[2/4] 评估Baseline RAG结果...
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+================================================================================
+使用多种指标评估摘要质量
+================================================================================
+
+支持的指标:
+  ROUGE: ✓
+  BLEU: ✓
+  BERTScore: ✓
+================================================================================
+
+正在计算BERTScore（30个样本）...
+  注意：首次运行需要下载BERT模型（roberta-large，约1.3GB）
+  如果网络连接有问题，可以：
+  1. 设置环境变量: export HF_ENDPOINT=https://hf-mirror.com
+  2. 或使用 --skip-bertscore 跳过BERTScore评估
+  3. 下载可能需要10-20分钟，请耐心等待...
+  使用HuggingFace镜像: https://hf-mirror.com
+  正在计算BERTScore...
+calculating scores...
+computing bert embedding.
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:17<00:17, 17.94s/it]100%|██████████| 2/2 [00:21<00:00,  9.55s/it]100%|██████████| 2/2 [00:21<00:00, 10.81s/it]
+computing greedy matching.
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 30.25it/s]
+done in 21.67 seconds, 1.38 sentences/sec
+
+总样本数: 30
+
+平均分数:
+  ROUGE1: 0.2280
+  ROUGE2: 0.0784
+  ROUGEL: 0.1541
+  BLEU: 0.0536
+  BERTSCORE: 0.8248
+
+前10个详细结果:
+
+[1] Summarize the following email: Huntley/question
+...
+    ROUGE-1: 0.1261
+    ROUGE-2: 0.0000
+    ROUGE-L: 0.0756
+    BLEU: 0.0019
+    BERTScore: 0.7971
+
+[2] Summarize the following email: Expense Reports Awa...
+    ROUGE-1: 0.0592
+    ROUGE-2: 0.0120
+    ROUGE-L: 0.0592
+    BLEU: 0.0033
+    BERTScore: 0.7945
+
+[3] Summarize the following email: Re-start/Integratio...
+    ROUGE-1: 0.1465
+    ROUGE-2: 0.0305
+    ROUGE-L: 0.0758
+    BLEU: 0.0027
+    BERTScore: 0.7987
+
+[4] Summarize the following email: RM Simulation Story...
+    ROUGE-1: 0.1667
+    ROUGE-2: 0.0241
+    ROUGE-L: 0.0833
+    BLEU: 0.0080
+    BERTScore: 0.8212
+
+[5] Summarize the following email: Answer
+...
+    ROUGE-1: 0.1446
+    ROUGE-2: 0.0000
+    ROUGE-L: 0.0803
+    BLEU: 0.0020
+    BERTScore: 0.7929
+
+[6] Summarize the following email: BCP Seat Assignment...
+    ROUGE-1: 0.5862
+    ROUGE-2: 0.2907
+    ROUGE-L: 0.4023
+    BLEU: 0.2802
+    BERTScore: 0.9002
+
+[7] Summarize the following email: Farewell Drinks
+...
+    ROUGE-1: 0.0889
+    ROUGE-2: 0.0000
+    ROUGE-L: 0.0667
+    BLEU: 0.0024
+    BERTScore: 0.7944
+
+[8] Summarize the following email: Slide for John Sher...
+    ROUGE-1: 0.0366
+    ROUGE-2: 0.0061
+    ROUGE-L: 0.0305
+    BLEU: 0.0010
+    BERTScore: 0.7839
+
+[9] Summarize the following email: URGENT - ENA Associ...
+    ROUGE-1: 0.6250
+    ROUGE-2: 0.3793
+    ROUGE-L: 0.5341
+    BLEU: 0.2601
+    BERTScore: 0.9129
+
+[10] Summarize the following email: Increased Security ...
+    ROUGE-1: 0.7302
+    ROUGE-2: 0.5000
+    ROUGE-L: 0.4603
+    BLEU: 0.3325
+    BERTScore: 0.9427
+
+✓ 评估结果已保存到: ./benchmark/results/aeslc_baseline_final_evaluation.json
+
+================================================================================
+指标说明：
+  ROUGE: 基于n-gram重叠的摘要评估指标
+  BLEU: 基于n-gram精确匹配的翻译/摘要评估指标
+  BERTScore: 基于BERT语义相似度的评估指标
+================================================================================
+
+[3/4] 运行Cuckoo Filter Abstract RAG benchmark...
+num_buckets: 256
+加载数据集: ./datasets/processed/aeslc.json
+✓ 成功加载 1906 条数据
+
+正在加载向量数据库和实体树...
+✓ Vector DB加载完成 (0.01秒)
+Loading cached forest and nlp from ./entity_forest_cache/forest_nlp_entities_file_aeslc_entities_file_tree_num_50_node_num_2000000_bf1.pkl...
+✓ Forest和NLP加载完成 (0.71秒)
+✓ Cuckoo Filter已初始化 (跳过build步骤，使用增强搜索函数)
+✓ 初始化完成 (0.71秒)
+
+
+开始测试 30 个问题...
+================================================================================
+
+[1/30] Summarize the following email: Huntley/question
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.115240%[0m
+  回答长度: 871 字符
+  耗时: 20.30秒
+
+[2/30] Summarize the following email: Expense Reports Awaiting Your...
+query entity number: 1
+
+[1;31mTime Ratio: 0.185925%[0m
+  回答长度: 325 字符
+  耗时: 6.92秒
+
+[3/30] Summarize the following email: Re-start/Integration Planning...
+query entity number: 1
+
+[1;31mTime Ratio: 0.022187%[0m
+  回答长度: 1110 字符
+  耗时: 37.87秒
+
+[4/30] Summarize the following email: RM Simulation Storyline Scrip...
+query entity number: 0
+
+[1;31mTime Ratio: 0.218760%[0m
+  回答长度: 289 字符
+  耗时: 9.86秒
+
+[5/30] Summarize the following email: Answer
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.030181%[0m
+  回答长度: 743 字符
+  耗时: 24.84秒
+
+[6/30] Summarize the following email: BCP Seat Assignments
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.292190%[0m
+  回答长度: 394 字符
+  耗时: 9.66秒
+
+[7/30] Summarize the following email: Farewell Drinks
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.152327%[0m
+  回答长度: 429 字符
+  耗时: 9.01秒
+
+[8/30] Summarize the following email: Slide for John Sheriff
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.254117%[0m
+  回答长度: 330 字符
+  耗时: 7.93秒
+
+[9/30] Summarize the following email: URGENT - ENA Associates & Ana...
+query entity number: 1
+
+[1;31mTime Ratio: 0.081879%[0m
+  回答长度: 443 字符
+  耗时: 10.29秒
+
+[10/30] Summarize the following email: Increased Security at Enron C...
+query entity number: 0
+
+[1;31mTime Ratio: 0.208874%[0m
+  回答长度: 330 字符
+  耗时: 9.82秒
+  💾 Checkpoint已保存 (10/30)
+
+[11/30] Summarize the following email: Greetings
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.044913%[0m
+  回答长度: 316 字符
+  耗时: 12.33秒
+
+[12/30] Summarize the following email: Meeting on Wednesday, January...
+query entity number: 0
+
+[1;31mTime Ratio: 0.257825%[0m
+  回答长度: 550 字符
+  耗时: 9.28秒
+
+[13/30] Summarize the following email: STEAG Power LLC
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.062240%[0m
+  回答长度: 375 字符
+  耗时: 9.98秒
+
+[14/30] Summarize the following email: ConEd - Lakewood Peaker
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.111790%[0m
+  回答长度: 444 字符
+  耗时: 8.74秒
+
+[15/30] Summarize the following email: Relocation
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.049887%[0m
+  回答长度: 532 字符
+  耗时: 11.35秒
+
+[16/30] Summarize the following email: IMPORTANT MESSAGE TO ALL EMPL...
+query entity number: 1
+
+[1;31mTime Ratio: 0.116270%[0m
+  回答长度: 559 字符
+  耗时: 9.69秒
+
+[17/30] Summarize the following email: UBS issues
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.237119%[0m
+  回答长度: 200 字符
+  耗时: 7.93秒
+
+[18/30] Summarize the following email: YOU HAVE 48 HOURS - Message f...
+query entity number: 0
+
+[1;31mTime Ratio: 0.063270%[0m
+  回答长度: 529 字符
+  耗时: 22.91秒
+
+[19/30] Summarize the following email: Sunshine Kids Benefit Golf To...
+query entity number: 1
+
+[1;31mTime Ratio: 0.217087%[0m
+  回答长度: 516 字符
+  耗时: 12.66秒
+
+[20/30] Summarize the following email: NOTIFICATION:  Outlook Outage...
+query entity number: 0
+
+[1;31mTime Ratio: 0.016120%[0m
+  回答长度: 4821 字符
+  耗时: 60.49秒
+  💾 Checkpoint已保存 (20/30)
+
+[21/30] Summarize the following email: Enron/Dynegy Merger; Antitrus...
+query entity number: 0
+
+[1;31mTime Ratio: 0.074377%[0m
+  回答长度: 577 字符
+  耗时: 35.76秒
+
+[22/30] Summarize the following email: An Inbound Message For You Ha...
+query entity number: 0
+
+[1;31mTime Ratio: 0.046505%[0m
+  回答长度: 561 字符
+  耗时: 18.64秒
+
+[23/30] Summarize the following email: Products
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.105099%[0m
+  回答长度: 640 字符
+  耗时: 18.29秒
+
+[24/30] Summarize the following email: IR Moves
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.031866%[0m
+  回答长度: 910 字符
+  耗时: 26.45秒
+
+[25/30] Summarize the following email: DUES
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.119001%[0m
+  回答长度: 688 字符
+  耗时: 16.85秒
+
+[26/30] Summarize the following email: Pick-Ups
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.042700%[0m
+  回答长度: 2208 字符
+  耗时: 18.90秒
+
+[27/30] Summarize the following email: Trade?
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.070505%[0m
+  回答长度: 876 字符
+  耗时: 24.20秒
+
+[28/30] Summarize the following email: Draft
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.032807%[0m
+  回答长度: 932 字符
+  耗时: 18.60秒
+
+[29/30] Summarize the following email: Draft change request
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.841806%[0m
+  回答长度: 644 字符
+  耗时: 17.90秒
+
+[30/30] Summarize the following email: Game Tonight
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.028209%[0m
+  回答长度: 701 字符
+  耗时: 24.32秒
+  💾 Checkpoint已保存 (30/30)
+
+💾 最终checkpoint已保存: ./benchmark/results/aeslc_cuckoo_final.json
+
+================================================================================
+测试结果汇总
+================================================================================
+总问题数: 30
+总耗时: 531.77秒
+平均响应时间: 17.73秒
+平均回答长度: 761 字符
+================================================================================
+
+✓ 结果已保存到: ./benchmark/results/aeslc_cuckoo_final.json
+
+[4/4] 评估Cuckoo Filter结果...
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+================================================================================
+使用多种指标评估摘要质量
+================================================================================
+
+支持的指标:
+  ROUGE: ✓
+  BLEU: ✓
+  BERTScore: ✓
+================================================================================
+
+正在计算BERTScore（30个样本）...
+  注意：首次运行需要下载BERT模型（roberta-large，约1.3GB）
+  如果网络连接有问题，可以：
+  1. 设置环境变量: export HF_ENDPOINT=https://hf-mirror.com
+  2. 或使用 --skip-bertscore 跳过BERTScore评估
+  3. 下载可能需要10-20分钟，请耐心等待...
+  使用HuggingFace镜像: https://hf-mirror.com
+  正在计算BERTScore...
+calculating scores...
+computing bert embedding.
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:18<00:18, 18.33s/it]100%|██████████| 2/2 [00:22<00:00,  9.79s/it]100%|██████████| 2/2 [00:22<00:00, 11.07s/it]
+computing greedy matching.
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 36.20it/s]
+done in 22.18 seconds, 1.35 sentences/sec
+
+总样本数: 30
+
+平均分数:
+  ROUGE1: 0.2408
+  ROUGE2: 0.0782
+  ROUGEL: 0.1699
+  BLEU: 0.0529
+  BERTSCORE: 0.8297
+
+前10个详细结果:
+
+[1] Summarize the following email: Huntley/question
+...
+    ROUGE-1: 0.1053
+    ROUGE-2: 0.0000
+    ROUGE-L: 0.0670
+    BLEU: 0.0023
+    BERTScore: 0.8029
+
+[2] Summarize the following email: Expense Reports Awa...
+    ROUGE-1: 0.1250
+    ROUGE-2: 0.0256
+    ROUGE-L: 0.1250
+    BLEU: 0.0084
+    BERTScore: 0.8055
+
+[3] Summarize the following email: Re-start/Integratio...
+    ROUGE-1: 0.1355
+    ROUGE-2: 0.0161
+    ROUGE-L: 0.0717
+    BLEU: 0.0039
+    BERTScore: 0.8087
+
+[4] Summarize the following email: RM Simulation Story...
+    ROUGE-1: 0.1471
+    ROUGE-2: 0.0149
+    ROUGE-L: 0.0882
+    BLEU: 0.0047
+    BERTScore: 0.8235
+
+[5] Summarize the following email: Answer
+...
+    ROUGE-1: 0.1415
+    ROUGE-2: 0.0000
+    ROUGE-L: 0.0755
+    BLEU: 0.0025
+    BERTScore: 0.7966
+
+[6] Summarize the following email: BCP Seat Assignment...
+    ROUGE-1: 0.5935
+    ROUGE-2: 0.3399
+    ROUGE-L: 0.4645
+    BLEU: 0.2440
+    BERTScore: 0.8957
+
+[7] Summarize the following email: Farewell Drinks
+...
+    ROUGE-1: 0.1034
+    ROUGE-2: 0.0000
+    ROUGE-L: 0.1034
+    BLEU: 0.0044
+    BERTScore: 0.7998
+
+[8] Summarize the following email: Slide for John Sher...
+    ROUGE-1: 0.1818
+    ROUGE-2: 0.0233
+    ROUGE-L: 0.1136
+    BLEU: 0.0093
+    BERTScore: 0.8293
+
+[9] Summarize the following email: URGENT - ENA Associ...
+    ROUGE-1: 0.7552
+    ROUGE-2: 0.4681
+    ROUGE-L: 0.6713
+    BLEU: 0.3658
+    BERTScore: 0.9376
+
+[10] Summarize the following email: Increased Security ...
+    ROUGE-1: 0.7143
+    ROUGE-2: 0.4727
+    ROUGE-L: 0.5536
+    BLEU: 0.3423
+    BERTScore: 0.9606
+
+✓ 评估结果已保存到: ./benchmark/results/aeslc_cuckoo_final_evaluation.json
+
+================================================================================
+指标说明：
+  ROUGE: 基于n-gram重叠的摘要评估指标
+  BLEU: 基于n-gram精确匹配的翻译/摘要评估指标
+  BERTScore: 基于BERT语义相似度的评估指标
+================================================================================
+
+==========================================
+生成对比报告...
+==========================================
+======================================================================
+AESLC Baseline RAG vs Cuckoo Filter Abstract RAG 对比报告
+======================================================================
+
+【评估指标对比】
+----------------------------------------------------------------------
+指标                   Baseline RAG         Cuckoo Filter        差异        
+----------------------------------------------------------------------
+ROUGE-1              0.2280               0.2408               +0.0129   
+ROUGE-2              0.0784               0.0782               -0.0002   
+ROUGE-L              0.1541               0.1699               +0.0158   
+BLEU                 0.0536               0.0529               -0.0007   
+BERTScore F1         0.8248               0.8297               +0.0050   
+
+【时间性能对比】
+----------------------------------------------------------------------
+方法                             平均响应时间 (秒)           有效样本数     
+----------------------------------------------------------------------
+Baseline RAG                   40.61                30        
+Cuckoo Filter Abstract RAG     17.73                30        
+
+时间差异: -22.89秒 (-56.36%)
+  → Cuckoo Filter比Baseline RAG快 22.89秒
+
+【样本统计】
+----------------------------------------------------------------------
+Baseline RAG: 总样本 30, 错误 0, 成功 30
+Cuckoo Filter: 总样本 30, 错误 0, 成功 30
+
+======================================================================
+✓ 对比报告已保存到: ./benchmark/results/aeslc_baseline_vs_cuckoo_final_report.json
+
+==========================================
+✓ 完成！
+==========================================

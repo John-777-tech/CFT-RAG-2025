@@ -1,0 +1,92 @@
+{
+  "average_scores": {
+    "rouge1": 0.05069094464139281,
+    "rouge2": 0.027758378241843552,
+    "rougeL": 0.05069094464139281,
+    "bleu": 0.007275492999863747,
+    "bertscore": 0.8071627163887024
+  },
+  "total_samples": 50,
+  "detailed_results": [
+    {
+      "question": "Which American-born Sinclair won the Nobel Prize f",
+      "rouge1": 1.0,
+      "rouge2": 1.0,
+      "rougeL": 1.0,
+      "bleu": 0.24028114141347542,
+      "bertscore": 0.9876635074615479
+    },
+    {
+      "question": "Where in England was Dame Judi Dench born?",
+      "rouge1": 0.03076923076923077,
+      "rouge2": 0.0,
+      "rougeL": 0.03076923076923077,
+      "bleu": 0.002387221081851365,
+      "bertscore": 0.7897655963897705
+    },
+    {
+      "question": "In which decade did Billboard magazine first publi",
+      "rouge1": 0.0,
+      "rouge2": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0.0,
+      "bertscore": 0.8117160201072693
+    },
+    {
+      "question": "From which country did Angola achieve independence",
+      "rouge1": 0.08333333333333333,
+      "rouge2": 0.0,
+      "rougeL": 0.08333333333333333,
+      "bleu": 0.006980361417366381,
+      "bertscore": 0.8434268832206726
+    },
+    {
+      "question": "Which city does David Soul come from?",
+      "rouge1": 0.0,
+      "rouge2": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0.0,
+      "bertscore": 0.8089174032211304
+    },
+    {
+      "question": "Who won Super Bowl XX?",
+      "rouge1": 0.0,
+      "rouge2": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0.0,
+      "bertscore": 0.7335913777351379
+    },
+    {
+      "question": "Which was the first European country to abolish ca",
+      "rouge1": 0.0,
+      "rouge2": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0.0,
+      "bertscore": 0.8123738765716553
+    },
+    {
+      "question": "In which country did he widespread use of ISDN beg",
+      "rouge1": 0.0,
+      "rouge2": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0.0,
+      "bertscore": 0.7943145036697388
+    },
+    {
+      "question": "What is Bruce Willis' real first name?",
+      "rouge1": 0.028985507246376812,
+      "rouge2": 0.0,
+      "rougeL": 0.028985507246376812,
+      "bleu": 0.002324796558859722,
+      "bertscore": 0.8181987404823303
+    },
+    {
+      "question": "Which William wrote the novel Lord Of The Flies?",
+      "rouge1": 0.0,
+      "rouge2": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0.0,
+      "bertscore": 0.7932917475700378
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "average_scores": {
+    "bleu": 0.01000481494124181
+  },
+  "total_samples": 1714,
+  "detailed_results": [
+    {
+      "question": "Summarize the following email: Huntley/question\n",
+      "bleu": 0.0023799699697319523
+    },
+    {
+      "question": "Summarize the following email: Expense Reports Awa",
+      "bleu": 0.01143354672983217
+    },
+    {
+      "question": "Summarize the following email: Re-start/Integratio",
+      "bleu": 0.0026926205163997916
+    },
+    {
+      "question": "Summarize the following email: RM Simulation Story",
+      "bleu": 0.0016761220969042459
+    },
+    {
+      "question": "Summarize the following email: Answer\n",
+      "bleu": 0.003224807905198275
+    },
+    {
+      "question": "Summarize the following email: BCP Seat Assignment",
+      "bleu": 0.0037351007695675766
+    },
+    {
+      "question": "Summarize the following email: Farewell Drinks\n",
+      "bleu": 0.007284583654858114
+    },
+    {
+      "question": "Summarize the following email: Slide for John Sher",
+      "bleu": 0.013819585494830136
+    },
+    {
+      "question": "Summarize the following email: URGENT - ENA Associ",
+      "bleu": 0.0005869808100104594
+    },
+    {
+      "question": "Summarize the following email: Increased Security ",
+      "bleu": 0.009709232185457188
+    }
+  ]
+}

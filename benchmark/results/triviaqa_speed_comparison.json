@@ -1,0 +1,26 @@
+{
+  "dataset": "TriviaQA",
+  "sample_count": 50,
+  "baseline": {
+    "avg_time": 15.175147981643677,
+    "avg_time_cleaned": 13.687820648153624,
+    "median_time": 12.526006817817688,
+    "min_time": 7.097934007644653,
+    "max_time": 60.42652702331543,
+    "total_time": 758.7573990821838,
+    "std_dev": 9.592628102573725
+  },
+  "cuckoo_filter_abstract": {
+    "avg_time": 9.996888513565063,
+    "avg_time_cleaned": 9.37564942240715,
+    "median_time": 7.906612873077393,
+    "min_time": 5.090359210968018,
+    "max_time": 24.977946281433105,
+    "total_time": 499.8444256782532,
+    "std_dev": 4.829537729745211
+  },
+  "speed_difference": {
+    "cuckoo_vs_baseline_percent": -31.50370929449715,
+    "speedup_factor": 1.4599330703898423
+  }
+}

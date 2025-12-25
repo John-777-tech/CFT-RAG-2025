@@ -1,0 +1,1052 @@
+[
+  {
+    "question": "Generate a description based on the following triples: (Mars Hill College, JOINED, 1973) | (Mars Hill College, LOCATION, Mars Hill, North Carolina)",
+    "answer": "Mars Hill College, located in Mars Hill, North Carolina, joined in 1973.",
+    "expected_answer": "A school from Mars Hill, North Carolina, joined in 1973.",
+    "time": 5.904320001602173,
+    "answer_length": 72
+  },
+  {
+    "question": "Generate a description based on the following triples: (Newberry College, NICKNAME, Wolves)",
+    "answer": "Newberry College's nickname is the Wolves.",
+    "expected_answer": "Newberry College's nickname is the wolves.",
+    "time": 6.561677932739258,
+    "answer_length": 42
+  },
+  {
+    "question": "Generate a description based on the following triples: (Presbyterian College, TYPE, Private)",
+    "answer": "Presbyterian College is a private school.",
+    "expected_answer": "Presbyterian College is a private school.",
+    "time": 5.631839036941528,
+    "answer_length": 41
+  },
+  {
+    "question": "Generate a description based on the following triples: (Queens University of Charlotte, NICKNAME, Royals) | (Queens University of Charlotte, ENROLLMENT, 2386)",
+    "answer": "Queens University of Charlotte has an enrollment of 2386 and its nickname is the Royals.",
+    "expected_answer": "The nickname of the school with an enrollment of 2,386 is the royals.",
+    "time": 6.133239030838013,
+    "answer_length": 88
+  },
+  {
+    "question": "Generate a description based on the following triples: (Inars Kivlenieks, COUNTRY, Latvia)",
+    "answer": "Inars Kivlenieks is an athlete from Latvia.",
+    "expected_answer": "The Athlete is Inars Kivlenieks.The country is Latvia",
+    "time": 12.451819896697998,
+    "answer_length": 43
+  },
+  {
+    "question": "Generate a description based on the following triples: (New York, SWIMSUIT, 8.713) | (New York, EVENING_GOWN, 8.400) | (New York, AVERAGE, 8.525)",
+    "answer": "New York has a score of 8.713 for SWIMSUIT, 8.400 for EVENING_GOWN, and an average score of 8.525.",
+    "expected_answer": "New York\t it 8.713 New York\t 8.525",
+    "time": 6.126112937927246,
+    "answer_length": 98
+  },
+  {
+    "question": "Generate a description based on the following triples: (Atlanta, OFFICIAL_POPULATION, 5,457,831) | ([TABLECONTEXT], METROPOLITAN_AREA, Atlanta) | (5,457,831, YEAR, 2012) | ([TABLECONTEXT], [TITLE], List of metropolitan areas by population) | (Atlanta, COUNTRY, United States)",
+    "answer": "In the list of metropolitan areas by population, Atlanta (United States) has an official population of 5,457,831 in 2012.",
+    "expected_answer": "Metropolitan areas by population is Atlanta Country United States Official population is 5,457,831 ,2012",
+    "time": 13.657168865203857,
+    "answer_length": 121
+  },
+  {
+    "question": "Generate a description based on the following triples: (Bogotá, COUNTRY, Colombia)",
+    "answer": "Bogotá is in Colombia.",
+    "expected_answer": "The Bogotá metropolitan area is in Colombia.",
+    "time": 3.418980121612549,
+    "answer_length": 22
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], METROPOLITAN_AREA, Berlin) | (Berlin, COUNTRY, Germany) | ([TABLECONTEXT], [TITLE], List of metropolitan areas by population) | (Berlin, OFFICIAL_POPULATION, 5,097,712)",
+    "answer": "Berlin is a metropolitan area in Germany with an official population of 5,097,712, which is included in the \"List of metropolitan areas by population\".",
+    "expected_answer": "Berlin is a metropolitan area in Germany with an official population of 5,097,712.",
+    "time": 11.034560203552246,
+    "answer_length": 151
+  },
+  {
+    "question": "Generate a description based on the following triples: (1983-1984 season, JORNADA_OR_OTHER, 2) | (2, AWAY_TEAM, América) | (2, HOME_TEAM, Chivas)",
+    "answer": "In the 1983-1984 season, during jornada 2, Chivas was the home team and América was the away team.",
+    "expected_answer": "Chivas played against América in the 1983-1984 season.",
+    "time": 8.376893997192383,
+    "answer_length": 98
+  },
+  {
+    "question": "Generate a description based on the following triples: (Final Vuelta, RESULT, 3-1) | (Final Vuelta, HOME_TEAM, América) | (Final Vuelta, DATE, 10 June 1984)",
+    "answer": "On 10 June 1984, home team América achieved a 3-1 result in the Final Vuelta.",
+    "expected_answer": "America earned a 3-1 victory in the second-leg final in 1984.",
+    "time": 9.335201025009155,
+    "answer_length": 77
+  },
+  {
+    "question": "Generate a description based on the following triples: (24, DATE, 11 January 1987) | (24, HOME_TEAM, Chivas) | (24, AWAY_TEAM, América) | (24, RESULT, 2-2)",
+    "answer": "On 11 January 1987, Chivas (home team) and América (away team) drew 2-2.",
+    "expected_answer": "On 11 January 1987, América and Chivas drew 2-2.",
+    "time": 5.866427898406982,
+    "answer_length": 72
+  },
+  {
+    "question": "Generate a description based on the following triples: (14, STADIUM, Estadio Jalisco) | (14, RESULT, 1-1)",
+    "answer": "Event 14 ended with a result of 1-1 at Estadio Jalisco.",
+    "expected_answer": "The pair tied the score 1-1 at Estadio Jalisco.",
+    "time": 16.69774103164673,
+    "answer_length": 55
+  },
+  {
+    "question": "Generate a description based on the following triples: (Apertura 2006, JORNADA_OR_OTHER, Semifinals Ida) | (Semifinals Ida, AWAY_TEAM, América) | (Semifinals Ida, HOME_TEAM, Chivas)",
+    "answer": "The Apertura 2006 tournament includes the Semifinals Ida, where Chivas is the home team and América is the away team.",
+    "expected_answer": "Chivas and América will compete in the semifinals of the Apertura 2006 tournament.",
+    "time": 12.092842102050781,
+    "answer_length": 117
+  },
+  {
+    "question": "Generate a description based on the following triples: (1983-1984 season, JORNADA_OR_OTHER, 21) | (21, AWAY_TEAM, Chivas) | (21, STADIUM, Estadio Azteca) | (21, HOME_TEAM, América)",
+    "answer": "For the 1983-1984 season's Jornada 21, América was the home team, Chivas was the away team, and the match was held at Estadio Azteca.",
+    "expected_answer": "El Clásico de Clásicos Season 1983–1984 Jornada  is 21 away team is Chivas Chivas Estadio Azteca",
+    "time": 8.968016147613525,
+    "answer_length": 133
+  },
+  {
+    "question": "Generate a description based on the following triples: (Everything Man, TIME, 3:16)",
+    "answer": "Everything Man is 3 minutes and 16 seconds long.",
+    "expected_answer": "Everything Man is 3 minutes and 16 seconds long.",
+    "time": 7.417515993118286,
+    "answer_length": 48
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], [TITLE], Eardrum (album)) | (2, TITLE, NY Weather Report) | (NY Weather Report, SONGWRITERS, Talib Kweli Greene) | ([TABLECONTEXT], NUMBER, 2)",
+    "answer": "Talib Kweli Greene wrote NY Weather Report, which is the second song on the album Eardrum.",
+    "expected_answer": "Talib Kweli Green wrote NY Weather Report, the second song on Eardrum.",
+    "time": 11.621987104415894,
+    "answer_length": 90
+  },
+  {
+    "question": "Generate a description based on the following triples: (Say Something, PRODUCER(S), will.i.am) | (Say Something, PERFORMER(S), Talib Kweli, Jean Grae)",
+    "answer": "Say Something was produced by will.i.am and performed by Talib Kweli and Jean Grae.",
+    "expected_answer": "willi.i.am produced Say Something, performed by Talib Kweli and Jean Grae.",
+    "time": 5.353541135787964,
+    "answer_length": 83
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], [TITLE], Eardrum (album)) | (5, TITLE, Country Cousins) | ([TABLECONTEXT], NUMBER, 5)",
+    "answer": "Country Cousins is the fifth song on Eardrum.",
+    "expected_answer": "Country Cousins is the fifth song on Eardrum.",
+    "time": 7.920377016067505,
+    "answer_length": 45
+  },
+  {
+    "question": "Generate a description based on the following triples: (Holy Moly, SAMPLES_AND_NOTES, Border Song (Holy Moses) by Aretha Franklin)",
+    "answer": "Holy Moly samples Border Song (Holy Moses) by Aretha Franklin.",
+    "expected_answer": "Holy Moly samples Border Song (Holy Moses) by Aretha Franklin.",
+    "time": 5.573609113693237,
+    "answer_length": 62
+  },
+  {
+    "question": "Generate a description based on the following triples: (15, TITLE, The Perfect Beat) | (The Perfect Beat, PRODUCER(S), Swiff D) | (The Perfect Beat, SAMPLES_AND_NOTES, Do It Twice by Bob Marley) | (The Perfect Beat, PERFORMER(S), Talib Kweli, KRS-One)",
+    "answer": "The Perfect Beat ranked 15th, was produced by Swiff D, uses samples of Do It Twice by Bob Marley, and features performers Talib Kweli and KRS-One.",
+    "expected_answer": "The Perfect Beat ranked 15th, was produced by Swiff D, uses samples of Do it Twice by Bob Marley, and features Talib Kweli, KRS-One.",
+    "time": 9.899716138839722,
+    "answer_length": 146
+  },
+  {
+    "question": "Generate a description based on the following triples: (Soon the New Day, TIME, 4:02) | (Soon the New Day, SONGWRITERS, Talib Kweli Greene, Otis Jackson Jr., Paul Charles, John Mason)",
+    "answer": "Soon the New Day is a song with a duration of 4:02, written by Talib Kweli Greene, Otis Jackson Jr., Paul Charles, and John Mason.",
+    "expected_answer": "Songwriters Talib Kweli Greene, Otis Jackson Jr., Paul Charles, John Mason are writing Soon the New Day song with the duration of 4:02",
+    "time": 8.796261072158813,
+    "answer_length": 130
+  },
+  {
+    "question": "Generate a description based on the following triples: (Arabic numerals, BINARY, 0011 0000) | (Arabic numerals, GLYPH, 0)",
+    "answer": "The Arabic numeral glyph 0 corresponds to the binary number 0011 0000.",
+    "expected_answer": "The binary number 0011 0000 corresponds to an Arabic numeral glyph of 0.",
+    "time": 11.702064752578735,
+    "answer_length": 70
+  },
+  {
+    "question": "Generate a description based on the following triples: (Arabic numerals, GLYPH, 2) | (Arabic numerals, OCTAL, 062)",
+    "answer": "Arabic numerals have a glyph of 2 and an octal representation of 062.",
+    "expected_answer": "In Arabic numerals, 2 is the same as octal's 062.",
+    "time": 9.390047311782837,
+    "answer_length": 69
+  },
+  {
+    "question": "Generate a description based on the following triples: (Arabic numerals, DECIMAL, 51) | (Arabic numerals, HEXADECIMAL, 33)",
+    "answer": "Arabic numerals correspond to decimal 51 and hexadecimal 33, where hexadecimal 33 is equivalent to decimal 51.",
+    "expected_answer": "Hexadecimal 33 is equivalent to decimal 51.",
+    "time": 12.575830698013306,
+    "answer_length": 110
+  },
+  {
+    "question": "Generate a description based on the following triples: (Arabic numerals, OCTAL, 064) | (Arabic numerals, BINARY, 0011 0100)",
+    "answer": "The Arabic numeral 4 corresponds to the octal number 064 and the binary number 0011 0100.",
+    "expected_answer": "0011 0100 in binary is the same as 064 in octal.",
+    "time": 12.517956018447876,
+    "answer_length": 89
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], NAME, William Bennett) | ([TABLECONTEXT], [TITLE], Office of National Drug Control Policy) | (William Bennett, TERM_OF_OFFICE, 1989 - 1991)",
+    "answer": "William Bennett served in the Office of National Drug Control Policy from 1989 to 1991.",
+    "expected_answer": "In the Office of National Drug Control Policy from 1989-1991, William Bennett served.",
+    "time": 6.016636848449707,
+    "answer_length": 87
+  },
+  {
+    "question": "Generate a description based on the following triples: (Bob Martinez, PRESIDENT(S)_SERVED_UNDER, George H. W. Bush)",
+    "answer": "Bob Martinez served under President George H. W. Bush.",
+    "expected_answer": "Bob Martinez served under President George H. W. Bush.",
+    "time": 4.692095994949341,
+    "answer_length": 54
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], NAME, Lee P. Brown) | (Lee P. Brown, NUMBER, 3) | ([TABLECONTEXT], [TITLE], Office of National Drug Control Policy)",
+    "answer": "Lee P. Brown was the third director of the Office of National Drug Control Policy.",
+    "expected_answer": "Lee P. Brown was the third director of the Office of National Drug Control Policy.",
+    "time": 6.883087158203125,
+    "answer_length": 82
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], NAME, Barry McCaffrey) | (Barry McCaffrey, TERM_OF_OFFICE, February 29, 1996 - January 4, 2001) | ([TABLECONTEXT], [TITLE], Office of National Drug Control Policy)",
+    "answer": "Barry McCaffrey directed the Office of National Drug Control Policy from February 29, 1996 to January 4, 2001.",
+    "expected_answer": "From February 29, 1996 to January 4, 2001, Barry McCaffrey directed the Office of National Drug Control Policy.",
+    "time": 14.941319942474365,
+    "answer_length": 110
+  },
+  {
+    "question": "Generate a description based on the following triples: (John P. Walters, PRESIDENT(S)_SERVED_UNDER, George W. Bush) | (John P. Walters, TERM_OF_OFFICE, December 7, 2001 - January 19, 2009)",
+    "answer": "John P. Walters served under President George W. Bush from December 7, 2001 to January 19, 2009.",
+    "expected_answer": "John P. Walters worked with George W. Bush from December 7, 2001 to January 19, 2009.",
+    "time": 7.8569581508636475,
+    "answer_length": 96
+  },
+  {
+    "question": "Generate a description based on the following triples: (Gil Kerlikowske, PRESIDENT(S)_SERVED_UNDER, Barack Obama) | (Gil Kerlikowske, TERM_OF_OFFICE, May 7, 2009 - March 6, 2014) | (Gil Kerlikowske, NUMBER, 6)",
+    "answer": "Gil Kerlikowske was the 6th person in the Office of National Drug Control Policy, serving under President Barack Obama from May 7, 2009 to March 6, 2014.",
+    "expected_answer": "No 6 The Office of National Drug Control Policy person name Gil Kerlikowske the term office May 7, 2009 – March 6, 2014 by Barack Obama",
+    "time": 13.061340808868408,
+    "answer_length": 153
+  },
+  {
+    "question": "Generate a description based on the following triples: (Sky Sport Extra HD, CONTENT, sport) | (Sky Sport Extra HD, NUMBER, 204)",
+    "answer": "Sky Sport Extra HD, channel number 204, offers sport content.",
+    "expected_answer": "The content offered by the package number 204's sport.",
+    "time": 12.530734062194824,
+    "answer_length": 61
+  },
+  {
+    "question": "Generate a description based on the following triples: (87, TIME/RETIRED, 1:48:11.023) | ([TABLECONTEXT], [TITLE], 2003 Grand Prix of Monterey) | ([TABLECONTEXT], DRIVERS, Patrick Carpentier) | (Patrick Carpentier, NUMBER, 32) | (Patrick Carpentier, LAPS, 87)",
+    "answer": "In the 2003 Grand Prix of Monterey, driver Patrick Carpentier (number 32) finished 87 laps with a time of 1:48:11.023.",
+    "expected_answer": "No 32, Patrick Carpentier, finished the 87 laps of 2003 Grand Prix of Monterey in 1:48:11.023.",
+    "time": 14.397046089172363,
+    "answer_length": 118
+  },
+  {
+    "question": "Generate a description based on the following triples: (Bruno Junqueira, TEAM, Newman/Haas Racing) | ([TABLECONTEXT], [TITLE], 2003 Grand Prix of Monterey) | (Bruno Junqueira, LAPS, 87) | ([TABLECONTEXT], DRIVERS, Bruno Junqueira) | (87, TIME/RETIRED, +0.8 secs)",
+    "answer": "In the 2003 Grand Prix of Monterey, Bruno Junqueira from Newman/Haas Racing completed 87 laps with a time of 1:48:11.823 (+0.8 seconds relative to Patrick Carpentier's finish time for the same laps).",
+    "expected_answer": "Bruno Junqueira of the Newman/Haas Racing finished the 2003 Grand Prix of Monterey 0.8 secs behind the winner.",
+    "time": 29.01036524772644,
+    "answer_length": 199
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], DRIVERS, Tiago Monteiro) | (86, TIME/RETIRED, + 1 Lap) | (Tiago Monteiro, LAPS, 86) | ([TABLECONTEXT], [TITLE], 2003 Grand Prix of Monterey) | (Tiago Monteiro, TEAM, Fittipaldi-Dingman Racing)",
+    "answer": "Tiago Monteiro of Fittipaldi-Dingman Racing completed 86 laps with a status of +1 Lap at the 2003 Grand Prix of Monterey.",
+    "expected_answer": "Tiago Monteiro of the Fittipaldi-Dingman Racing team retired with 1 lap remaining in the 2003 Grand Prix of Monterey.",
+    "time": 17.687773942947388,
+    "answer_length": 121
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], [TITLE], 2003 Grand Prix of Monterey) | (85, TIME/RETIRED, + 2 Laps) | (Joel Camathias, LAPS, 85) | (Joel Camathias, TEAM, Dale Coyne Racing) | ([TABLECONTEXT], DRIVERS, Joel Camathias)",
+    "answer": "The 2003 Grand Prix of Monterey includes driver Joel Camathias from Dale Coyne Racing, who completed 85 laps and retired with a result of +2 Laps.",
+    "expected_answer": "Joel Camathias of Dale Coyne Racing finished 85 laps with 2 more remaining in the 2003 Grand Prix of Monterey.",
+    "time": 9.116456031799316,
+    "answer_length": 146
+  },
+  {
+    "question": "Generate a description based on the following triples: (83, TIME/RETIRED, Mechanical) | (Geoff Boss, TEAM, Dale Coyne Racing) | ([TABLECONTEXT], DRIVERS, Geoff Boss) | (Geoff Boss, LAPS, 83) | ([TABLECONTEXT], [TITLE], 2003 Grand Prix of Monterey)",
+    "answer": "In the 2003 Grand Prix of Monterey, Geoff Boss of Dale Coyne Racing completed 83 laps before retiring due to mechanical issues.",
+    "expected_answer": "Geoff Boss of the Dale Coyne Racing team did not finish the 2003 Grand Prix of Monterey due to mechanical problems.",
+    "time": 14.978357076644897,
+    "answer_length": 127
+  },
+  {
+    "question": "Generate a description based on the following triples: (Jimmy Vasser, LAPS, 87) | ([TABLECONTEXT], DRIVERS, Jimmy Vasser) | ([TABLECONTEXT], [TITLE], 2003 Grand Prix of Monterey) | (Jimmy Vasser, TEAM, American Spirit Team Johansson)",
+    "answer": "During the 2003 Grand Prix of Monterey, Jimmy Vasser of American Spirit Team Johansson completed 87 laps.",
+    "expected_answer": "During the 2003 Grand Prix of Monterey, Jimmy Vasser drove 87 laps for American Spirit Team Johansson.",
+    "time": 8.943944931030273,
+    "answer_length": 105
+  },
+  {
+    "question": "Generate a description based on the following triples: (Adrian Fernández, NUMBER, 51) | (Adrian Fernández, TEAM, Fernández Racing) | (87, TIME/RETIRED, +1:01.4) | (Adrian Fernández, LAPS, 87)",
+    "answer": "Adrian Fernández (number 51) of Fernández Racing team completed 87 laps with a time difference of +1:01.4.",
+    "expected_answer": "Adrian Fernández (no. 51) of Fernández Racing team completed 87 laps by +1:01.4.",
+    "time": 9.706867933273315,
+    "answer_length": 106
+  },
+  {
+    "question": "Generate a description based on the following triples: (San Francisco de Macorís, ECCLESIASTICAL_PROVINCE, Santiago de los Caballeros) | (San Francisco de Macorís, TYPE, Diocese) | (San Francisco de Macorís, AREA_KM2, 3,682) | (San Francisco de Macorís, ESTABLISHED, 16 January 1978)",
+    "answer": "San Francisco de Macorís is a Diocese in the province of Santiago de los Caballeros that has an area of 3,682 km² and was established on 16 January 1978.",
+    "expected_answer": "San Francisco de Macorís is a Diocese in the province of Santiago de los Caballeros that has an area of 3,682 km-sq and was established on 16 January 1978.",
+    "time": 12.46662187576294,
+    "answer_length": 153
+  },
+  {
+    "question": "Generate a description based on the following triples: (San Pedro de Macorís, LATIN_NAME, Sancti Petri de Macoris)",
+    "answer": "San Pedro de Macorís's Latin name is Sancti Petri de Macoris.",
+    "expected_answer": "San Pedro de Macoris named in Latin as Sancti Petri de Macoris.",
+    "time": 6.133228778839111,
+    "answer_length": 61
+  },
+  {
+    "question": "Generate a description based on the following triples: (Nuestra Señora de la Altagracia en Higuey, LATIN_NAME, Higueyensis / a Domina Nostra vulgo de la Altagracia in Higuey) | (Nuestra Señora de la Altagracia en Higuey, ESTABLISHED, 1 April 1959) | (Nuestra Señora de la Altagracia en Higuey, ECCLESIASTICAL_PROVINCE, Santo Domingo)",
+    "answer": "Nuestra Señora de la Altagracia en Higuey has the Latin name Higueyensis / a Domina Nostra vulgo de la Altagracia in Higuey, was established on 1 April 1959, and belongs to the ecclesiastical province of Santo Domingo.",
+    "expected_answer": "The ecclesiastical Jurisdictions is Nuestra Señora de la Altagracia en Higüey. The Higueyensis / a Domina Nostra vulgo de la Altagracia in Higüey. The ecclesiastical Province is Santo Domingo. The Established is 1 April 1959 .",
+    "time": 9.544785022735596,
+    "answer_length": 218
+  },
+  {
+    "question": "Generate a description based on the following triples: (29, SCORE, 3 - 1) | (29, DATE, December 11)",
+    "answer": "The score of event 29 on December 11 was 3-1.",
+    "expected_answer": "The score of the game on December 11 was 3 - 1.",
+    "time": 12.679229021072388,
+    "answer_length": 45
+  },
+  {
+    "question": "Generate a description based on the following triples: (35, DATE, December 27) | (35, OPPONENT, Florida Panthers)",
+    "answer": "The opponent on December 27 was Florida Panthers.",
+    "expected_answer": "Florida panthers was the opponent on December 27.",
+    "time": 7.778742074966431,
+    "answer_length": 49
+  },
+  {
+    "question": "Generate a description based on the following triples: (Trisha, GENDER, Female) | (Trisha, STATUS, Winner)",
+    "answer": "Trisha, a female, is the winner.",
+    "expected_answer": "Trisha, a female, is the winner",
+    "time": 6.637509107589722,
+    "answer_length": 32
+  },
+  {
+    "question": "Generate a description based on the following triples: (London, AGE, 46)",
+    "answer": "London's age is 46.",
+    "expected_answer": "London's age is 46",
+    "time": 5.022258043289185,
+    "answer_length": 19
+  },
+  {
+    "question": "Generate a description based on the following triples: (Adria, FROM, Seattle, WA) | (Adria, AGE, 25) | (Adria, PROFESSION, Bartender)",
+    "answer": "Adria is a 25-year-old bartender from Seattle, WA.",
+    "expected_answer": "Adria is 25 year old bartender from Seattle, WA",
+    "time": 7.483012914657593,
+    "answer_length": 50
+  },
+  {
+    "question": "Generate a description based on the following triples: (Lucas, STATUS, 6th Captured (by Kim)) | (Lucas, GENDER, Male)",
+    "answer": "Lucas is a male who was the 6th captured by Kim.",
+    "expected_answer": "A male was the 6th captured (by Kim)",
+    "time": 7.60663104057312,
+    "answer_length": 48
+  },
+  {
+    "question": "Generate a description based on the following triples: (Andrew, FROM, Redondo Beach, CA)",
+    "answer": "Andrew is from Redondo Beach, CA.",
+    "expected_answer": "Contestant Andrew is from Redondo Beach, California.",
+    "time": 7.151202201843262,
+    "answer_length": 33
+  },
+  {
+    "question": "Generate a description based on the following triples: (Tracy, PRIZE_MONEY_(USD), $0) | (Tracy, PROFESSION, Student)",
+    "answer": "Tracy is a student who won $0 in prize money.",
+    "expected_answer": "Tracy is a student who won $0 in prize money",
+    "time": 5.5292840003967285,
+    "answer_length": 45
+  },
+  {
+    "question": "Generate a description based on the following triples: (Carmenta Farra, DIAMETER_(KM), 180.0) | (Carmenta Farra, LONGITUDE, 8.0E)",
+    "answer": "Carmenta Farra has a diameter of 180.0 km and a longitude of 8.0E.",
+    "expected_answer": "The diameter of the feature with longitude 8.0e is 180.0.",
+    "time": 6.623408079147339,
+    "answer_length": 66
+  },
+  {
+    "question": "Generate a description based on the following triples: (Liban Farra, LATITUDE, 23.9S)",
+    "answer": "Liban Farra is at latitude 23.9S.",
+    "expected_answer": "Liban farra is at latitude 23.9S.",
+    "time": 4.91280722618103,
+    "answer_length": 33
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], MIDWEST_DIVISION, Denver Nuggets) | (Denver Nuggets, WINS, 50) | ([TABLECONTEXT], [TITLE], 1976-77 NBA season) | (Denver Nuggets, L, 32)",
+    "answer": "In the 1976-77 NBA season, the Denver Nuggets of the Midwest Division won 50 games and lost 32.",
+    "expected_answer": "The Denver Nuggets won 50 and lost 32 games in the 1976-77 NBA season.",
+    "time": 8.416018724441528,
+    "answer_length": 95
+  },
+  {
+    "question": "Generate a description based on the following triples: (Chicago Bulls, PCT, .537) | ([TABLECONTEXT], [TITLE], 1976-77 NBA season) | ([TABLECONTEXT], MIDWEST_DIVISION, Chicago Bulls) | (Chicago Bulls, HOME, 31-10)",
+    "answer": "During the 1976-77 NBA season, the Chicago Bulls of the Midwest Division had a winning percentage of .537 and a home record of 31-10.",
+    "expected_answer": "The Chicago Bulls winning percentage was .537 and achieved 31-10 at home court in 1976-77.",
+    "time": 8.396552801132202,
+    "answer_length": 133
+  },
+  {
+    "question": "Generate a description based on the following triples: (Kansas City Kings, DIV, 7-13) | (Kansas City Kings, GB, 10) | ([TABLECONTEXT], [TITLE], 1976-77 NBA season) | ([TABLECONTEXT], MIDWEST_DIVISION, Kansas City Kings)",
+    "answer": "In the 1976-77 NBA season, the Kansas City Kings (a Midwest Division team) had a division record of 7-13 and finished 10 games behind the leading team.",
+    "expected_answer": "Kansas City Kings was 10 games behind the leading team and finished the season 7-13 playing against teams in the Midwest Division in 1976-77.",
+    "time": 11.26264214515686,
+    "answer_length": 151
+  },
+  {
+    "question": "Generate a description based on the following triples: (Indiana Pacers, WINS, 36) | (Indiana Pacers, PCT, .439)",
+    "answer": "The Indiana Pacers won 36 games and had a PCT of .439.",
+    "expected_answer": "The Pacers won 36 of their games, which amounts to only .439 for their PCT.",
+    "time": 6.659488916397095,
+    "answer_length": 54
+  },
+  {
+    "question": "Generate a description based on the following triples: (Milwaukee Bucks, ROAD, 6-35) | (Milwaukee Bucks, HOME, 24-17)",
+    "answer": "The Milwaukee Bucks have a road record of 6-35 and a home record of 24-17.",
+    "expected_answer": "Milwaukee performed drastically worse on the road with 6-35 compared to their 24-17 when having home court advantage.",
+    "time": 6.203122138977051,
+    "answer_length": 74
+  },
+  {
+    "question": "Generate a description based on the following triples: (Reed, LAND_(_SQMI_), 20.261)",
+    "answer": "Reed has a land area of 20.261 sqmi.",
+    "expected_answer": "The land area of Reed Township is 20.261 sqmi",
+    "time": 6.185734272003174,
+    "answer_length": 36
+  },
+  {
+    "question": "Generate a description based on the following triples: (Rich, POP._(2010), 64) | (Rich, LAND_(_SQMI_), 36.098)",
+    "answer": "Rich had a population of 64 in 2010 and a land area of 36.098 square miles.",
+    "expected_answer": "Rich town is home to 64 people in its 36.098 square miles.",
+    "time": 14.250449895858765,
+    "answer_length": 75
+  },
+  {
+    "question": "Generate a description based on the following triples: (Rifle, LONGITUDE, -102.602182) | (Rifle, LATITUDE, 46.580715) | (Rifle, COUNTY, Hettinger)",
+    "answer": "Rifle is located at latitude 46.580715 and longitude -102.602182 in Hettinger county.",
+    "expected_answer": "The coordinates 46.580715,-102.602182  are in Hettinger county.",
+    "time": 6.167025327682495,
+    "answer_length": 85
+  },
+  {
+    "question": "Generate a description based on the following triples: (Rochester, COUNTY, Cass) | (Rochester, ANSI_CODE, 1036399)",
+    "answer": "Rochester is in Cass County and has an ANSI code of 1036399.",
+    "expected_answer": "1036399 ANSI code is in Cass county.",
+    "time": 8.436400175094604,
+    "answer_length": 60
+  },
+  {
+    "question": "Generate a description based on the following triples: (Rosendal, LAND_(_SQMI_), 34.781)",
+    "answer": "Rosendal has a land area of 34.781 sqmi.",
+    "expected_answer": "The land area of rosendal is 34.781 sqmi",
+    "time": 5.344526052474976,
+    "answer_length": 40
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], PARTY, Australian Labor Party) | (Australian Labor Party, PERCENT, 51.52) | (Australian Labor Party, VOTES, 324,135) | ([TABLECONTEXT], [TITLE], South Australian state election, 1973)",
+    "answer": "In the 1973 South Australian state election, the Australian Labor Party got 324,135 votes, accounting for 51.52%.",
+    "expected_answer": "In the 1973 South Australian state election, the Australian labor party got 324,135 votes, or 51.52%.",
+    "time": 7.037171125411987,
+    "answer_length": 113
+  },
+  {
+    "question": "Generate a description based on the following triples: (Liberal and Country League, CHANGE, 0) | (Liberal and Country League, SEATS, 20) | (Liberal and Country League, SWING, -3.97) | ([TABLECONTEXT], PARTY, Liberal and Country League) | ([TABLECONTEXT], [TITLE], South Australian state election, 1973)",
+    "answer": "In the 1973 South Australian state election, the Liberal and Country League had 20 seats, a swing of -3.97, and a change of 0.",
+    "expected_answer": "During the 1973 South Australian state election, the Liberal and Country League had a swing of -3.97, 20 seats, and a change of 0.",
+    "time": 8.016819953918457,
+    "answer_length": 126
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], PARTY, Nationals SA) | (Nationals SA, CHANGE, +1) | (Nationals SA, PERCENT, 3.94) | ([TABLECONTEXT], [TITLE], South Australian state election, 1973) | (Nationals SA, VOTES, 24,810)",
+    "answer": "In the 1973 South Australian state election, Nationals SA received 24,810 votes, accounting for 3.94% of the votes, with a change of +1.",
+    "expected_answer": "Nationals SA got 24,810, or 3.94%, in the 1973 South Australian state election, for a change of +1.",
+    "time": 1542.5988321304321,
+    "answer_length": 136
+  },
+  {
+    "question": "Generate a description based on the following triples: (Independent, SWING, +2.86) | ([TABLECONTEXT], PARTY, Independent) | (Independent, VOTES, 27,178) | ([TABLECONTEXT], [TITLE], South Australian state election, 1973)",
+    "answer": "In the 1973 South Australian state election, Independents received 27,178 votes with a swing of +2.86.",
+    "expected_answer": "Independents got 27,178 votes in the 1973 South Australian state election, with a swing of +2.86.",
+    "time": 8.291685819625854,
+    "answer_length": 102
+  },
+  {
+    "question": "Generate a description based on the following triples: (Other, CHANGE, 0) | ([TABLECONTEXT], [TITLE], South Australian state election, 1973) | (Other, SEATS, 0) | ([TABLECONTEXT], PARTY, Other)",
+    "answer": "In the 1973 South Australian state election, the Other party obtained 0 seats and had a change of 0.",
+    "expected_answer": "Other candidates had 0 seats and a change of zero in the 1973 South Australian state election.",
+    "time": 10.852474927902222,
+    "answer_length": 100
+  },
+  {
+    "question": "Generate a description based on the following triples: (New York 9, INCUMBENT, Charles Schumer) | (New York 9, CANDIDATES, Anthony Weiner (D) 66% Leslie Telano (R) 24%) | (Charles Schumer, FIRST_ELECTED, 1980)",
+    "answer": "Charles Schumer is the incumbent for New York 9 and was first elected in 1980. The candidates for New York 9 are Anthony Weiner (D) 66% and Leslie Telano (R) 24%.",
+    "expected_answer": "The candidates in the district that first elected in 1980 were anthony weiner (d) 66% leslie telano (r) 24%.",
+    "time": 10.34199595451355,
+    "answer_length": 162
+  },
+  {
+    "question": "Generate a description based on the following triples: (Ed Towns, FIRST_ELECTED, 1982)",
+    "answer": "Ed Towns was first elected in 1982.",
+    "expected_answer": "The first elected year of the district that Ed Towns is an incumbent of's 1982.",
+    "time": 4.428236722946167,
+    "answer_length": 35
+  },
+  {
+    "question": "Generate a description based on the following triples: (Jose Serrano, PARTY, Democratic) | (Jose Serrano, FIRST_ELECTED, 1990)",
+    "answer": "Jose Serrano is a member of the Democratic Party and was first elected in 1990.",
+    "expected_answer": "The party elected in the district that first elected in 1990's democratic.",
+    "time": 6.330880165100098,
+    "answer_length": 79
+  },
+  {
+    "question": "Generate a description based on the following triples: (John McHugh, PARTY, Republican)",
+    "answer": "John McHugh is a member of the Republican Party.",
+    "expected_answer": "John McHugh is a member of republican.",
+    "time": 3.877959966659546,
+    "answer_length": 48
+  },
+  {
+    "question": "Generate a description based on the following triples: (LS ( Leading Seaman ), MECHANICAL, LME) | (LS ( Leading Seaman ), REGULATING, LPM)",
+    "answer": "Leading Seaman (LS) has a mechanical relation with LME and a regulating relation with LPM.",
+    "expected_answer": "LME comes with LPM regulation.",
+    "time": 11.28555703163147,
+    "answer_length": 90
+  },
+  {
+    "question": "Generate a description based on the following triples: (LS ( Leading Seaman ), REGULATING, LPM) | (LS ( Leading Seaman ), RADIO_ELECTRICAL, LREN)",
+    "answer": "Leading Seaman (LS) regulates LPM and handles radio electrical matters related to LREN.",
+    "expected_answer": "LPM regulattopm comes with radio electrical IREN.",
+    "time": 9.132659912109375,
+    "answer_length": 87
+  },
+  {
+    "question": "Generate a description based on the following triples: (15-01, EPISODE, 183) | (15-01, SEGMENT_D, High-Performance Engines)",
+    "answer": "15-01 refers to episode 183, whose Segment D is High-Performance Engines.",
+    "expected_answer": "Segment D for episode 183 was high-performance engines.",
+    "time": 12.678622961044312,
+    "answer_length": 73
+  },
+  {
+    "question": "Generate a description based on the following triples: (15-06, SEGMENT_D, Luxury Sports Cars) | (15-06, SEGMENT_A, s Pipe)",
+    "answer": "For 15-06, Segment D is Luxury Sports Cars and Segment A is s Pipe.",
+    "expected_answer": "When Segment D was luxury sports cars, segment A was s pipe.",
+    "time": 5.338701009750366,
+    "answer_length": 67
+  },
+  {
+    "question": "Generate a description based on the following triples: (12, TEAM, charlotte) | (12, SCORE, w 88-83 (ot))",
+    "answer": "Entity 12 has team Charlotte and score w 88–83 (ot).",
+    "expected_answer": "The scores made by Charlotte team are w 88–83 (ot)",
+    "time": 9.696124076843262,
+    "answer_length": 52
+  },
+  {
+    "question": "Generate a description based on the following triples: (6, HIGH_REBOUNDS, al horford (17)) | (6, HIGH_ASSISTS, joe johnson (8))",
+    "answer": "For event 6, Al Horford (17) had the highest rebounds and Joe Johnson (8) had the highest assists.",
+    "expected_answer": "Joe johnson (8) made highest assists when high rebounds was Al Horford (17)",
+    "time": 7.1805689334869385,
+    "answer_length": 98
+  },
+  {
+    "question": "Generate a description based on the following triples: (Georgian, FRIDAY_DAY_SIX, პარასკევი p'arask'evi) | (Georgian, THURSDAY_DAY_FIVE, ხუთშაბათი xutšabati)",
+    "answer": "In Georgian, the term for Friday (day six) is პარასკევი p'arask'evi and the term for Thursday (day five) is ხუთშაბათი xutšabati.",
+    "expected_answer": "Thursday day five when friday day six is პარასკევი p'arask'evi is ხუთშაბათი xutšabati.",
+    "time": 6.8486809730529785,
+    "answer_length": 128
+  },
+  {
+    "question": "Generate a description based on the following triples: (Amharic, SATURDAY_DAY_SEVEN, ቅዳሜ ḳədame (First)) | (Amharic, THURSDAY_DAY_FIVE, ሐሙስ hamus)",
+    "answer": "In Amharic, the term for Saturday (day seven) is ቅዳሜ ḳədame (First), and the term for Thursday (day five) is ሐሙስ hamus.",
+    "expected_answer": "Saturday day seven when thursday day five is ሐሙስ hamus is ቅዳሜ ḳədame (first.",
+    "time": 6.041559219360352,
+    "answer_length": 119
+  },
+  {
+    "question": "Generate a description based on the following triples: (Malay, FRIDAY_DAY_SIX, Jumaat [♀4 ]) | (Malay, MONDAY_DAY_TWO, Isnin)",
+    "answer": "In Malay, FRIDAY_DAY_SIX is Jumaat [♀4] and MONDAY_DAY_TWO is Isnin.",
+    "expected_answer": "Friday day six when monday day two is isnin is jumaat [♀ 4.",
+    "time": 6.732635259628296,
+    "answer_length": 68
+  },
+  {
+    "question": "Generate a description based on the following triples: (Indonesian, TUESDAY_DAY_THREE, Selasa) | (Indonesian, THURSDAY_DAY_FIVE, Kamis)",
+    "answer": "In Indonesian, Tuesday (day three) is Selasa and Thursday (day five) is Kamis.",
+    "expected_answer": "Tuesday day three when thursday day five is kamis is selasa.",
+    "time": 8.1663179397583,
+    "answer_length": 78
+  },
+  {
+    "question": "Generate a description based on the following triples: (Khowar, THURSDAY_DAY_FIVE, پچھمبے pachhambey) | (Khowar, FRIDAY_DAY_SIX, آدینہ [♀3 ] adina)",
+    "answer": "In Khowar, THURSDAY_DAY_FIVE is referred to as پچھمبے pachhambey and FRIDAY_DAY_SIX is referred to as آدینہ [♀3] adina.",
+    "expected_answer": "Friday day six when thursday day five is پچھمبے pachhambey is آدینہ [♀3] adina.",
+    "time": 6.124644994735718,
+    "answer_length": 119
+  },
+  {
+    "question": "Generate a description based on the following triples: (Lamar, POVERTY_RATE, 16.1%) | (Lamar, MARKET_INCOME_PER_CAPITA, $16,420)",
+    "answer": "Lamar has a market income per capita of $16,420 and a poverty rate of 16.1%.",
+    "expected_answer": "The poverty rate in the county that has a market income per capita of $16,420 is 16.1%.",
+    "time": 7.1340248584747314,
+    "answer_length": 76
+  },
+  {
+    "question": "Generate a description based on the following triples: (Marshall, STATUS, Transitional) | (Marshall, POVERTY_RATE, 14.7%)",
+    "answer": "Marshall has a poverty rate of 14.7% and its status is transitional.",
+    "expected_answer": "The status of the county that has a 14.7% poverty rate is transitional.",
+    "time": 4.098359107971191,
+    "answer_length": 68
+  },
+  {
+    "question": "Generate a description based on the following triples: (Tallapoosa, POVERTY_RATE, 16.6%) | (Tallapoosa, MARKET_INCOME_PER_CAPITA, $20,518)",
+    "answer": "Tallapoosa has a poverty rate of 16.6% and a market income per capita of $20,518.",
+    "expected_answer": "The povery rate of the county with market income per capita of $20,518 is 16.6%.",
+    "time": 7.06419038772583,
+    "answer_length": 81
+  },
+  {
+    "question": "Generate a description based on the following triples: (Фермата Farma, MAIN_PRESENTERS, TBA (Season 1)) | (Фермата Farma, REGION/COUNTRY, Bulgaria)",
+    "answer": "Фермата Farma is from Bulgaria, and its main presenter for Season 1 is TBA.",
+    "expected_answer": "The main presenter for Bulgaria is TBA (season 1).",
+    "time": 10.501990795135498,
+    "answer_length": 75
+  },
+  {
+    "question": "Generate a description based on the following triples: (La Granja, MAIN_PRESENTERS, Sergio Lagos (Season 1-3))",
+    "answer": "Sergio Lagos is the main presenter of La Granja for seasons 1 to 3.",
+    "expected_answer": "The main presenter of La Granja is Sergio Lagos (season 1 - 3).",
+    "time": 6.04957914352417,
+    "answer_length": 67
+  },
+  {
+    "question": "Generate a description based on the following triples: (BP6 / DT1, OPENING, 6 November 1999) | (BP6 / DT1, STATION_NAME_TAMIL, புக்கிட் பாஞ்சாங்) | (BP6 / DT1, STATION_NAME_ENGLISH, Bukit Panjang)",
+    "answer": "Bukit Panjang station (BP6/DT1) has the Tamil name புக்கிட் பாஞ்சாங் and opened on 6 November 1999.",
+    "expected_answer": "Bukit Panjang station, Tamil name புக்கிட் பாஞ்சாங், opened on 6 November 1999.",
+    "time": 8.913400888442993,
+    "answer_length": 99
+  },
+  {
+    "question": "Generate a description based on the following triples: (BP14, STATION_NAME_CHINESE, 十里广场) | (BP14, STATION_NAME_ENGLISH, Ten Mile Junction)",
+    "answer": "The alpha-numeric code BP14 refers to Ten Mile Junction station (Chinese name: 十里广场).",
+    "expected_answer": "The alpha-numeric code for Ten Mile Junction station (Chinese name: 十里广场) is BP14.",
+    "time": 6.895795822143555,
+    "answer_length": 85
+  },
+  {
+    "question": "Generate a description based on the following triples: (SE2, STATION_NAME_ENGLISH, Rumbia) | (SE2, OPENING, 18 January 2003)",
+    "answer": "Rumbia (station code SE2) opened on 18 January 2003.",
+    "expected_answer": "Rumbia, station code SE2, opened on Jan 18th 2003.",
+    "time": 6.013345956802368,
+    "answer_length": 52
+  },
+  {
+    "question": "Generate a description based on the following triples: (PTC / NE17, OPENING, 29 January 2005) | (PTC / NE17, STATION_NAME_ENGLISH, Punggol)",
+    "answer": "Punggol station (code PTC/NE17) opened on 29 January 2005.",
+    "expected_answer": "Punggol, station code PTC / NE17, started operation on 29 January 2005.",
+    "time": 6.883539915084839,
+    "answer_length": 58
+  },
+  {
+    "question": "Generate a description based on the following triples: (PW5, STATION_NAME_ENGLISH, Nibong) | ([TABLECONTEXT], ALPHA-NUMERIC_CODE, PW5) | (PW5, OPENING, TBA) | ([TABLECONTEXT], [TITLE], List of Singapore LRT stations)",
+    "answer": "In the List of Singapore LRT stations, the station with alpha-numeric code PW5 has the English name Nibong and its opening is TBA.",
+    "expected_answer": "Singapore's new LRT station PW5, Nibong, is yet to be opened for operation.",
+    "time": 11.519062042236328,
+    "answer_length": 130
+  },
+  {
+    "question": "Generate a description based on the following triples: (Baník Ostrava (1), THIRD_PLACE, Sigma Olomouc)",
+    "answer": "Sigma Olomouc was in third place when Baník Ostrava (1) was the champion.",
+    "expected_answer": "Sigma olomouc had third place when the champions is baník ostrava (1).",
+    "time": 10.464915990829468,
+    "answer_length": 73
+  },
+  {
+    "question": "Generate a description based on the following triples: (Louisiana 3, CANDIDATES, Dave Treen (R) Unopposed) | (Louisiana 3, INCUMBENT, Dave Treen)",
+    "answer": "For Louisiana 3, the incumbent is Dave Treen and the candidate is Dave Treen (R) Unopposed.",
+    "expected_answer": "Dave treen (r) unopposed ran against Dave Treen.",
+    "time": 10.020275831222534,
+    "answer_length": 91
+  },
+  {
+    "question": "Generate a description based on the following triples: (Louisiana 3, INCUMBENT, Dave Treen)",
+    "answer": "Dave Treen is the incumbent of Louisiana 3.",
+    "expected_answer": "Dave Treen served louisiana.",
+    "time": 9.147502183914185,
+    "answer_length": 43
+  },
+  {
+    "question": "Generate a description based on the following triples: (Jerry Huckaby, PARTY, Democratic) | (Jerry Huckaby, FIRST_ELECTED, 1976) | (Louisiana 5, RESULT, Re-elected) | (Louisiana 5, INCUMBENT, Jerry Huckaby) | (Louisiana 5, CANDIDATES, Jerry Huckaby (D) Unopposed)",
+    "answer": "For Louisiana 5, the incumbent was Jerry Huckaby (Democratic), who was first elected in 1976. The result was re-elected, with Jerry Huckaby (D) as the unopposed candidate.",
+    "expected_answer": "Jerry Huckaby was first elected in 1976.0.",
+    "time": 12.56337308883667,
+    "answer_length": 171
+  },
+  {
+    "question": "Generate a description based on the following triples: (Ferruccio Busoni, DIED, 1924)",
+    "answer": "Ferruccio Busoni died in 1924.",
+    "expected_answer": "Ferruccio Busoni died in 1924.",
+    "time": 3.32389497756958,
+    "answer_length": 30
+  },
+  {
+    "question": "Generate a description based on the following triples: (Baiti, FORMER_NAME, Beidi) | (Baiti, POPULATION_(2005), 572)",
+    "answer": "Baiti's former name was Beidi, and it had a population of 572 in 2005.",
+    "expected_answer": "With the population in 2005 of 572, the former name is beidi.",
+    "time": 8.192469835281372,
+    "answer_length": 70
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], [TITLE], Charlotte Eagles Year-by-year) | ([TABLECONTEXT], YEAR, 1998) | (1998, PLAYOFFS, Quarterfinals)",
+    "answer": "Charlotte Eagles entered the quarterfinals in the playoffs in 1998.",
+    "expected_answer": "Charlotte Eagles entered quaterfinals in Playoffs in 1998",
+    "time": 7.220613718032837,
+    "answer_length": 67
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], YEAR, 2003) | ([TABLECONTEXT], [TITLE], Charlotte Eagles Year-by-year) | (2003, OPEN_CUP, Did not qualify)",
+    "answer": "Charlotte Eagles Year-by-year table entry for 2003 states that they did not qualify for the Open Cup.",
+    "expected_answer": "Charlotte Eagles didn't qualify for the Open Cup in 2003",
+    "time": 18.29447031021118,
+    "answer_length": 101
+  },
+  {
+    "question": "Generate a description based on the following triples: (Fylkir, PLAYED, 18) | (Fylkir, DRAW, 6) | (Fylkir, LOST, 3) | (Fylkir, POSITION, 2)",
+    "answer": "Fylkir played 18 games, drew 6, lost 3, and finished in position 2.",
+    "expected_answer": "Team Fylikir gained 33 points in 1988.",
+    "time": 6.019863128662109,
+    "answer_length": 67
+  },
+  {
+    "question": "Generate a description based on the following triples: (Selfoss, LOST, 7) | (Selfoss, POSITION, 5) | (Selfoss, WON, 7)",
+    "answer": "Selfoss was in 5th position with 7 wins and 7 losses.",
+    "expected_answer": "In 1988 Dield Karla was part of the Selfoss team in 5th position, with 7 wins and 7 losses.",
+    "time": 6.862750053405762,
+    "answer_length": 53
+  },
+  {
+    "question": "Generate a description based on the following triples: (ÍBV, WON, 6) | (ÍBV, LOST, 10) | (ÍBV, POINTS, 20)",
+    "answer": "Team ÍBV won 6 matches, lost 10 matches, and has 20 points.",
+    "expected_answer": "Team ÍBV won 6 matches and lose 10 matches their point is 20.",
+    "time": 5.329192876815796,
+    "answer_length": 59
+  },
+  {
+    "question": "Generate a description based on the following triples: (ÍR, POSITION, 4)",
+    "answer": "The ÍR team ranked 4th position.",
+    "expected_answer": "The ÍR team ranked the 4th position",
+    "time": 16.584278106689453,
+    "answer_length": 32
+  },
+  {
+    "question": "Generate a description based on the following triples: (9, PROD._CODE, 10) | (9, DIRECTED_BY, terry hughes)",
+    "answer": "The episode with production code 10 was directed by Terry Hughes.",
+    "expected_answer": "Terry hughes directed the episode with the production code 10.",
+    "time": 7.292462110519409,
+    "answer_length": 65
+  },
+  {
+    "question": "Generate a description based on the following triples: (5, PROD._CODE, 2) | (5, WRITTEN_BY, michelle j. wolff)",
+    "answer": "The episode with production code 2 was written by Michelle J. Wolff.",
+    "expected_answer": "Michelle j. wolff wrote the episode with production code 2.",
+    "time": 19.290441036224365,
+    "answer_length": 68
+  },
+  {
+    "question": "Generate a description based on the following triples: (3, WRITTEN_BY, craig hoffman) | (3, PROD._CODE, 5)",
+    "answer": "Episode 3 was written by Craig Hoffman and has a production code of 5.",
+    "expected_answer": "Craig hoffman wrote the episode with production code 5.",
+    "time": 7.792027950286865,
+    "answer_length": 70
+  },
+  {
+    "question": "Generate a description based on the following triples: (MetroStars, OVERALL_RECORD, 11-12-7) | ([TABLECONTEXT], [TITLE], Goal-Scoring Totals for the 2004 Major League Soccer season) | ([TABLECONTEXT], CLUB, MetroStars)",
+    "answer": "The table titled Goal-Scoring Totals for the 2004 Major League Soccer season includes the club MetroStars, which has an overall record of 11-12-7.",
+    "expected_answer": "The overall recrod  of MetroStars is 11-12-7 in the 2004 Major League Soccer season",
+    "time": 8.762684106826782,
+    "answer_length": 146
+  },
+  {
+    "question": "Generate a description based on the following triples: (D.C. United, GOALS_FOR, 43) | ([TABLECONTEXT], CLUB, D.C. United) | ([TABLECONTEXT], [TITLE], Goal-Scoring Totals for the 2004 Major League Soccer season)",
+    "answer": "The Goal-Scoring Totals for the 2004 Major League Soccer season table shows that D.C. United scored 43 goals.",
+    "expected_answer": "D.C. United scored 43 goals in the 2004 Major League Soccer seaon",
+    "time": 9.02333402633667,
+    "answer_length": 109
+  },
+  {
+    "question": "Generate a description based on the following triples: (42, GOALS_FOR_AVG., 1.40 (3rd)) | ([TABLECONTEXT], CLUB, Los Angeles Galaxy) | (Los Angeles Galaxy, GOALS_FOR, 42) | ([TABLECONTEXT], [TITLE], Goal-Scoring Totals for the 2004 Major League Soccer season)",
+    "answer": "In the Goal-Scoring Totals for the 2004 Major League Soccer season, Los Angeles Galaxy had 42 goals for, with an average of 1.40 goals per game which ranked 3rd.",
+    "expected_answer": "Los Angeles Galaxy scored 1.40 goals per game in 2004 Major League Soccer season",
+    "time": 11.985656023025513,
+    "answer_length": 161
+  },
+  {
+    "question": "Generate a description based on the following triples: (New England Revolution, GOALS_AGAINST, 43) | ([TABLECONTEXT], CLUB, New England Revolution) | ([TABLECONTEXT], [TITLE], Goal-Scoring Totals for the 2004 Major League Soccer season)",
+    "answer": "The Goal-Scoring Totals for the 2004 Major League Soccer season shows that the club New England Revolution had 43 goals against.",
+    "expected_answer": "New England Revolution lost 43 goals in the 2004 Major League Soccer season",
+    "time": 18.139394760131836,
+    "answer_length": 128
+  },
+  {
+    "question": "Generate a description based on the following triples: (San Jose Earthquakes, GOALS_AGAINST, 35) | ([TABLECONTEXT], [TITLE], Goal-Scoring Totals for the 2004 Major League Soccer season) | (35, GOALS_AGAINST_AVG., 1.17 (4th)) | ([TABLECONTEXT], CLUB, San Jose Earthquakes)",
+    "answer": "In the Goal-Scoring Totals for the 2004 Major League Soccer season table, the San Jose Earthquakes had 35 goals against them, resulting in a goals against average of 1.17 (ranking 4th).",
+    "expected_answer": "San Jose Earthquakes lost 1.17 goals per game in the 2004 Major League Soccer season",
+    "time": 11.454610109329224,
+    "answer_length": 185
+  },
+  {
+    "question": "Generate a description based on the following triples: (Dallas Burn, OVERALL_RECORD, 10-14-6)",
+    "answer": "The Dallas Burn has an overall record of 10-14-6.",
+    "expected_answer": "The Dallas Burn club had an overall record of 10-14-6.",
+    "time": 5.3275229930877686,
+    "answer_length": 49
+  },
+  {
+    "question": "Generate a description based on the following triples: (5, CABLE_RANK, 17) | (5, AIRDATE, 22 April 2010)",
+    "answer": "Episode 5 had a cable rank of 17 and aired on 22 April 2010.",
+    "expected_answer": "22 april 2010 the episode air that had a ranking of 17 for cable.",
+    "time": 6.150856971740723,
+    "answer_length": 60
+  },
+  {
+    "question": "Generate a description based on the following triples: (1945-46, CONF., 0-4) | (1945-46, OVERALL, 3-7) | (1945-46, COACH, Henry Swasey)",
+    "answer": "During the 1945-46 season, the team had a 0-4 conference record, a 3-7 overall record, and was coached by Henry Swasey.",
+    "expected_answer": "The New Hampshire Wildcats Basketball team is the basketball team that represent the University of New Hampshire in Durham",
+    "time": 6.31650710105896,
+    "answer_length": 119
+  },
+  {
+    "question": "Generate a description based on the following triples: (1946-47, OVERALL, 6-11) | (1946-47, CONF., 0-5)",
+    "answer": "During the 1946-47 season, the team had an overall record of 6-11 and a conference record of 0-5.",
+    "expected_answer": "The team went 0-5 in conference games, and finished 6-11 overall during the 1946-47 season.",
+    "time": 5.528601884841919,
+    "answer_length": 97
+  },
+  {
+    "question": "Generate a description based on the following triples: (2001(Bulldogs), GOALS, 1)",
+    "answer": "The Bulldogs scored 1 goal in 2001.",
+    "expected_answer": "The Bulldogs scored 1 goal in 2001.",
+    "time": 5.457386016845703,
+    "answer_length": 35
+  },
+  {
+    "question": "Generate a description based on the following triples: (2003(Bulldogs), POINTS, 34)",
+    "answer": "In 2003, the Bulldogs scored 34 points.",
+    "expected_answer": "The Bulldogs scored 34 points in 2003",
+    "time": 4.192223072052002,
+    "answer_length": 39
+  },
+  {
+    "question": "Generate a description based on the following triples: (2006(Roosters), POINTS, 0)",
+    "answer": "The Roosters scored 0 points in 2006.",
+    "expected_answer": "The Roosters scored 0 points in 2006.",
+    "time": 3.583904981613159,
+    "answer_length": 37
+  },
+  {
+    "question": "Generate a description based on the following triples: (2013(Tigers), POINTS, 12)",
+    "answer": "The Tigers scored 12 points in 2013.",
+    "expected_answer": "The Tigers played in 2013 and scored 12 points.",
+    "time": 3.6844661235809326,
+    "answer_length": 36
+  },
+  {
+    "question": "Generate a description based on the following triples: (2012(Roosters), POINTS, 140) | (2012(Roosters), GOALS, 62)",
+    "answer": "The Roosters scored 62 goals and 140 points in the 2012 season.",
+    "expected_answer": "The Roosters scored 62 goals and 140 points in the 2012 season.",
+    "time": 5.366564035415649,
+    "answer_length": 63
+  },
+  {
+    "question": "Generate a description based on the following triples: (203, FIRST_FLEW, 31 January 1975) | (203, REGISTRATION, F-BTSC)",
+    "answer": "The aircraft with registration F-BTSC first flew on 31 January 1975.",
+    "expected_answer": "The registration located on 31 january 1975 where first flew is f - btsc.",
+    "time": 6.089393138885498,
+    "answer_length": 68
+  },
+  {
+    "question": "Generate a description based on the following triples: (Liam Buchanan, TOTAL, 14) | (14, LEAGUE, 11)",
+    "answer": "Liam Buchanan has a total of 14 goals, with 11 of them in the league.",
+    "expected_answer": "Liam Buchanan scored 11 goals in the League",
+    "time": 6.8743979930877686,
+    "answer_length": 69
+  },
+  {
+    "question": "Generate a description based on the following triples: (Mark Roberts, TOTAL, 6) | (6, SCOTTISH_CUP, 1)",
+    "answer": "Mark Roberts scored a total of 6 goals, with 1 of them in the Scottish Cup.",
+    "expected_answer": "Mark Roberts scored 1 goal in the Scottish Cup",
+    "time": 11.215719938278198,
+    "answer_length": 75
+  },
+  {
+    "question": "Generate a description based on the following triples: (Scott Chaplain, TOTAL, 5)",
+    "answer": "Scott Chaplain scored a total of 5 goals.",
+    "expected_answer": "Scott Chaplain scored 5 goals in total",
+    "time": 9.617668151855469,
+    "answer_length": 41
+  },
+  {
+    "question": "Generate a description based on the following triples: (Gary Harkins, TOTAL, 3) | (3, LEAGUE_CUP, 1)",
+    "answer": "Gary Harkins has a total of 3, and this 3 is associated with 1 in the League Cup.",
+    "expected_answer": "Gary Harkins scored 1 goal in the League Cup",
+    "time": 18.823203086853027,
+    "answer_length": 81
+  },
+  {
+    "question": "Generate a description based on the following triples: (Paul Di Giacomo, TOTAL, 2) | (2, CHALLENGE_CUP, 1)",
+    "answer": "Paul Di Giacomo has 2 total goals, 1 of which are in the Challenge Cup.",
+    "expected_answer": "Paul Di Giacomo scored 1 goal in the Challenge Cup",
+    "time": 13.694051027297974,
+    "answer_length": 71
+  },
+  {
+    "question": "Generate a description based on the following triples: (Uladzimir Kazlou, POSITION, 7th) | (Uladzimir Kazlou, COMPETITION, European U23 Championships) | (European U23 Championships, YEAR, 2005)",
+    "answer": "Uladzimir Kazlou finished 7th in the 2005 European U23 Championships.",
+    "expected_answer": "Uladzimir Kazlou finished 7th in the 2005 European U23 championships.",
+    "time": 6.500080108642578,
+    "answer_length": 69
+  },
+  {
+    "question": "Generate a description based on the following triples: (Universiade, YEAR, 2009) | (Universiade, NOTES, 78.29 m) | (Universiade, VENUE, Belgrade, Serbia) | (Uladzimir Kazlou, COMPETITION, Universiade)",
+    "answer": "Uladzimir Kazlou got 78.29 m at the 2009 Universiade in Belgrade, Serbia.",
+    "expected_answer": "Uladzimir Kazlou got 78.29 m at the 2009 Universiade in Belgrade, Serbia.",
+    "time": 13.161375045776367,
+    "answer_length": 73
+  },
+  {
+    "question": "Generate a description based on the following triples: (Uladzimir Kazlou, COMPETITION, Olympic Games) | (Uladzimir Kazlou, POSITION, 15th (q)) | (Olympic Games, VENUE, London, United Kingdom) | (Olympic Games, YEAR, 2012)",
+    "answer": "Uladzimir Kazlou finished in 15th place at the 2012 Olympic Games held in London, United Kingdom.",
+    "expected_answer": "Uladzimir Kazlou finshed in 15th place at the London Olympics.",
+    "time": 8.701030254364014,
+    "answer_length": 97
+  },
+  {
+    "question": "Generate a description based on the following triples: (49, DATE, february 6) | (49, HIGH_POINTS, dwight howard (21))",
+    "answer": "On February 6, Dwight Howard (21) had the high points.",
+    "expected_answer": "Dwight howard (21) had the high points on February 6.",
+    "time": 7.777087926864624,
+    "answer_length": 54
+  },
+  {
+    "question": "Generate a description based on the following triples: (hubris, DIRECTED_BY, timothy van patten) | (hubris, ORIGINAL_AIR_DATE, march 27, 1997)",
+    "answer": "The episode Hubris was directed by Timothy van Patten and originally aired on March 27, 1997.",
+    "expected_answer": "The original air date of the episode directed by Timothy van Patten is March 27, 1997.",
+    "time": 9.513630867004395,
+    "answer_length": 93
+  },
+  {
+    "question": "Generate a description based on the following triples: (no place like hell, ORIGINAL_AIR_DATE, may 8, 1997)",
+    "answer": "The original air date of the episode \"No Place Like Hell\" is May 8, 1997.",
+    "expected_answer": "The original air date for the episode \"No Place Like Hell\" is May 8, 1997.",
+    "time": 5.287017822265625,
+    "answer_length": 73
+  },
+  {
+    "question": "Generate a description based on the following triples: (school's out, ORIGINAL_AIR_DATE, february 6, 1997)",
+    "answer": "The episode \"School's Out\" was originally aired on February 6, 1997.",
+    "expected_answer": "The episode \"School's Out\" was originally aired on February 6, 1997.",
+    "time": 5.73523211479187,
+    "answer_length": 68
+  },
+  {
+    "question": "Generate a description based on the following triples: (Tamil, SUNDAY_SURYA_(THE_SUN), ஞாயிற்று கிழமை Nyāyitru kizhamai)",
+    "answer": "In Tamil, Sunday (associated with Surya, the Sun) is called ஞாயிற்று கிழமை (Nyāyitru kizhamai).",
+    "expected_answer": "Nyāyitru kizhamai is the word for Sunday in Tamil",
+    "time": 13.569454193115234,
+    "answer_length": 95
+  },
+  {
+    "question": "Generate a description based on the following triples: (Tamil, SATURDAY_SHANI_(SATURN), சனிக் கிழமை Shani kizhamai) | (Tamil, SUNDAY_SURYA_(THE_SUN), ஞாயிற்று கிழமை Nyāyitru kizhamai)",
+    "answer": "In Tamil, the name for Saturday associated with Shani (Saturn) is சனிக் கிழமை (Shani kizhamai), and the name for Sunday associated with Surya (the Sun) is ஞாயிற்று கிழமை (Nyāyitru kizhamai).",
+    "expected_answer": "In Tamil, Sunday is ஞாயிற்று கிழமை or nyāyitru kizhamai, while Saturday is சனிக் கிழமை or shani kizhamai.",
+    "time": 11.420070886611938,
+    "answer_length": 190
+  },
+  {
+    "question": "Generate a description based on the following triples: (Sanskrit, MONDAY_SOMA_(THE_MOON), इन्दुवासरम् Indu Vāsaram)",
+    "answer": "In Sanskrit, the term for Monday (associated with Soma, the Moon) is इन्दुवासरम् Indu Vāsaram.",
+    "expected_answer": "Indu Vāsaram is the word for Monday in Sanskrit",
+    "time": 9.263850927352905,
+    "answer_length": 94
+  },
+  {
+    "question": "Generate a description based on the following triples: (Hindi, TUESDAY_MANGALA_(MARS), मंगलवार Mangalavār)",
+    "answer": "In Hindi, the day corresponding to TUESDAY_MANGALA_(MARS) is called मंगलवार (Mangalavār).",
+    "expected_answer": "Mangalavār  is the word for Tuesday in Hindi",
+    "time": 7.6458001136779785,
+    "answer_length": 89
+  },
+  {
+    "question": "Generate a description based on the following triples: (Marathi, WEDNESDAY_BUDHA_(MERCURY), बुधवार Budhavār)",
+    "answer": "In Marathi, the term for Wednesday (associated with Budha, Mercury) is बुधवार Budhavār.",
+    "expected_answer": "Budhavār  is the word for Wednesday in Marathi",
+    "time": 8.332206964492798,
+    "answer_length": 87
+  },
+  {
+    "question": "Generate a description based on the following triples: (Bengali, THURSDAY_GURU_(JUPITER), বৃহস্পতিবার Brihôshpotibar) | (Bengali, WEDNESDAY_BUDHA_(MERCURY), বুধবার Budhbar)",
+    "answer": "In Bengali, the term for Wednesday associated with Mercury (Budha) is বুধবার (Budhbar), and the term for Thursday associated with Jupiter (Guru) is বৃহস্পতিবার (Brihôshpotibar).",
+    "expected_answer": "In Bengali, Wednesday is বুধবার or \"budhbar,\" while Thursday is বৃহস্পতিবার or \"brihôshpotibar.\"",
+    "time": 15.534610033035278,
+    "answer_length": 177
+  },
+  {
+    "question": "Generate a description based on the following triples: (Kashmiri, SUNDAY_SURYA_(THE_SUN), اَتھ وار Aath'var) | (Kashmiri, THURSDAY_GURU_(JUPITER), برس وار Bres'var)",
+    "answer": "In Kashmiri, SUNDAY_SURYA_(THE_SUN) is اَتھ وار Aath'var and THURSDAY_GURU_(JUPITER) is برس وار Bres'var.",
+    "expected_answer": "In language where Thursday is برس وار bres'var, اَتھ وار aath'var is Sunday.",
+    "time": 10.06364917755127,
+    "answer_length": 105
+  },
+  {
+    "question": "Generate a description based on the following triples: (Kashmiri, WEDNESDAY_BUDHA_(MERCURY), برھ وار Budh'var) | (Kashmiri, SATURDAY_SHANI_(SATURN), بٹ وار Bat'var)",
+    "answer": "In Kashmiri, Wednesday (Budha, Mercury) is برھ وار Budh'var and Saturday (Shani, Saturn) is بٹ وار Bat'var.",
+    "expected_answer": "In language where Wednesday is برھ وار budh'var, بٹ وار bat'var is Saturday.",
+    "time": 8.49457311630249,
+    "answer_length": 107
+  },
+  {
+    "question": "Generate a description based on the following triples: (Sinhala, SATURDAY_SHANI_(SATURN), සෙනසුරාදා Senasuraadaa) | (Sinhala, TUESDAY_MANGALA_(MARS), අඟහරැවදා Anngaharuwadaa)",
+    "answer": "In Sinhala, SATURDAY_SHANI_(SATURN) corresponds to සෙනසුරාදා Senasuraadaa and TUESDAY_MANGALA_(MARS) corresponds to අඟහරැවදා Anngaharuwadaa.",
+    "expected_answer": "In Sinhala, Saturday is සෙනසුරාදා or senasuraadaa, while Tuesday is අඟහරැවදා anngaharuwadaa.",
+    "time": 11.359174013137817,
+    "answer_length": 140
+  },
+  {
+    "question": "Generate a description based on the following triples: (Javanese, THURSDAY_GURU_(JUPITER), Respati)",
+    "answer": "In Javanese tradition, Thursday (linked to Guru, the planet Jupiter) is associated with Respati.",
+    "expected_answer": "Respati  is the word for Thursday inJavanese",
+    "time": 11.292984962463379,
+    "answer_length": 96
+  },
+  {
+    "question": "Generate a description based on the following triples: (Austrian Grand Prix, CONSTRUCTOR, Ferrari) | (Austrian Grand Prix, POLE_POSITION, Rubens Barrichello)",
+    "answer": "At the Austrian Grand Prix, Ferrari is the constructor and Rubens Barrichello secured the pole position.",
+    "expected_answer": "The pole position for the ferrari at the austrian grand prix is rubens barrichello.",
+    "time": 8.565258979797363,
+    "answer_length": 104
+  },
+  {
+    "question": "Generate a description based on the following triples: (Canadian Grand Prix, FASTEST_LAP, Juan Pablo Montoya) | (Canadian Grand Prix, REPORT, Report) | (Canadian Grand Prix, RD., 8) | (Canadian Grand Prix, CONSTRUCTOR, Ferrari) | (Canadian Grand Prix, WINNING_DRIVER, Michael Schumacher)",
+    "answer": "The Canadian Grand Prix has Michael Schumacher as its winning driver, Juan Pablo Montoya as the holder of its fastest lap, an RD value of 8, Ferrari as its constructor, and a report associated with it.",
+    "expected_answer": "The rd for the canadian grand prix is 8.0.",
+    "time": 18.218940258026123,
+    "answer_length": 201
+  },
+  {
+    "question": "Generate a description based on the following triples: (European Grand Prix, FASTEST_LAP, Michael Schumacher)",
+    "answer": "Michael Schumacher set the fastest lap for the European Grand Prix.",
+    "expected_answer": "The fastest lap for the european grand prix is michael schumacher.",
+    "time": 4.019469976425171,
+    "answer_length": 67
+  },
+  {
+    "question": "Generate a description based on the following triples: (U.S. Route 30 Bypass, SOUTH/WEST_END, US 30 in Portland) | (U.S. Route 30 Bypass, FORMED, 1936)",
+    "answer": "U.S. Route 30 Bypass was formed in 1936, and its south/west end is US 30 in Portland.",
+    "expected_answer": "US Route 30 in Oregon was formed in 1936",
+    "time": 8.703438997268677,
+    "answer_length": 85
+  },
+  {
+    "question": "Generate a description based on the following triples: (CKYB-TV, NETWORK, CTV) | ([TABLECONTEXT], [TITLE], List of television stations in Manitoba) | (CKYB-TV, CITY_OF_LICENCE, Brandon) | ([TABLECONTEXT], CALLSIGN, CKYB-TV)",
+    "answer": "CKYB-TV is a CTV Network television station licensed to Brandon, Manitoba, and is included in the List of television stations in Manitoba. Its callsign is CKYB-TV.",
+    "expected_answer": "CKYB-TV is a CTV Network television station in Brandon, Manitoba.",
+    "time": 7.663660764694214,
+    "answer_length": 163
+  }
+]

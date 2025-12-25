@@ -1,0 +1,27 @@
+{
+  "dataset": "MedQA",
+  "sample_count": 50,
+  "note": "Bloom Filter结果文件缺少time字段，未包含在对比中",
+  "baseline": {
+    "avg_time": 31.398845839500428,
+    "avg_time_cleaned": 30.29878966510296,
+    "median_time": 27.869884610176086,
+    "min_time": 11.614855289459229,
+    "max_time": 59.67983603477478,
+    "total_time": 1569.9422919750214,
+    "std_dev": 12.119602709074861
+  },
+  "cuckoo_filter_abstract": {
+    "avg_time": 22.31181471824646,
+    "avg_time_cleaned": 21.171777536471684,
+    "median_time": 20.992297053337097,
+    "min_time": 6.087095022201538,
+    "max_time": 52.66264820098877,
+    "total_time": 1115.590735912323,
+    "std_dev": 10.918387368174628
+  },
+  "speed_difference": {
+    "cuckoo_vs_baseline_percent": -30.123355518532264,
+    "cuckoo_speedup_factor": 1.4310933322867472
+  }
+}

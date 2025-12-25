@@ -1,0 +1,260 @@
+\begin{abstract}
+Although retrieval-augmented generation(RAG) significantly improves generation quality by retrieving external knowledge bases and integrating generated content, it faces computational efficiency bottlenecks and accuracy limitations, particularly in knowledge retrieval tasks involving hierarchical structures for Tree-RAG. This paper proposes CFT-RAG, a Tree-RAG method that combines an improved Cuckoo Filter for acceleration and hierarchical abstract structures for enhanced accuracy. The Cuckoo Filter optimizes abstract localization during retrieval, achieving significant speed improvements with O(1) lookup complexity. Meanwhile, the hierarchical abstract tree structure, where upper-level abstracts represent more general concepts and lower-level abstracts capture more specific details, enables multi-level semantic retrieval and context enrichment. By tracing parent-child relationships in the abstract tree and retrieving corresponding document chunks at multiple abstraction levels, our method provides richer contextual information that significantly improves answer accuracy. The experiment results demonstrate that our method is much faster than baseline methods while achieving higher accuracy. For instance, our method is more than 800\% faster than naive Tree-RAG on DART dataset while maintaining superior accuracy. Our work is available at \href{https://github.com/TUPYP7180/CFT-RAG-2025}{https://github.com/TUPYP7180/CFT-RAG-2025}.
+\end{abstract}
+
+\section{Introduction}
+\label{submission}
+In the aera of information explosion, Retrieval-Augmented Generation (RAG), a technology integrating retrieval mechanisms with generative models, has gained significant attention. It allows models to draw on external knowledge bases during text generation, effectively overcoming the limitations of traditional generative models in knowledge-intensive tasks~\citep{patrick2020retrieval}. The knowledge base, a vital part of the RAG system, stores a wealth of structured and unstructured knowledge, acting as the main source of external information for the model. However, with the continuous expansion of the knowledge base and the rapid pace of knowledge update, the challenge of efficiently retrieving relevant and accurate information from it has become a major obstacle to improving the performance of RAG system. The experiment results of time ratio in Table~\ref{tab:combined} show that the retrieval time accounts for 10\% to 72\% of the total response time in all baseline RAG methods. Enhancing the retrieval speed and accuracy of the knowledge base is crucial for boosting the overall performance of the RAG system. Faster and more accurate retrieval enables the model to access relevant knowledge promptly, improving response speed and the quality of generated content. In contrast, inefficient or inaccurate retrieval can result in incorrect or irrelevant outputs, degrading user experience and system usability. Therefore, exploring ways to optimize the knowledge base retrieval mechanism is of great theoretical and practical importance, and this paper will focus on this key issue.
+\begin{figure*}[h!]
+    \centering
+    \includegraphics[width=4.5in]{fig4rag.png}
+    \caption{The workflow of CFT-RAG: (1) A user query arrives and entities are identified from the query. (2) The Cuckoo Filter is queried to locate abstracts containing these entities, providing fast O(1) lookup. (3) For each found abstract, we retrieve its location in the abstract tree and corresponding document chunks (top-K segments). (4) Hierarchical context enrichment: we trace parent abstracts (1-2 levels up, representing broader context) and child abstracts (1-2 levels down, representing specific details), along with their document chunks. (5) The multi-level context (target abstract chunks, parent abstract context, and child abstract details) is integrated into a comprehensive prompt. (6) The LLM processes this enriched prompt to generate a context-aware and accurate response. This hierarchical abstraction strategy significantly improves accuracy by providing multi-level semantic context, while the Cuckoo Filter ensures efficient retrieval.}
+    \label{fig:my_label0}
+\end{figure*}
+
+Knowledge bases in Retrieval-Augmented Generation (RAG) systems are mainly of three types: text-based, graph-based, and tree-based. Text-based ones store information as text, easy to manage but slow in retrieval due to complex language processing. Graph-based knowledge bases represent knowledge as graphs, excelling in handling complex relationships with relatively fast retrieval for certain queries, thanks to graph neural networks. Tree-based knowledge bases structure knowledge hierarchically. Despite text-based and graph-based knowledge bases having made good progress, the retrieval speed of all three types, especially tree-based ones, needs improvement. For RAG systems to provide faster and more accurate responses, optimizing retrieval from these knowledge bases, particularly tree-RAG, is a key research challenge.
+
+In our approach, an abstract represents a semantic grouping of multiple document chunks (typically two consecutive chunks), forming a higher-level knowledge unit that captures the relationship between related content pieces. Abstracts are organized hierarchically in tree structures, where upper-level abstracts represent more general and abstract concepts, while lower-level abstracts capture more specific and detailed information. This hierarchical organization enables multi-level semantic retrieval, significantly improving answer accuracy through context enrichment. 
+
+The key insight of our method is twofold: (1) \textbf{Efficiency through Cuckoo Filter}: We use an improved Cuckoo Filter to store entity-abstract mappings, enabling fast O(1) lookup to locate relevant abstracts containing query entities, thus addressing the computational bottleneck. (2) \textbf{Accuracy through hierarchical abstraction}: When a query entity is identified, we not only retrieve the corresponding abstract and its associated document chunks, but also trace the abstract's parent-child relationships in the tree. By retrieving parent abstracts (1-2 levels upward, representing broader context) and child abstracts (1-2 levels downward, representing more specific details), along with their corresponding document chunks, we construct a comprehensive context that spans multiple abstraction levels. This multi-level context retrieval ensures that the model receives both high-level semantic understanding and detailed information, leading to more accurate and contextually rich answers.
+
+Tree-RAG, an extension of RAG, improves on traditional RAG frameworks by using a hierarchical abstract tree structure to organize the retrieved knowledge, thus providing richer context and capturing complex relationships among abstracts at multiple semantic levels. In our CFT-RAG approach, abstracts are arranged hierarchically, where each abstract node corresponds to multiple document chunks, and the retrieval process effectively traverses related abstracts at multiple levels through parent-child relationships. This hierarchical traversal results in enhanced response accuracy and coherence, as the tree structure maintains semantic connections between abstracts at different abstraction levels, which are essential for contextually rich and accurate answers~\citep{fatehkia2024t}. However, a critical limitation of Tree-RAG lies in its computational inefficiency: as the datasets and tree depth grow, the time required to locate and retrieve relevant abstracts within the hierarchical structure significantly increases, posing scalability challenges. This paper aims to greatly improve both the retrieval efficiency and accuracy of Tree-RAG by combining the speed advantages of Cuckoo Filter with the accuracy benefits of hierarchical abstract structures. 
+
+To address the retrieval bottleneck, we introduce an optimized method to Tree-RAG by integrating the Cuckoo Filter, a high-performance data structure. Its basic workflow is presented in Figure \ref{fig:my_label0}. The Cuckoo Filter excels in fast membership queries and supports dynamic operations, such as element insertions and deletions, making it suitable for dynamic data management scenarios~\citep{fan2014cuckoo}. Unlike traditional filters, such as Bloom Filter, which is limited by fixed false-positive rates and lack deletion capability, the Cuckoo Filter allows for both flexible updates and reduced storage requirements. Therefore, it is particularly advantageous for handling large hierarchical datasets. The comparison experiment is designed to demonstrate that our method is significantly better than the three baseline methods including naive Tree-RAG.
+
+Theoretically, the time complexity of Cuckoo Filter for searching abstracts is O(1), which is significantly lower than that of naive Tree-RAG. From a spatial point of view, abstracts are stored in the Cuckoo Filter in the form of fingerprints (12-bit), which greatly saves memory usage. On the other hand, when the load factor of Cuckoo Filter exceeds the preset threshold, the storage capacity is usually increased by double expansion, while the original elements are re-hashed and migrated to the new storage location to complete the automatic expansion. This keeps the loading rate of cuckoo filter high and not too high, thus saving memory while avoiding hash collisions as much as possible.
+
+Moreover, we propose two novel designs. The first design introduces a temperature variable, with each abstract stored in the Cuckoo Filter maintaining an additional variable called temperature. The variable is used to record the frequency of the abstract being accessed. The Cuckoo Filter sorts the abstracts according to the frequency, and the abstracts with the highest temperature are placed in the front of the bucket, thus speeding up the retrieval. The second design is to introduce block linked list, where Cuckoo Filter stores the addresses of abstracts at different locations in the tree, along with the addresses of corresponding document chunks. The utilization of the space of block linked list is high, it can support relatively efficient random access, reduce the number of linked list nodes, and perform well in balancing time and space complexity, especially for processing large-scale data. Therefore, we achieve acceleration by storing these addresses in the form of a block linked list. An ablation experiment is performed to demonstrate the effectiveness of the design. 
+
+\subsection{Related Work}
+
+\label{sec:headings}
+
+\textbf{Cuckoo Filter} Cuckoo Filter is an efficient data structure for supporting fast element lookup and deletion operations, which is mainly used for collection operations and data stream processing~\citep{fan2014cuckoo}. It is developed based on the idea of Cuckoo Hashing~\citep{pagh2001cuckoo}. Cuckoo Filter outperforms traditional Bloom filters in terms of storage efficiency and query performance, especially in scenarios where frequent insertion and deletion of elements are required. The main advantage of Cuckoo Filter is its support for dynamic updates. The main advantage of Cuckoo Filter is its support for dynamic updates, which enables it to efficiently handle element changes in a collection. Unlike Bloom Filter, Cuckoo Filter can not only query whether an element exists or not, but also support the deletion operation of an element, a feature that is important in many practical applications~\citep{gupta2015cuckoo}. The working principle of Cuckoo Filter is based on multiple hash functions and a bucket structure, which is utilized by storing the elements in fixed-size buckets and using the hash conflicts to achieve fast lookup of elements. This efficient data structure provides new ideas for handling large-scale datasets, which can accelerate the retrieval process and improve response efficiency. 
+
+\textbf{Retrieval Augmented Generation} Retrieval Augmented Generation(RAG) is a state-of-the-art method that combines information retrieval with large language models, with the aim of addressing the limitations of it in the absence of specific knowledge~\citep{patrick2020retrieval}. The core idea of RAG is to utilize an external knowledge base for retrieval and to incorporate relevant information into the generation process. Specifically, RAG first retrieves multiple relevant documents from the knowledge base on the basis of the input query, and then combines the retrieved knowledge with the input query to form the context and then generate the final answer through the generative model. This approach significantly improves the quality and relevance of the generated text~\citep{karpukhin2020dense} and avoids the limitations of fixed model knowledge~\citep{gupta2024comprehensive}. Compared to fine-tuning, RAG has a greater ability to update knowledge and also reduces the dependence on large-scale data. Moreover, CRUD-RAG~\citep{crud} provides a Chinese benchmark covering four main application scenarios of RAG. MemoryBank~\citep{memory} enhances long-term memory for LLMs, improving recall and user adaptation. RAPTOR~\citep{raptor} employs a tree-structured retrieval approach with recursive embedding, clustering, and summarization, excelling in semantic understanding. These works emphasize relationship extraction and dynamic updating but lack strong retrieval efficiency across diverse applications. CFT-RAG addresses these gaps with Cuckoo Filter.
+
+\textbf{Graph-RAG}  Graph Retrieval-Augmented Generation (Graph-RAG) is an extension of RAG, where the information retrieval process is augmented by leveraging graph-based structures to organize and retrieve information~\citep{patrick2020retrieval}. The key difference between traditional RAG and Graph-RAG is the use of a graph, such as a knowledge graph, to model relationships between entities and concepts, which can improve the relevance and contextuality of the retrieved information~\citep{hu2024graggraphretrievalaugmentedgeneration}. The algorithmic process of Graph-RAG enhances the understanding of relationships and provides more precise information retrieval than traditional RAG~\citep{Darrin2024from}. However, the complexity in graph construction and maintenance will be a trouble, the quality and completeness of the graph can also affect the accuracy of responses generated by the model. For instance, EMG-RAG~\citep{emg} integrates Editable Memory Graph for partition management and relation capture, improving answer quality but suffering from high computational cost. Therefore, in comparison to Tree-RAG, Graph-RAG still has certain disadvantages.
+
+\textbf{Tree-RAG}  Tree-RAG(T-RAG) is an emerging method that combines tree structure and large language models to improve the effectiveness of knowledge retrieval and generation tasks. Compared to traditional RAG, T-RAG further enhances the context retrieved from vector databases by introducing an abstract tree data structure to represent the hierarchy of semantic concepts in knowledge organization. The algorithmic process of Tree-RAG consists of the following steps: first, the input query is parsed to identify key semantic concepts and the retrieval of relevant abstracts is performed in the constructed abstract forest. Next, the system traverses through the hierarchical structure of the tree to obtain the abstract nodes related to the query and their upper and lower multilevel parent-child nodes, along with corresponding document chunks. Subsequently, the retrieved knowledge is fused with the query to generate the augmented context. Finally, the generative model generates the final answer based on the augmented context. This process effectively combines knowledge retrieval and generation and improves the accuracy and contextual relevance of the generative model~\citep{fatehkia2024t}. However, T-RAG runs inefficiently due to the time-consuming nature of finding all the locations of related abstracts in a forest with a large amount of data. Our method applies the improved Cuckoo Filter to the retrieval process of Tree-RAG, making it greatly faster.
+
+\section{Data Pre-processing}
+
+\label{sec:others}
+It is important to identify key concepts and construct hierarchical abstract tree structures from datasets, where each abstract groups multiple document chunks and abstracts are organized hierarchically based on their semantic relationships. It mainly involves the steps of concept identification, relationship extraction, abstract construction, and filtering.
+For existing hierarchical data, binary pairs representing parent-child relationships are directly extracted. For raw textual data, text cleansing is first performed manually to remove irrelevant information.
+\subsection{Concept Identification}
+SpaCy is a Python library, and its entity recognition function is based on deep learning models (e.g., CNN and Transformer). It captures information by transforming the text into word vectors and feature vectors. The models are trained on a labeled corpus to recognize named entities in the text, such as names of people and places. We adopt the method in T-RAG by using the spaCy library to recognize and extract key concepts from a user's query~\citep{fatehkia2024t}. Note that entity recognition serves to identify key concepts in queries, which are then used to locate corresponding abstract nodes in the abstract tree, where each abstract represents a higher-level semantic concept that groups multiple document chunks.
+
+\subsection{Relationship Extraction}
+Various relationships are identified from the data, including organizational, categorization, temporal, geographic, inclusion, functional, and attribute relationships. The relationships manifest through grammatical structures such as noun phrases, prepositional phrases, relative clauses, and appositive structures ~\citep{vaswani2017attention,devlin2019bert}. We focus on extracting relationships that express dependency, such as "belongs to," "contains," and "is dependent on." The process is presented in Figure \ref{fig:relation}.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=1.0\columnwidth]{relation.png}
+    \caption{The process of relationship extraction}
+    \label{fig:relation}
+\end{figure}
+
+We apply several dependency parsing models(gpt-4 and open-source NLP libraries) to analyze the grammatical structure of the data. This helps identify relationships between words, such as subject-verb-object or modifier relationships.
+
+We define rules to identify hierarchical relationships. If a word modifies another noun, it can be interpreted as a child-parent relationship; If there are conjunctions (e.g., "and", "or"), handle them to group concepts under the same parent. As a result, there is a list of tuples representing the hierarchical structure.
+
+
+
+\subsection{Relationship Filtering}
+After extracting relations, certain relationships are filtered out to ensure maintain the tree structure:
+
+\begin{itemize}
+\item Transitive Relations: If transitive relations are detected (e.g., "A belongs to B", "B belongs to C" and "A belongs to C"), remove distant relations.
+\item Cycle Relations: If cycles are detected (e.g., "A belongs to B" and "B belongs to A"), only the closest relationship is retained.
+\item Self-Pointing Edges: Any relation where a node points to itself is removed.
+\item Duplicate Edges: Multiple edges between the same nodes are pruned, leaving only one edge. 
+\end{itemize}
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=1.0\columnwidth]{fig1.png}
+    \caption{Error relation examples.}
+    \label{fig:my_label}
+\end{figure}
+
+
+\section{Methodology}
+In this section, we propose a novel design of Cuckoo Filter that combines the advantages of traditional Cuckoo Hashing and applies it to Tree-RAG by introducing additional designs that greatly improve the speed of knowledge retrieval in Tree-RAG.
+\begin{figure*}[htbp]
+    \centering
+    \includegraphics[width=\textwidth]{fig2.png}
+    \caption{The workflow of CFT-RAG when query contains abstract x. The abstract with high temperature will be placed ahead of which with low temperature in the bucket. All the addresses in different trees of the abstract, along with corresponding chunk addresses, are linked by the block linked list.}
+    
+    \label{fig:my_label2}
+\end{figure*}
+\subsection{Storage Mode} 
+Abstracts are constructed by grouping multiple consecutive document chunks (typically two chunks per abstract) based on semantic similarity, forming a hierarchical knowledge structure where each abstract node contains the semantic summary of its constituent chunks. In addition to abstract trees, we set up an additional Cuckoo Filter to store abstracts to improve retrieval efficiency. Based on the naive Cuckoo Filter, we introduce the block linked list for optimization, which can greatly reduce memory fragmentation. We first find out all locations of each abstract in the forest and then store these addresses, along with the addresses of corresponding document chunks, in a block linked list.
+
+To further optimize the retrieval performance, we propose an adaptive sorting strategy to reorder the abstracts in each bucket in the Cuckoo Filter based on the temperature variable which is stored at the head of the block list. The temperature variable records how often each abstract is accessed, and abstracts with high-frequency access are prioritized to be placed at the front of the bucket. Since the Cuckoo Filter looks up the elements in the buckets linearly, this reordering mechanism can significantly optimize the query process, which can further improve the response speed of the model. In summary, in each entry of the bucket, an abstract's fingerprint, its temperature, and head pointer of its block linked list (containing abstract and chunk addresses) are stored. The storage mode is included in Figure \ref{fig:my_label2} and details about the process of insertion and eviction of abstracts are provided in Appendix~\ref{sec:appendix}.
+
+
+
+\subsection{Context Generation}
+Our context generation process leverages the hierarchical abstract structure to significantly improve answer accuracy through multi-level semantic retrieval. The workflow begins when a user query arrives: (1) \textbf{Entity Recognition}: Key entities are identified from the query using entity recognition techniques (e.g., SpaCy). (2) \textbf{Entity-to-Abstract Lookup}: For each identified entity, we query the Cuckoo Filter to locate the abstract(s) containing this entity. The Cuckoo Filter stores entity-abstract mappings, enabling fast O(1) lookup to find which abstract nodes contain the queried entity. (3) \textbf{Abstract Location Retrieval}: Once an abstract is found in the Cuckoo Filter, we retrieve its location in the abstract tree structure through the block linked list, which stores addresses of abstract nodes and their corresponding document chunk addresses. (4) \textbf{Document Chunk Retrieval}: We then retrieve the corresponding document chunks associated with the found abstract, obtaining the top-K most relevant text segments to include in the context.
+
+The key innovation for improving accuracy lies in \textbf{hierarchical context enrichment}: After locating the target abstract, we trace its hierarchical relationships in the abstract tree. Specifically, we retrieve (a) parent abstracts (1-2 levels upward), which represent more general and abstract concepts, providing broader semantic context, and (b) child abstracts (1-2 levels downward), which represent more specific and detailed information, providing granular details. For each of these related abstracts, we also retrieve their corresponding document chunks. This multi-level retrieval strategy ensures that the context spans multiple abstraction levels, from high-level semantic understanding to specific textual details.
+
+The algorithm retrieves the context for a given entity by first locating its corresponding abstract in the Cuckoo Filter, then traversing the block linked list to access both abstract node addresses and corresponding document chunk addresses stored in the tree structure. After the entity is found and its containing abstract is identified, the temperature of the abstract is incremented by one, and a pointer to the head of the corresponding block linked list is returned. From this pointer, we access the abstract node's location in the tree, retrieve its parent abstracts (1-2 levels up) and child abstracts (1-2 levels down), and obtain all corresponding document chunks. This hierarchical traversal provides a comprehensive context that includes: the original document chunks from the target abstract, broader context from parent abstracts, and detailed information from child abstracts. Finally, we fuse this multi-level contextual information with the query to generate an enriched augmented context, which is combined with the system prompt and query to form the final prompt for the LLM. The lookup and context generation process is illustrated in Figure \ref{fig:my_label2}.
+\begin{algorithm}[H]
+\caption{CFT-RAG Context Generation Algorithm}
+\KwIn{$query$: User query, $db$: Vector database, $CF$: Cuckoo Filter, $forest$: Abstract tree forest, $k$: Number of results}
+\KwOut{$context$: Enriched context for RAG}
+$query_{embed} \gets \text{embed}(query)$\;
+$entities \gets \text{recognize\_entities}(query)$\;
+$search\_results \gets db.\text{search}(query_{embed}, k \times 3)$\;
+Separate $tree\_nodes$ and $raw\_chunks$ from $search\_results$\;
+$contexts \gets []$\;
+
+\For{$i \gets 1$ \KwTo $|entities|$}{
+    $entity \gets entities[i]$\;
+    $f \gets \text{fingerprint}(entity)$\;
+    \If{CF contains $f$ in bucket[$i_1$] or bucket[$i_2$]}{
+        $temperature[f] \gets temperature[f] + 1$\;
+        Find $abstract\_nodes$ where $entity$ appears\;
+        \For{$j \gets 1$ \KwTo $\min(k, |abstract\_nodes|)$}{
+            $chunks \gets \text{retrieve\_chunks}(abstract\_nodes[j].\text{chunk\_ids}, raw\_chunks)$\;
+            $contexts.\text{append}(\text{combine}(entity, abstract\_nodes[j], chunks))$\;
+        }
+    }
+}
+
+\If{$forest \neq \text{NULL}$}{
+    \For{$i \gets 1$ \KwTo $|entities|$}{
+        $node \gets \text{find\_in\_forest}(entities[i], forest)$\;
+        \If{$node \neq \text{NULL}$}{
+            $parent \gets node.\text{parent}$\;
+            $depth \gets 0$\;
+            \While{$parent \neq \text{NULL}$ and $depth < 2$}{
+                $contexts.\text{append}(\text{get\_context}(parent, db))$\;
+                $parent \gets parent.\text{parent}$\;
+                $depth \gets depth + 1$\;
+            }
+            Initialize $queue$ with children of $node$\;
+            \While{$queue \neq \emptyset$}{
+                $(child, level) \gets queue.\text{pop}()$\;
+                \If{$level \leq 2$}{
+                    $contexts.\text{append}(\text{get\_context}(child, db))$\;
+                    Add children of $child$ to $queue$ with $level+1$\;
+                }
+            }
+        }
+    }
+}
+
+$filtered \gets \text{filter\_by\_dual\_threshold}(contexts, query_{embed}, \theta_1, \theta_2)$\;
+\If{$filtered = \emptyset$}{
+    $filtered \gets contexts[:k]$\;
+}
+$context \gets \text{combine}(\text{rank}(filtered, query)[:k])$\;
+\Return{$context$}\;
+\end{algorithm}
+
+
+\section{Experiments}
+\label{sec:experiments}
+
+In this section, we describe our experimental setup, baseline methods, and CFT-RAG, and comprehensively evaluate the results. Our experiments aim to assess the efficiency of CFT-RAG approach under diverse experimental conditions, particularly in terms of retrieval speed and computational overhead.
+
+\subsection{Baseline}
+To benchmark the effectiveness of the proposed Cuckoo Filter T-RAG, we compare it against several baseline models. Our baselines include the text-based RAG, Naive T-RAG without filtering mechanisms, T-RAG with ANN and Graph-RAG with ANN. These baselines allow us to quantify the improvements introduced by Cuckoo Filter T-RAG.
+
+% \subsubsection{Naive T-RAG}
+\textbf{Naive T-RAG}
+This basic implementation of T-RAG does not include any filtering optimizations. The method constructs an abstract tree using abstracts constructed from the dataset and employs a Breadth-First Search (BFS) algorithm for abstract lookup. Although this approach has high time complexity and prolonged search time, it provides a straightforward baseline for evaluating the benefits of incorporating filtering mechanisms.
+
+% \subsubsection{Bloom Filter T-RAG}
+\textbf{Text-based RAG}
+This baseline RAG model retrieves the top-K relevant documents from a vector store based purely on similarity scores, without considering abstract relationships or structural information. It performs standard dense retrieval followed by response generation using a sequence-to-sequence model. Although simple and easy to implement, this approach may suffer from irrelevant or redundant information due to lack of context-aware filtering or reasoning capabilities. It serves as a foundational benchmark to assess the advantages of incorporating more structured or semantic retrieval strategies.
+
+\textbf{ANN Graph RAG}
+This model integrates approximate nearest neighbor (ANN) search with a graph-based abstract structure to accelerate retrieval while maintaining semantic relevance. Abstracts and their relationships are organized into a directed graph, enabling multi-hop traversal and contextual inference. During retrieval, ANN is used to identify the closest matching abstracts efficiently, and the graph structure guides the expansion to related abstracts for enriched context. This method balances speed and accuracy by leveraging the fast lookup capabilities of ANN and the expressive power of graph reasoning.
+
+% \subsubsection{Improved Bloom Filter T-RAG}
+\textbf{ANN Tree-RAG}
+In this variant, Approximate Nearest Neighbor (ANN) search is employed to accelerate document retrieval in the abstract tree structure. Instead of performing exact similarity search, the model leverages efficient ANN indexing techniques (e.g., FAISS or HNSW) to retrieve top-K candidates for each abstract. ANN T-RAG provides a strong balance between performance and efficiency, especially compared to the Naive T-RAG baseline.
+
+\subsection{CFT-RAG}
+CFT-RAG combines two key innovations to achieve both efficiency and accuracy improvements: (1) \textbf{Cuckoo Filter for acceleration}: Cuckoo Filter supports abstract deletion operation, which is suitable for ongoing data update, and it has a lower false positive rate and is more space efficient. The CFT-RAG method stores entity-abstract mappings in the Cuckoo Filter, where entities are mapped to their containing abstracts in the forest. Specifically, for each entity, we store the addresses of abstract nodes that contain this entity, along with the addresses of corresponding document chunks. After the abstract tree is generated, entities and their associated abstract addresses are stored in the Cuckoo Filter using fingerprints, where entities with the same abstract details are concatenated into a block list, and the pointer to the head of the list corresponds to the fingerprint. (2) \textbf{Hierarchical abstract structure for accuracy}: When an entity is queried, we not only retrieve its direct abstract and chunks, but also trace the abstract's parent-child relationships in the tree to retrieve multi-level context, significantly improving answer accuracy through comprehensive semantic coverage.
+
+An improved CFT-RAG maintains access popularity of each entity-abstract mapping, called temperature, at the head node of each block list, and raises the level of temperature corresponding to the hit entity during retrieval. For each bucket, if there is a bucket that has not been searched, i.e. if it is free, the fingerprints and block list header pointers in the bucket can be sorted according to temperature, and the fingerprints with higher access popularity are placed at the front of the bucket, which can take advantage of the locality of the entities contained in the user queries to improve the running speed of the algorithm.
+\subsection{Datasets and Abstract Forest}
+Our experiments use three datasets: the large-scale dataset MedQA~\citep{med} and two medium-sized datasets AESLC~\citep{ael} and DART~\citep{dart}. We leverage dependency parsing models to identify key concepts and construct abstract trees based on semantic relationships, forming an abstract forest where each abstract node corresponds to multiple document chunks. The resulting abstract forest is structured to allow efficient retrieval and provides a practical evaluation scenario for our approach.
+
+\subsection{Setup}
+We implement the core RAG architecture in Python, while key data structures, including Cuckoo Filters, are optimized in C++ for performance. All experiments were conducted on a system equipped with an Nvidia H100 GPU, 22 CPU cores, and 220 GiB of memory. Each algorithm was repeated 108 times to account for variability and ensure reliable results, with averages calculated across runs to mitigate the influence of outliers. We apply the LangSmith framework to evaluate the accuracy of answers, where the OpenAI scoring model used by LangSmith was replaced with doubao~\citep{doubao2024}.  
+\begin{table}[H]
+  \centering
+  \begin{threeparttable}
+    \caption{Retrieval time and accuracy on MedQA, AESLC and DART datasets}
+    \begin{tabular}{clccc}
+      \toprule
+      Dataset & Algorithm & Time(s) & Time Ratio(\%) & Acc(\%) \\
+      \midrule
+      \multirow{7}{*}{MedQA} 
+        & Text-based RAG & - & - & $53 \pm 5$ \\       
+        & Naive T-RAG   & 18.37 & 56 & $68 \pm 5$ \\
+        & ANN T-RAG     & 7.52  & 23 & $68 \pm 4$\\
+        & ANN G-RAG     & 8.11  & 24 & $62 \pm 5$\\
+        & CFT-RAG      & \textbf{5.04}  & \textbf{15} & \textbf{$68 \pm 4$} \\
+      \midrule
+      \multirow{7}{*}{AESLC} 
+        & Text-based RAG & - & - & $40 \pm 6$ \\
+        & Naive T-RAG   & 12.11 & 61 & $56 \pm 5$\\
+        & ANN T-RAG     & 2.22  & 11 & $56 \pm 4$\\
+        & ANN G-RAG     & 2.14  & 10 & $54 \pm 5$\\
+        & CFT-RAG      & \textbf{0.95}  & \textbf{5}  & \textbf{$56 \pm 4$} \\
+      \midrule
+      \multirow{7}{*}{DART} 
+        & Text-based RAG & - & - & $55 \pm 6$ \\
+        & Naive T-RAG   & 15.88 & 72 & $67 \pm 4$\\
+        & ANN T-RAG     & 3.25  & 15 & $67 \pm 4$\\
+        & ANN G-RAG     & 3.91  & 18 & $65 \pm 6$\\
+        & CFT-RAG      & \textbf{1.78}  & \textbf{8}  & \textbf{$67 \pm 4$} \\
+      \bottomrule
+    \end{tabular}
+    \begin{tablenotes}[flushleft] 
+      \scriptsize
+      \item CFT-RAG represents Cuckoo Filter T-RAG.
+      \item ANN G-RAG represents Graph-RAG with ANN.
+      \item ANN T-RAG represents Tree-RAG with ANN.
+      \item Time represents the retrieval time.
+      \item Time Ratio represents the proportion of retrieval time in response time.
+      \item Acc represents the model's accuracy of answer.
+    \end{tablenotes}
+    \label{tab:combined}
+  \end{threeparttable}
+\end{table}
+\subsection{Results and Evaluations}
+\subsubsection{Comparison Experiment}
+We conduct the experiments by selecting 36 questions on each dataset. Then we record the average retrieval time and average response accuracy by LangSmith. Table~\ref{tab:combined} presents the retrieval time and accuracy of various RAG-based models across the MedQA, AESLC, and DART datasets. As expected, the Naive T-RAG model incurs the highest retrieval latency due to its exhaustive BFS-based search, while offering moderate accuracy improvements over the text-based baseline. Further efficiency gains are observed in ANN-based methods (ANN T-RAG and ANN G-RAG), which leverage approximate nearest neighbor search to achieve faster response times with comparable accuracy. Notably, CFT-RAG consistently outperforms other variants by achieving the lowest retrieval time across all datasets while maintaining or improving accuracy, demonstrating the effectiveness of integrating probabilistic filtering with hierarchical abstract structures. The speed improvement comes from the Cuckoo Filter's O(1) lookup complexity, while the accuracy gains result from the multi-level context retrieval strategy that traces parent-child relationships in the abstract tree. By retrieving context from multiple abstraction levels (parent abstracts for broader context, target abstract for direct relevance, and child abstracts for specific details), our method provides richer semantic information that enables more accurate and contextually coherent answers. Moreover, when the problem is complex involving multi-hop reasoning and requires precise abstract relationships, our hierarchical abstraction strategy shows an obvious advantage over the other methods by providing comprehensive context spanning multiple semantic levels. Use cases are provided in Appendix~\ref{sec:appendix}.
+
+Moreover, the error rate of our method in the process of searching abstracts is very low. After building the trees based on the dataset, the Cuckoo Filter includes 1024 buckets, each of which can hold up to 4 fingerprints and block linked list head pointers. The Cuckoo Filter's own memory expansion strategy is to increase the number of buckets by a power of two. In the experimental datasets, there are thousands of abstracts that can be constructed, and the space load factor for the Cuckoo Filter is more than 70\%. Because the space load factor is not too high and searching errors are mainly caused by hash collisions, the error rate is almost 0, showing that the number of abstracts causing the lookup error is 0 to 1 out of 1024 buckets for thousands of abstracts. 
+
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1.0\columnwidth]{sort.png}
+    \caption{We record the search time per round of query with different number of trees and abstracts. Each round represents a search in the abstract forest, and abstracts are inserted into the improved Cuckoo Filter before the first search is performed.}
+    
+    \label{fig:sort_label}
+\end{figure}
+
+\subsubsection{Ablation Experiment}
+Sorting the fingerprints and head pointers of the block linked lists by temperature can optimize the retrieval time without occupying any extra space, which is eminently useful when the query given by the user requires retrieving a large number of abstracts.
+We design experiments to measure the effect of having or not having the sorting design on the result. In figure \ref{fig:sort_label}, we can observe that the retrieval time after the first round is significantly shorter than that of the first round. This is because the temperatures are updated according to the access frequency in each round and after each query, the Cuckoo Filter sorts the abstracts according to the abstracts' temperatures. This sorting design allows the 'hot' abstracts to be found more quickly in subsequent queries.
+
+\section{Conclusion}
+In this paper, we have introduced CFT-RAG, a Tree-RAG framework that combines the improved Cuckoo Filter for acceleration and hierarchical abstract structures for enhanced accuracy. Tree-RAG, which combines hierarchical tree structures for knowledge representation with generative models, holds great promise for improving the quality and contextual relevance of generated responses. However, its performance is hindered by the computational inefficiencies of retrieving and organizing large-scale knowledge within complex tree structures.
+
+CFT-RAG addresses both efficiency and accuracy challenges through two key innovations. First, by leveraging the Cuckoo Filter, which supports fast O(1) membership queries and dynamic updates, we have significantly enhanced the speed and efficiency of the retrieval process in Tree-RAG. The Cuckoo Filter enables rapid entity-to-abstract lookup, storing entity-abstract mappings with minimal memory overhead. Second, and equally important, we leverage the hierarchical abstract tree structure to improve answer accuracy through multi-level semantic retrieval. By tracing parent-child relationships in the abstract tree and retrieving context from multiple abstraction levels (parent abstracts for broader context, target abstracts for direct relevance, and child abstracts for specific details), our method provides comprehensive semantic coverage that significantly improves the accuracy and contextual coherence of generated responses.
+
+Our experimental results demonstrate that CFT-RAG achieves substantial speed improvements (over 800\% faster than naive Tree-RAG) while maintaining or improving accuracy compared to baseline methods. This dual improvement is particularly valuable in scenarios where both real-time knowledge updates and accurate information retrieval are critical, such as in large-scale question answering, decision support systems, and conversational agents. The hierarchical abstraction strategy proves especially effective for complex multi-hop queries that require precise semantic relationships and comprehensive context understanding.
+
+Future work could explore further optimizations, such as adaptive depth selection for hierarchical traversal, dynamic abstract tree restructuring based on query patterns, or extending the method to more complex multimodal tasks. Overall, this research demonstrates that combining efficient data structures (Cuckoo Filter) with semantically rich knowledge organization (hierarchical abstracts) can simultaneously enhance both the speed and accuracy of large language models in retrieval-intensive applications.
+

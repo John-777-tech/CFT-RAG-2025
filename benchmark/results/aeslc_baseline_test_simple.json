@@ -1,0 +1,16 @@
+[
+  {
+    "question": "Summarize the following email: Huntley/question\n",
+    "answer": "It seems the content of the email with the subject \"Huntley/question\" is not provided in the information section. Without the actual text of the email, I'm unable to generate a summary. Please share the full email content so I can assist you properly.",
+    "expected_answer": "Phillip,   Could you please do me a favor?\nI would like  to read your current title policy to see what it says about easements.\nYou  should have received a copy during your closing.\nI don't know how many  pages it will be but let me know how you want to handle getting a copy  made.\nI'll be happy to make the copy, or whatever makes it easy for  you.\nThanks,\n",
+    "time": 19.97921109199524,
+    "answer_length": 251
+  },
+  {
+    "question": "Summarize the following email: Expense Reports Awaiting Your Approval\n",
+    "answer": "It seems the actual content of the email titled \"Expense Reports Awaiting Your Approval\" is missing from the provided information. Please share the full text of the email, and I’ll be able to generate a concise summary for you.\n\n\nIf you had included the email, for example, a sample summary might look like this (assuming a typical scenario):  \n\"This email notifies the recipient that several expense reports (e.g., 3 submissions from the sales team dated 10/05/2024) are pending their approval in the company’s expense management system. It reminds them to review the reports by EOD 10/12/2024 to ensure timely reimbursement for employees, and provides a direct link to access the system for approval.\"  \n\nBut without the actual email content, I can’t create an accurate summary. Please provide the email text!",
+    "expected_answer": "The following reports have been waiting for your approval for more than 4 days.\nPlease review.\nOwner: James W Reitmeyer Report Name: JReitmeyer 10/24/01 Days In Mgr.\nQueue: 5\n",
+    "time": 8.606573104858398,
+    "answer_length": 811
+  }
+]

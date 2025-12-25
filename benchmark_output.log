@@ -1,0 +1,8 @@
+0it [00:00, ?it/s]0it [00:00, ?it/s]
+Load vector db finished
+Loading cached forest and nlp from ./entity_forest_cache/forest_nlp_entities_file_entities_file_tree_num_50_node_num_2000000_bf1.pkl...
+Load forest and nlp finished
+Traceback (most recent call last):
+  File "/Users/zongyikun/Downloads/CFT-RAG-2025-main/langsmith/langsmith_test.py", line 111, in <module>
+    StringEvaluator(
+TypeError: BaseModel.__init__() takes 1 positional argument but 2 were given

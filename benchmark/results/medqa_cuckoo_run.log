@@ -1,0 +1,8 @@
+usage: run_benchmark.py [-h] --dataset DATASET [--vec-db-key VEC_DB_KEY]
+                        [--tree-num-max TREE_NUM_MAX]
+                        [--entities-file-name ENTITIES_FILE_NAME]
+                        [--search-method {0,1,2,5,8,9}]
+                        [--node-num-max NODE_NUM_MAX]
+                        [--max-samples MAX_SAMPLES] [--output OUTPUT]
+                        [--checkpoint CHECKPOINT] [--no-resume]
+run_benchmark.py: error: argument --search-method: invalid choice: 7 (choose from 0, 1, 2, 5, 8, 9)

@@ -1,0 +1,22 @@
+{
+  "average_scores": {
+    "rouge1": 0.1302023673157694,
+    "rouge2": 0.012444917921650284,
+    "rougeL": 0.07875143184421535
+  },
+  "total_samples": 2,
+  "detailed_results": [
+    {
+      "question": "Summarize the following email: Huntley/question\n",
+      "rouge1": 0.20370370370370372,
+      "rouge2": 0.009345794392523364,
+      "rougeL": 0.1111111111111111
+    },
+    {
+      "question": "Summarize the following email: Expense Reports Awa",
+      "rouge1": 0.05670103092783505,
+      "rouge2": 0.015544041450777204,
+      "rougeL": 0.04639175257731958
+    }
+  ]
+}

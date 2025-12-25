@@ -1,0 +1,13 @@
+{
+  "dataset": "TriviaQA",
+  "method": "Baseline RAG",
+  "sample_count": 50,
+  "metrics": {
+    "rouge1": 0.05069094464139281,
+    "rouge2": 0.027758378241843552,
+    "rougeL": 0.05069094464139281,
+    "bleu": 0.007275492999863747,
+    "bertscore": 0.8071627163887024
+  },
+  "note": "TriviaQA是QA数据集，答案为简短的人名/地名等，因此ROUGE和BLEU分数较低，但BERTScore较高（0.8072）表示语义相似度较好"
+}

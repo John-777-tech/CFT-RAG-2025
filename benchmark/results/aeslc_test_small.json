@@ -1,0 +1,16 @@
+[
+  {
+    "question": "Summarize the following email: Huntley/question\n",
+    "answer": "The necessary email content related to \"Huntley/question\" is not provided in the given information, so a summary cannot be generated. Please share the full email text for a concise summary.",
+    "expected_answer": "Phillip,   Could you please do me a favor?\nI would like  to read your current title policy to see what it says about easements.\nYou  should have received a copy during your closing.\nI don't know how many  pages it will be but let me know how you want to handle getting a copy  made.\nI'll be happy to make the copy, or whatever makes it easy for  you.\nThanks,\n",
+    "time": 23.964874744415283,
+    "answer_length": 189
+  },
+  {
+    "question": "Summarize the following email: Expense Reports Awaiting Your Approval\n",
+    "answer": "The email informs that expense reports are awaiting your approval.",
+    "expected_answer": "The following reports have been waiting for your approval for more than 4 days.\nPlease review.\nOwner: James W Reitmeyer Report Name: JReitmeyer 10/24/01 Days In Mgr.\nQueue: 5\n",
+    "time": 20.245649814605713,
+    "answer_length": 66
+  }
+]

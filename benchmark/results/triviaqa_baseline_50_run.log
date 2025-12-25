@@ -1,0 +1,329 @@
+加载数据集: ./datasets/processed/triviaqa.json
+✓ 成功加载 138384 条数据
+
+正在加载向量数据库和实体树...
+✓ Vector DB加载完成 (0.00秒)
+✓ Baseline RAG模式，跳过Forest和NLP构建 (0.00秒)
+✓ 初始化完成 (0.00秒)
+
+
+开始测试 50 个问题...
+================================================================================
+
+[1/50] Which American-born Sinclair won the Nobel Prize for Literat...
+
+[1;31mGeneration Time: 24.286497 seconds[0m
+  回答长度: 15 字符
+  耗时: 24.31秒
+
+[2/50] Where in England was Dame Judi Dench born?...
+
+[1;31mGeneration Time: 12.335824 seconds[0m
+  回答长度: 374 字符
+  耗时: 12.36秒
+
+[3/50] In which decade did Billboard magazine first publish and Ame...
+
+[1;31mGeneration Time: 16.877845 seconds[0m
+  回答长度: 291 字符
+  耗时: 16.90秒
+
+[4/50] From which country did Angola achieve independence in 1975?...
+
+[1;31mGeneration Time: 12.973795 seconds[0m
+  回答长度: 166 字符
+  耗时: 13.00秒
+
+[5/50] Which city does David Soul come from?...
+
+[1;31mGeneration Time: 12.968911 seconds[0m
+  回答长度: 396 字符
+  耗时: 13.00秒
+
+[6/50] Who won Super Bowl XX?...
+
+[1;31mGeneration Time: 9.169351 seconds[0m
+  回答长度: 50 字符
+  耗时: 9.20秒
+
+[7/50] Which was the first European country to abolish capital puni...
+
+[1;31mGeneration Time: 15.336006 seconds[0m
+  回答长度: 290 字符
+  耗时: 15.36秒
+
+[8/50] In which country did he widespread use of ISDN begin in 1988...
+
+[1;31mGeneration Time: 12.323119 seconds[0m
+  回答长度: 270 字符
+  耗时: 12.35秒
+
+[9/50] What is Bruce Willis' real first name?...
+
+[1;31mGeneration Time: 21.939800 seconds[0m
+  回答长度: 411 字符
+  耗时: 21.97秒
+
+[10/50] Which William wrote the novel Lord Of The Flies?...
+
+[1;31mGeneration Time: 13.831338 seconds[0m
+  回答长度: 254 字符
+  耗时: 13.86秒
+  💾 Checkpoint已保存 (10/50)
+
+[11/50] Which innovation for the car was developed by Prince Henry o...
+
+[1;31mGeneration Time: 41.289540 seconds[0m
+  回答长度: 296 字符
+  耗时: 41.32秒
+
+[12/50] How is musician William Lee Conley better known?...
+
+[1;31mGeneration Time: 14.009358 seconds[0m
+  回答长度: 204 字符
+  耗时: 14.04秒
+
+[13/50] How is Joan Molinsky better known?...
+
+[1;31mGeneration Time: 32.623464 seconds[0m
+  回答长度: 1741 字符
+  耗时: 32.65秒
+
+[14/50] In which branch of the arts is Patricia Neary famous?...
+
+[1;31mGeneration Time: 7.456696 seconds[0m
+  回答长度: 287 字符
+  耗时: 7.49秒
+
+[15/50] Which country is Europe's largest silk producer?...
+
+[1;31mGeneration Time: 12.535196 seconds[0m
+  回答长度: 367 字符
+  耗时: 12.56秒
+
+[16/50] The VS-300 was a type of what?...
+
+[1;31mGeneration Time: 9.665717 seconds[0m
+  回答长度: 202 字符
+  耗时: 9.70秒
+
+[17/50] At which university did Joseph Goebbels become a doctor of p...
+
+[1;31mGeneration Time: 7.070349 seconds[0m
+  回答长度: 289 字符
+  耗时: 7.10秒
+
+[18/50] Which prince is Queen Elizabeth II's youngest son?...
+
+[1;31mGeneration Time: 15.236281 seconds[0m
+  回答长度: 264 字符
+  耗时: 15.26秒
+
+[19/50] When did the founder of Jehovah's Witnesses say the world wo...
+
+[1;31mGeneration Time: 12.637217 seconds[0m
+  回答长度: 850 字符
+  耗时: 12.66秒
+
+[20/50] Who found the remains of the Titanic?...
+
+[1;31mGeneration Time: 8.373086 seconds[0m
+  回答长度: 461 字符
+  耗时: 8.40秒
+  💾 Checkpoint已保存 (20/50)
+
+[21/50] Who was the only Spice Girl not to have a middle name?...
+
+[1;31mGeneration Time: 8.118094 seconds[0m
+  回答长度: 235 字符
+  耗时: 8.15秒
+
+[22/50] What are the international registration letters of a vehicle...
+
+[1;31mGeneration Time: 15.060175 seconds[0m
+  回答长度: 454 字符
+  耗时: 15.08秒
+
+[23/50] How did Jock die in Dallas?...
+
+[1;31mGeneration Time: 10.679271 seconds[0m
+  回答长度: 408 字符
+  耗时: 10.71秒
+
+[24/50] What star sign is Michael Caine?...
+
+[1;31mGeneration Time: 7.765546 seconds[0m
+  回答长度: 239 字符
+  耗时: 7.79秒
+
+[25/50] Who wrote the novel Evening Class?...
+
+[1;31mGeneration Time: 7.805609 seconds[0m
+  回答长度: 298 字符
+  耗时: 7.83秒
+
+[26/50] Which country does the airline Air Pacific come from?...
+
+[1;31mGeneration Time: 17.397134 seconds[0m
+  回答长度: 287 字符
+  耗时: 17.42秒
+
+[27/50] In which branch of the arts does Allegra Kent work?...
+
+[1;31mGeneration Time: 14.045481 seconds[0m
+  回答长度: 349 字符
+  耗时: 14.07秒
+
+[28/50] Who had a 70s No 1 hit with Billy, Don't Be A Hero?...
+
+[1;31mGeneration Time: 18.496434 seconds[0m
+  回答长度: 494 字符
+  耗时: 18.53秒
+
+[29/50] Banting and Best pioneered the use of what?...
+
+[1;31mGeneration Time: 9.990227 seconds[0m
+  回答长度: 482 字符
+  耗时: 10.02秒
+
+[30/50] Who directed the movie La Dolce Vita?...
+
+[1;31mGeneration Time: 8.037917 seconds[0m
+  回答长度: 273 字符
+  耗时: 8.07秒
+  💾 Checkpoint已保存 (30/50)
+
+[31/50] Which country does the airline LACSA come from?...
+
+[1;31mGeneration Time: 12.231652 seconds[0m
+  回答长度: 410 字符
+  耗时: 12.26秒
+
+[32/50] Who directed 2001: A Space Odyssey?...
+
+[1;31mGeneration Time: 10.469421 seconds[0m
+  回答长度: 325 字符
+  耗时: 10.49秒
+
+[33/50] Which is the largest of the Japanese Volcano Islands?...
+
+[1;31mGeneration Time: 21.365074 seconds[0m
+  回答长度: 302 字符
+  耗时: 21.39秒
+
+[34/50] Ezzard Charles was a world champion in which sport?...
+
+[1;31mGeneration Time: 12.475533 seconds[0m
+  回答长度: 196 字符
+  耗时: 12.49秒
+
+[35/50] Who was the first woman to make a solo flight across the Atl...
+
+[1;31mGeneration Time: 11.050329 seconds[0m
+  回答长度: 535 字符
+  耗时: 11.08秒
+
+[36/50] Which port lies between Puget Sound and Lake Washington?...
+
+[1;31mGeneration Time: 12.240891 seconds[0m
+  回答长度: 354 字符
+  耗时: 12.26秒
+
+[37/50] In which city were Rotary Clubs set up in 1905?...
+
+[1;31mGeneration Time: 12.584289 seconds[0m
+  回答长度: 323 字符
+  耗时: 12.60秒
+
+[38/50] Who became US Vice President when Spiro Agnew resigned?...
+
+[1;31mGeneration Time: 11.949189 seconds[0m
+  回答长度: 335 字符
+  耗时: 11.97秒
+
+[39/50] In which decade of the 20th century was Billy Crystal born?...
+
+[1;31mGeneration Time: 30.042433 seconds[0m
+  回答长度: 2491 字符
+  耗时: 30.07秒
+
+[40/50] Which George invented the Kodak roll-film camera?...
+
+[1;31mGeneration Time: 7.101846 seconds[0m
+  回答长度: 175 字符
+  耗时: 7.13秒
+  💾 Checkpoint已保存 (40/50)
+
+[41/50] Which series had the characters Felix Unger and Oscar Madiso...
+
+[1;31mGeneration Time: 10.661467 seconds[0m
+  回答长度: 419 字符
+  耗时: 10.69秒
+
+[42/50] Who along with Philips developed the CD in the late 70s?...
+
+[1;31mGeneration Time: 7.816530 seconds[0m
+  回答长度: 87 字符
+  耗时: 7.84秒
+
+[43/50] Where is the multinational Nestle based?...
+
+[1;31mGeneration Time: 15.605324 seconds[0m
+  回答长度: 78 字符
+  耗时: 15.63秒
+
+[44/50] Do You Know Where You're Going To? was the theme from which ...
+
+[1;31mGeneration Time: 12.808508 seconds[0m
+  回答长度: 420 字符
+  耗时: 12.84秒
+
+[45/50] 19969 was the Chinese year of which creature?...
+
+[1;31mGeneration Time: 60.398700 seconds[0m
+  回答长度: 637 字符
+  耗时: 60.43秒
+
+[46/50] In the 90s how many points have been awarded for finishing s...
+
+[1;31mGeneration Time: 28.675775 seconds[0m
+  回答长度: 487 字符
+  耗时: 28.70秒
+
+[47/50] Stapleton international airport is in which US state?...
+
+[1;31mGeneration Time: 10.709997 seconds[0m
+  回答长度: 153 字符
+  耗时: 10.74秒
+
+[48/50] What was Kevin Kline's first movie?...
+
+[1;31mGeneration Time: 8.203418 seconds[0m
+  回答长度: 228 字符
+  耗时: 8.23秒
+
+[49/50] Which actor had a Doberman Pinscher called Kirk?...
+
+[1;31mGeneration Time: 20.565617 seconds[0m
+  回答长度: 279 字符
+  耗时: 20.59秒
+
+[50/50] What day of the week was the Wall Street Crash?...
+
+[1;31mGeneration Time: 10.156905 seconds[0m
+  回答长度: 361 字符
+  耗时: 10.18秒
+  💾 Checkpoint已保存 (50/50)
+
+💾 最终checkpoint已保存: ./benchmark/results/triviaqa_baseline_50.json
+
+================================================================================
+测试结果汇总
+================================================================================
+总问题数: 50
+总耗时: 758.77秒
+平均响应时间: 15.18秒
+平均回答长度: 392 字符
+================================================================================
+
+✓ 结果已保存到: ./benchmark/results/triviaqa_baseline_50.json

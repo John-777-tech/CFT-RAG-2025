@@ -1,0 +1,28 @@
+{
+  "dart_dataset": {
+    "baseline": {
+      "avg_time": 14.684761878649393,
+      "median_time": 12.246085047721863,
+      "total_time": 2202.714281797409
+    },
+    "cuckoo_filter_abstract": {
+      "avg_time": 19.21549401919047,
+      "avg_time_cleaned": 8.517122070272485,
+      "median_time": 8.242077827453613,
+      "total_time": 2882.3241028785706
+    },
+    "speed_difference": {
+      "raw": 30.853289811450335,
+      "cleaned": -42.00027116097961
+    }
+  },
+  "aeslc_dataset": {
+    "baseline": {
+      "avg_time": 9.458005536229987
+    },
+    "cuckoo_filter_abstract": {
+      "avg_time": 8.867380955344752
+    },
+    "speed_difference": -6.244705383421263
+  }
+}

@@ -1,0 +1,212 @@
+[
+  {
+    "question": "Summarize the following email: Huntley/question\n",
+    "answer": "It seems the content of the email with the subject \"Huntley/question\" is missing from the provided information. Without the email text, I can't generate a summary. Please share the full content of the email so I can assist you properly.",
+    "expected_answer": "Phillip,   Could you please do me a favor?\nI would like  to read your current title policy to see what it says about easements.\nYou  should have received a copy during your closing.\nI don't know how many  pages it will be but let me know how you want to handle getting a copy  made.\nI'll be happy to make the copy, or whatever makes it easy for  you.\nThanks,\n",
+    "time": 15.2365140914917,
+    "answer_length": 236
+  },
+  {
+    "question": "Summarize the following email: Expense Reports Awaiting Your Approval\n",
+    "answer": "The content of the email titled \"Expense Reports Awaiting Your Approval\" is not provided in the information section. Without the actual email text (e.g., details about which reports are pending, deadlines, requesters, or next steps), an accurate summary cannot be generated. Please share the full email content to get a concise summary.",
+    "expected_answer": "The following reports have been waiting for your approval for more than 4 days.\nPlease review.\nOwner: James W Reitmeyer Report Name: JReitmeyer 10/24/01 Days In Mgr.\nQueue: 5\n",
+    "time": 13.967811107635498,
+    "answer_length": 336
+  },
+  {
+    "question": "Summarize the following email: Re-start/Integration Planning\n",
+    "answer": "It seems the actual content of the email regarding \"Re-start/Integration Planning\" is missing from the provided information. Without the email text (e.g., its key points, context, action items, or participants), I’m unable to generate a summary. Please share the full email content so I can assist you effectively.",
+    "expected_answer": "We have for the last couple of weeks started to compile the Re-start/Integration Plans for Netco.\nSo far, we have primarily focussed on the mid/back plans where the technology requirements have been the driving factors.\nSeveral plans are in the final stages of completion including:-  +\tInfrastructure\t\tJenny Rub +\tDevelopment\t\tJay Webb +\tEnronOnline\t\tWebb / Forster +\tHR\t\t\tDavid Oxley +\tCash Management\tTom Myers +\tCredit\t\t\tDebbie Brackett  The rest will be completed shortly.\nWe now need to focus o",
+    "time": 9.812628984451294,
+    "answer_length": 314
+  },
+  {
+    "question": "Summarize the following email: RM Simulation Storyline Scripts - Ready for Legal Review\n",
+    "answer": "The necessary content of the email (e.g., body text detailing key points like who prepared the scripts, which simulation storylines they cover, deadlines for legal review, next steps after review, etc.) is not included in the provided information. Without the email's actual content, a meaningful summary cannot be generated. Please share the full email text to get an accurate summary.",
+    "expected_answer": "Michelle Here are my very minor comments.\nHowever we still need to wait on any additions, based on meeting with SME's today.\nOne concern is the firing of the learner who performs  bad in the final two scenarios.\nDo we face any copyright issues using the CNN type themes?\nIn addition, I think we need to stay clear of anything that remotely seems like California or anything that really happen with Enron?\n(i.e.\nSo-cal Waha) In addition, comments on regulatory issues may be a problem (i.e.\nCalifornia",
+    "time": 8.039412021636963,
+    "answer_length": 386
+  },
+  {
+    "question": "Summarize the following email: Answer\n",
+    "answer": "It seems the email content you want to summarize is missing from the provided information. Please share the full text of the email, and I’ll be able to generate a concise summary for you.",
+    "expected_answer": "For purposes of an accelerated distribution from the PSA,  a \"single sum distribution,\" in Section 6.2 means that a PSA account is distributed all at once, as distinguished from another form of payout as may have been selected by a participant in his or her deferral agreement.\nSection 6.2 is clear in that the account balance shall be determined as of the last day of the month preceding the date on which the Committee receives the written request of the Participant.\nA PSA account balance is refle",
+    "time": 5.463491916656494,
+    "answer_length": 187
+  },
+  {
+    "question": "Summarize the following email: BCP Seat Assignments\n",
+    "answer": "It seems the actual content of the email titled \"BCP Seat Assignments\" wasn’t included in the provided information. Without the email’s text (e.g., details about seat assignments, recipients, deadlines, or instructions), I can’t generate an accurate summary. Please share the full email content, and I’ll help you summarize it.",
+    "expected_answer": "All:  Attached you will find a list that reflects your seat assignments for Business Continuity Planning (BCP).\nThese seats are located on the 30th and 31st Floors of Enron Center North (ECN).\nAs previously communicated, you will report to these designated seats in the event of an outage in ECS.\nThe exception to this is as follows: If your seat assignment is located on the 31st Floor, you will report to your original location that you occupied prior to your move into ECS.\nThis will hold true unt",
+    "time": 6.2498109340667725,
+    "answer_length": 327
+  },
+  {
+    "question": "Summarize the following email: Farewell Drinks\n",
+    "answer": "It seems the content of the \"Farewell Drinks\" email is missing from the provided information section. Without the actual text of the email (e.g., details about the recipient, date, time, location, purpose, or any key messages), I’m unable to generate a summary. Please share the full content of the email, and I’ll help you summarize it clearly.",
+    "expected_answer": "As our last day is Friday, November 30th, we would love to toast the good times and special memories that we have shared with you over the past five years.\nPlease join us at Teala's (W. Dallas) on Thursday, November 29th, beginning at 5pm.\nLooking forward to being with you,   Lara and Janel     Lara Leibman\n",
+    "time": 11.045969247817993,
+    "answer_length": 345
+  },
+  {
+    "question": "Summarize the following email: Slide for John Sheriff\n",
+    "answer": "It seems the actual content of the email titled \"Slide for John Sheriff\" is missing from the provided information. Please share the full text of the email, and I will be able to summarize it accurately for you.",
+    "expected_answer": "Hi John,  I was wondering if you had a chance to put together that slide for us.\nI know you are really busy and we appreciate your help.\nThanks.\nSavita\n",
+    "time": 4.077527046203613,
+    "answer_length": 210
+  },
+  {
+    "question": "Summarize the following email: URGENT - ENA Associates & Analysts\n",
+    "answer": "It seems the actual content of the email \"URGENT - ENA Associates & Analysts\" is not provided in the information section. Please share the full text of the email, and I will be able to summarize it accurately for you.",
+    "expected_answer": "All,  The below Analyst & Associate recruiting dates require ENA participation at Manager level at above.\nIn order to resource each of your departments it is important to have ENA's involvement and participation in the interviews and debrief sessions on Fantastic Friday and Super Saturday events.\nThese de-brief sessions will allow you the opportunity to select candidates you wish to join your groups.\nThe target  is to assign potential candidates to business units and departments from the outset.",
+    "time": 5.221937894821167,
+    "answer_length": 217
+  },
+  {
+    "question": "Summarize the following email: Increased Security at Enron Center\n",
+    "answer": "It seems the actual content of the email titled \"Increased Security at Enron Center\" is missing from the provided information. Without the email text (e.g., details about new security measures, effective dates, reasons for the increase, or instructions for employees/visitors), I cannot generate an accurate summary. Please share the full content of the email, and I will help you summarize it.",
+    "expected_answer": "Late on October 25th, we received information about a nonspecific threat to the Enron Center.\nWe communicated with law enforcement officials who found the threat unsubstantiated and without merit.\nNonetheless we take all threats seriously and have increased the security presence at the Enron Center still further.\nOnce again, if you observe suspicious behavior, please call security at 3-6200.\n",
+    "time": 8.917901992797852,
+    "answer_length": 394
+  },
+  {
+    "question": "Summarize the following email: Greetings\n",
+    "answer": "The email provided only contains the greeting \"Greetings\" and no further content, message body, or additional details. There is no substantive information beyond the initial salutation to summarize.",
+    "expected_answer": "Hi John,  The events surrounding the Enron demise are quite disturbing not only to me but to many of us over here.\nOur hearts go out to all the employees who will not only loose their employment but also most, if not all, of their savings.\nAs you know, I've always thought a lot of you; not only for your trading skills, but also as a person.\nYou are one of the largest and most influential traders in the market, yet do not have the annoying ego so often found in traders of your stature.\nI'm absolu",
+    "time": 9.280334949493408,
+    "answer_length": 198
+  },
+  {
+    "question": "Summarize the following email: Meeting on Wednesday, January 2 - 9:30 am\n",
+    "answer": "The email informs recipients of a meeting scheduled for Wednesday, January 2 at 9:30 am.",
+    "expected_answer": "Kevin Presto is requesting that you attend a meeting regarding Organizing an Action Plan for the Start-up of Netco.\nThe meeting will be held in ECS 06716 at 9:30 am, Wednesday, January 2, 2002.\nFor Tim and Chris, could you please call 713-584-2067.\nThis is the telephone number in the conference room.\nIf you should have any questions, please call T Jae Black at 3-5800.\nThanks\n",
+    "time": 7.986262083053589,
+    "answer_length": 88
+  },
+  {
+    "question": "Summarize the following email: STEAG Power LLC\n",
+    "answer": "It seems the actual content of the email from STEAG Power LLC is missing in the provided information. Without the email text (including details like its purpose, key messages, requests, or updates), I cannot generate a summary. Please share the full content of the email so I can assist you effectively.",
+    "expected_answer": "Harry - I got kicked out of the system, so I'm sending this from Tom's account.\nHe can fill you in on the potential deal with STEAG.\nI left my resume on your chair.\nI'll e-mail a copy when I have my home account running.\nMy contact info is:\n",
+    "time": 3.9283337593078613,
+    "answer_length": 303
+  },
+  {
+    "question": "Summarize the following email: ConEd - Lakewood Peaker\n",
+    "answer": "It seems the content of the email \"ConEd - Lakewood Peaker\" was not included in the provided information. Without the actual text of the email (e.g., its purpose, key details like project updates, requests, or notifications related to the Lakewood Peaker facility), I cannot generate an accurate summary. Please share the full email content so I can assist you better.",
+    "expected_answer": "Harry:  Got the bid documents for ConEd's offering of peaking capacity for PJM East (Lakewood, New Jersey).\nCan't imagine they would entertain an Enron bid right now without confiscatory credit pricing.\nDo you want to bid anyway?\nLet me know.\n",
+    "time": 8.084817886352539,
+    "answer_length": 368
+  },
+  {
+    "question": "Summarize the following email: Relocation\n",
+    "answer": "The necessary information (the content of the relocation email) is not provided in the input. Without the actual text of the email, it is impossible to generate a summary. Please share the full content of the relocation email so that I can assist you with summarizing it.",
+    "expected_answer": "Thank you for allowing me to explain the UBS relocation policy.\nI have included a repayment agreement that must be printed out, signed and faxed back to 203-205-3934 at your earliest convenience.\nI look forward to working with you in the future.\nThanks\n",
+    "time": 8.494516134262085,
+    "answer_length": 271
+  },
+  {
+    "question": "Summarize the following email: IMPORTANT MESSAGE TO ALL EMPLOYEES PARTICIPATING IN THE ENRON CORP  SAVINGS & ESOP PLANS\n",
+    "answer": "The email content (body text) corresponding to the subject line \"IMPORTANT MESSAGE TO ALL EMPLOYEES PARTICIPATING IN THE ENRON CORP SAVINGS & ESOP PLANS\" is not provided in the \"Information\" section. Without the actual content of the email, it is impossible to generate an accurate summary. Please share the full text of the email to proceed.",
+    "expected_answer": "PLEASE READ THIS IMPORTANT INFORMATION CONCERNING THE ENRON STOCK FUND IN THE ENRON CORP. SAVINGS AND ESOP PLANS  On Friday, January 11, trading of Enron stock was suspended on the New York Stock Exchange (NYSE).\nAll Savings and ESOP Plan transactions, including 401(k) payroll contributions,  involving this fund were placed in a pending status until trading resumed.\nAs announced by Enron's Office of the Chair on Wednesday, January 16, Enron stock would now be traded Over The Counter (OTC).\nUpon ",
+    "time": 13.237052917480469,
+    "answer_length": 342
+  },
+  {
+    "question": "Summarize the following email: UBS issues\n",
+    "answer": "It seems the necessary information (the content of the email regarding UBS issues) is missing from the provided input. Without the specific details of the email, I cannot generate an accurate summary. Please share the full email content related to UBS issues so that I can assist you effectively.",
+    "expected_answer": "1) The enforceability of my existing contract with Enron, namely section 16.\nWhat happens to my contract with Enron and will I be forced to repay both my sign on bonus and my retention bonus to Enron?\n2) Section 1(f) and the last sentence of section 1(c) seem redundant.\nWill I get paid the retention bonus absent voluntary termination (i.e.\nfor both with cause and without cause involuntary termination) ?\n3) Who will be my employer?\nAnd will all stock and stock option grants be in UBS AG stock?\n4)",
+    "time": 8.971547842025757,
+    "answer_length": 296
+  },
+  {
+    "question": "Summarize the following email: YOU HAVE 48 HOURS - Message from Louise Kitchen\n",
+    "answer": "To summarize the email, the actual content of the email (from Louise Kitchen with the subject \"YOU HAVE 48 HOURS\") is not provided in the given information. Without the body of the email, it is impossible to generate an accurate summary. Please share the full text of the email to get a concise summary.",
+    "expected_answer": "It appears that the following email may not have been clear.\nYou have to copy all documents yourself.\nThis is my cheat sheet if it helps:    H Drives: 1.\nEach person will have to move any data over personally from the old H drive (which is now Z:) drive to their new H drive.\n2.\nThe Z: drive (old H:) will be removed from UBS employees on Thursday night.\nO Drives: 1.\nFor the old O or M drives go to O:\\ESTATE\\ O (or M ?\npending location of data) and copy to the new common O.\nThe Estate O and M will",
+    "time": 8.514249086380005,
+    "answer_length": 303
+  },
+  {
+    "question": "Summarize the following email: Sunshine Kids Benefit Golf Tournament - March 18th\n",
+    "answer": "It seems the actual content of the email about the \"Sunshine Kids Benefit Golf Tournament - March 18th\" is missing from the provided information. Without the body of the email (e.g., details like location, registration process, purpose of the benefit, fees, or special instructions), I can’t generate an accurate summary. Please share the full email content so I can assist you properly.",
+    "expected_answer": "Dear Members:  NESA is pleased to be holding its 3rd Annual Benefit Golf Tournament on Monday, March 18th, 2002 at the prestigious Champions Golf Club.\nProceeds will again benefit The Sunshine Kids Foundation.\nThis is your opportunity to secure a corporate ($2000) or individual ($500) sponsorship which includes a foursome or a single tee time, respectively for this outstanding tournament and great cause.\nAttached are registration forms.\nNESA has been proud to donate over $50,000 in the last two ",
+    "time": 8.209200143814087,
+    "answer_length": 387
+  },
+  {
+    "question": "Summarize the following email: NOTIFICATION:  Outlook Outage - Friday, December 28, 2001\n",
+    "answer": "The email is a notification about an Outlook outage associated with Friday, December 28, 2001. However, since the body content of the email is not provided, no additional details (such as the outage's duration, affected users/systems, reason for the outage, or recommended actions) can be included in the summary. From the subject line alone, we only know it is an alert regarding an Outlook service disruption linked to that specific date.",
+    "expected_answer": "This is a notice to inform you that the server where your Outlook mailbox resides is scheduled for an outage tonight.\nYour mailbox will be temporarily unavailable starting anytime after 8pm and may continue to be unavailable until 12 a.m., when all server maintenance work have been completed.\nOutlook Web Access (OWA) will also be unavailable during this time.\nBlackberry users:  Message delivery may be delayed for a few minutes.\nIf you have any questions, please call the Resolution Center at x314",
+    "time": 19.2587149143219,
+    "answer_length": 440
+  },
+  {
+    "question": "Summarize the following email: Enron/Dynegy Merger; Antitrust Issues\n",
+    "answer": "To provide a summary of the email about the Enron/Dynegy Merger and Antitrust Issues, the actual content of the email is required. Since the email text is not included in the provided information, I cannot generate an accurate summary. Please share the full email content so I can assist you further.",
+    "expected_answer": "As you know, Enron has signed a merger agreement by which Dynegy will acquire Enron.\nWe expect the transaction to close following shareholder and regulatory approvals and various conditions to closing.\nEven though Enron has entered into this agreement, U.S. and foreign antitrust laws require that Enron and Dynegy continue to operate independently of each other.\nIn particular, to the extent that Enron and Dynegy are competitors in various businesses or markets, their respective activities must be",
+    "time": 11.133713960647583,
+    "answer_length": 300
+  },
+  {
+    "question": "Summarize the following email: An Inbound Message For You Has Been Quarantined\n",
+    "answer": "The email notifies the recipient that an incoming message intended for them has been quarantined (typically by a spam or security filter). It likely includes key details such as the sender’s address, the message’s receipt date/time, and the reason for quarantine (e.g., suspected spam, potential malicious content, or policy non-compliance). Additionally, it provides instructions for actions the recipient can take—like releasing the message to their inbox, deleting it permanently, or flagging it as a false positive—and may note how long the message will remain in quarantine before automatic deletion.\n\n\n(Note: Since the full email content wasn’t provided, this summary reflects the standard structure and content of such quarantine notification emails.)",
+    "expected_answer": "You have received this message because someone has attempted to send you an e-mail from outside of Enron with an attachment type that Enron does not allow into our messaging environment.\nYour e-mail has been quarantined and is being held at the MailSweeper server.\nSender:  daphneco64@alltel.net\n",
+    "time": 11.494578123092651,
+    "answer_length": 758
+  },
+  {
+    "question": "Summarize the following email: Products\n",
+    "answer": "It seems the actual content of the email about products is missing from the provided information. Without the specific details of the email (such as product updates, descriptions, requests, or announcements mentioned in it), I'm unable to generate an accurate summary. Please share the full text of the email related to products so I can assist you properly.",
+    "expected_answer": "Hey Rob,  I am trying to create index products for Feb and I don't see the Jan products  to copy.\nI need HPL HSCX, HPL HSCX E, HPL Agua Dulce, HPL Thompsonville, and  Corpus Christi Pool.\nThanks,\n",
+    "time": 4.886345863342285,
+    "answer_length": 358
+  },
+  {
+    "question": "Summarize the following email: IR Moves\n",
+    "answer": "It seems the actual content of the email titled \"IR Moves\" is missing from the provided information. Please share the full text of the email, and I’ll be happy to summarize it for you.\n\n\n**Note:** If the email content was intended to be included but wasn’t, adding details like key announcements (e.g., leadership changes in investor relations, new IR initiatives, upcoming events), relevant dates, or stakeholders mentioned will allow for an accurate and concise summary. Let me know how you’d like to proceed!",
+    "expected_answer": "Now I see how you guys have been winning all of your games - through  cheating.\nYou are supposed to have at least one player on IR each week.\nA  designated IR player cannot play.\nThere are no IR moves during the week.\nThat means that at least one person on your team should score no points each  week.\nout\n",
+    "time": 6.945669174194336,
+    "answer_length": 511
+  },
+  {
+    "question": "Summarize the following email: DUES\n",
+    "answer": "It seems the actual content of the email about dues is missing from the \"Information\" section. Without the specific details of the email (e.g., what dues are being referenced, deadlines, amounts, payment methods, or any related instructions), it's not possible to generate an accurate summary. Please provide the full text of the email, and I’ll be happy to summarize it for you.",
+    "expected_answer": "I have not received your dues yet.\nI am giving you a one week reprieve.\nIf  I do not receive your dues ($110) by this Sunday, you will forfeit.\nMy address is:  2302 Travis St.. #8225 Houston  77006\n",
+    "time": 7.288236618041992,
+    "answer_length": 379
+  },
+  {
+    "question": "Summarize the following email: Pick-Ups\n",
+    "answer": "It seems the actual content of the email titled \"Pick-Ups\" is missing from the provided information. Without the email text, I can't generate a summary. Please share the full content of the email so I can assist you properly.",
+    "expected_answer": "Please e-mail me who you want to add and drop.\nCheck you roster to make sure that it is legal.\nI still need your dues by Sunday or you forfeit.\nI have only received dues from Dave and Steve!\n",
+    "time": 8.213786840438843,
+    "answer_length": 225
+  },
+  {
+    "question": "Summarize the following email: Trade?\n",
+    "answer": "The email is a very brief message consisting solely of the question \"Trade?\", which likely inquires about the possibility of engaging in a trade (the specific type of trade is not specified in the message).\n\nSince the original email content provided is just the single word \"Trade?\", the summary reflects its brevity and core intent of asking about a potential trade. If additional context were available (e.g., what items/services are being considered for trade), the summary could be more detailed—but based on the given information, this is the accurate summary.",
+    "expected_answer": "I would like to trade for your 2nd pick in the draft.\nI can offer you a 2nd  round pick and a 9th round pick.\nWhat do you think?\nEric\n",
+    "time": 9.438895225524902,
+    "answer_length": 565
+  },
+  {
+    "question": "Summarize the following email: Draft\n",
+    "answer": "It seems the content of the draft email you want summarized is not provided in the \"Information\" section. Without the actual text of the draft email, I can't generate a summary. Please share the draft email content, and I'll help you summarize it.",
+    "expected_answer": "By unanimous vote we will pre-determine the draft order.\nSo, if nobidy has  any objections, I will pick the draft order here at work under the scrutinhy  of several other players ( Dave B, O. Winfree, M. Lenhart, M. Walters).\nAlso, by majority vote, will have a required tight end posn.\nMeaning the  starting lineups will include 1QB, 2 RBs, 3 WRs, 1 TE, 1 K, 1 Def.\nPlease e-mail back if you are ok with me picking the draft order.\nEric\n",
+    "time": 5.865561246871948,
+    "answer_length": 247
+  },
+  {
+    "question": "Summarize the following email: Draft change request\n",
+    "answer": "It seems the actual content of the email titled \"Draft change request\" is missing from the provided information. Without the email's text (e.g., details about the proposed change, its purpose, impact, timeline, or stakeholders involved), I can’t generate an accurate summary. Please share the full content of the email, and I’ll help you summarize it effectively.",
+    "expected_answer": "There are some conflicts with the draft date, so we will probably need to  have it on a different date.\nPlease tell me if you prefer 9/2 ( the day  before the season starts) or 8/20.\nWe could also do it during the week, but  it will probably takle 3 or 4 hrs.\nLet me know suggestions.\n",
+    "time": 5.318246126174927,
+    "answer_length": 363
+  },
+  {
+    "question": "Summarize the following email: Game Tonight\n",
+    "answer": "It seems the content of the email titled \"Game Tonight\" is missing from the provided information. Without the actual text of the email (e.g., details about the game time, location, participants, or any related instructions), I can’t generate a meaningful summary. Please share the full content of the email, and I’ll help you summarize it.",
+    "expected_answer": "I don't know the YMCA's policy on rain outs so  I will assume that we still  have a game tonight.\nOur game is at 7:45 tonight.\nPlease let me know if you  will be there.\nEric\n",
+    "time": 8.130414962768555,
+    "answer_length": 339
+  }
+]

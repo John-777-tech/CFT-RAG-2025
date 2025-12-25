@@ -1,0 +1,330 @@
+加载数据集: ./datasets/processed/medqa.json
+✓ 成功加载 1273 条数据
+
+正在加载向量数据库和实体树...
+0it [00:00, ?it/s]0it [00:00, ?it/s]
+✓ Vector DB加载完成 (17.83秒)
+✓ Baseline RAG模式，跳过Forest和NLP构建 (17.83秒)
+✓ 初始化完成 (17.83秒)
+
+
+开始测试 50 个问题...
+================================================================================
+
+[1/50] A junior orthopaedic surgery resident is completing a carpal...
+
+[1;31mGeneration Time: 28.168621 seconds[0m
+  回答长度: 1997 字符
+  耗时: 28.18秒
+
+[2/50] A 67-year-old man with transitional cell carcinoma of the bl...
+
+[1;31mGeneration Time: 19.259085 seconds[0m
+  回答长度: 943 字符
+  耗时: 19.27秒
+
+[3/50] Two weeks after undergoing an emergency cardiac catherizatio...
+
+[1;31mGeneration Time: 29.659748 seconds[0m
+  回答长度: 1865 字符
+  耗时: 29.68秒
+
+[4/50] A 39-year-old woman is brought to the emergency department b...
+
+[1;31mGeneration Time: 31.356538 seconds[0m
+  回答长度: 1436 字符
+  耗时: 31.37秒
+
+[5/50] A 35-year-old man comes to the physician because of itchy, w...
+
+[1;31mGeneration Time: 37.538514 seconds[0m
+  回答长度: 1623 字符
+  耗时: 37.57秒
+
+[6/50] A 39-year-old man presents to the emergency department becau...
+
+[1;31mGeneration Time: 46.043690 seconds[0m
+  回答长度: 1450 字符
+  耗时: 46.07秒
+
+[7/50] A 68-year-old male comes to the physician for evaluation of ...
+
+[1;31mGeneration Time: 31.763246 seconds[0m
+  回答长度: 1475 字符
+  耗时: 31.79秒
+
+[8/50] A 65-year-old man is brought to the emergency department 30 ...
+
+[1;31mGeneration Time: 50.868906 seconds[0m
+  回答长度: 1358 字符
+  耗时: 50.90秒
+
+[9/50] A 37-year-old-woman presents to her primary care physician r...
+
+[1;31mGeneration Time: 35.540969 seconds[0m
+  回答长度: 1532 字符
+  耗时: 35.57秒
+
+[10/50] A 23-year-old woman comes to the physician because she is em...
+
+[1;31mGeneration Time: 11.790179 seconds[0m
+  回答长度: 408 字符
+  耗时: 11.82秒
+  💾 Checkpoint已保存 (10/50)
+
+[11/50] A 24-year-old G2P1 woman at 39 weeks’ gestation presents to ...
+
+[1;31mGeneration Time: 31.639224 seconds[0m
+  回答长度: 1601 字符
+  耗时: 31.66秒
+
+[12/50] A 72-year-old man comes to the physician because of a 2-mont...
+
+[1;31mGeneration Time: 50.125304 seconds[0m
+  回答长度: 1684 字符
+  耗时: 50.15秒
+
+[13/50] A 20-year-old man comes to the physician because of worsenin...
+
+[1;31mGeneration Time: 43.045572 seconds[0m
+  回答长度: 1451 字符
+  耗时: 43.07秒
+
+[14/50] A 47-year-old executive schedules an appointment his physici...
+
+[1;31mGeneration Time: 26.764120 seconds[0m
+  回答长度: 984 字符
+  耗时: 26.79秒
+
+[15/50] A microbiologist is studying the emergence of a virulent str...
+
+[1;31mGeneration Time: 27.446641 seconds[0m
+  回答长度: 960 字符
+  耗时: 27.48秒
+
+[16/50] A 59-year-old overweight woman presents to the urgent care c...
+
+[1;31mGeneration Time: 21.117037 seconds[0m
+  回答长度: 1440 字符
+  耗时: 21.15秒
+
+[17/50] A 7-year-old boy is brought to his pediatrician’s office for...
+
+[1;31mGeneration Time: 17.315673 seconds[0m
+  回答长度: 1018 字符
+  耗时: 17.34秒
+
+[18/50] A 3-month-old boy is brought the emergency department by his...
+
+[1;31mGeneration Time: 19.212729 seconds[0m
+  回答长度: 1189 字符
+  耗时: 19.24秒
+
+[19/50] A 29-year-old man presents to the emergency department due t...
+
+[1;31mGeneration Time: 41.969740 seconds[0m
+  回答长度: 3244 字符
+  耗时: 42.00秒
+
+[20/50] A 46-year-old man is brought to the emergency department for...
+
+[1;31mGeneration Time: 43.017823 seconds[0m
+  回答长度: 1957 字符
+  耗时: 43.05秒
+  💾 Checkpoint已保存 (20/50)
+
+[21/50] A 77-year-old woman presents to the emergency room with the ...
+
+[1;31mGeneration Time: 16.733184 seconds[0m
+  回答长度: 1219 字符
+  耗时: 16.76秒
+
+[22/50] A 3-month-old infant is brought to her pediatrician because ...
+
+[1;31mGeneration Time: 31.910058 seconds[0m
+  回答长度: 1506 字符
+  耗时: 31.94秒
+
+[23/50] A 30-year-old African American woman comes to the physician ...
+
+[1;31mGeneration Time: 28.023782 seconds[0m
+  回答长度: 1128 字符
+  耗时: 28.05秒
+
+[24/50] A 62-year-old patient has been hospitalized for a week due t...
+
+[1;31mGeneration Time: 50.381092 seconds[0m
+  回答长度: 1321 字符
+  耗时: 50.41秒
+
+[25/50] A 6-year-old boy is brought to the emergency department by h...
+
+[1;31mGeneration Time: 27.270763 seconds[0m
+  回答长度: 1285 字符
+  耗时: 27.30秒
+
+[26/50] A 5-year-old female suffers from recurrent infections by Asp...
+
+[1;31mGeneration Time: 16.722609 seconds[0m
+  回答长度: 1051 字符
+  耗时: 16.75秒
+
+[27/50] A 3-year-old boy presents to the emergency department with a...
+
+[1;31mGeneration Time: 11.587227 seconds[0m
+  回答长度: 497 字符
+  耗时: 11.61秒
+
+[28/50] A 26-year-old woman presents to a gynecologist after a misse...
+
+[1;31mGeneration Time: 18.965566 seconds[0m
+  回答长度: 1339 字符
+  耗时: 18.99秒
+
+[29/50] A 4-year-old previously healthy boy presents with 4 days of ...
+
+[1;31mGeneration Time: 43.102798 seconds[0m
+  回答长度: 2346 字符
+  耗时: 43.12秒
+
+[30/50] A 3-week-old male newborn is brought to the physician becaus...
+
+[1;31mGeneration Time: 23.607407 seconds[0m
+  回答长度: 1484 字符
+  耗时: 23.63秒
+  💾 Checkpoint已保存 (30/50)
+
+[31/50] A 42-year-old woman comes to the emergency department becaus...
+
+[1;31mGeneration Time: 39.988085 seconds[0m
+  回答长度: 1686 字符
+  耗时: 40.00秒
+
+[32/50] A 72-year-old woman is admitted to the intensive care unit f...
+
+[1;31mGeneration Time: 42.493132 seconds[0m
+  回答长度: 1927 字符
+  耗时: 42.51秒
+
+[33/50] A 22-year-old woman is brought to the emergency department b...
+
+[1;31mGeneration Time: 26.536669 seconds[0m
+  回答长度: 1270 字符
+  耗时: 26.57秒
+
+[34/50] An otherwise healthy 50-year-old man comes to the physician ...
+
+[1;31mGeneration Time: 55.632081 seconds[0m
+  回答长度: 2235 字符
+  耗时: 55.66秒
+
+[35/50] A 27-year-old man presents to the emergency department. He w...
+
+[1;31mGeneration Time: 59.651921 seconds[0m
+  回答长度: 1873 字符
+  耗时: 59.68秒
+
+[36/50] A 67-year-old man who was diagnosed with arthritis 16 years ...
+
+[1;31mGeneration Time: 27.656868 seconds[0m
+  回答长度: 1472 字符
+  耗时: 27.69秒
+
+[37/50] A 65-year-old woman schedules an appointment with her physic...
+
+[1;31mGeneration Time: 21.818244 seconds[0m
+  回答长度: 1553 字符
+  耗时: 21.84秒
+
+[38/50] A 3-month-old boy presents to his pediatrician with persiste...
+
+[1;31mGeneration Time: 22.806472 seconds[0m
+  回答长度: 1600 字符
+  耗时: 22.84秒
+
+[39/50] A 53-year-old man with recurrent pancreatic adenocarcinoma i...
+
+[1;31mGeneration Time: 44.700843 seconds[0m
+  回答长度: 943 字符
+  耗时: 44.73秒
+
+[40/50] A 67-year-old male is seen by neurology after he was noticed...
+
+[1;31mGeneration Time: 15.706813 seconds[0m
+  回答长度: 1035 字符
+  耗时: 15.73秒
+  💾 Checkpoint已保存 (40/50)
+
+[41/50] A 27-year-old woman presents to the office with concerns abo...
+
+[1;31mGeneration Time: 24.449082 seconds[0m
+  回答长度: 894 字符
+  耗时: 24.48秒
+
+[42/50] А 43-уеаr-old mаn рrеѕеntѕ wіth tіnglіng аnd numbnеѕѕ of the...
+
+[1;31mGeneration Time: 19.789380 seconds[0m
+  回答长度: 1521 字符
+  耗时: 19.82秒
+
+[43/50] A one-day-old male is evaluated in the hospital nursery for ...
+
+[1;31mGeneration Time: 34.293780 seconds[0m
+  回答长度: 1310 字符
+  耗时: 34.32秒
+
+[44/50] A healthy 23-year-old male is undergoing an exercise stress ...
+
+[1;31mGeneration Time: 25.341451 seconds[0m
+  回答长度: 829 字符
+  耗时: 25.37秒
+
+[45/50] A 45-year-old G5P4105 presents to her gynecologist’s office ...
+
+[1;31mGeneration Time: 24.765363 seconds[0m
+  回答长度: 1402 字符
+  耗时: 24.79秒
+
+[46/50] A man is brought into the emergency department by the police...
+
+[1;31mGeneration Time: 55.892141 seconds[0m
+  回答长度: 1659 字符
+  耗时: 55.92秒
+
+[47/50] A medical research study is evaluating an investigational no...
+
+[1;31mGeneration Time: 24.369665 seconds[0m
+  回答长度: 617 字符
+  耗时: 24.40秒
+
+[48/50] A 55-year-old man comes to the physician because of a 6-week...
+
+[1;31mGeneration Time: 26.366873 seconds[0m
+  回答长度: 1620 字符
+  耗时: 26.40秒
+
+[49/50] A 29-year-old primigravid woman at 35 weeks' gestation is ad...
+
+[1;31mGeneration Time: 37.681878 seconds[0m
+  回答长度: 1620 字符
+  耗时: 37.70秒
+
+[50/50] A 67-year-old man is hospitalized after several days of feve...
+
+[1;31mGeneration Time: 26.757306 seconds[0m
+  回答长度: 1317 字符
+  耗时: 26.78秒
+  💾 Checkpoint已保存 (50/50)
+
+💾 最终checkpoint已保存: ./benchmark/results/medqa_baseline_full.json
+
+================================================================================
+测试结果汇总
+================================================================================
+总问题数: 50
+总耗时: 1569.96秒
+平均响应时间: 31.40秒
+平均回答长度: 1423 字符
+================================================================================
+
+✓ 结果已保存到: ./benchmark/results/medqa_baseline_full.json

@@ -1,0 +1,26 @@
+[
+  {
+    "question": "Summarize the following email: Huntley/question\n",
+    "answer": "[ERROR: (MaxRetryError(\"HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x17b7851e0>, 'Connection to huggingface.co timed out. (connect timeout=None)'))\"), '(Request ID: dbc74dd1-1fdf-40be-96dd-1dd61f011e84)')]",
+    "expected_answer": "Phillip,   Could you please do me a favor?\nI would like  to read your current title policy to see what it says about easements.\nYou  should have received a copy during your closing.\nI don't know how many  pages it will be but let me know how you want to handle getting a copy  made.\nI'll be happy to make the copy, or whatever makes it easy for  you.\nThanks,\n",
+    "time": 0,
+    "answer_length": 0,
+    "error": "(MaxRetryError(\"HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x17b7851e0>, 'Connection to huggingface.co timed out. (connect timeout=None)'))\"), '(Request ID: dbc74dd1-1fdf-40be-96dd-1dd61f011e84)')"
+  },
+  {
+    "question": "Summarize the following email: Expense Reports Awaiting Your Approval\n",
+    "answer": "[ERROR: (MaxRetryError(\"HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x17b3e2bf0>, 'Connection to huggingface.co timed out. (connect timeout=None)'))\"), '(Request ID: 24fac1d2-d779-42d2-b901-76ec5415c7f5)')]",
+    "expected_answer": "The following reports have been waiting for your approval for more than 4 days.\nPlease review.\nOwner: James W Reitmeyer Report Name: JReitmeyer 10/24/01 Days In Mgr.\nQueue: 5\n",
+    "time": 0,
+    "answer_length": 0,
+    "error": "(MaxRetryError(\"HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x17b3e2bf0>, 'Connection to huggingface.co timed out. (connect timeout=None)'))\"), '(Request ID: 24fac1d2-d779-42d2-b901-76ec5415c7f5)')"
+  },
+  {
+    "question": "Summarize the following email: Re-start/Integration Planning\n",
+    "answer": "[ERROR: (MaxRetryError(\"HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x17b716d40>, 'Connection to huggingface.co timed out. (connect timeout=None)'))\"), '(Request ID: c9a6ff4c-4fdd-472f-a0bc-7951b0f2c5fe)')]",
+    "expected_answer": "We have for the last couple of weeks started to compile the Re-start/Integration Plans for Netco.\nSo far, we have primarily focussed on the mid/back plans where the technology requirements have been the driving factors.\nSeveral plans are in the final stages of completion including:-  +\tInfrastructure\t\tJenny Rub +\tDevelopment\t\tJay Webb +\tEnronOnline\t\tWebb / Forster +\tHR\t\t\tDavid Oxley +\tCash Management\tTom Myers +\tCredit\t\t\tDebbie Brackett  The rest will be completed shortly.\nWe now need to focus o",
+    "time": 0,
+    "answer_length": 0,
+    "error": "(MaxRetryError(\"HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x17b716d40>, 'Connection to huggingface.co timed out. (connect timeout=None)'))\"), '(Request ID: c9a6ff4c-4fdd-472f-a0bc-7951b0f2c5fe)')"
+  }
+]

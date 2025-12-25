@@ -1,0 +1,383 @@
+加载数据集: ./datasets/processed/medqa.json
+✓ 成功加载 1273 条数据
+
+正在加载向量数据库和实体树...
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [02:55<00:00, 175.91s/it]100%|██████████| 1/1 [02:55<00:00, 175.92s/it]
+num_buckets: 8
+✓ Vector DB加载完成 (181.97秒)
+Loading cached forest and nlp from ./entity_forest_cache/forest_nlp_entities_file_medqa_entities_file_tree_num_50_node_num_2000000_bf1.pkl...
+✓ Forest和NLP加载完成 (182.57秒)
+✓ Cuckoo Filter已初始化 (跳过build步骤，使用增强搜索函数)
+✓ 初始化完成 (182.57秒)
+
+
+开始测试 50 个问题...
+================================================================================
+
+[1/50] A junior orthopaedic surgery resident is completing a carpal...
+query entity number: 4
+
+[1;31mTime Ratio: 0.265570%[0m
+  回答长度: 548 字符
+  耗时: 29.11秒
+
+[2/50] A 67-year-old man with transitional cell carcinoma of the bl...
+query entity number: 1
+
+[1;31mTime Ratio: 0.252616%[0m
+  回答长度: 111 字符
+  耗时: 10.85秒
+
+[3/50] Two weeks after undergoing an emergency cardiac catherizatio...
+query entity number: 1
+
+[1;31mTime Ratio: 0.324932%[0m
+  回答长度: 145 字符
+  耗时: 20.41秒
+
+[4/50] A 39-year-old woman is brought to the emergency department b...
+query entity number: 1
+
+[1;31mTime Ratio: 0.177926%[0m
+  回答长度: 476 字符
+  耗时: 28.20秒
+
+[5/50] A 35-year-old man comes to the physician because of itchy, w...
+query entity number: 1
+
+[1;31mTime Ratio: 0.168132%[0m
+  回答长度: 391 字符
+  耗时: 32.62秒
+
+[6/50] A 39-year-old man presents to the emergency department becau...
+query entity number: 1
+
+[1;31mTime Ratio: 0.058879%[0m
+  回答长度: 783 字符
+  耗时: 52.66秒
+
+[7/50] A 68-year-old male comes to the physician for evaluation of ...
+query entity number: 2
+
+[1;31mTime Ratio: 0.167581%[0m
+  回答长度: 69 字符
+  耗时: 21.26秒
+
+[8/50] A 65-year-old man is brought to the emergency department 30 ...
+query entity number: 2
+
+[1;31mTime Ratio: 0.185551%[0m
+  回答长度: 395 字符
+  耗时: 22.13秒
+
+[9/50] A 37-year-old-woman presents to her primary care physician r...
+query entity number: 2
+
+[1;31mTime Ratio: 0.136298%[0m
+  回答长度: 160 字符
+  耗时: 27.50秒
+
+[10/50] A 23-year-old woman comes to the physician because she is em...
+query entity number: 1
+
+[1;31mTime Ratio: 0.103592%[0m
+  回答长度: 26 字符
+  耗时: 19.20秒
+  💾 Checkpoint已保存 (10/50)
+
+[11/50] A 24-year-old G2P1 woman at 39 weeks’ gestation presents to ...
+query entity number: 2
+
+[1;31mTime Ratio: 0.576369%[0m
+  回答长度: 113 字符
+  耗时: 10.53秒
+
+[12/50] A 72-year-old man comes to the physician because of a 2-mont...
+query entity number: 0
+
+[1;31mTime Ratio: 0.252949%[0m
+  回答长度: 100 字符
+  耗时: 22.19秒
+
+[13/50] A 20-year-old man comes to the physician because of worsenin...
+query entity number: 2
+
+[1;31mTime Ratio: 0.117215%[0m
+  回答长度: 314 字符
+  耗时: 32.03秒
+
+[14/50] A 47-year-old executive schedules an appointment his physici...
+query entity number: 2
+
+[1;31mTime Ratio: 0.195207%[0m
+  回答长度: 34 字符
+  耗时: 15.11秒
+
+[15/50] A microbiologist is studying the emergence of a virulent str...
+query entity number: 0
+
+[1;31mTime Ratio: 0.521133%[0m
+  回答长度: 16 字符
+  耗时: 8.39秒
+
+[16/50] A 59-year-old overweight woman presents to the urgent care c...
+query entity number: 2
+
+[1;31mTime Ratio: 0.203009%[0m
+  回答长度: 22 字符
+  耗时: 20.28秒
+
+[17/50] A 7-year-old boy is brought to his pediatrician’s office for...
+query entity number: 1
+
+[1;31mTime Ratio: 0.485732%[0m
+  回答长度: 298 字符
+  耗时: 12.47秒
+
+[18/50] A 3-month-old boy is brought the emergency department by his...
+query entity number: 2
+
+[1;31mTime Ratio: 0.741897%[0m
+  回答长度: 9 字符
+  耗时: 6.98秒
+
+[19/50] A 29-year-old man presents to the emergency department due t...
+query entity number: 4
+
+[1;31mTime Ratio: 0.832233%[0m
+  回答长度: 136 字符
+  耗时: 14.69秒
+
+[20/50] A 46-year-old man is brought to the emergency department for...
+query entity number: 1
+
+[1;31mTime Ratio: 0.127787%[0m
+  回答长度: 579 字符
+  耗时: 28.08秒
+  💾 Checkpoint已保存 (20/50)
+
+[21/50] A 77-year-old woman presents to the emergency room with the ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.190113%[0m
+  回答长度: 62 字符
+  耗时: 26.98秒
+
+[22/50] A 3-month-old infant is brought to her pediatrician because ...
+query entity number: 2
+
+[1;31mTime Ratio: 0.235524%[0m
+  回答长度: 124 字符
+  耗时: 16.88秒
+
+[23/50] A 30-year-old African American woman comes to the physician ...
+query entity number: 5
+
+[1;31mTime Ratio: 0.251427%[0m
+  回答长度: 23 字符
+  耗时: 20.60秒
+
+[24/50] A 62-year-old patient has been hospitalized for a week due t...
+query entity number: 1
+
+[1;31mTime Ratio: 0.095336%[0m
+  回答长度: 613 字符
+  耗时: 46.13秒
+
+[25/50] A 6-year-old boy is brought to the emergency department by h...
+query entity number: 0
+
+[1;31mTime Ratio: 0.145715%[0m
+  回答长度: 260 字符
+  耗时: 46.68秒
+
+[26/50] A 5-year-old female suffers from recurrent infections by Asp...
+query entity number: 2
+
+[1;31mTime Ratio: 0.382284%[0m
+  回答长度: 22 字符
+  耗时: 11.58秒
+
+[27/50] A 3-year-old boy presents to the emergency department with a...
+query entity number: 1
+
+[1;31mTime Ratio: 1.019013%[0m
+  回答长度: 45 字符
+  耗时: 6.09秒
+
+[28/50] A 26-year-old woman presents to a gynecologist after a misse...
+query entity number: 2
+
+[1;31mTime Ratio: 0.568148%[0m
+  回答长度: 312 字符
+  耗时: 7.72秒
+
+[29/50] A 4-year-old previously healthy boy presents with 4 days of ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.318344%[0m
+  回答长度: 300 字符
+  耗时: 38.42秒
+
+[30/50] A 3-week-old male newborn is brought to the physician becaus...
+query entity number: 1
+
+[1;31mTime Ratio: 0.222516%[0m
+  回答长度: 239 字符
+  耗时: 22.02秒
+  💾 Checkpoint已保存 (30/50)
+
+[31/50] A 42-year-old woman comes to the emergency department becaus...
+query entity number: 1
+
+[1;31mTime Ratio: 0.296182%[0m
+  回答长度: 20 字符
+  耗时: 20.72秒
+
+[32/50] A 72-year-old woman is admitted to the intensive care unit f...
+query entity number: 2
+
+[1;31mTime Ratio: 0.083626%[0m
+  回答长度: 637 字符
+  耗时: 33.81秒
+
+[33/50] A 22-year-old woman is brought to the emergency department b...
+query entity number: 2
+
+[1;31mTime Ratio: 0.646609%[0m
+  回答长度: 16 字符
+  耗时: 12.98秒
+
+[34/50] An otherwise healthy 50-year-old man comes to the physician ...
+query entity number: 0
+
+[1;31mTime Ratio: 0.165542%[0m
+  回答长度: 98 字符
+  耗时: 20.70秒
+
+[35/50] A 27-year-old man presents to the emergency department. He w...
+query entity number: 5
+
+[1;31mTime Ratio: 0.480178%[0m
+  回答长度: 38 字符
+  耗时: 19.79秒
+
+[36/50] A 67-year-old man who was diagnosed with arthritis 16 years ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.297284%[0m
+  回答长度: 20 字符
+  耗时: 12.72秒
+
+[37/50] A 65-year-old woman schedules an appointment with her physic...
+query entity number: 0
+
+[1;31mTime Ratio: 0.261331%[0m
+  回答长度: 122 字符
+  耗时: 10.60秒
+
+[38/50] A 3-month-old boy presents to his pediatrician with persiste...
+query entity number: 2
+
+[1;31mTime Ratio: 0.099785%[0m
+  回答长度: 93 字符
+  耗时: 22.56秒
+
+[39/50] A 53-year-old man with recurrent pancreatic adenocarcinoma i...
+query entity number: 6
+
+[1;31mTime Ratio: 0.197198%[0m
+  回答长度: 363 字符
+  耗时: 30.89秒
+
+[40/50] A 67-year-old male is seen by neurology after he was noticed...
+query entity number: 6
+
+[1;31mTime Ratio: 0.543806%[0m
+  回答长度: 19 字符
+  耗时: 6.95秒
+  💾 Checkpoint已保存 (40/50)
+
+[41/50] A 27-year-old woman presents to the office with concerns abo...
+query entity number: 2
+
+[1;31mTime Ratio: 0.467693%[0m
+  回答长度: 32 字符
+  耗时: 13.17秒
+
+[42/50] А 43-уеаr-old mаn рrеѕеntѕ wіth tіnglіng аnd numbnеѕѕ of the...
+query entity number: 2
+
+[1;31mTime Ratio: 0.636034%[0m
+  回答长度: 57 字符
+  耗时: 10.28秒
+
+[43/50] A one-day-old male is evaluated in the hospital nursery for ...
+query entity number: 5
+
+[1;31mTime Ratio: 0.249443%[0m
+  回答长度: 234 字符
+  耗时: 23.93秒
+
+[44/50] A healthy 23-year-old male is undergoing an exercise stress ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.379775%[0m
+  回答长度: 21 字符
+  耗时: 28.63秒
+
+[45/50] A 45-year-old G5P4105 presents to her gynecologist’s office ...
+query entity number: 3
+
+[1;31mTime Ratio: 0.148498%[0m
+  回答长度: 39 字符
+  耗时: 38.60秒
+
+[46/50] A man is brought into the emergency department by the police...
+query entity number: 2
+
+[1;31mTime Ratio: 0.190673%[0m
+  回答长度: 11 字符
+  耗时: 26.60秒
+
+[47/50] A medical research study is evaluating an investigational no...
+query entity number: 1
+
+[1;31mTime Ratio: 0.212041%[0m
+  回答长度: 283 字符
+  耗时: 19.43秒
+
+[48/50] A 55-year-old man comes to the physician because of a 6-week...
+query entity number: 1
+
+[1;31mTime Ratio: 0.252076%[0m
+  回答长度: 882 字符
+  耗时: 21.82秒
+
+[49/50] A 29-year-old primigravid woman at 35 weeks' gestation is ad...
+query entity number: 2
+
+[1;31mTime Ratio: 0.099594%[0m
+  回答长度: 303 字符
+  耗时: 37.92秒
+
+[50/50] A 67-year-old man is hospitalized after several days of feve...
+query entity number: 3
+
+[1;31mTime Ratio: 0.195437%[0m
+  回答长度: 96 字符
+  耗时: 25.68秒
+  💾 Checkpoint已保存 (50/50)
+
+💾 最终checkpoint已保存: ./benchmark/results/medqa_cuckoo_50.json
+
+================================================================================
+测试结果汇总
+================================================================================
+总问题数: 50
+总耗时: 1115.61秒
+平均响应时间: 22.31秒
+平均回答长度: 202 字符
+================================================================================
+
+✓ 结果已保存到: ./benchmark/results/medqa_cuckoo_50.json

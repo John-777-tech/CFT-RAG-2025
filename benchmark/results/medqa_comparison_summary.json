@@ -1,0 +1,34 @@
+{
+  "dataset": "MedQA",
+  "samples": 50,
+  "baseline": {
+    "rouge1": 0.0246,
+    "rouge2": 0.0077,
+    "rougeL": 0.0223,
+    "bleu": 0.0013
+  },
+  "cuckoo_abstract": {
+    "rouge1": 0.2306,
+    "rouge2": 0.081,
+    "rougeL": 0.226,
+    "bleu": 0.0442
+  },
+  "improvements": {
+    "rouge1": {
+      "absolute": 0.206,
+      "percentage": 837.57
+    },
+    "rouge2": {
+      "absolute": 0.0733,
+      "percentage": 952.91
+    },
+    "rougeL": {
+      "absolute": 0.2037,
+      "percentage": 912.32
+    },
+    "bleu": {
+      "absolute": 0.0429,
+      "percentage": 3293.46
+    }
+  }
+}

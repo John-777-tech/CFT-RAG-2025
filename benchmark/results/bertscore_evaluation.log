@@ -1,0 +1,116 @@
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+================================================================================
+使用多种指标评估摘要质量
+================================================================================
+
+支持的指标:
+  ROUGE: ✓
+  BLEU: ✓
+  BERTScore: ✓
+================================================================================
+
+正在计算BERTScore（50个样本）...
+  注意：首次运行需要下载BERT模型（roberta-large，约1.3GB）
+  如果网络连接有问题，可以：
+  1. 设置环境变量: export HF_ENDPOINT=https://hf-mirror.com
+  2. 或使用 --skip-bertscore 跳过BERTScore评估
+  3. 下载可能需要10-20分钟，请耐心等待...
+  使用HuggingFace镜像: https://hf-mirror.com
+  正在计算BERTScore...
+calculating scores...
+computing bert embedding.
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:05<00:17,  5.98s/it] 50%|█████     | 2/4 [00:06<00:05,  2.75s/it] 75%|███████▌  | 3/4 [00:06<00:01,  1.59s/it]100%|██████████| 4/4 [00:06<00:00,  1.68s/it]
+computing greedy matching.
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 132.06it/s]
+done in 6.76 seconds, 7.40 sentences/sec
+
+总样本数: 50
+
+平均分数:
+  ROUGE1: 0.2306
+  ROUGE2: 0.0810
+  ROUGEL: 0.2260
+  BLEU: 0.0442
+  BERTSCORE: 0.8548
+
+前10个详细结果:
+
+[1] A junior orthopaedic surgery resident is completin...
+    ROUGE-1: 0.0659
+    ROUGE-2: 0.0000
+    ROUGE-L: 0.0659
+    BLEU: 0.0028
+    BERTScore: 0.8240
+
+[2] A 67-year-old man with transitional cell carcinoma...
+    ROUGE-1: 0.3000
+    ROUGE-2: 0.1111
+    ROUGE-L: 0.3000
+    BLEU: 0.0115
+    BERTScore: 0.8715
+
+[3] Two weeks after undergoing an emergency cardiac ca...
+    ROUGE-1: 0.2353
+    ROUGE-2: 0.1333
+    ROUGE-L: 0.2353
+    BLEU: 0.0079
+    BERTScore: 0.8745
+
+[4] A 39-year-old woman is brought to the emergency de...
+    ROUGE-1: 0.0533
+    ROUGE-2: 0.0274
+    ROUGE-L: 0.0533
+    BLEU: 0.0028
+    BERTScore: 0.7944
+
+[5] A 35-year-old man comes to the physician because o...
+    ROUGE-1: 0.0364
+    ROUGE-2: 0.0000
+    ROUGE-L: 0.0364
+    BLEU: 0.0025
+    BERTScore: 0.7729
+
+[6] A 39-year-old man presents to the emergency depart...
+    ROUGE-1: 0.0165
+    ROUGE-2: 0.0000
+    ROUGE-L: 0.0165
+    BLEU: 0.0012
+    BERTScore: 0.7638
+
+[7] A 68-year-old male comes to the physician for eval...
+    ROUGE-1: 0.0000
+    ROUGE-2: 0.0000
+    ROUGE-L: 0.0000
+    BLEU: 0.0000
+    BERTScore: 0.8097
+
+[8] A 65-year-old man is brought to the emergency depa...
+    ROUGE-1: 0.0370
+    ROUGE-2: 0.0000
+    ROUGE-L: 0.0370
+    BLEU: 0.0028
+    BERTScore: 0.8044
+
+[9] A 37-year-old-woman presents to her primary care p...
+    ROUGE-1: 0.0667
+    ROUGE-2: 0.0000
+    ROUGE-L: 0.0667
+    BLEU: 0.0062
+    BERTScore: 0.8168
+
+[10] A 23-year-old woman comes to the physician because...
+    ROUGE-1: 0.0000
+    ROUGE-2: 0.0000
+    ROUGE-L: 0.0000
+    BLEU: 0.0000
+    BERTScore: 0.8295
+
+✓ 评估结果已保存到: ./benchmark/results/medqa_cuckoo_50_evaluation_full.json
+
+================================================================================
+指标说明：
+  ROUGE: 基于n-gram重叠的摘要评估指标
+  BLEU: 基于n-gram精确匹配的翻译/摘要评估指标
+  BERTScore: 基于BERT语义相似度的评估指标
+================================================================================

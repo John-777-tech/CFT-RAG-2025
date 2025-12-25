@@ -1,0 +1,1094 @@
+加载数据集: ./datasets/processed/dart.json
+✓ 成功加载 2768 条数据
+
+正在加载向量数据库和实体树...
+  0%|          | 0/65 [00:00<?, ?it/s]  2%|▏         | 1/65 [00:00<00:36,  1.75it/s]  5%|▍         | 3/65 [00:00<00:13,  4.54it/s]  6%|▌         | 4/65 [00:00<00:10,  5.55it/s]  9%|▉         | 6/65 [00:01<00:07,  7.67it/s] 11%|█         | 7/65 [00:01<00:07,  7.67it/s] 12%|█▏        | 8/65 [00:01<00:07,  8.10it/s] 15%|█▌        | 10/65 [00:01<00:05,  9.43it/s] 18%|█▊        | 12/65 [00:01<00:05,  9.51it/s] 22%|██▏       | 14/65 [00:01<00:05,  9.76it/s] 25%|██▍       | 16/65 [00:02<00:05,  9.71it/s] 26%|██▌       | 17/65 [00:02<00:05,  9.51it/s] 29%|██▉       | 19/65 [00:02<00:04, 10.52it/s] 32%|███▏      | 21/65 [00:02<00:04, 10.78it/s] 35%|███▌      | 23/65 [00:02<00:03, 12.32it/s] 38%|███▊      | 25/65 [00:03<00:05,  7.80it/s] 42%|████▏     | 27/65 [00:03<00:05,  6.74it/s] 43%|████▎     | 28/65 [00:03<00:05,  6.59it/s] 45%|████▍     | 29/65 [00:03<00:05,  7.05it/s] 48%|████▊     | 31/65 [00:03<00:03,  9.01it/s] 51%|█████     | 33/65 [00:04<00:03,  8.86it/s] 54%|█████▍    | 35/65 [00:04<00:03,  9.99it/s] 57%|█████▋    | 37/65 [00:04<00:02, 10.85it/s] 62%|██████▏   | 40/65 [00:04<00:01, 13.68it/s] 66%|██████▌   | 43/65 [00:04<00:01, 15.55it/s] 69%|██████▉   | 45/65 [00:04<00:01, 14.96it/s] 72%|███████▏  | 47/65 [00:05<00:01, 12.79it/s] 75%|███████▌  | 49/65 [00:05<00:01, 11.08it/s] 78%|███████▊  | 51/65 [00:05<00:01,  8.44it/s] 82%|████████▏ | 53/65 [00:06<00:02,  5.10it/s] 83%|████████▎ | 54/65 [00:07<00:03,  3.53it/s] 85%|████████▍ | 55/65 [00:07<00:02,  3.90it/s] 86%|████████▌ | 56/65 [00:07<00:02,  4.42it/s] 88%|████████▊ | 57/65 [00:07<00:01,  4.95it/s] 89%|████████▉ | 58/65 [00:07<00:01,  5.30it/s] 91%|█████████ | 59/65 [00:07<00:01,  5.98it/s] 92%|█████████▏| 60/65 [00:07<00:00,  6.18it/s] 94%|█████████▍| 61/65 [00:08<00:00,  6.58it/s] 95%|█████████▌| 62/65 [00:08<00:00,  7.18it/s] 97%|█████████▋| 63/65 [00:08<00:00,  7.57it/s]100%|██████████| 65/65 [00:08<00:00,  8.26it/s]100%|██████████| 65/65 [00:08<00:00,  7.67it/s]
+num_buckets: 2
+✓ Vector DB加载完成 (14.57秒)
+tree num: 1
+node num: 7
+✓ Forest和NLP加载完成 (15.75秒)
+✓ Cuckoo Filter已初始化 (跳过build步骤，使用增强搜索函数)
+✓ 初始化完成 (15.75秒)
+
+
+开始测试 150 个问题...
+================================================================================
+
+[1/150] Generate a description based on the following triples: (Mars...
+query entity number: 1
+
+[1;31mTime Ratio: 0.277338%[0m
+  回答长度: 72 字符
+  耗时: 5.90秒
+
+[2/150] Generate a description based on the following triples: (Newb...
+query entity number: 1
+
+[1;31mTime Ratio: 0.068768%[0m
+  回答长度: 42 字符
+  耗时: 6.56秒
+
+[3/150] Generate a description based on the following triples: (Pres...
+query entity number: 1
+
+[1;31mTime Ratio: 0.077257%[0m
+  回答长度: 41 字符
+  耗时: 5.63秒
+
+[4/150] Generate a description based on the following triples: (Quee...
+query entity number: 1
+
+[1;31mTime Ratio: 0.193409%[0m
+  回答长度: 88 字符
+  耗时: 6.13秒
+
+[5/150] Generate a description based on the following triples: (Inar...
+query entity number: 1
+
+[1;31mTime Ratio: 0.031826%[0m
+  回答长度: 43 字符
+  耗时: 12.45秒
+
+[6/150] Generate a description based on the following triples: (New ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.487266%[0m
+  回答长度: 98 字符
+  耗时: 6.13秒
+
+[7/150] Generate a description based on the following triples: (Atla...
+query entity number: 1
+
+[1;31mTime Ratio: 0.070353%[0m
+  回答长度: 121 字符
+  耗时: 13.66秒
+
+[8/150] Generate a description based on the following triples: (Bogo...
+query entity number: 1
+
+[1;31mTime Ratio: 0.319932%[0m
+  回答长度: 22 字符
+  耗时: 3.42秒
+
+[9/150] Generate a description based on the following triples: ([TAB...
+query entity number: 1
+
+[1;31mTime Ratio: 0.074412%[0m
+  回答长度: 151 字符
+  耗时: 11.03秒
+
+[10/150] Generate a description based on the following triples: (1983...
+query entity number: 1
+
+[1;31mTime Ratio: 0.134902%[0m
+  回答长度: 98 字符
+  耗时: 8.38秒
+  💾 Checkpoint已保存 (10/150)
+
+[11/150] Generate a description based on the following triples: (Fina...
+query entity number: 1
+
+[1;31mTime Ratio: 0.063434%[0m
+  回答长度: 77 字符
+  耗时: 9.34秒
+
+[12/150] Generate a description based on the following triples: (24, ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.192099%[0m
+  回答长度: 72 字符
+  耗时: 5.87秒
+
+[13/150] Generate a description based on the following triples: (14, ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.028918%[0m
+  回答长度: 55 字符
+  耗时: 16.70秒
+
+[14/150] Generate a description based on the following triples: (Aper...
+query entity number: 1
+
+[1;31mTime Ratio: 0.093245%[0m
+  回答长度: 117 字符
+  耗时: 12.09秒
+
+[15/150] Generate a description based on the following triples: (1983...
+query entity number: 1
+
+[1;31mTime Ratio: 0.083783%[0m
+  回答长度: 133 字符
+  耗时: 8.97秒
+
+[16/150] Generate a description based on the following triples: (Ever...
+query entity number: 1
+
+[1;31mTime Ratio: 0.114240%[0m
+  回答长度: 48 字符
+  耗时: 7.42秒
+
+[17/150] Generate a description based on the following triples: ([TAB...
+query entity number: 1
+
+[1;31mTime Ratio: 0.063362%[0m
+  回答长度: 90 字符
+  耗时: 11.62秒
+
+[18/150] Generate a description based on the following triples: (Say ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.199687%[0m
+  回答长度: 83 字符
+  耗时: 5.35秒
+
+[19/150] Generate a description based on the following triples: ([TAB...
+query entity number: 1
+
+[1;31mTime Ratio: 0.073566%[0m
+  回答长度: 45 字符
+  耗时: 7.92秒
+
+[20/150] Generate a description based on the following triples: (Holy...
+query entity number: 1
+
+[1;31mTime Ratio: 0.181414%[0m
+  回答长度: 62 字符
+  耗时: 5.57秒
+  💾 Checkpoint已保存 (20/150)
+
+[21/150] Generate a description based on the following triples: (15, ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.100468%[0m
+  回答长度: 146 字符
+  耗时: 9.90秒
+
+[22/150] Generate a description based on the following triples: (Soon...
+query entity number: 1
+
+[1;31mTime Ratio: 0.133490%[0m
+  回答长度: 130 字符
+  耗时: 8.80秒
+
+[23/150] Generate a description based on the following triples: (Arab...
+query entity number: 1
+
+[1;31mTime Ratio: 0.042983%[0m
+  回答长度: 70 字符
+  耗时: 11.70秒
+
+[24/150] Generate a description based on the following triples: (Arab...
+query entity number: 1
+
+[1;31mTime Ratio: 0.103265%[0m
+  回答长度: 69 字符
+  耗时: 9.39秒
+
+[25/150] Generate a description based on the following triples: (Arab...
+query entity number: 1
+
+[1;31mTime Ratio: 0.036403%[0m
+  回答长度: 110 字符
+  耗时: 12.58秒
+
+[26/150] Generate a description based on the following triples: (Arab...
+query entity number: 1
+
+[1;31mTime Ratio: 0.038271%[0m
+  回答长度: 89 字符
+  耗时: 12.52秒
+
+[27/150] Generate a description based on the following triples: ([TAB...
+query entity number: 1
+
+[1;31mTime Ratio: 0.148127%[0m
+  回答长度: 87 字符
+  耗时: 6.02秒
+
+[28/150] Generate a description based on the following triples: (Bob ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.118133%[0m
+  回答长度: 54 字符
+  耗时: 4.69秒
+
+[29/150] Generate a description based on the following triples: ([TAB...
+query entity number: 1
+
+[1;31mTime Ratio: 0.164468%[0m
+  回答长度: 82 字符
+  耗时: 6.88秒
+
+[30/150] Generate a description based on the following triples: ([TAB...
+query entity number: 1
+
+[1;31mTime Ratio: 0.053678%[0m
+  回答长度: 110 字符
+  耗时: 14.94秒
+  💾 Checkpoint已保存 (30/150)
+
+[31/150] Generate a description based on the following triples: (John...
+query entity number: 1
+
+[1;31mTime Ratio: 1.458191%[0m
+  回答长度: 96 字符
+  耗时: 7.86秒
+
+[32/150] Generate a description based on the following triples: (Gil ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.061339%[0m
+  回答长度: 153 字符
+  耗时: 13.06秒
+
+[33/150] Generate a description based on the following triples: (Sky ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.084417%[0m
+  回答长度: 61 字符
+  耗时: 12.53秒
+
+[34/150] Generate a description based on the following triples: (87, ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.073156%[0m
+  回答长度: 118 字符
+  耗时: 14.40秒
+
+[35/150] Generate a description based on the following triples: (Brun...
+query entity number: 1
+
+[1;31mTime Ratio: 0.049774%[0m
+  回答长度: 199 字符
+  耗时: 29.01秒
+
+[36/150] Generate a description based on the following triples: ([TAB...
+query entity number: 1
+
+[1;31mTime Ratio: 0.074777%[0m
+  回答长度: 121 字符
+  耗时: 17.69秒
+
+[37/150] Generate a description based on the following triples: ([TAB...
+query entity number: 1
+
+[1;31mTime Ratio: 0.155712%[0m
+  回答长度: 146 字符
+  耗时: 9.12秒
+
+[38/150] Generate a description based on the following triples: (83, ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.065787%[0m
+  回答长度: 127 字符
+  耗时: 14.98秒
+
+[39/150] Generate a description based on the following triples: (Jimm...
+query entity number: 1
+
+[1;31mTime Ratio: 0.137489%[0m
+  回答长度: 105 字符
+  耗时: 8.94秒
+
+[40/150] Generate a description based on the following triples: (Adri...
+query entity number: 1
+
+[1;31mTime Ratio: 0.081294%[0m
+  回答长度: 106 字符
+  耗时: 9.71秒
+  💾 Checkpoint已保存 (40/150)
+
+[41/150] Generate a description based on the following triples: (San ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.116329%[0m
+  回答长度: 153 字符
+  耗时: 12.47秒
+
+[42/150] Generate a description based on the following triples: (San ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.075030%[0m
+  回答长度: 61 字符
+  耗时: 6.13秒
+
+[43/150] Generate a description based on the following triples: (Nues...
+query entity number: 1
+
+[1;31mTime Ratio: 0.155065%[0m
+  回答长度: 218 字符
+  耗时: 9.54秒
+
+[44/150] Generate a description based on the following triples: (29, ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.041576%[0m
+  回答长度: 45 字符
+  耗时: 12.68秒
+
+[45/150] Generate a description based on the following triples: (35, ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.231112%[0m
+  回答长度: 49 字符
+  耗时: 7.78秒
+
+[46/150] Generate a description based on the following triples: (Tris...
+query entity number: 1
+
+[1;31mTime Ratio: 0.094348%[0m
+  回答长度: 32 字符
+  耗时: 6.64秒
+
+[47/150] Generate a description based on the following triples: (Lond...
+query entity number: 1
+
+[1;31mTime Ratio: 0.197457%[0m
+  回答长度: 19 字符
+  耗时: 5.02秒
+
+[48/150] Generate a description based on the following triples: (Adri...
+query entity number: 1
+
+[1;31mTime Ratio: 0.076747%[0m
+  回答长度: 50 字符
+  耗时: 7.48秒
+
+[49/150] Generate a description based on the following triples: (Luca...
+query entity number: 1
+
+[1;31mTime Ratio: 0.155248%[0m
+  回答长度: 48 字符
+  耗时: 7.61秒
+
+[50/150] Generate a description based on the following triples: (Andr...
+query entity number: 1
+
+[1;31mTime Ratio: 0.060423%[0m
+  回答长度: 33 字符
+  耗时: 7.15秒
+  💾 Checkpoint已保存 (50/150)
+
+[51/150] Generate a description based on the following triples: (Trac...
+query entity number: 1
+
+[1;31mTime Ratio: 0.221721%[0m
+  回答长度: 45 字符
+  耗时: 5.53秒
+
+[52/150] Generate a description based on the following triples: (Carm...
+query entity number: 1
+
+[1;31mTime Ratio: 0.098528%[0m
+  回答长度: 66 字符
+  耗时: 6.62秒
+
+[53/150] Generate a description based on the following triples: (Liba...
+query entity number: 1
+
+[1;31mTime Ratio: 0.181267%[0m
+  回答长度: 33 字符
+  耗时: 4.91秒
+
+[54/150] Generate a description based on the following triples: ([TAB...
+query entity number: 1
+
+[1;31mTime Ratio: 0.102976%[0m
+  回答长度: 95 字符
+  耗时: 8.42秒
+
+[55/150] Generate a description based on the following triples: (Chic...
+query entity number: 1
+
+[1;31mTime Ratio: 1.244685%[0m
+  回答长度: 133 字符
+  耗时: 8.40秒
+
+[56/150] Generate a description based on the following triples: (Kans...
+query entity number: 1
+
+[1;31mTime Ratio: 0.073634%[0m
+  回答长度: 151 字符
+  耗时: 11.26秒
+
+[57/150] Generate a description based on the following triples: (Indi...
+query entity number: 1
+
+[1;31mTime Ratio: 0.303916%[0m
+  回答长度: 54 字符
+  耗时: 6.66秒
+
+[58/150] Generate a description based on the following triples: (Milw...
+query entity number: 1
+
+[1;31mTime Ratio: 0.091452%[0m
+  回答长度: 74 字符
+  耗时: 6.20秒
+
+[59/150] Generate a description based on the following triples: (Reed...
+query entity number: 1
+
+[1;31mTime Ratio: 0.175317%[0m
+  回答长度: 36 字符
+  耗时: 6.19秒
+
+[60/150] Generate a description based on the following triples: (Rich...
+query entity number: 1
+
+[1;31mTime Ratio: 0.045158%[0m
+  回答长度: 75 字符
+  耗时: 14.25秒
+  💾 Checkpoint已保存 (60/150)
+
+[61/150] Generate a description based on the following triples: (Rifl...
+query entity number: 1
+
+[1;31mTime Ratio: 0.209048%[0m
+  回答长度: 85 字符
+  耗时: 6.17秒
+
+[62/150] Generate a description based on the following triples: (Roch...
+query entity number: 1
+
+[1;31mTime Ratio: 0.062123%[0m
+  回答长度: 60 字符
+  耗时: 8.44秒
+
+[63/150] Generate a description based on the following triples: (Rose...
+query entity number: 1
+
+[1;31mTime Ratio: 0.180267%[0m
+  回答长度: 40 字符
+  耗时: 5.34秒
+
+[64/150] Generate a description based on the following triples: ([TAB...
+query entity number: 1
+
+[1;31mTime Ratio: 0.146791%[0m
+  回答长度: 113 字符
+  耗时: 7.04秒
+
+[65/150] Generate a description based on the following triples: (Libe...
+query entity number: 1
+
+[1;31mTime Ratio: 0.187314%[0m
+  回答长度: 126 字符
+  耗时: 8.02秒
+
+[66/150] Generate a description based on the following triples: ([TAB...
+query entity number: 1
+
+[1;31mTime Ratio: 0.000606%[0m
+  回答长度: 136 字符
+  耗时: 1542.60秒
+
+[67/150] Generate a description based on the following triples: (Inde...
+query entity number: 1
+
+[1;31mTime Ratio: 0.339828%[0m
+  回答长度: 102 字符
+  耗时: 8.29秒
+
+[68/150] Generate a description based on the following triples: (Othe...
+query entity number: 1
+
+[1;31mTime Ratio: 0.075371%[0m
+  回答长度: 100 字符
+  耗时: 10.85秒
+
+[69/150] Generate a description based on the following triples: (New ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.126245%[0m
+  回答长度: 162 字符
+  耗时: 10.34秒
+
+[70/150] Generate a description based on the following triples: (Ed T...
+query entity number: 1
+
+[1;31mTime Ratio: 0.099690%[0m
+  回答长度: 35 字符
+  耗时: 4.43秒
+  💾 Checkpoint已保存 (70/150)
+
+[71/150] Generate a description based on the following triples: (Jose...
+query entity number: 1
+
+[1;31mTime Ratio: 0.194542%[0m
+  回答长度: 79 字符
+  耗时: 6.33秒
+
+[72/150] Generate a description based on the following triples: (John...
+query entity number: 1
+
+[1;31mTime Ratio: 0.138592%[0m
+  回答长度: 48 字符
+  耗时: 3.88秒
+
+[73/150] Generate a description based on the following triples: (LS (...
+query entity number: 1
+
+[1;31mTime Ratio: 0.097559%[0m
+  回答长度: 90 字符
+  耗时: 11.29秒
+
+[74/150] Generate a description based on the following triples: (LS (...
+query entity number: 1
+
+[1;31mTime Ratio: 0.068411%[0m
+  回答长度: 87 字符
+  耗时: 9.13秒
+
+[75/150] Generate a description based on the following triples: (15-0...
+query entity number: 1
+
+[1;31mTime Ratio: 0.086004%[0m
+  回答长度: 73 字符
+  耗时: 12.68秒
+
+[76/150] Generate a description based on the following triples: (15-0...
+query entity number: 1
+
+[1;31mTime Ratio: 0.119157%[0m
+  回答长度: 67 字符
+  耗时: 5.34秒
+
+[77/150] Generate a description based on the following triples: (12, ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.105054%[0m
+  回答长度: 52 字符
+  耗时: 9.70秒
+
+[78/150] Generate a description based on the following triples: (6, H...
+query entity number: 1
+
+[1;31mTime Ratio: 0.089049%[0m
+  回答长度: 98 字符
+  耗时: 7.18秒
+
+[79/150] Generate a description based on the following triples: (Geor...
+query entity number: 1
+
+[1;31mTime Ratio: 1.522088%[0m
+  回答长度: 128 字符
+  耗时: 6.85秒
+
+[80/150] Generate a description based on the following triples: (Amha...
+query entity number: 1
+
+[1;31mTime Ratio: 0.098756%[0m
+  回答长度: 119 字符
+  耗时: 6.04秒
+  💾 Checkpoint已保存 (80/150)
+
+[81/150] Generate a description based on the following triples: (Mala...
+query entity number: 1
+
+[1;31mTime Ratio: 0.176607%[0m
+  回答长度: 68 字符
+  耗时: 6.73秒
+
+[82/150] Generate a description based on the following triples: (Indo...
+query entity number: 1
+
+[1;31mTime Ratio: 0.066637%[0m
+  回答长度: 78 字符
+  耗时: 8.17秒
+
+[83/150] Generate a description based on the following triples: (Khow...
+query entity number: 1
+
+[1;31mTime Ratio: 0.191062%[0m
+  回答长度: 119 字符
+  耗时: 6.12秒
+
+[84/150] Generate a description based on the following triples: (Lama...
+query entity number: 1
+
+[1;31mTime Ratio: 0.078228%[0m
+  回答长度: 76 字符
+  耗时: 7.13秒
+
+[85/150] Generate a description based on the following triples: (Mars...
+query entity number: 1
+
+[1;31mTime Ratio: 0.225990%[0m
+  回答长度: 68 字符
+  耗时: 4.10秒
+
+[86/150] Generate a description based on the following triples: (Tall...
+query entity number: 1
+
+[1;31mTime Ratio: 0.078825%[0m
+  回答长度: 81 字符
+  耗时: 7.06秒
+
+[87/150] Generate a description based on the following triples: (Ферм...
+query entity number: 1
+
+[1;31mTime Ratio: 0.109685%[0m
+  回答长度: 75 字符
+  耗时: 10.50秒
+
+[88/150] Generate a description based on the following triples: (La G...
+query entity number: 1
+
+[1;31mTime Ratio: 0.107376%[0m
+  回答长度: 67 字符
+  耗时: 6.05秒
+
+[89/150] Generate a description based on the following triples: (BP6 ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.152482%[0m
+  回答长度: 99 字符
+  耗时: 8.91秒
+
+[90/150] Generate a description based on the following triples: (BP14...
+query entity number: 1
+
+[1;31mTime Ratio: 0.109350%[0m
+  回答长度: 85 字符
+  耗时: 6.90秒
+  💾 Checkpoint已保存 (90/150)
+
+[91/150] Generate a description based on the following triples: (SE2,...
+query entity number: 1
+
+[1;31mTime Ratio: 0.162370%[0m
+  回答长度: 52 字符
+  耗时: 6.01秒
+
+[92/150] Generate a description based on the following triples: (PTC ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.078542%[0m
+  回答长度: 58 字符
+  耗时: 6.88秒
+
+[93/150] Generate a description based on the following triples: (PW5,...
+query entity number: 1
+
+[1;31mTime Ratio: 0.116032%[0m
+  回答长度: 130 字符
+  耗时: 11.52秒
+
+[94/150] Generate a description based on the following triples: (Baní...
+query entity number: 1
+
+[1;31mTime Ratio: 0.044801%[0m
+  回答长度: 73 字符
+  耗时: 10.46秒
+
+[95/150] Generate a description based on the following triples: (Loui...
+query entity number: 1
+
+[1;31mTime Ratio: 0.056415%[0m
+  回答长度: 91 字符
+  耗时: 10.02秒
+
+[96/150] Generate a description based on the following triples: (Loui...
+query entity number: 1
+
+[1;31mTime Ratio: 0.189770%[0m
+  回答长度: 43 字符
+  耗时: 9.15秒
+
+[97/150] Generate a description based on the following triples: (Jerr...
+query entity number: 1
+
+[1;31mTime Ratio: 0.067715%[0m
+  回答长度: 171 字符
+  耗时: 12.56秒
+
+[98/150] Generate a description based on the following triples: (Ferr...
+query entity number: 1
+
+[1;31mTime Ratio: 0.120754%[0m
+  回答长度: 30 字符
+  耗时: 3.32秒
+
+[99/150] Generate a description based on the following triples: (Bait...
+query entity number: 1
+
+[1;31mTime Ratio: 0.069844%[0m
+  回答长度: 70 字符
+  耗时: 8.19秒
+
+[100/150] Generate a description based on the following triples: ([TAB...
+query entity number: 1
+
+[1;31mTime Ratio: 0.237771%[0m
+  回答长度: 67 字符
+  耗时: 7.22秒
+  💾 Checkpoint已保存 (100/150)
+
+[101/150] Generate a description based on the following triples: ([TAB...
+query entity number: 1
+
+[1;31mTime Ratio: 0.041303%[0m
+  回答长度: 101 字符
+  耗时: 18.29秒
+
+[102/150] Generate a description based on the following triples: (Fylk...
+query entity number: 1
+
+[1;31mTime Ratio: 0.112196%[0m
+  回答长度: 67 字符
+  耗时: 6.02秒
+
+[103/150] Generate a description based on the following triples: (Self...
+query entity number: 1
+
+[1;31mTime Ratio: 0.089255%[0m
+  回答长度: 53 字符
+  耗时: 6.86秒
+
+[104/150] Generate a description based on the following triples: (ÍBV,...
+query entity number: 1
+
+[1;31mTime Ratio: 0.114723%[0m
+  回答长度: 59 字符
+  耗时: 5.33秒
+
+[105/150] Generate a description based on the following triples: (ÍR, ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.113116%[0m
+  回答长度: 32 字符
+  耗时: 16.58秒
+
+[106/150] Generate a description based on the following triples: (9, P...
+query entity number: 1
+
+[1;31mTime Ratio: 0.085630%[0m
+  回答长度: 65 字符
+  耗时: 7.29秒
+
+[107/150] Generate a description based on the following triples: (5, P...
+query entity number: 1
+
+[1;31mTime Ratio: 0.042097%[0m
+  回答长度: 68 字符
+  耗时: 19.29秒
+
+[108/150] Generate a description based on the following triples: (3, W...
+query entity number: 1
+
+[1;31mTime Ratio: 1.358727%[0m
+  回答长度: 70 字符
+  耗时: 7.79秒
+
+[109/150] Generate a description based on the following triples: (Metr...
+query entity number: 1
+
+[1;31mTime Ratio: 0.097991%[0m
+  回答长度: 146 字符
+  耗时: 8.76秒
+
+[110/150] Generate a description based on the following triples: (D.C....
+query entity number: 1
+
+[1;31mTime Ratio: 0.092017%[0m
+  回答长度: 109 字符
+  耗时: 9.02秒
+  💾 Checkpoint已保存 (110/150)
+
+[111/150] Generate a description based on the following triples: (42, ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.198633%[0m
+  回答长度: 161 字符
+  耗时: 11.99秒
+
+[112/150] Generate a description based on the following triples: (New ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.045906%[0m
+  回答长度: 128 字符
+  耗时: 18.14秒
+
+[113/150] Generate a description based on the following triples: (San ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.075798%[0m
+  回答长度: 185 字符
+  耗时: 11.45秒
+
+[114/150] Generate a description based on the following triples: (Dall...
+query entity number: 1
+
+[1;31mTime Ratio: 0.341378%[0m
+  回答长度: 49 字符
+  耗时: 5.33秒
+
+[115/150] Generate a description based on the following triples: (5, C...
+query entity number: 1
+
+[1;31mTime Ratio: 0.086037%[0m
+  回答长度: 60 字符
+  耗时: 6.15秒
+
+[116/150] Generate a description based on the following triples: (1945...
+query entity number: 1
+
+[1;31mTime Ratio: 0.110978%[0m
+  回答长度: 119 字符
+  耗时: 6.32秒
+
+[117/150] Generate a description based on the following triples: (1946...
+query entity number: 1
+
+[1;31mTime Ratio: 0.366438%[0m
+  回答长度: 97 字符
+  耗时: 5.53秒
+
+[118/150] Generate a description based on the following triples: (2001...
+query entity number: 1
+
+[1;31mTime Ratio: 0.077275%[0m
+  回答长度: 35 字符
+  耗时: 5.46秒
+
+[119/150] Generate a description based on the following triples: (2003...
+query entity number: 1
+
+[1;31mTime Ratio: 0.344349%[0m
+  回答长度: 39 字符
+  耗时: 4.19秒
+
+[120/150] Generate a description based on the following triples: (2006...
+query entity number: 1
+
+[1;31mTime Ratio: 0.566134%[0m
+  回答长度: 37 字符
+  耗时: 3.58秒
+  💾 Checkpoint已保存 (120/150)
+
+[121/150] Generate a description based on the following triples: (2013...
+query entity number: 1
+
+[1;31mTime Ratio: 0.125025%[0m
+  回答长度: 36 字符
+  耗时: 3.68秒
+
+[122/150] Generate a description based on the following triples: (2012...
+query entity number: 1
+
+[1;31mTime Ratio: 0.106293%[0m
+  回答长度: 63 字符
+  耗时: 5.37秒
+
+[123/150] Generate a description based on the following triples: (203,...
+query entity number: 1
+
+[1;31mTime Ratio: 0.336033%[0m
+  回答长度: 68 字符
+  耗时: 6.09秒
+
+[124/150] Generate a description based on the following triples: (Liam...
+query entity number: 1
+
+[1;31mTime Ratio: 0.077027%[0m
+  回答长度: 69 字符
+  耗时: 6.87秒
+
+[125/150] Generate a description based on the following triples: (Mark...
+query entity number: 1
+
+[1;31mTime Ratio: 0.048741%[0m
+  回答长度: 75 字符
+  耗时: 11.22秒
+
+[126/150] Generate a description based on the following triples: (Scot...
+query entity number: 1
+
+[1;31mTime Ratio: 0.207675%[0m
+  回答长度: 41 字符
+  耗时: 9.62秒
+
+[127/150] Generate a description based on the following triples: (Gary...
+query entity number: 1
+
+[1;31mTime Ratio: 0.029219%[0m
+  回答长度: 81 字符
+  耗时: 18.82秒
+
+[128/150] Generate a description based on the following triples: (Paul...
+query entity number: 1
+
+[1;31mTime Ratio: 0.095614%[0m
+  回答长度: 71 字符
+  耗时: 13.69秒
+
+[129/150] Generate a description based on the following triples: (Ulad...
+query entity number: 1
+
+[1;31mTime Ratio: 0.279464%[0m
+  回答长度: 69 字符
+  耗时: 6.50秒
+
+[130/150] Generate a description based on the following triples: (Univ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.058284%[0m
+  回答长度: 73 字符
+  耗时: 13.16秒
+  💾 Checkpoint已保存 (130/150)
+
+[131/150] Generate a description based on the following triples: (Ulad...
+query entity number: 1
+
+[1;31mTime Ratio: 0.086523%[0m
+  回答长度: 97 字符
+  耗时: 8.70秒
+
+[132/150] Generate a description based on the following triples: (49, ...
+query entity number: 1
+
+[1;31mTime Ratio: 0.269917%[0m
+  回答长度: 54 字符
+  耗时: 7.78秒
+
+[133/150] Generate a description based on the following triples: (hubr...
+query entity number: 1
+
+[1;31mTime Ratio: 0.093461%[0m
+  回答长度: 93 字符
+  耗时: 9.51秒
+
+[134/150] Generate a description based on the following triples: (no p...
+query entity number: 1
+
+[1;31mTime Ratio: 0.097663%[0m
+  回答长度: 73 字符
+  耗时: 5.29秒
+
+[135/150] Generate a description based on the following triples: (scho...
+query entity number: 1
+
+[1;31mTime Ratio: 0.370568%[0m
+  回答长度: 68 字符
+  耗时: 5.74秒
+
+[136/150] Generate a description based on the following triples: (Tami...
+query entity number: 1
+
+[1;31mTime Ratio: 0.045088%[0m
+  回答长度: 95 字符
+  耗时: 13.57秒
+
+[137/150] Generate a description based on the following triples: (Tami...
+query entity number: 1
+
+[1;31mTime Ratio: 0.065069%[0m
+  回答长度: 190 字符
+  耗时: 11.42秒
+
+[138/150] Generate a description based on the following triples: (Sans...
+query entity number: 1
+
+[1;31mTime Ratio: 0.221742%[0m
+  回答长度: 94 字符
+  耗时: 9.26秒
+
+[139/150] Generate a description based on the following triples: (Hind...
+query entity number: 1
+
+[1;31mTime Ratio: 0.073819%[0m
+  回答长度: 89 字符
+  耗时: 7.65秒
+
+[140/150] Generate a description based on the following triples: (Mara...
+query entity number: 1
+
+[1;31mTime Ratio: 0.065326%[0m
+  回答长度: 87 字符
+  耗时: 8.33秒
+  💾 Checkpoint已保存 (140/150)
+
+[141/150] Generate a description based on the following triples: (Beng...
+query entity number: 1
+
+[1;31mTime Ratio: 0.162534%[0m
+  回答长度: 177 字符
+  耗时: 15.53秒
+
+[142/150] Generate a description based on the following triples: (Kash...
+query entity number: 1
+
+[1;31mTime Ratio: 0.069147%[0m
+  回答长度: 105 字符
+  耗时: 10.06秒
+
+[143/150] Generate a description based on the following triples: (Kash...
+query entity number: 1
+
+[1;31mTime Ratio: 0.131830%[0m
+  回答长度: 107 字符
+  耗时: 8.49秒
+
+[144/150] Generate a description based on the following triples: (Sinh...
+query entity number: 1
+
+[1;31mTime Ratio: 0.888803%[0m
+  回答长度: 140 字符
+  耗时: 11.36秒
+
+[145/150] Generate a description based on the following triples: (Java...
+query entity number: 1
+
+[1;31mTime Ratio: 0.040741%[0m
+  回答长度: 96 字符
+  耗时: 11.29秒
+
+[146/150] Generate a description based on the following triples: (Aust...
+query entity number: 1
+
+[1;31mTime Ratio: 0.080238%[0m
+  回答长度: 104 字符
+  耗时: 8.57秒
+
+[147/150] Generate a description based on the following triples: (Cana...
+query entity number: 1
+
+[1;31mTime Ratio: 0.136741%[0m
+  回答长度: 201 字符
+  耗时: 18.22秒
+
+[148/150] Generate a description based on the following triples: (Euro...
+query entity number: 1
+
+[1;31mTime Ratio: 0.109050%[0m
+  回答长度: 67 字符
+  耗时: 4.02秒
+
+[149/150] Generate a description based on the following triples: (U.S....
+query entity number: 1
+
+[1;31mTime Ratio: 0.078540%[0m
+  回答长度: 85 字符
+  耗时: 8.70秒
+
+[150/150] Generate a description based on the following triples: (CKYB...
+query entity number: 1
+
+[1;31mTime Ratio: 0.307026%[0m
+  回答长度: 163 字符
+  耗时: 7.66秒
+  💾 Checkpoint已保存 (150/150)
+
+💾 最终checkpoint已保存: ./benchmark/results/dart_cuckoo_150.json
+
+================================================================================
+测试结果汇总
+================================================================================
+总问题数: 150
+总耗时: 2882.38秒
+平均响应时间: 19.22秒
+平均回答长度: 87 字符
+================================================================================
+
+✓ 结果已保存到: ./benchmark/results/dart_cuckoo_150.json

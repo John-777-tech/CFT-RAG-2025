@@ -1,0 +1,92 @@
+{
+  "average_scores": {
+    "rouge1": 0.18666973324158243,
+    "rouge2": 0.034257436172914185,
+    "rougeL": 0.1299179968117865,
+    "bleu": 0.00964519049100162,
+    "bertscore": 0.8123837935297112
+  },
+  "total_samples": 95,
+  "detailed_results": [
+    {
+      "question": "Summarize the following email: Huntley/question\n",
+      "rouge1": 0.09523809523809525,
+      "rouge2": 0.0,
+      "rougeL": 0.05714285714285715,
+      "bleu": 0.0028589103379135466,
+      "bertscore": 0.8078617453575134
+    },
+    {
+      "question": "Summarize the following email: Expense Reports Awa",
+      "rouge1": 0.17391304347826086,
+      "rouge2": 0.029850746268656716,
+      "rougeL": 0.14492753623188406,
+      "bleu": 0.014886459693587576,
+      "bertscore": 0.8063570261001587
+    },
+    {
+      "question": "Summarize the following email: Re-start/Integratio",
+      "rouge1": 0.18518518518518517,
+      "rouge2": 0.07547169811320754,
+      "rougeL": 0.16666666666666666,
+      "bleu": 0.0028608818123524813,
+      "bertscore": 0.8206547498703003
+    },
+    {
+      "question": "Summarize the following email: RM Simulation Story",
+      "rouge1": 0.09433962264150943,
+      "rouge2": 0.0,
+      "rougeL": 0.05660377358490567,
+      "bleu": 9.490251462757639e-05,
+      "bertscore": 0.8286786079406738
+    },
+    {
+      "question": "Summarize the following email: Answer\n",
+      "rouge1": 0.15384615384615385,
+      "rouge2": 0.0,
+      "rougeL": 0.11965811965811966,
+      "bleu": 0.0015643791592818126,
+      "bertscore": 0.817233145236969
+    },
+    {
+      "question": "Summarize the following email: BCP Seat Assignment",
+      "rouge1": 0.20168067226890754,
+      "rouge2": 0.05128205128205129,
+      "rougeL": 0.13445378151260504,
+      "bleu": 0.0038000834077390666,
+      "bertscore": 0.8036987781524658
+    },
+    {
+      "question": "Summarize the following email: Farewell Drinks\n",
+      "rouge1": 0.16279069767441862,
+      "rouge2": 0.0,
+      "rougeL": 0.11627906976744186,
+      "bleu": 0.0068918102808537465,
+      "bertscore": 0.7934438586235046
+    },
+    {
+      "question": "Summarize the following email: Slide for John Sher",
+      "rouge1": 0.05405405405405406,
+      "rouge2": 0.0,
+      "rougeL": 0.05405405405405406,
+      "bleu": 0.0012807757976899567,
+      "bertscore": 0.80837082862854
+    },
+    {
+      "question": "Summarize the following email: URGENT - ENA Associ",
+      "rouge1": 0.19469026548672566,
+      "rouge2": 0.018018018018018018,
+      "rougeL": 0.1415929203539823,
+      "bleu": 0.005456346221472934,
+      "bertscore": 0.7876279354095459
+    },
+    {
+      "question": "Summarize the following email: Increased Security ",
+      "rouge1": 0.24175824175824173,
+      "rouge2": 0.0449438202247191,
+      "rougeL": 0.17582417582417584,
+      "bleu": 0.009362325560464284,
+      "bertscore": 0.8155215978622437
+    }
+  ]
+}

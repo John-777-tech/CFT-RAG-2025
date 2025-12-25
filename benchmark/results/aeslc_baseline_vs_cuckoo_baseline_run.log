@@ -1,0 +1,108 @@
+加载数据集: ./datasets/processed/aeslc.json
+✓ 成功加载 1906 条数据
+
+正在加载向量数据库和实体树...
+  0%|          | 0/45 [00:00<?, ?it/s]  2%|▏         | 1/45 [00:00<00:27,  1.59it/s]  4%|▍         | 2/45 [00:01<00:20,  2.05it/s]  7%|▋         | 3/45 [00:01<00:21,  1.97it/s]  9%|▉         | 4/45 [00:02<00:21,  1.91it/s] 11%|█         | 5/45 [00:02<00:19,  2.01it/s] 13%|█▎        | 6/45 [00:03<00:20,  1.91it/s] 16%|█▌        | 7/45 [00:03<00:19,  1.98it/s] 18%|█▊        | 8/45 [00:04<00:18,  2.01it/s] 20%|██        | 9/45 [00:04<00:17,  2.00it/s] 22%|██▏       | 10/45 [00:05<00:16,  2.06it/s] 24%|██▍       | 11/45 [00:05<00:16,  2.05it/s] 27%|██▋       | 12/45 [00:06<00:16,  2.05it/s] 29%|██▉       | 13/45 [00:06<00:15,  2.05it/s] 31%|███       | 14/45 [00:06<00:14,  2.17it/s] 33%|███▎      | 15/45 [00:07<00:12,  2.44it/s] 36%|███▌      | 16/45 [00:07<00:12,  2.38it/s] 38%|███▊      | 17/45 [00:08<00:11,  2.34it/s] 40%|████      | 18/45 [00:08<00:11,  2.28it/s] 42%|████▏     | 19/45 [00:08<00:11,  2.26it/s] 44%|████▍     | 20/45 [00:09<00:10,  2.38it/s] 47%|████▋     | 21/45 [00:09<00:10,  2.33it/s] 49%|████▉     | 22/45 [00:10<00:10,  2.16it/s] 51%|█████     | 23/45 [00:10<00:10,  2.14it/s] 53%|█████▎    | 24/45 [00:11<00:09,  2.29it/s] 56%|█████▌    | 25/45 [00:11<00:08,  2.42it/s] 58%|█████▊    | 26/45 [00:12<00:09,  2.06it/s] 60%|██████    | 27/45 [00:12<00:09,  1.91it/s] 62%|██████▏   | 28/45 [00:13<00:07,  2.13it/s] 64%|██████▍   | 29/45 [00:13<00:06,  2.33it/s] 67%|██████▋   | 30/45 [00:14<00:08,  1.83it/s] 69%|██████▉   | 31/45 [00:15<00:09,  1.50it/s] 71%|███████   | 32/45 [00:16<00:09,  1.38it/s] 73%|███████▎  | 33/45 [00:16<00:08,  1.37it/s] 76%|███████▌  | 34/45 [00:17<00:08,  1.36it/s] 78%|███████▊  | 35/45 [00:18<00:07,  1.25it/s] 80%|████████  | 36/45 [00:19<00:08,  1.11it/s] 82%|████████▏ | 37/45 [00:20<00:07,  1.07it/s] 84%|████████▍ | 38/45 [00:21<00:06,  1.07it/s] 87%|████████▋ | 39/45 [00:22<00:05,  1.05it/s] 89%|████████▉ | 40/45 [00:23<00:04,  1.08it/s] 91%|█████████ | 41/45 [00:24<00:03,  1.07it/s] 93%|█████████▎| 42/45 [00:25<00:02,  1.10it/s] 96%|█████████▌| 43/45 [00:26<00:01,  1.11it/s] 98%|█████████▊| 44/45 [00:27<00:00,  1.08it/s]100%|██████████| 45/45 [00:27<00:00,  1.14it/s]100%|██████████| 45/45 [00:27<00:00,  1.61it/s]
+Traceback (most recent call last):
+  File "/Users/zongyikun/Downloads/CFT-RAG-2025-main/benchmark/run_benchmark.py", line 348, in <module>
+    main()
+  File "/Users/zongyikun/Downloads/CFT-RAG-2025-main/benchmark/run_benchmark.py", line 316, in main
+    runner = BenchmarkRunner(
+  File "/Users/zongyikun/Downloads/CFT-RAG-2025-main/benchmark/run_benchmark.py", line 52, in __init__
+    self.vec_db = load_vec_db(vec_db_key, data_source)
+  File "/Users/zongyikun/Downloads/CFT-RAG-2025-main/rag_base/build_index.py", line 249, in load_vec_db
+    db = RagVecDB(index_path)
+RuntimeError: Failed to acquire lock for VecDBManager
+
+thread '<unnamed>' (42803160) panicked at src/database/thread_save.rs:19:39:
+called `Result::unwrap()` on an `Err` value: Os { code: 2, kind: NotFound, message: "No such file or directory" }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread '<unnamed>' (42803160) panicked at src/database/thread_save.rs:79:41:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+stack backtrace:
+   0:        0x103f10ddc - std::backtrace_rs::backtrace::libunwind::trace::h890246ace2f92943
+                               at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/../../backtrace/src/backtrace/libunwind.rs:117:9
+   1:        0x103f10ddc - std::backtrace_rs::backtrace::trace_unsynchronized::h11f38ae193fb7a81
+                               at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/../../backtrace/src/backtrace/mod.rs:66:14
+   2:        0x103f10ddc - std::sys::backtrace::_print_fmt::h4b60af7dd9328e8e
+                               at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/sys/backtrace.rs:66:9
+   3:        0x103f10ddc - <std::sys::backtrace::BacktraceLock::print::DisplayBacktrace as core::fmt::Display>::fmt::h2808c764b780ef77
+                               at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/sys/backtrace.rs:39:26
+   4:        0x103f1f358 - core::fmt::rt::Argument::fmt::hcb261d347bc11ae5
+                               at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/core/src/fmt/rt.rs:173:76
+   5:        0x103f1f358 - core::fmt::write::h164e2e78980a3344
+                               at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/core/src/fmt/mod.rs:1469:25
+   6:        0x103ef24d0 - std::io::default_write_fmt::ha9d9e8690d3c78f2
+                               at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/io/mod.rs:639:11
+   7:        0x103ef24d0 - std::io::Write::write_fmt::hc5b2a4d160c11c86
+                               at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/io/mod.rs:1954:13
+   8:        0x103ef741c - std::sys::backtrace::BacktraceLock::print::h765d16e49e83c7b3
+                               at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/sys/backtrace.rs:42:9
+   9:        0x103efa13c - std::panicking::default_hook::{{closure}}::hf5d7ef6cefa10586
+                               at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/panicking.rs:301:27
+  10:        0x103ef9ff0 - std::panicking::default_hook::h8781bd6c5c54e4cc
+                               at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/panicking.rs:328:9
+  11:        0x103efa87c - std::panicking::panic_with_hook::h93c775fc227522dd
+                               at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/panicking.rs:834:13
+  12:        0x103efa564 - std::panicking::panic_handler::{{closure}}::h8561e58c9391724a
+                               at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/panicking.rs:707:13
+  13:        0x103ef7528 - std::sys::backtrace::__rust_end_short_backtrace::h55629ed76aaa9d26
+                               at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/sys/backtrace.rs:174:18
+  14:        0x103eeb020 - __rustc[d9b87f19e823c0ef]::rust_begin_unwind
+                               at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/panicking.rs:698:5
+  15:        0x103f343f0 - core::panicking::panic_fmt::hfe9cfd57c06d80d9
+                               at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/core/src/panicking.rs:80:14
+  16:        0x103f33ec0 - core::result::unwrap_failed::hecc7e6934498f5c2
+                               at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/core/src/result.rs:1862:5
+  17:        0x103cd3c70 - core::result::Result<T,E>::unwrap::haeef1b4f7a7b6a2a
+                               at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/core/src/result.rs:1233:23
+  18:        0x103cd3c70 - lab_1806_vec_db::database::thread_save::ThreadSavingManager<T>::sync_save::h4bff779400b5952b
+                               at /Users/zongyikun/Downloads/CFT-RAG-2025-main/lab-1806-vec-db-main/src/database/thread_save.rs:79:41
+  19:        0x103cafb54 - <lab_1806_vec_db::database::thread_save::ThreadSavingManager<T> as core::ops::drop::Drop>::drop::habe0796775b9ed50
+                               at /Users/zongyikun/Downloads/CFT-RAG-2025-main/lab-1806-vec-db-main/src/database/thread_save.rs:94:14
+  20:        0x103cb330c - core::ptr::drop_in_place<lab_1806_vec_db::database::thread_save::ThreadSavingManager<std::sync::poison::mutex::Mutex<lab_1806_vec_db::database::VecDBBrief>>>::h8c9559dcd71f8887
+                               at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/core/src/ptr/mod.rs:805:1
+  21:        0x103cb58d8 - core::ptr::drop_in_place<lab_1806_vec_db::database::VecDBManager>::h681f3baec94c2e45
+                               at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/core/src/ptr/mod.rs:805:1
+  22:        0x103cb5dbc - core::ptr::drop_in_place<lab_1806_vec_db::pyo3::lab_1806_vec_db::VecDB>::hf283a55af51fcac8
+                               at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/core/src/ptr/mod.rs:805:1
+  23:        0x103cb740c - core::ptr::drop_in_place<core::cell::UnsafeCell<lab_1806_vec_db::pyo3::lab_1806_vec_db::VecDB>>::h198411d8c40e5c05
+                               at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/core/src/ptr/mod.rs:805:1
+  24:        0x103cc03bc - core::mem::manually_drop::ManuallyDrop<T>::drop::hbaf552fe2b232737
+                               at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/core/src/mem/manually_drop.rs:261:18
+  25:        0x103c67a94 - <pyo3::pycell::impl_::PyClassObject<T> as pyo3::pycell::impl_::PyClassObjectLayout<T>>::tp_dealloc::h79e30a08c684da8a
+                               at /Users/zongyikun/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-0.24.2/src/pycell/impl_.rs:350:22
+  26:        0x103c65d68 - pyo3::impl_::trampoline::dealloc::{{closure}}::hd7341061b0571983
+                               at /Users/zongyikun/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-0.24.2/src/impl_/trampoline.rs:152:17
+  27:        0x103c65c58 - pyo3::impl_::trampoline::trampoline_unraisable::{{closure}}::h40553c2a1ba7df47
+                               at /Users/zongyikun/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-0.24.2/src/impl_/trampoline.rs:237:54
+  28:        0x103cd47cc - std::panicking::catch_unwind::do_call::h06ca205988a10af1
+                               at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/panicking.rs:590:40
+  29:        0x103d338cc - ___rust_try
+  30:        0x103d322c4 - std::panicking::catch_unwind::hfccc872461835fb2
+                               at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/panicking.rs:553:19
+  31:        0x103d322c4 - std::panic::catch_unwind::h3d166bf5143b27b8
+                               at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/panic.rs:359:14
+  32:        0x103c65b1c - pyo3::impl_::trampoline::trampoline_unraisable::haf2c123b255bb36b
+                               at /Users/zongyikun/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-0.24.2/src/impl_/trampoline.rs:237:26
+  33:        0x103cd6354 - pyo3::impl_::trampoline::dealloc::hc9b90d19b71732b8
+                               at /Users/zongyikun/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-0.24.2/src/impl_/trampoline.rs:150:9
+  34:        0x103cdda00 - pyo3::impl_::pyclass::tp_dealloc::h552b451117f57514
+                               at /Users/zongyikun/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-0.24.2/src/impl_/pyclass.rs:1173:14
+  35:        0x102ac2918 - _frame_dealloc
+  36:        0x102c35b44 - _tb_dealloc
+  37:        0x102c35b34 - _tb_dealloc
+  38:        0x102c35b34 - _tb_dealloc
+  39:        0x102c35b34 - _tb_dealloc
+  40:        0x102ae6740 - _PyDict_SetItem
+  41:        0x102af179c - _PyDict_SetItemString
+  42:        0x102c1f220 - _finalize_modules_delete_special
+  43:        0x102c1ee44 - _finalize_modules
+  44:        0x102c1eca4 - _Py_FinalizeEx
+  45:        0x102c46914 - _Py_RunMain
+  46:        0x102a42710 - _main
+
+thread '<unnamed>' (42803160) panicked at library/core/src/panicking.rs:238:5:
+panic in a destructor during cleanup
+thread caused non-unwinding panic. aborting.

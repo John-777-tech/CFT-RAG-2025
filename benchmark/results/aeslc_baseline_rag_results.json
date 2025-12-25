@@ -1,0 +1,72 @@
+[
+  {
+    "question": "Summarize the following email: Huntley/question\n",
+    "answer": "It seems the content of the email (Huntley/question) that needs to be summarized is not provided in the information section. Without the actual text of the email, I cannot generate a summary. Please share the full email content so I can assist you properly.",
+    "expected_answer": "Phillip,   Could you please do me a favor?\nI would like  to read your current title policy to see what it says about easements.\nYou  should have received a copy during your closing.\nI don't know how many  pages it will be but let me know how you want to handle getting a copy  made.\nI'll be happy to make the copy, or whatever makes it easy for  you.\nThanks,\n",
+    "time": 12.804857969284058,
+    "answer_length": 257
+  },
+  {
+    "question": "Summarize the following email: Expense Reports Awaiting Your Approval\n",
+    "answer": "It seems the actual content of the email titled \"Expense Reports Awaiting Your Approval\" was not provided in the information section. Without the body of the email (e.g., details about which reports, deadlines, requesters, or any specific instructions), I cannot generate an accurate summary. Please share the full email content so I can assist you properly.",
+    "expected_answer": "The following reports have been waiting for your approval for more than 4 days.\nPlease review.\nOwner: James W Reitmeyer Report Name: JReitmeyer 10/24/01 Days In Mgr.\nQueue: 5\n",
+    "time": 12.312350988388062,
+    "answer_length": 358
+  },
+  {
+    "question": "Summarize the following email: Re-start/Integration Planning\n",
+    "answer": "It seems the actual content of the email about \"Re-start/Integration Planning\" is missing from the provided information. Without the email text (e.g., its purpose, key points, action items, participants, timelines), I cannot generate a summary. Please share the full email content to proceed.",
+    "expected_answer": "We have for the last couple of weeks started to compile the Re-start/Integration Plans for Netco.\nSo far, we have primarily focussed on the mid/back plans where the technology requirements have been the driving factors.\nSeveral plans are in the final stages of completion including:-  +\tInfrastructure\t\tJenny Rub +\tDevelopment\t\tJay Webb +\tEnronOnline\t\tWebb / Forster +\tHR\t\t\tDavid Oxley +\tCash Management\tTom Myers +\tCredit\t\t\tDebbie Brackett  The rest will be completed shortly.\nWe now need to focus o",
+    "time": 7.698080062866211,
+    "answer_length": 292
+  },
+  {
+    "question": "Summarize the following email: RM Simulation Storyline Scripts - Ready for Legal Review\n",
+    "answer": "It seems the actual content of the email \"RM Simulation Storyline Scripts - Ready for Legal Review\" is missing from the provided information. Without the body of the email (e.g., details about the scripts, context of the legal review request, deadlines, or key points mentioned), I cannot generate an accurate summary. Please share the full email content so I can assist you effectively.",
+    "expected_answer": "Michelle Here are my very minor comments.\nHowever we still need to wait on any additions, based on meeting with SME's today.\nOne concern is the firing of the learner who performs  bad in the final two scenarios.\nDo we face any copyright issues using the CNN type themes?\nIn addition, I think we need to stay clear of anything that remotely seems like California or anything that really happen with Enron?\n(i.e.\nSo-cal Waha) In addition, comments on regulatory issues may be a problem (i.e.\nCalifornia",
+    "time": 11.33697509765625,
+    "answer_length": 387
+  },
+  {
+    "question": "Summarize the following email: Answer\n",
+    "answer": "It seems the email content that needs to be summarized is missing from the provided information. Please share the full text of the email so that a concise and accurate summary can be created.",
+    "expected_answer": "For purposes of an accelerated distribution from the PSA,  a \"single sum distribution,\" in Section 6.2 means that a PSA account is distributed all at once, as distinguished from another form of payout as may have been selected by a participant in his or her deferral agreement.\nSection 6.2 is clear in that the account balance shall be determined as of the last day of the month preceding the date on which the Committee receives the written request of the Participant.\nA PSA account balance is refle",
+    "time": 4.247813940048218,
+    "answer_length": 191
+  },
+  {
+    "question": "Summarize the following email: BCP Seat Assignments\n",
+    "answer": "It seems the actual content of the email titled \"BCP Seat Assignments\" is missing from the provided information. Without the email's text (e.g., details about seat assignments, recipients, deadlines, or instructions), I cannot generate a summary. Please share the full content of the email to get a concise summary.",
+    "expected_answer": "All:  Attached you will find a list that reflects your seat assignments for Business Continuity Planning (BCP).\nThese seats are located on the 30th and 31st Floors of Enron Center North (ECN).\nAs previously communicated, you will report to these designated seats in the event of an outage in ECS.\nThe exception to this is as follows: If your seat assignment is located on the 31st Floor, you will report to your original location that you occupied prior to your move into ECS.\nThis will hold true unt",
+    "time": 8.89848804473877,
+    "answer_length": 315
+  },
+  {
+    "question": "Summarize the following email: Farewell Drinks\n",
+    "answer": "It seems the content of the \"Farewell Drinks\" email is missing from the provided information. Please share the full text of the email so that I can generate an accurate summary for you.",
+    "expected_answer": "As our last day is Friday, November 30th, we would love to toast the good times and special memories that we have shared with you over the past five years.\nPlease join us at Teala's (W. Dallas) on Thursday, November 29th, beginning at 5pm.\nLooking forward to being with you,   Lara and Janel     Lara Leibman\n",
+    "time": 6.350721836090088,
+    "answer_length": 185
+  },
+  {
+    "question": "Summarize the following email: Slide for John Sheriff\n",
+    "answer": "It seems the actual content of the email about the slide for John Sheriff is not included in the provided information. Without the email text, I cannot generate an accurate summary. Please share the full email content so I can assist you properly.",
+    "expected_answer": "Hi John,  I was wondering if you had a chance to put together that slide for us.\nI know you are really busy and we appreciate your help.\nThanks.\nSavita\n",
+    "time": 12.589346885681152,
+    "answer_length": 247
+  },
+  {
+    "question": "Summarize the following email: URGENT - ENA Associates & Analysts\n",
+    "answer": "It seems the content of the email titled \"URGENT - ENA Associates & Analysts\" is missing from the provided information. Without the email's body text (e.g., its purpose, key requests, deadlines, or updates), I cannot generate an accurate summary. Please share the full content of the email, and I’ll help you summarize it concisely.",
+    "expected_answer": "All,  The below Analyst & Associate recruiting dates require ENA participation at Manager level at above.\nIn order to resource each of your departments it is important to have ENA's involvement and participation in the interviews and debrief sessions on Fantastic Friday and Super Saturday events.\nThese de-brief sessions will allow you the opportunity to select candidates you wish to join your groups.\nThe target  is to assign potential candidates to business units and departments from the outset.",
+    "time": 8.108705997467041,
+    "answer_length": 332
+  },
+  {
+    "question": "Summarize the following email: Increased Security at Enron Center\n",
+    "answer": "It seems the actual content of the email titled \"Increased Security at Enron Center\" is missing from the provided information. Without details such as the specific security measures being implemented, the reasons for the increase (e.g., recent incidents, policy updates), effective dates, or instructions for employees/visitors, I cannot generate an accurate summary. Please share the full text of the email to proceed.",
+    "expected_answer": "Late on October 25th, we received information about a nonspecific threat to the Enron Center.\nWe communicated with law enforcement officials who found the threat unsubstantiated and without merit.\nNonetheless we take all threats seriously and have increased the security presence at the Enron Center still further.\nOnce again, if you observe suspicious behavior, please call security at 3-6200.\n",
+    "time": 13.758474111557007,
+    "answer_length": 419
+  }
+]

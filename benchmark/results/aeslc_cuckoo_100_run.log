@@ -1,0 +1,767 @@
+num_buckets: 256
+加载数据集: ./datasets/processed/aeslc.json
+✓ 成功加载 1906 条数据
+
+正在加载向量数据库和实体树...
+✓ Vector DB加载完成 (0.01秒)
+Loading cached forest and nlp from ./entity_forest_cache/forest_nlp_entities_file_aeslc_entities_file_tree_num_50_node_num_2000000_bf1.pkl...
+✓ Forest和NLP加载完成 (0.39秒)
+✓ Cuckoo Filter已初始化 (跳过build步骤，使用增强搜索函数)
+✓ 初始化完成 (0.39秒)
+
+
+开始测试 100 个问题...
+================================================================================
+
+[1/100] Summarize the following email: Huntley/question
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.148511%[0m
+  回答长度: 205 字符
+  耗时: 10.80秒
+
+[2/100] Summarize the following email: Expense Reports Awaiting Your...
+query entity number: 1
+
+[1;31mTime Ratio: 0.047498%[0m
+  回答长度: 227 字符
+  耗时: 11.36秒
+
+[3/100] Summarize the following email: Re-start/Integration Planning...
+query entity number: 1
+
+[1;31mTime Ratio: 0.065984%[0m
+  回答长度: 177 字符
+  耗时: 6.37秒
+
+[4/100] Summarize the following email: RM Simulation Storyline Scrip...
+query entity number: 0
+
+[1;31mTime Ratio: 0.045576%[0m
+  回答长度: 94 字符
+  耗时: 10.29秒
+
+[5/100] Summarize the following email: Answer
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.300026%[0m
+  回答长度: 162 字符
+  耗时: 9.43秒
+
+[6/100] Summarize the following email: BCP Seat Assignments
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.066598%[0m
+  回答长度: 177 字符
+  耗时: 6.11秒
+
+[7/100] Summarize the following email: Farewell Drinks
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.063465%[0m
+  回答长度: 176 字符
+  耗时: 10.22秒
+
+[8/100] Summarize the following email: Slide for John Sheriff
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.191647%[0m
+  回答长度: 42 字符
+  耗时: 11.96秒
+
+[9/100] Summarize the following email: URGENT - ENA Associates & Ana...
+query entity number: 1
+
+[1;31mTime Ratio: 0.089707%[0m
+  回答长度: 200 字符
+  耗时: 12.41秒
+
+[10/100] Summarize the following email: Increased Security at Enron C...
+query entity number: 0
+
+[1;31mTime Ratio: 0.054976%[0m
+  回答长度: 183 字符
+  耗时: 9.11秒
+  💾 Checkpoint已保存 (10/100)
+
+[11/100] Summarize the following email: Greetings
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.245393%[0m
+  回答长度: 95 字符
+  耗时: 9.28秒
+
+[12/100] Summarize the following email: Meeting on Wednesday, January...
+query entity number: 0
+
+[1;31mTime Ratio: 0.067825%[0m
+  回答长度: 65 字符
+  耗时: 7.89秒
+
+[13/100] Summarize the following email: STEAG Power LLC
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.045892%[0m
+  回答长度: 182 字符
+  耗时: 8.90秒
+
+[14/100] Summarize the following email: ConEd - Lakewood Peaker
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.211107%[0m
+  回答长度: 202 字符
+  耗时: 11.58秒
+
+[15/100] Summarize the following email: Relocation
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.041553%[0m
+  回答长度: 180 字符
+  耗时: 9.86秒
+
+[16/100] Summarize the following email: IMPORTANT MESSAGE TO ALL EMPL...
+query entity number: 1
+
+[1;31mTime Ratio: 0.061418%[0m
+  回答长度: 188 字符
+  耗时: 13.83秒
+
+[17/100] Summarize the following email: UBS issues
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.324968%[0m
+  回答长度: 136 字符
+  耗时: 5.96秒
+
+[18/100] Summarize the following email: YOU HAVE 48 HOURS - Message f...
+query entity number: 0
+
+[1;31mTime Ratio: 0.088250%[0m
+  回答长度: 211 字符
+  耗时: 8.72秒
+
+[19/100] Summarize the following email: Sunshine Kids Benefit Golf To...
+query entity number: 1
+
+[1;31mTime Ratio: 0.043767%[0m
+  回答长度: 364 字符
+  耗时: 11.08秒
+
+[20/100] Summarize the following email: NOTIFICATION:  Outlook Outage...
+query entity number: 0
+
+[1;31mTime Ratio: 0.133563%[0m
+  回答长度: 224 字符
+  耗时: 18.44秒
+  💾 Checkpoint已保存 (20/100)
+
+[21/100] Summarize the following email: Enron/Dynegy Merger; Antitrus...
+query entity number: 0
+
+[1;31mTime Ratio: 0.037466%[0m
+  回答长度: 215 字符
+  耗时: 10.76秒
+
+[22/100] Summarize the following email: An Inbound Message For You Ha...
+query entity number: 0
+
+[1;31mTime Ratio: 0.030760%[0m
+  回答长度: 414 字符
+  耗时: 13.53秒
+
+[23/100] Summarize the following email: Products
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.321264%[0m
+  回答长度: 171 字符
+  耗时: 7.34秒
+
+[24/100] Summarize the following email: IR Moves
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.045634%[0m
+  回答长度: 186 字符
+  耗时: 7.89秒
+
+[25/100] Summarize the following email: DUES
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.046851%[0m
+  回答长度: 151 字符
+  耗时: 6.55秒
+
+[26/100] Summarize the following email: Pick-Ups
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.243113%[0m
+  回答长度: 178 字符
+  耗时: 8.37秒
+
+[27/100] Summarize the following email: Trade?
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.062730%[0m
+  回答长度: 199 字符
+  耗时: 5.49秒
+
+[28/100] Summarize the following email: Draft
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.098483%[0m
+  回答长度: 173 字符
+  耗时: 3.17秒
+
+[29/100] Summarize the following email: Draft change request
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.304155%[0m
+  回答长度: 170 字符
+  耗时: 7.52秒
+
+[30/100] Summarize the following email: Game Tonight
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.041623%[0m
+  回答长度: 180 字符
+  耗时: 7.92秒
+  💾 Checkpoint已保存 (30/100)
+
+[31/100] Summarize the following email: Rotation
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.043726%[0m
+  回答长度: 197 字符
+  耗时: 8.33秒
+
+[32/100] Summarize the following email: A note on PMA's
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.418426%[0m
+  回答长度: 169 字符
+  耗时: 4.53秒
+
+[33/100] Summarize the following email: Fire Drill Scheduled
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.027824%[0m
+  回答长度: 191 字符
+  耗时: 12.14秒
+
+[34/100] Summarize the following email: Your mailbox is over its size...
+query entity number: 1
+
+[1;31mTime Ratio: 0.038459%[0m
+  回答长度: 64 字符
+  耗时: 10.60秒
+
+[35/100] ⏭ 跳过已完成的: Summarize the following email: Your mailbox is over its size...
+
+[36/100] Summarize the following email: Special Limited-Time Offer: S...
+query entity number: 0
+
+[1;31mTime Ratio: 0.337337%[0m
+  回答长度: 96 字符
+  耗时: 5.20秒
+
+[37/100] ⏭ 跳过已完成的: Summarize the following email: Your mailbox is over its size...
+
+[38/100] Summarize the following email: Christmas Arches
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.037062%[0m
+  回答长度: 177 字符
+  耗时: 9.47秒
+
+[39/100] Summarize the following email: Change of Control Provisions
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.042879%[0m
+  回答长度: 195 字符
+  耗时: 8.31秒
+
+[40/100] Summarize the following email: DRAFT:  INFORMATION, Please R...
+query entity number: 0
+
+[1;31mTime Ratio: 0.265590%[0m
+  回答长度: 131 字符
+  耗时: 8.59秒
+  💾 Checkpoint已保存 (40/100)
+
+[41/100] Summarize the following email: Ski Trip 2002
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.068170%[0m
+  回答长度: 187 字符
+  耗时: 5.65秒
+
+[42/100] Summarize the following email: New Years
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.046011%[0m
+  回答长度: 176 字符
+  耗时: 6.84秒
+
+[43/100] Summarize the following email: Employee Reinstatement
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.957307%[0m
+  回答长度: 190 字符
+  耗时: 9.11秒
+
+[44/100] Summarize the following email: Headcount for 1998 - 2001
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.057164%[0m
+  回答长度: 198 字符
+  耗时: 6.52秒
+
+[45/100] Summarize the following email: ClickAtHome Portal is HERE!
+...
+query entity number: 1
+
+[1;31mTime Ratio: 0.032885%[0m
+  回答长度: 187 字符
+  耗时: 11.54秒
+
+[46/100] Summarize the following email: EGM Good Job!
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.173672%[0m
+  回答长度: 196 字符
+  耗时: 8.28秒
+
+[47/100] Summarize the following email: EA Staff Meeting
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.112975%[0m
+  回答长度: 181 字符
+  耗时: 7.85秒
+
+[48/100] Summarize the following email: Log as of 06/04 and weekly su...
+query entity number: 0
+
+[1;31mTime Ratio: 0.066916%[0m
+  回答长度: 251 字符
+  耗时: 6.37秒
+
+[49/100] Summarize the following email: Reminder - Final PRC - Friday...
+query entity number: 0
+
+[1;31mTime Ratio: 0.182285%[0m
+  回答长度: 81 字符
+  耗时: 8.30秒
+
+[50/100] Summarize the following email: Update on SAP System Response...
+query entity number: 1
+
+[1;31mTime Ratio: 0.034755%[0m
+  回答长度: 186 字符
+  耗时: 11.13秒
+  💾 Checkpoint已保存 (50/100)
+
+[51/100] Summarize the following email: Status of the sale of POPS to...
+query entity number: 0
+
+[1;31mTime Ratio: 0.030601%[0m
+  回答长度: 177 字符
+  耗时: 14.04秒
+
+[52/100] Summarize the following email: Org Chart - Introduction
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.226561%[0m
+  回答长度: 194 字符
+  耗时: 9.06秒
+
+[53/100] Summarize the following email: Exec. Summary for Project Gre...
+query entity number: 0
+
+[1;31mTime Ratio: 0.082683%[0m
+  回答长度: 196 字符
+  耗时: 6.25秒
+
+[54/100] Summarize the following email: Enron Management Committee Ex...
+query entity number: 1
+
+[1;31mTime Ratio: 0.046528%[0m
+  回答长度: 221 字符
+  耗时: 14.05秒
+
+[55/100] Summarize the following email: Numbers
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.535447%[0m
+  回答长度: 130 字符
+  耗时: 4.77秒
+
+[56/100] Summarize the following email: Fariba Karimi looking for ano...
+query entity number: 2
+
+[1;31mTime Ratio: 0.038358%[0m
+  回答长度: 82 字符
+  耗时: 11.52秒
+
+[57/100] Summarize the following email: Congratulations
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.051391%[0m
+  回答长度: 42 字符
+  耗时: 6.50秒
+
+[58/100] Summarize the following email: Missed our Timing
+...
+query entity number: 1
+
+[1;31mTime Ratio: 0.322674%[0m
+  回答长度: 187 字符
+  耗时: 7.07秒
+
+[59/100] Summarize the following email: Speaking Engagement - October...
+query entity number: 0
+
+[1;31mTime Ratio: 0.038172%[0m
+  回答长度: 195 字符
+  耗时: 10.63秒
+
+[60/100] Summarize the following email: October 23 Speaking Engagemen...
+query entity number: 0
+
+[1;31mTime Ratio: 0.042675%[0m
+  回答长度: 195 字符
+  耗时: 8.76秒
+  💾 Checkpoint已保存 (60/100)
+
+[61/100] Summarize the following email: Dinner with UT Students
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.151951%[0m
+  回答长度: 184 字符
+  耗时: 9.21秒
+
+[62/100] Summarize the following email: vacation plans
+...
+query entity number: 1
+
+[1;31mTime Ratio: 0.020204%[0m
+  回答长度: 183 字符
+  耗时: 16.70秒
+
+[63/100] Summarize the following email: Global Operation Controllers ...
+query entity number: 0
+
+[1;31mTime Ratio: 0.041179%[0m
+  回答长度: 181 字符
+  耗时: 10.54秒
+
+[64/100] Summarize the following email: Info for Sally Beck Jornada
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.729354%[0m
+  回答长度: 170 字符
+  耗时: 8.11秒
+
+[65/100] Summarize the following email: Welcome to Chicago and ENA
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.044339%[0m
+  回答长度: 192 字符
+  耗时: 9.59秒
+
+[66/100] Summarize the following email: United Way Kick Off
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.040346%[0m
+  回答长度: 186 字符
+  耗时: 8.83秒
+
+[67/100] Summarize the following email: United Way Executive Solicita...
+query entity number: 0
+
+[1;31mTime Ratio: 0.282315%[0m
+  回答长度: 200 字符
+  耗时: 8.85秒
+
+[68/100] Summarize the following email: Accomplishments
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.048414%[0m
+  回答长度: 244 字符
+  耗时: 6.42秒
+
+[69/100] Summarize the following email: People to consider recruiting...
+query entity number: 0
+
+[1;31mTime Ratio: 0.041174%[0m
+  回答长度: 166 字符
+  耗时: 9.57秒
+
+[70/100] Summarize the following email: Can we reschedule lunch to an...
+query entity number: 0
+
+[1;31mTime Ratio: 0.506025%[0m
+  回答长度: 53 字符
+  耗时: 3.93秒
+  💾 Checkpoint已保存 (70/100)
+
+[71/100] Summarize the following email: ENA Role
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.096156%[0m
+  回答长度: 179 字符
+  耗时: 6.44秒
+
+[72/100] Summarize the following email: Contact at Enron Field
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.082380%[0m
+  回答长度: 149 字符
+  耗时: 5.28秒
+
+[73/100] Summarize the following email: Organisational Announcement.
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.320310%[0m
+  回答长度: 206 字符
+  耗时: 5.77秒
+
+[74/100] Summarize the following email: Operations/Controls Review - ...
+query entity number: 0
+
+[1;31mTime Ratio: 0.063204%[0m
+  回答长度: 236 字符
+  耗时: 9.79秒
+
+[75/100] Summarize the following email: FAS 133 Offsite
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.063323%[0m
+  回答长度: 140 字符
+  耗时: 4.98秒
+
+[76/100] Summarize the following email: Canadian Promotions/Trip
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.499675%[0m
+  回答长度: 183 字符
+  耗时: 4.29秒
+
+[77/100] Summarize the following email: Out of Office - Thursday, Feb...
+query entity number: 2
+
+[1;31mTime Ratio: 0.032556%[0m
+  回答长度: 190 字符
+  耗时: 13.92秒
+
+[78/100] Summarize the following email: Brenda Herod's new pager #
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.031320%[0m
+  回答长度: 197 字符
+  耗时: 12.95秒
+
+[79/100] Summarize the following email: Thanks for January 1, 2000
+...
+query entity number: 1
+
+[1;31mTime Ratio: 1.157834%[0m
+  回答长度: 67 字符
+  耗时: 9.79秒
+
+[80/100] Summarize the following email: Recap of 4/23 Meeting on Comm...
+query entity number: 0
+
+[1;31mTime Ratio: 0.116707%[0m
+  回答长度: 217 字符
+  耗时: 5.24秒
+  💾 Checkpoint已保存 (80/100)
+
+[81/100] ⏭ 跳过已完成的: Summarize the following email: Congratulations
+...
+
+[82/100] Summarize the following email: Preparation for Year End Asso...
+query entity number: 1
+
+[1;31mTime Ratio: 0.040832%[0m
+  回答长度: 213 字符
+  耗时: 9.81秒
+
+[83/100] Summarize the following email: Suggestions for Floor Meeting...
+query entity number: 0
+
+[1;31mTime Ratio: 0.191362%[0m
+  回答长度: 193 字符
+  耗时: 10.83秒
+
+[84/100] Summarize the following email: Net Works Floor Meetings - DA...
+query entity number: 0
+
+[1;31mTime Ratio: 0.086274%[0m
+  回答长度: 157 字符
+  耗时: 7.00秒
+
+[85/100] Summarize the following email: Weekly Focus on Commercializa...
+query entity number: 0
+
+[1;31mTime Ratio: 0.075437%[0m
+  回答长度: 182 字符
+  耗时: 6.92秒
+
+[86/100] Summarize the following email: AEP-HPL Transition Issues
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.299506%[0m
+  回答长度: 203 字符
+  耗时: 7.24秒
+
+[87/100] Summarize the following email: Gordon Heaney's Acceptance
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.050586%[0m
+  回答长度: 193 字符
+  耗时: 8.01秒
+
+[88/100] Summarize the following email: Follow Up Items
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.051172%[0m
+  回答长度: 186 字符
+  耗时: 7.20秒
+
+[89/100] Summarize the following email: Commercialization of Back Off...
+query entity number: 1
+
+[1;31mTime Ratio: 0.303492%[0m
+  回答长度: 227 字符
+  耗时: 6.62秒
+
+[90/100] Summarize the following email: Promotions Luncheon for Direc...
+query entity number: 0
+
+[1;31mTime Ratio: 0.030121%[0m
+  回答长度: 191 字符
+  耗时: 13.63秒
+  💾 Checkpoint已保存 (90/100)
+
+[91/100] Summarize the following email: ASE on February 12-13, 2001 i...
+query entity number: 1
+
+[1;31mTime Ratio: 0.060667%[0m
+  回答长度: 217 字符
+  耗时: 8.41秒
+
+[92/100] ⏭ 跳过已完成的: Summarize the following email: Congratulations
+...
+
+[93/100] Summarize the following email: you don't need access to stac...
+query entity number: 1
+
+[1;31mTime Ratio: 0.200278%[0m
+  回答长度: 75 字符
+  耗时: 7.51秒
+
+[94/100] ⏭ 跳过已完成的: Summarize the following email: URGENT - ENA Associates & Ana...
+
+[95/100] Summarize the following email: quick PJM update
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.031024%[0m
+  回答长度: 188 字符
+  耗时: 12.59秒
+
+[96/100] Summarize the following email: Executive Committee
+...
+query entity number: 0
+
+[1;31mTime Ratio: 0.034712%[0m
+  回答长度: 197 字符
+  耗时: 9.30秒
+
+[97/100] Summarize the following email: Power Trading Systems Require...
+query entity number: 0
+
+[1;31mTime Ratio: 0.375298%[0m
+  回答长度: 195 字符
+  耗时: 5.38秒
+
+[98/100] Summarize the following email: Access Card Information
+...
+query entity number: 1
+
+[1;31mTime Ratio: 0.075134%[0m
+  回答长度: 167 字符
+  耗时: 5.57秒
+
+[99/100] Summarize the following email: Are You Living in Debt, Paych...
+query entity number: 0
+
+[1;31mTime Ratio: 0.044224%[0m
+  回答长度: 214 字符
+  耗时: 10.74秒
+
+[100/100] Summarize the following email: TW's Firm Capacity Procedures...
+query entity number: 1
+
+[1;31mTime Ratio: 0.210275%[0m
+  回答长度: 198 字符
+  耗时: 11.89秒
+  💾 Checkpoint已保存 (100/100)
+
+💾 最终checkpoint已保存: ./benchmark/results/aeslc_cuckoo_100.json
+
+================================================================================
+测试结果汇总
+================================================================================
+总问题数: 95
+总耗时: 842.43秒
+平均响应时间: 8.87秒
+平均回答长度: 178 字符
+================================================================================
+
+✓ 结果已保存到: ./benchmark/results/aeslc_cuckoo_100.json

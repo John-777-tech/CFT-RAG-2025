@@ -1,0 +1,37 @@
+[
+  {
+    "question": "Summarize the following email: Huntley/question\n",
+    "answer": "The necessary email content related to \"Huntley/question\" is not provided in the given information, so a summary cannot be generated. Please share the full email text for a concise summary.",
+    "expected_answer": "Phillip,   Could you please do me a favor?\nI would like  to read your current title policy to see what it says about easements.\nYou  should have received a copy during your closing.\nI don't know how many  pages it will be but let me know how you want to handle getting a copy  made.\nI'll be happy to make the copy, or whatever makes it easy for  you.\nThanks,\n",
+    "time": 23.964874744415283,
+    "answer_length": 189
+  },
+  {
+    "question": "Summarize the following email: Expense Reports Awaiting Your Approval\n",
+    "answer": "The email informs that expense reports are awaiting your approval.",
+    "expected_answer": "The following reports have been waiting for your approval for more than 4 days.\nPlease review.\nOwner: James W Reitmeyer Report Name: JReitmeyer 10/24/01 Days In Mgr.\nQueue: 5\n",
+    "time": 20.245649814605713,
+    "answer_length": 66
+  },
+  {
+    "question": "Summarize the following email: Re-start/Integration Planning\n",
+    "answer": "The email titled \"Re-start/Integration Planning\" involves the start node in a tree structure, which has an upward hierarchical relation to rob and downward sub-nodes including also, this, dave, my, and hi.",
+    "expected_answer": "We have for the last couple of weeks started to compile the Re-start/Integration Plans for Netco.\nSo far, we have primarily focussed on the mid/back plans where the technology requirements have been the driving factors.\nSeveral plans are in the final stages of completion including:-  +\tInfrastructure\t\tJenny Rub +\tDevelopment\t\tJay Webb +\tEnronOnline\t\tWebb / Forster +\tHR\t\t\tDavid Oxley +\tCash Management\tTom Myers +\tCredit\t\t\tDebbie Brackett  The rest will be completed shortly.\nWe now need to focus o",
+    "time": 23.090078830718994,
+    "answer_length": 205
+  },
+  {
+    "question": "Summarize the following email: RM Simulation Storyline Scripts - Ready for Legal Review\n",
+    "answer": "The email content corresponding to the subject \"RM Simulation Storyline Scripts - Ready for Legal Review\" is not provided in the given information. Without the body of the email (e.g., details about the scripts, context of the review request, deadlines, or attached documents), a meaningful summary cannot be generated. Please share the full email text to get an accurate summary.",
+    "expected_answer": "Michelle Here are my very minor comments.\nHowever we still need to wait on any additions, based on meeting with SME's today.\nOne concern is the firing of the learner who performs  bad in the final two scenarios.\nDo we face any copyright issues using the CNN type themes?\nIn addition, I think we need to stay clear of anything that remotely seems like California or anything that really happen with Enron?\n(i.e.\nSo-cal Waha) In addition, comments on regulatory issues may be a problem (i.e.\nCalifornia",
+    "time": 12.07791805267334,
+    "answer_length": 380
+  },
+  {
+    "question": "Summarize the following email: Answer\n",
+    "answer": "The email content to be summarized is not provided in the given information, so a summary cannot be generated. Please share the email text for a concise summary.",
+    "expected_answer": "For purposes of an accelerated distribution from the PSA,  a \"single sum distribution,\" in Section 6.2 means that a PSA account is distributed all at once, as distinguished from another form of payout as may have been selected by a participant in his or her deferral agreement.\nSection 6.2 is clear in that the account balance shall be determined as of the last day of the month preceding the date on which the Committee receives the written request of the Participant.\nA PSA account balance is refle",
+    "time": 8.801475763320923,
+    "answer_length": 161
+  }
+]

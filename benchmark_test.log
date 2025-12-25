@@ -1,0 +1,8 @@
+0it [00:00, ?it/s]0it [00:00, ?it/s]
+Load vector db finished
+Traceback (most recent call last):
+  File "/Users/zongyikun/Downloads/CFT-RAG-2025-main/langsmith/langsmith_test.py", line 40, in <module>
+    forest, nlp = build.build_forest(tree_num_max, entities_file_name, search_method, node_num_max)
+  File "/Users/zongyikun/Downloads/CFT-RAG-2025-main/trag_tree/build.py", line 49, in build_forest
+    with open(entities_file_name+".csv", "r", encoding='utf-8') as csvfile:
+FileNotFoundError: [Errno 2] No such file or directory: 'entities_file.csv'

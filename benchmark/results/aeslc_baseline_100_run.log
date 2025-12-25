@@ -1,0 +1,669 @@
+加载数据集: ./datasets/processed/aeslc.json
+✓ 成功加载 1906 条数据
+
+正在加载向量数据库和实体树...
+✓ Vector DB加载完成 (0.01秒)
+✓ Baseline RAG模式，跳过Forest和NLP构建 (0.01秒)
+✓ 初始化完成 (0.01秒)
+
+
+开始测试 100 个问题...
+================================================================================
+
+[1/100] Summarize the following email: Huntley/question
+...
+
+[1;31mGeneration Time: 11.621718 seconds[0m
+  回答长度: 259 字符
+  耗时: 11.63秒
+
+[2/100] Summarize the following email: Expense Reports Awaiting Your...
+
+[1;31mGeneration Time: 11.364175 seconds[0m
+  回答长度: 378 字符
+  耗时: 11.38秒
+
+[3/100] Summarize the following email: Re-start/Integration Planning...
+
+[1;31mGeneration Time: 9.506632 seconds[0m
+  回答长度: 281 字符
+  耗时: 9.54秒
+
+[4/100] Summarize the following email: RM Simulation Storyline Scrip...
+
+[1;31mGeneration Time: 10.395886 seconds[0m
+  回答长度: 366 字符
+  耗时: 10.43秒
+
+[5/100] Summarize the following email: Answer
+...
+
+[1;31mGeneration Time: 4.690420 seconds[0m
+  回答长度: 383 字符
+  耗时: 4.72秒
+
+[6/100] Summarize the following email: BCP Seat Assignments
+...
+
+[1;31mGeneration Time: 5.829026 seconds[0m
+  回答长度: 344 字符
+  耗时: 5.86秒
+
+[7/100] Summarize the following email: Farewell Drinks
+...
+
+[1;31mGeneration Time: 6.213799 seconds[0m
+  回答长度: 216 字符
+  耗时: 6.23秒
+
+[8/100] Summarize the following email: Slide for John Sheriff
+...
+
+[1;31mGeneration Time: 8.500715 seconds[0m
+  回答长度: 298 字符
+  耗时: 8.51秒
+
+[9/100] Summarize the following email: URGENT - ENA Associates & Ana...
+
+[1;31mGeneration Time: 5.963491 seconds[0m
+  回答长度: 262 字符
+  耗时: 5.98秒
+
+[10/100] Summarize the following email: Increased Security at Enron C...
+
+[1;31mGeneration Time: 13.266065 seconds[0m
+  回答长度: 580 字符
+  耗时: 13.28秒
+  💾 Checkpoint已保存 (10/100)
+
+[11/100] Summarize the following email: Greetings
+...
+
+[1;31mGeneration Time: 6.811227 seconds[0m
+  回答长度: 132 字符
+  耗时: 6.83秒
+
+[12/100] Summarize the following email: Meeting on Wednesday, January...
+
+[1;31mGeneration Time: 10.422036 seconds[0m
+  回答长度: 80 字符
+  耗时: 10.44秒
+
+[13/100] Summarize the following email: STEAG Power LLC
+...
+
+[1;31mGeneration Time: 4.475642 seconds[0m
+  回答长度: 220 字符
+  耗时: 4.50秒
+
+[14/100] Summarize the following email: ConEd - Lakewood Peaker
+...
+
+[1;31mGeneration Time: 12.856879 seconds[0m
+  回答长度: 612 字符
+  耗时: 12.88秒
+
+[15/100] Summarize the following email: Relocation
+...
+
+[1;31mGeneration Time: 6.013206 seconds[0m
+  回答长度: 195 字符
+  耗时: 6.04秒
+
+[16/100] Summarize the following email: IMPORTANT MESSAGE TO ALL EMPL...
+
+[1;31mGeneration Time: 13.120640 seconds[0m
+  回答长度: 395 字符
+  耗时: 13.15秒
+
+[17/100] Summarize the following email: UBS issues
+...
+
+[1;31mGeneration Time: 6.171616 seconds[0m
+  回答长度: 329 字符
+  耗时: 6.19秒
+
+[18/100] Summarize the following email: YOU HAVE 48 HOURS - Message f...
+
+[1;31mGeneration Time: 9.524709 seconds[0m
+  回答长度: 286 字符
+  耗时: 9.55秒
+
+[19/100] Summarize the following email: Sunshine Kids Benefit Golf To...
+
+[1;31mGeneration Time: 13.140530 seconds[0m
+  回答长度: 375 字符
+  耗时: 13.17秒
+
+[20/100] Summarize the following email: NOTIFICATION:  Outlook Outage...
+
+[1;31mGeneration Time: 16.566361 seconds[0m
+  回答长度: 544 字符
+  耗时: 16.59秒
+  💾 Checkpoint已保存 (20/100)
+
+[21/100] Summarize the following email: Enron/Dynegy Merger; Antitrus...
+
+[1;31mGeneration Time: 14.838757 seconds[0m
+  回答长度: 880 字符
+  耗时: 14.87秒
+
+[22/100] Summarize the following email: An Inbound Message For You Ha...
+
+[1;31mGeneration Time: 23.134169 seconds[0m
+  回答长度: 365 字符
+  耗时: 23.15秒
+
+[23/100] Summarize the following email: Products
+...
+
+[1;31mGeneration Time: 5.100194 seconds[0m
+  回答长度: 248 字符
+  耗时: 5.13秒
+
+[24/100] Summarize the following email: IR Moves
+...
+
+[1;31mGeneration Time: 6.625290 seconds[0m
+  回答长度: 377 字符
+  耗时: 6.65秒
+
+[25/100] Summarize the following email: DUES
+...
+
+[1;31mGeneration Time: 7.440075 seconds[0m
+  回答长度: 204 字符
+  耗时: 7.47秒
+
+[26/100] Summarize the following email: Pick-Ups
+...
+
+[1;31mGeneration Time: 10.881141 seconds[0m
+  回答长度: 217 字符
+  耗时: 10.91秒
+
+[27/100] Summarize the following email: Trade?
+...
+
+[1;31mGeneration Time: 6.267242 seconds[0m
+  回答长度: 356 字符
+  耗时: 6.29秒
+
+[28/100] Summarize the following email: Draft
+...
+
+[1;31mGeneration Time: 6.064382 seconds[0m
+  回答长度: 196 字符
+  耗时: 6.09秒
+
+[29/100] Summarize the following email: Draft change request
+...
+
+[1;31mGeneration Time: 9.047226 seconds[0m
+  回答长度: 362 字符
+  耗时: 9.08秒
+
+[30/100] Summarize the following email: Game Tonight
+...
+
+[1;31mGeneration Time: 7.786821 seconds[0m
+  回答长度: 223 字符
+  耗时: 7.82秒
+  💾 Checkpoint已保存 (30/100)
+
+[31/100] Summarize the following email: Rotation
+...
+
+[1;31mGeneration Time: 6.579338 seconds[0m
+  回答长度: 213 字符
+  耗时: 6.61秒
+
+[32/100] Summarize the following email: A note on PMA's
+...
+
+[1;31mGeneration Time: 5.089617 seconds[0m
+  回答长度: 330 字符
+  耗时: 5.12秒
+
+[33/100] Summarize the following email: Fire Drill Scheduled
+...
+
+[1;31mGeneration Time: 8.778988 seconds[0m
+  回答长度: 362 字符
+  耗时: 8.81秒
+
+[34/100] Summarize the following email: Your mailbox is over its size...
+
+[1;31mGeneration Time: 9.941736 seconds[0m
+  回答长度: 80 字符
+  耗时: 9.97秒
+
+[35/100] ⏭ 跳过已完成的: Summarize the following email: Your mailbox is over its size...
+
+[36/100] Summarize the following email: Special Limited-Time Offer: S...
+
+[1;31mGeneration Time: 5.064147 seconds[0m
+  回答长度: 114 字符
+  耗时: 5.09秒
+
+[37/100] ⏭ 跳过已完成的: Summarize the following email: Your mailbox is over its size...
+
+[38/100] Summarize the following email: Christmas Arches
+...
+
+[1;31mGeneration Time: 8.549411 seconds[0m
+  回答长度: 232 字符
+  耗时: 8.58秒
+
+[39/100] Summarize the following email: Change of Control Provisions
+...
+
+[1;31mGeneration Time: 11.142855 seconds[0m
+  回答长度: 253 字符
+  耗时: 11.17秒
+
+[40/100] Summarize the following email: DRAFT:  INFORMATION, Please R...
+
+[1;31mGeneration Time: 24.947246 seconds[0m
+  回答长度: 735 字符
+  耗时: 24.98秒
+  💾 Checkpoint已保存 (40/100)
+
+[41/100] Summarize the following email: Ski Trip 2002
+...
+
+[1;31mGeneration Time: 7.791762 seconds[0m
+  回答长度: 248 字符
+  耗时: 7.82秒
+
+[42/100] Summarize the following email: New Years
+...
+
+[1;31mGeneration Time: 5.838987 seconds[0m
+  回答长度: 206 字符
+  耗时: 5.86秒
+
+[43/100] Summarize the following email: Employee Reinstatement
+...
+
+[1;31mGeneration Time: 10.327597 seconds[0m
+  回答长度: 376 字符
+  耗时: 10.36秒
+
+[44/100] Summarize the following email: Headcount for 1998 - 2001
+...
+
+[1;31mGeneration Time: 11.007898 seconds[0m
+  回答长度: 235 字符
+  耗时: 11.04秒
+
+[45/100] Summarize the following email: ClickAtHome Portal is HERE!
+...
+
+[1;31mGeneration Time: 15.351855 seconds[0m
+  回答长度: 805 字符
+  耗时: 15.38秒
+
+[46/100] Summarize the following email: EGM Good Job!
+...
+
+[1;31mGeneration Time: 14.787457 seconds[0m
+  回答长度: 240 字符
+  耗时: 14.82秒
+
+[47/100] Summarize the following email: EA Staff Meeting
+...
+
+[1;31mGeneration Time: 4.983375 seconds[0m
+  回答长度: 182 字符
+  耗时: 5.00秒
+
+[48/100] Summarize the following email: Log as of 06/04 and weekly su...
+
+[1;31mGeneration Time: 8.382463 seconds[0m
+  回答长度: 373 字符
+  耗时: 8.41秒
+
+[49/100] Summarize the following email: Reminder - Final PRC - Friday...
+
+[1;31mGeneration Time: 19.483182 seconds[0m
+  回答长度: 683 字符
+  耗时: 19.51秒
+
+[50/100] Summarize the following email: Update on SAP System Response...
+
+[1;31mGeneration Time: 10.345346 seconds[0m
+  回答长度: 369 字符
+  耗时: 10.38秒
+  💾 Checkpoint已保存 (50/100)
+
+[51/100] Summarize the following email: Status of the sale of POPS to...
+
+[1;31mGeneration Time: 11.993779 seconds[0m
+  回答长度: 268 字符
+  耗时: 12.02秒
+
+[52/100] Summarize the following email: Org Chart - Introduction
+...
+
+[1;31mGeneration Time: 8.923081 seconds[0m
+  回答长度: 364 字符
+  耗时: 8.94秒
+
+[53/100] Summarize the following email: Exec. Summary for Project Gre...
+
+[1;31mGeneration Time: 8.071791 seconds[0m
+  回答长度: 394 字符
+  耗时: 8.10秒
+
+[54/100] Summarize the following email: Enron Management Committee Ex...
+
+[1;31mGeneration Time: 6.953170 seconds[0m
+  回答长度: 375 字符
+  耗时: 6.98秒
+
+[55/100] Summarize the following email: Numbers
+...
+
+[1;31mGeneration Time: 6.520141 seconds[0m
+  回答长度: 344 字符
+  耗时: 6.55秒
+
+[56/100] Summarize the following email: Fariba Karimi looking for ano...
+
+[1;31mGeneration Time: 10.258553 seconds[0m
+  回答长度: 511 字符
+  耗时: 10.29秒
+
+[57/100] Summarize the following email: Congratulations
+...
+
+[1;31mGeneration Time: 9.228544 seconds[0m
+  回答长度: 157 字符
+  耗时: 9.26秒
+
+[58/100] Summarize the following email: Missed our Timing
+...
+
+[1;31mGeneration Time: 5.251853 seconds[0m
+  回答长度: 249 字符
+  耗时: 5.28秒
+
+[59/100] Summarize the following email: Speaking Engagement - October...
+
+[1;31mGeneration Time: 8.933349 seconds[0m
+  回答长度: 352 字符
+  耗时: 8.96秒
+
+[60/100] Summarize the following email: October 23 Speaking Engagemen...
+
+[1;31mGeneration Time: 5.256996 seconds[0m
+  回答长度: 364 字符
+  耗时: 5.29秒
+  💾 Checkpoint已保存 (60/100)
+
+[61/100] Summarize the following email: Dinner with UT Students
+...
+
+[1;31mGeneration Time: 10.222493 seconds[0m
+  回答长度: 352 字符
+  耗时: 10.25秒
+
+[62/100] Summarize the following email: vacation plans
+...
+
+[1;31mGeneration Time: 5.906297 seconds[0m
+  回答长度: 195 字符
+  耗时: 5.93秒
+
+[63/100] Summarize the following email: Global Operation Controllers ...
+
+[1;31mGeneration Time: 9.600327 seconds[0m
+  回答长度: 348 字符
+  耗时: 9.63秒
+
+[64/100] Summarize the following email: Info for Sally Beck Jornada
+...
+
+[1;31mGeneration Time: 9.968918 seconds[0m
+  回答长度: 1099 字符
+  耗时: 9.99秒
+
+[65/100] Summarize the following email: Welcome to Chicago and ENA
+...
+
+[1;31mGeneration Time: 10.218860 seconds[0m
+  回答长度: 365 字符
+  耗时: 10.25秒
+
+[66/100] Summarize the following email: United Way Kick Off
+...
+
+[1;31mGeneration Time: 8.097327 seconds[0m
+  回答长度: 335 字符
+  耗时: 8.13秒
+
+[67/100] Summarize the following email: United Way Executive Solicita...
+
+[1;31mGeneration Time: 13.828635 seconds[0m
+  回答长度: 471 字符
+  耗时: 13.86秒
+
+[68/100] Summarize the following email: Accomplishments
+...
+
+[1;31mGeneration Time: 9.933304 seconds[0m
+  回答长度: 327 字符
+  耗时: 9.96秒
+
+[69/100] Summarize the following email: People to consider recruiting...
+
+[1;31mGeneration Time: 11.028733 seconds[0m
+  回答长度: 377 字符
+  耗时: 11.06秒
+
+[70/100] Summarize the following email: Can we reschedule lunch to an...
+
+[1;31mGeneration Time: 5.568515 seconds[0m
+  回答长度: 53 字符
+  耗时: 5.60秒
+  💾 Checkpoint已保存 (70/100)
+
+[71/100] Summarize the following email: ENA Role
+...
+
+[1;31mGeneration Time: 6.401105 seconds[0m
+  回答长度: 269 字符
+  耗时: 6.43秒
+
+[72/100] Summarize the following email: Contact at Enron Field
+...
+
+[1;31mGeneration Time: 5.895890 seconds[0m
+  回答长度: 231 字符
+  耗时: 5.92秒
+
+[73/100] Summarize the following email: Organisational Announcement.
+...
+
+[1;31mGeneration Time: 8.203713 seconds[0m
+  回答长度: 339 字符
+  耗时: 8.23秒
+
+[74/100] Summarize the following email: Operations/Controls Review - ...
+
+[1;31mGeneration Time: 8.675669 seconds[0m
+  回答长度: 385 字符
+  耗时: 8.70秒
+
+[75/100] Summarize the following email: FAS 133 Offsite
+...
+
+[1;31mGeneration Time: 10.517757 seconds[0m
+  回答长度: 415 字符
+  耗时: 10.55秒
+
+[76/100] Summarize the following email: Canadian Promotions/Trip
+...
+
+[1;31mGeneration Time: 9.392608 seconds[0m
+  回答长度: 332 字符
+  耗时: 9.42秒
+
+[77/100] Summarize the following email: Out of Office - Thursday, Feb...
+
+[1;31mGeneration Time: 10.522561 seconds[0m
+  回答长度: 356 字符
+  耗时: 10.55秒
+
+[78/100] Summarize the following email: Brenda Herod's new pager #
+...
+
+[1;31mGeneration Time: 13.020347 seconds[0m
+  回答长度: 250 字符
+  耗时: 13.05秒
+
+[79/100] Summarize the following email: Thanks for January 1, 2000
+...
+
+[1;31mGeneration Time: 12.040928 seconds[0m
+  回答长度: 260 字符
+  耗时: 12.07秒
+
+[80/100] Summarize the following email: Recap of 4/23 Meeting on Comm...
+
+[1;31mGeneration Time: 6.003220 seconds[0m
+  回答长度: 386 字符
+  耗时: 6.03秒
+  💾 Checkpoint已保存 (80/100)
+
+[81/100] ⏭ 跳过已完成的: Summarize the following email: Congratulations
+...
+
+[82/100] Summarize the following email: Preparation for Year End Asso...
+
+[1;31mGeneration Time: 6.955264 seconds[0m
+  回答长度: 364 字符
+  耗时: 6.98秒
+
+[83/100] Summarize the following email: Suggestions for Floor Meeting...
+
+[1;31mGeneration Time: 8.077964 seconds[0m
+  回答长度: 361 字符
+  耗时: 8.11秒
+
+[84/100] Summarize the following email: Net Works Floor Meetings - DA...
+
+[1;31mGeneration Time: 11.962331 seconds[0m
+  回答长度: 311 字符
+  耗时: 11.99秒
+
+[85/100] Summarize the following email: Weekly Focus on Commercializa...
+
+[1;31mGeneration Time: 7.155415 seconds[0m
+  回答长度: 390 字符
+  耗时: 7.18秒
+
+[86/100] Summarize the following email: AEP-HPL Transition Issues
+...
+
+[1;31mGeneration Time: 6.061802 seconds[0m
+  回答长度: 341 字符
+  耗时: 6.09秒
+
+[87/100] Summarize the following email: Gordon Heaney's Acceptance
+...
+
+[1;31mGeneration Time: 10.468778 seconds[0m
+  回答长度: 365 字符
+  耗时: 10.50秒
+
+[88/100] Summarize the following email: Follow Up Items
+...
+
+[1;31mGeneration Time: 5.950982 seconds[0m
+  回答长度: 316 字符
+  耗时: 5.98秒
+
+[89/100] Summarize the following email: Commercialization of Back Off...
+
+[1;31mGeneration Time: 11.600931 seconds[0m
+  回答长度: 381 字符
+  耗时: 11.63秒
+
+[90/100] Summarize the following email: Promotions Luncheon for Direc...
+
+[1;31mGeneration Time: 14.364902 seconds[0m
+  回答长度: 375 字符
+  耗时: 14.39秒
+  💾 Checkpoint已保存 (90/100)
+
+[91/100] Summarize the following email: ASE on February 12-13, 2001 i...
+
+[1;31mGeneration Time: 15.833277 seconds[0m
+  回答长度: 386 字符
+  耗时: 15.86秒
+
+[92/100] ⏭ 跳过已完成的: Summarize the following email: Congratulations
+...
+
+[93/100] Summarize the following email: you don't need access to stac...
+
+[1;31mGeneration Time: 6.113854 seconds[0m
+  回答长度: 399 字符
+  耗时: 6.14秒
+
+[94/100] ⏭ 跳过已完成的: Summarize the following email: URGENT - ENA Associates & Ana...
+
+[95/100] Summarize the following email: quick PJM update
+...
+
+[1;31mGeneration Time: 12.556481 seconds[0m
+  回答长度: 1172 字符
+  耗时: 12.59秒
+
+[96/100] Summarize the following email: Executive Committee
+...
+
+[1;31mGeneration Time: 9.885475 seconds[0m
+  回答长度: 309 字符
+  耗时: 9.92秒
+
+[97/100] Summarize the following email: Power Trading Systems Require...
+
+[1;31mGeneration Time: 7.573895 seconds[0m
+  回答长度: 666 字符
+  耗时: 7.60秒
+
+[98/100] Summarize the following email: Access Card Information
+...
+
+[1;31mGeneration Time: 5.781957 seconds[0m
+  回答长度: 318 字符
+  耗时: 5.81秒
+
+[99/100] Summarize the following email: Are You Living in Debt, Paych...
+
+[1;31mGeneration Time: 8.933974 seconds[0m
+  回答长度: 353 字符
+  耗时: 8.95秒
+
+[100/100] Summarize the following email: TW's Firm Capacity Procedures...
+
+[1;31mGeneration Time: 8.277842 seconds[0m
+  回答长度: 266 字符
+  耗时: 8.30秒
+  💾 Checkpoint已保存 (100/100)
+
+💾 最终checkpoint已保存: ./benchmark/results/aeslc_baseline_100.json
+
+================================================================================
+测试结果汇总
+================================================================================
+总问题数: 95
+总耗时: 898.54秒
+平均响应时间: 9.46秒
+平均回答长度: 354 字符
+================================================================================
+
+✓ 结果已保存到: ./benchmark/results/aeslc_baseline_100.json

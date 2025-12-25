@@ -1,0 +1,30 @@
+{
+  "baseline_rag": {
+    "metrics": {
+      "rouge1": 0.012105102684522858,
+      "rouge2": 0.0,
+      "rougeL": 0.010514839713662872,
+      "bleu": 0.0003980780256602272,
+      "bertscore": 0.7873334725697835
+    },
+    "num_samples": 30
+  },
+  "cuckoo_filter": {
+    "metrics": {
+      "rouge1": 0.012105102684522858,
+      "rouge2": 0.0,
+      "rougeL": 0.010514839713662872,
+      "bleu": 0.0003980780256602272,
+      "bertscore": 0.7873334725697835
+    },
+    "num_samples": 30
+  },
+  "comparison": {
+    "rouge1_diff": 0.0,
+    "rouge2_diff": 0.0,
+    "rougel_diff": 0.0,
+    "bleu_diff": 0.0,
+    "bertscore_diff": 0.0,
+    "conclusion": "Baseline RAG和Cuckoo Filter在AESLC数据集上的表现完全相同"
+  }
+}

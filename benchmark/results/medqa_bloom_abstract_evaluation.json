@@ -1,0 +1,81 @@
+{
+  "average_scores": {
+    "rouge1": 0.007482720178372352,
+    "rouge2": 0.0,
+    "rougeL": 0.007482720178372352,
+    "bleu": 0.0011619864825251928
+  },
+  "total_samples": 50,
+  "detailed_results": [
+    {
+      "question": "A junior orthopaedic surgery resident is completin",
+      "rouge1": 0.0,
+      "rouge2": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0.0
+    },
+    {
+      "question": "A 67-year-old man with transitional cell carcinoma",
+      "rouge1": 0.0,
+      "rouge2": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0.0
+    },
+    {
+      "question": "Two weeks after undergoing an emergency cardiac ca",
+      "rouge1": 0.0,
+      "rouge2": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0.0
+    },
+    {
+      "question": "A 39-year-old woman is brought to the emergency de",
+      "rouge1": 0.0,
+      "rouge2": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0.0
+    },
+    {
+      "question": "A 35-year-old man comes to the physician because o",
+      "rouge1": 0.0,
+      "rouge2": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0.0
+    },
+    {
+      "question": "A 39-year-old man presents to the emergency depart",
+      "rouge1": 0.15384615384615383,
+      "rouge2": 0.0,
+      "rougeL": 0.15384615384615383,
+      "bleu": 0.010802314890908065
+    },
+    {
+      "question": "A 68-year-old male comes to the physician for eval",
+      "rouge1": 0.0,
+      "rouge2": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0.0
+    },
+    {
+      "question": "A 65-year-old man is brought to the emergency depa",
+      "rouge1": 0.0,
+      "rouge2": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0.0
+    },
+    {
+      "question": "A 37-year-old-woman presents to her primary care p",
+      "rouge1": 0.0,
+      "rouge2": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0.01284618972676772
+    },
+    {
+      "question": "A 23-year-old woman comes to the physician because",
+      "rouge1": 0.0,
+      "rouge2": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0.0
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+[
+  {
+    "question": "Which American-born Sinclair won the Nobel Prize for Literature in 1930?",
+    "answer": "Sinclair Lewis.",
+    "expected_answer": "Sinclair Lewis",
+    "time": 16.9445960521698,
+    "answer_length": 15
+  },
+  {
+    "question": "Where in England was Dame Judi Dench born?",
+    "answer": "York",
+    "expected_answer": "York",
+    "time": 18.710469722747803,
+    "answer_length": 4
+  },
+  {
+    "question": "In which decade did Billboard magazine first publish and American hit chart?",
+    "answer": "The 1930s.",
+    "expected_answer": "30s",
+    "time": 11.0311119556427,
+    "answer_length": 10
+  },
+  {
+    "question": "From which country did Angola achieve independence in 1975?",
+    "answer": "Portugal",
+    "expected_answer": "Portugal",
+    "time": 5.762860059738159,
+    "answer_length": 8
+  },
+  {
+    "question": "Which city does David Soul come from?",
+    "answer": "The provided information does not specify which city David Soul comes from.  \n\n（如果必须更简略：Unknown）",
+    "expected_answer": "Chicago",
+    "time": 24.835307121276855,
+    "answer_length": 96
+  },
+  {
+    "question": "Who won Super Bowl XX?",
+    "answer": "Chicago Bears.",
+    "expected_answer": "Chicago Bears",
+    "time": 7.2501420974731445,
+    "answer_length": 14
+  },
+  {
+    "question": "Which was the first European country to abolish capital punishment?",
+    "answer": "The Netherlands.",
+    "expected_answer": "Norway",
+    "time": 10.690895080566406,
+    "answer_length": 16
+  },
+  {
+    "question": "In which country did he widespread use of ISDN begin in 1988?",
+    "answer": "Germany",
+    "expected_answer": "Japan",
+    "time": 8.048766851425171,
+    "answer_length": 7
+  },
+  {
+    "question": "What is Bruce Willis' real first name?",
+    "answer": "Walter Bruce Willis",
+    "expected_answer": "Walter",
+    "time": 11.39591097831726,
+    "answer_length": 19
+  },
+  {
+    "question": "Which William wrote the novel Lord Of The Flies?",
+    "answer": "William Golding.",
+    "expected_answer": "Golding",
+    "time": 5.790271997451782,
+    "answer_length": 16
+  },
+  {
+    "question": "Which innovation for the car was developed by Prince Henry of Prussia in 1911?",
+    "answer": "Rearview mirror.",
+    "expected_answer": "Windshield wipers",
+    "time": 24.977946281433105,
+    "answer_length": 16
+  },
+  {
+    "question": "How is musician William Lee Conley better known?",
+    "answer": "Ike Turner",
+    "expected_answer": "Big Bill Broonzy",
+    "time": 7.164589166641235,
+    "answer_length": 10
+  },
+  {
+    "question": "How is Joan Molinsky better known?",
+    "answer": "Joan Rivers.",
+    "expected_answer": "Joan Rivers",
+    "time": 7.147387266159058,
+    "answer_length": 12
+  },
+  {
+    "question": "In which branch of the arts is Patricia Neary famous?",
+    "answer": "Ballet.",
+    "expected_answer": "Ballet",
+    "time": 9.045670747756958,
+    "answer_length": 7
+  },
+  {
+    "question": "Which country is Europe's largest silk producer?",
+    "answer": "Netherlands",
+    "expected_answer": "Italy",
+    "time": 11.244972944259644,
+    "answer_length": 11
+  },
+  {
+    "question": "The VS-300 was a type of what?",
+    "answer": "Helicopter",
+    "expected_answer": "Helicopter",
+    "time": 7.866951942443848,
+    "answer_length": 10
+  },
+  {
+    "question": "At which university did Joseph Goebbels become a doctor of philosophy?",
+    "answer": "University of Heidelberg.",
+    "expected_answer": "Heidelberg",
+    "time": 7.705948114395142,
+    "answer_length": 25
+  },
+  {
+    "question": "Which prince is Queen Elizabeth II's youngest son?",
+    "answer": "Prince Edward.",
+    "expected_answer": "Edward",
+    "time": 7.9451377391815186,
+    "answer_length": 14
+  },
+  {
+    "question": "When did the founder of Jehovah's Witnesses say the world would end?",
+    "answer": "Charles Taze Russell, the founder of Jehovah's Witnesses, predicted the world would end around 1914.",
+    "expected_answer": "1914",
+    "time": 15.087542057037354,
+    "answer_length": 100
+  },
+  {
+    "question": "Who found the remains of the Titanic?",
+    "answer": "Robert Ballard.",
+    "expected_answer": "Robert Ballard",
+    "time": 10.488792181015015,
+    "answer_length": 15
+  },
+  {
+    "question": "Who was the only Spice Girl not to have a middle name?",
+    "answer": "Emma Bunton.",
+    "expected_answer": "Posh Spice",
+    "time": 18.016704082489014,
+    "answer_length": 12
+  },
+  {
+    "question": "What are the international registration letters of a vehicle from Algeria?",
+    "answer": "DZ",
+    "expected_answer": "DZ",
+    "time": 8.190547943115234,
+    "answer_length": 2
+  },
+  {
+    "question": "How did Jock die in Dallas?",
+    "answer": "Jock Ewing died in a helicopter crash.",
+    "expected_answer": "Helicopter accident",
+    "time": 7.210659980773926,
+    "answer_length": 38
+  },
+  {
+    "question": "What star sign is Michael Caine?",
+    "answer": "Pisces",
+    "expected_answer": "Pisces",
+    "time": 7.794672966003418,
+    "answer_length": 6
+  },
+  {
+    "question": "Who wrote the novel Evening Class?",
+    "answer": "Maeve Binchy",
+    "expected_answer": "Maeve Binchy",
+    "time": 8.586819171905518,
+    "answer_length": 12
+  },
+  {
+    "question": "Which country does the airline Air Pacific come from?",
+    "answer": "Fiji",
+    "expected_answer": "Fiji",
+    "time": 6.8166117668151855,
+    "answer_length": 4
+  },
+  {
+    "question": "In which branch of the arts does Allegra Kent work?",
+    "answer": "Ballet",
+    "expected_answer": "Ballet",
+    "time": 9.439166784286499,
+    "answer_length": 6
+  },
+  {
+    "question": "Who had a 70s No 1 hit with Billy, Don't Be A Hero?",
+    "answer": "Bo Donaldson and The Heywoods.",
+    "expected_answer": "Bo Donaldson & The Heywoods",
+    "time": 10.767369985580444,
+    "answer_length": 30
+  },
+  {
+    "question": "Banting and Best pioneered the use of what?",
+    "answer": "Insulin",
+    "expected_answer": "Insulin",
+    "time": 6.223023891448975,
+    "answer_length": 7
+  },
+  {
+    "question": "Who directed the movie La Dolce Vita?",
+    "answer": "Federico Fellini",
+    "expected_answer": "Federico Fellini",
+    "time": 5.963021755218506,
+    "answer_length": 16
+  },
+  {
+    "question": "Which country does the airline LACSA come from?",
+    "answer": "哥斯达黎加",
+    "expected_answer": "Costa Rica",
+    "time": 7.434471130371094,
+    "answer_length": 5
+  },
+  {
+    "question": "Who directed 2001: A Space Odyssey?",
+    "answer": "Stanley Kubrick.",
+    "expected_answer": "Stanley Kubrick",
+    "time": 6.687040090560913,
+    "answer_length": 16
+  },
+  {
+    "question": "Which is the largest of the Japanese Volcano Islands?",
+    "answer": "Iwo Jima (also known as Ioto) is the largest of the Japanese Volcano Islands.",
+    "expected_answer": "Iwo Jima",
+    "time": 13.241594791412354,
+    "answer_length": 77
+  },
+  {
+    "question": "Ezzard Charles was a world champion in which sport?",
+    "answer": "Boxing.",
+    "expected_answer": "Boxing",
+    "time": 6.435025930404663,
+    "answer_length": 7
+  },
+  {
+    "question": "Who was the first woman to make a solo flight across the Atlantic?",
+    "answer": "Amelia Earhart.",
+    "expected_answer": "Amelia Earhart",
+    "time": 7.730832815170288,
+    "answer_length": 15
+  },
+  {
+    "question": "Which port lies between Puget Sound and Lake Washington?",
+    "answer": "SEATTLE",
+    "expected_answer": "Seattle",
+    "time": 7.370500802993774,
+    "answer_length": 7
+  },
+  {
+    "question": "In which city were Rotary Clubs set up in 1905?",
+    "answer": "Chicago",
+    "expected_answer": "Chicago",
+    "time": 5.090359210968018,
+    "answer_length": 7
+  },
+  {
+    "question": "Who became US Vice President when Spiro Agnew resigned?",
+    "answer": "Gerald Ford.",
+    "expected_answer": "Gerald Ford",
+    "time": 6.489062786102295,
+    "answer_length": 12
+  },
+  {
+    "question": "In which decade of the 20th century was Billy Crystal born?",
+    "answer": "The 1940s.",
+    "expected_answer": "1940s",
+    "time": 7.868088006973267,
+    "answer_length": 10
+  },
+  {
+    "question": "Which George invented the Kodak roll-film camera?",
+    "answer": "George Eastman",
+    "expected_answer": "Eastman",
+    "time": 5.166722059249878,
+    "answer_length": 14
+  },
+  {
+    "question": "Which series had the characters Felix Unger and Oscar Madison?",
+    "answer": "The Odd Couple.",
+    "expected_answer": "The Odd Couple",
+    "time": 7.5230629444122314,
+    "answer_length": 15
+  },
+  {
+    "question": "Who along with Philips developed the CD in the late 70s?",
+    "answer": "Sony.",
+    "expected_answer": "Sony",
+    "time": 6.406780004501343,
+    "answer_length": 5
+  },
+  {
+    "question": "Where is the multinational Nestle based?",
+    "answer": "Switzerland.",
+    "expected_answer": "Switzerland",
+    "time": 7.762662172317505,
+    "answer_length": 12
+  },
+  {
+    "question": "Do You Know Where You're Going To? was the theme from which film?",
+    "answer": "Mahogany",
+    "expected_answer": "Mahogany",
+    "time": 9.026479959487915,
+    "answer_length": 8
+  },
+  {
+    "question": "19969 was the Chinese year of which creature?",
+    "answer": "Rat",
+    "expected_answer": "Rat",
+    "time": 9.570407152175903,
+    "answer_length": 3
+  },
+  {
+    "question": "In the 90s how many points have been awarded for finishing second in a Grand Prix?",
+    "answer": "6 points.",
+    "expected_answer": "6",
+    "time": 23.03477907180786,
+    "answer_length": 9
+  },
+  {
+    "question": "Stapleton international airport is in which US state?",
+    "answer": "Colorado",
+    "expected_answer": "Colorado",
+    "time": 7.632759094238281,
+    "answer_length": 8
+  },
+  {
+    "question": "What was Kevin Kline's first movie?",
+    "answer": "Sophie's Choice",
+    "expected_answer": "Sophie's Choice",
+    "time": 10.454835176467896,
+    "answer_length": 15
+  },
+  {
+    "question": "Which actor had a Doberman Pinscher called Kirk?",
+    "answer": "William Shatner",
+    "expected_answer": "William Shatner",
+    "time": 13.044208765029907,
+    "answer_length": 15
+  },
+  {
+    "question": "What day of the week was the Wall Street Crash?",
+    "answer": "Tuesday.",
+    "expected_answer": "Thursday",
+    "time": 13.730885028839111,
+    "answer_length": 8
+  }
+]
