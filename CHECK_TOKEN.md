@@ -5,7 +5,7 @@
 出现403错误，可能的原因：
 
 ### 1. 使用的是旧token
-你提供的token `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` 可能是之前生成的，没有repo权限。
+你提供的token可能是之前生成的，没有repo权限。
 
 ### 2. 需要确认使用新token
 

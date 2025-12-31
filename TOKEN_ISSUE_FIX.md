@@ -31,7 +31,7 @@ git push -u origin main
 
 然后：
 - Username: `John-777-tech`
-- Password: 粘贴你的token：`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`
+- Password: 粘贴你的token（从GitHub设置页面获取）
 
 ### 方法3：使用SSH（最安全，推荐长期使用）
 
