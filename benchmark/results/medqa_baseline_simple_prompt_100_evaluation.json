@@ -1,0 +1,92 @@
+{
+  "average_scores": {
+    "rouge1": 0.036438745594143916,
+    "rouge2": 0.019828412882124374,
+    "rougeL": 0.03456655025403089,
+    "bleu": 0.006922834599323264,
+    "bertscore": 0.7890105837583542
+  },
+  "total_samples": 100,
+  "detailed_results": [
+    {
+      "question": "A junior orthopaedic surgery resident is completin",
+      "rouge1": 0.3142857142857143,
+      "rouge2": 0.29411764705882354,
+      "rougeL": 0.3142857142857143,
+      "bleu": 0.16188613565728213,
+      "bertscore": 0.8809967041015625
+    },
+    {
+      "question": "A 67-year-old man with transitional cell carcinoma",
+      "rouge1": 0.047058823529411764,
+      "rouge2": 0.02380952380952381,
+      "rougeL": 0.047058823529411764,
+      "bleu": 0.0020252326257874926,
+      "bertscore": 0.8131547570228577
+    },
+    {
+      "question": "Two weeks after undergoing an emergency cardiac ca",
+      "rouge1": 0.020408163265306124,
+      "rouge2": 0.010309278350515464,
+      "rougeL": 0.020408163265306124,
+      "bleu": 0.0011844492627343496,
+      "bertscore": 0.7875943183898926
+    },
+    {
+      "question": "A 39-year-old woman is brought to the emergency de",
+      "rouge1": 0.02259887005649718,
+      "rouge2": 0.011428571428571429,
+      "rougeL": 0.02259887005649718,
+      "bleu": 0.0008244688563336357,
+      "bertscore": 0.7727105021476746
+    },
+    {
+      "question": "A 35-year-old man comes to the physician because o",
+      "rouge1": 0.0392156862745098,
+      "rouge2": 0.013245033112582781,
+      "rougeL": 0.0392156862745098,
+      "bleu": 0.0019223311527388903,
+      "bertscore": 0.8002737164497375
+    },
+    {
+      "question": "A 39-year-old man presents to the emergency depart",
+      "rouge1": 0.012578616352201257,
+      "rouge2": 0.0,
+      "rougeL": 0.012578616352201257,
+      "bleu": 0.0008825343843248629,
+      "bertscore": 0.7638427019119263
+    },
+    {
+      "question": "A 68-year-old male comes to the physician for eval",
+      "rouge1": 0.015151515151515152,
+      "rouge2": 0.0,
+      "rougeL": 0.015151515151515152,
+      "bleu": 0.0009797868594962065,
+      "bertscore": 0.77320396900177
+    },
+    {
+      "question": "A 65-year-old man is brought to the emergency depa",
+      "rouge1": 0.005952380952380953,
+      "rouge2": 0.0,
+      "rougeL": 0.005952380952380953,
+      "bleu": 0.0003603412307283393,
+      "bertscore": 0.7631481885910034
+    },
+    {
+      "question": "A 37-year-old-woman presents to her primary care p",
+      "rouge1": 0.0967741935483871,
+      "rouge2": 0.04918032786885246,
+      "rougeL": 0.08064516129032259,
+      "bleu": 0.03152072259866586,
+      "bertscore": 0.8221001625061035
+    },
+    {
+      "question": "A 23-year-old woman comes to the physician because",
+      "rouge1": 0.0,
+      "rouge2": 0.0,
+      "rougeL": 0.0,
+      "bleu": 0.0,
+      "bertscore": 0.7829662561416626
+    }
+  ]
+}

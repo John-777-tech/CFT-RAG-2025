@@ -1,0 +1,902 @@
+[
+  {
+    "question": "Which American-born Sinclair won the Nobel Prize for Literature in 1930?",
+    "answer": "Sinclair Lewis.\n\nHe was an American-born writer who won the Nobel Prize for Literature in 1930, recognized for his critical portrayals of American society and culture in works like \"Main Street\" and \"Babbitt\".\n\n\n**Answer:** Sinclair Lewis",
+    "expected_answer": "Sinclair Lewis",
+    "time": 18.700650930404663,
+    "answer_length": 238,
+    "retrieval_time": 8.18471884727478,
+    "generation_time": 18.68890380859375
+  },
+  {
+    "question": "Where in England was Dame Judi Dench born?",
+    "answer": "The provided information does not contain details about where in England Dame Judi Dench was born. The given content only mentions her name and the word \"AUSTRALIA,\" which does not address the question about her birth location in England.\n\n\n**Answer:** The provided information does not specify where in England Dame Judi Dench was born.",
+    "expected_answer": "York",
+    "time": 7.957823991775513,
+    "answer_length": 337,
+    "retrieval_time": 2.6521992683410645,
+    "generation_time": 7.9427080154418945
+  },
+  {
+    "question": "In which decade did Billboard magazine first publish and American hit chart?",
+    "answer": "The provided information does not contain the relevant details to answer the question directly. However, based on historical facts, Billboard magazine first published an American hit chart in 1936, which falls within the 1930s decade.\n\nAnswer: The 1930s.",
+    "expected_answer": "30s",
+    "time": 12.090473890304565,
+    "answer_length": 254,
+    "retrieval_time": 2.6496899127960205,
+    "generation_time": 12.068768978118896
+  },
+  {
+    "question": "From which country did Angola achieve independence in 1975?",
+    "answer": "The provided information only contains the word \"Angola\" repeated and does not include details about the country from which Angola achieved independence in 1975. Therefore, the necessary information to answer the question is not available here.\n\n(Note: For context, Angola gained independence from Portugal in 1975, but this detail is not present in the given information.)",
+    "expected_answer": "Portugal",
+    "time": 9.732966899871826,
+    "answer_length": 373,
+    "retrieval_time": 2.6421079635620117,
+    "generation_time": 9.705644130706787
+  },
+  {
+    "question": "Which city does David Soul come from?",
+    "answer": "There is no information provided in the given content about which city David Soul comes from. The content mentions David Soul twice, \"Bagpuss\", and the phrase \"ONCE IN ROYAL DAVID’S CITY\", but none of these details indicate his place of origin.\n\nAnswer: The provided information does not specify which city David Soul comes from.",
+    "expected_answer": "Chicago",
+    "time": 6.883345127105713,
+    "answer_length": 329,
+    "retrieval_time": 2.631520986557007,
+    "generation_time": 6.855294942855835
+  },
+  {
+    "question": "Who won Super Bowl XX?",
+    "answer": "The provided information does not contain details about who won Super Bowl XX, so I cannot answer this question based on the given content.",
+    "expected_answer": "Chicago Bears",
+    "time": 5.230197906494141,
+    "answer_length": 139,
+    "retrieval_time": 2.6530468463897705,
+    "generation_time": 5.20207405090332
+  },
+  {
+    "question": "Which was the first European country to abolish capital punishment?",
+    "answer": "The Netherlands (referred to as \"The Dutch\" in the provided information) was the first European country to abolish capital punishment for ordinary crimes in 1870. \n\nAnswer: The Netherlands.",
+    "expected_answer": "Norway",
+    "time": 10.676844120025635,
+    "answer_length": 189,
+    "retrieval_time": 2.6363298892974854,
+    "generation_time": 10.65021014213562
+  },
+  {
+    "question": "In which country did he widespread use of ISDN begin in 1988?",
+    "answer": "The provided information does not contain relevant content to answer the question about the country where the widespread use of ISDN began in 1988. The given details only mention years 1908 and 1948, the term \"Swedish\", and \"Beri-Beri\" twice, which are unrelated to ISDN or its widespread use in 1988.\n\n(Note: For reference, the widespread use of ISDN began in Germany in 1988, but this information is not present in the provided data.)",
+    "expected_answer": "Japan",
+    "time": 7.578284740447998,
+    "answer_length": 436,
+    "retrieval_time": 2.6396260261535645,
+    "generation_time": 7.563920259475708
+  },
+  {
+    "question": "What is Bruce Willis' real first name?",
+    "answer": "The provided information does not contain details about Bruce Willis' real first name, so it cannot be answered based on the given content.",
+    "expected_answer": "Walter",
+    "time": 5.2758259773254395,
+    "answer_length": 139,
+    "retrieval_time": 2.7133560180664062,
+    "generation_time": 5.248917818069458
+  },
+  {
+    "question": "Which William wrote the novel Lord Of The Flies?",
+    "answer": "William Golding wrote the novel Lord Of The Flies.\n\nThe answer is Golding.",
+    "expected_answer": "Golding",
+    "time": 7.729394912719727,
+    "answer_length": 74,
+    "retrieval_time": 2.630277156829834,
+    "generation_time": 7.706146955490112
+  },
+  {
+    "question": "Which innovation for the car was developed by Prince Henry of Prussia in 1911?",
+    "answer": "The innovation for the car developed by Prince Henry of Prussia in 1911 is the **rearview mirror**.  \n\nPrince Henry of Prussia is credited with proposing the use of rearview mirrors in automobiles around this time, a key innovation that enhanced driver visibility and safety. While the first practical application in racing was by Ray Harroun at the 1911 Indy 500, Prince Henry's contribution to advocating for this feature solidified its place as a critical automotive innovation.\n\n\nAnswer: Rearview mirror.",
+    "expected_answer": "Windshield wipers",
+    "time": 30.504572868347168,
+    "answer_length": 508,
+    "retrieval_time": 2.6377148628234863,
+    "generation_time": 30.47777009010315
+  },
+  {
+    "question": "How is musician William Lee Conley better known?",
+    "answer": "The provided information only mentions Richard Whiteley and does not contain any details about musician William Lee Conley. Therefore, I cannot answer the question using the given information. \n\n(Note: For reference, William Lee Conley is better known as Big Bill Broonzy, but this detail is not present in the provided content.)",
+    "expected_answer": "Big Bill Broonzy",
+    "time": 7.874474048614502,
+    "answer_length": 329,
+    "retrieval_time": 2.6068179607391357,
+    "generation_time": 7.847416877746582
+  },
+  {
+    "question": "How is Joan Molinsky better known?",
+    "answer": "The provided information only mentions \"Joan Baez\" and does not contain any details about Joan Molinsky, so it cannot answer how Joan Molinsky is better known.  \n\n(Note: For reference, Joan Molinsky is better known by her stage name Joan Rivers, but this information is not present in the given content.)",
+    "expected_answer": "Joan Rivers",
+    "time": 15.870902061462402,
+    "answer_length": 304,
+    "retrieval_time": 2.829732894897461,
+    "generation_time": 15.845990896224976
+  },
+  {
+    "question": "In which branch of the arts is Patricia Neary famous?",
+    "answer": "The provided information only mentions Patricia Cornwell and Spain, with no details about Patricia Neary. Therefore, I cannot answer the question using the given information.",
+    "expected_answer": "Ballet",
+    "time": 5.476445913314819,
+    "answer_length": 174,
+    "retrieval_time": 2.6818690299987793,
+    "generation_time": 5.4485859870910645
+  },
+  {
+    "question": "Which country is Europe's largest silk producer?",
+    "answer": "Netherlands",
+    "expected_answer": "Italy",
+    "time": 6.432585000991821,
+    "answer_length": 11,
+    "retrieval_time": 2.6165151596069336,
+    "generation_time": 6.409042119979858
+  },
+  {
+    "question": "The VS-300 was a type of what?",
+    "answer": "The VS-300 was a type of helicopter. It was the first successful single-rotor helicopter, designed by Igor Sikorsky, demonstrating the feasibility of the main rotor with a tail rotor configuration for anti-torque control.\n\n\nAnswer: helicopter",
+    "expected_answer": "Helicopter",
+    "time": 10.033477067947388,
+    "answer_length": 242,
+    "retrieval_time": 2.634229898452759,
+    "generation_time": 10.005478143692017
+  },
+  {
+    "question": "At which university did Joseph Goebbels become a doctor of philosophy?",
+    "answer": "The provided information only lists the names of Joseph Goebbels (including his full name Paul Joseph Goebbels) and does not contain any details about the university where he became a doctor of philosophy. Therefore, the answer cannot be determined from the given information.",
+    "expected_answer": "Heidelberg",
+    "time": 6.288762092590332,
+    "answer_length": 276,
+    "retrieval_time": 2.647584915161133,
+    "generation_time": 6.262120962142944
+  },
+  {
+    "question": "Which prince is Queen Elizabeth II's youngest son?",
+    "answer": "Queen Elizabeth II's youngest son is Prince Edward, Earl of Wessex. He is the fourth and youngest child of Queen Elizabeth II and Prince Philip, Duke of Edinburgh.\n\n\n**Answer:** Prince Edward.",
+    "expected_answer": "Edward",
+    "time": 8.128419160842896,
+    "answer_length": 192,
+    "retrieval_time": 2.637767791748047,
+    "generation_time": 8.105182886123657
+  },
+  {
+    "question": "When did the founder of Jehovah's Witnesses say the world would end?",
+    "answer": "The provided information does not include any details about when the founder of Jehovah's Witnesses said the world would end. Therefore, I cannot answer this question based on the given content.",
+    "expected_answer": "1914",
+    "time": 5.9534242153167725,
+    "answer_length": 194,
+    "retrieval_time": 2.6876800060272217,
+    "generation_time": 5.926798105239868
+  },
+  {
+    "question": "Who found the remains of the Titanic?",
+    "answer": "The provided information does not contain details about who found the remains of the Titanic. Therefore, I cannot answer this question based on the given content.",
+    "expected_answer": "Robert Ballard",
+    "time": 5.622431993484497,
+    "answer_length": 162,
+    "retrieval_time": 2.6378870010375977,
+    "generation_time": 5.6016998291015625
+  },
+  {
+    "question": "Who was the only Spice Girl not to have a middle name?",
+    "answer": "The provided information does not contain specific details about the Spice Girls' middle names, so it is not possible to determine who the only Spice Girl without a middle name is based on the given content.\n\n(Note: For reference, in real-world knowledge, Melanie C (Melanie Chisholm) is often cited as the only Spice Girl without a middle name, but this information is not present in the provided data.)",
+    "expected_answer": "Posh Spice",
+    "time": 7.493988990783691,
+    "answer_length": 404,
+    "retrieval_time": 2.6307578086853027,
+    "generation_time": 7.47185206413269
+  },
+  {
+    "question": "What are the international registration letters of a vehicle from Algeria?",
+    "answer": "The international registration letters (vehicle code) for Algeria are **DZ**. This code is derived from Algeria's ISO 3166-1 alpha-2 country code, which is widely used for international vehicle identification.\n\n\nAnswer: DZ",
+    "expected_answer": "DZ",
+    "time": 6.660762786865234,
+    "answer_length": 222,
+    "retrieval_time": 2.63130784034729,
+    "generation_time": 6.635414123535156
+  },
+  {
+    "question": "How did Jock die in Dallas?",
+    "answer": "The provided information does not include details about how Jock Ewing died in Dallas. It only mentions \"HE DIED\" and the surname \"EWING\" twice, which is insufficient to determine the cause or circumstances of his death.\n\n\n**Answer:** The provided information does not specify how Jock died in Dallas. Additional details about the circumstances or cause of his death are not included.",
+    "expected_answer": "Helicopter accident",
+    "time": 7.382824897766113,
+    "answer_length": 384,
+    "retrieval_time": 2.6309618949890137,
+    "generation_time": 7.354835271835327
+  },
+  {
+    "question": "What star sign is Michael Caine?",
+    "answer": "The provided information only contains Michael Caine's name and does not include any details about his birth date or star sign, so it is impossible to determine his star sign from the given content.\n\n(Note: For reference, Michael Caine was born on March 14, 1933, so his star sign is Pisces, but this information is not present in the provided data.)",
+    "expected_answer": "Pisces",
+    "time": 6.114098310470581,
+    "answer_length": 350,
+    "retrieval_time": 2.728151798248291,
+    "generation_time": 6.087385177612305
+  },
+  {
+    "question": "Who wrote the novel Evening Class?",
+    "answer": "The provided information does not contain details about the author of the novel Evening Class. The given content only mentions Harold Robbins, \"Twelfth Night,\" and \"A Book at Bedtime,\" none of which relate to the novel in question. Therefore, I cannot determine the answer based on the provided information.",
+    "expected_answer": "Maeve Binchy",
+    "time": 7.355172157287598,
+    "answer_length": 307,
+    "retrieval_time": 2.6452219486236572,
+    "generation_time": 7.328608989715576
+  },
+  {
+    "question": "Which country does the airline Air Pacific come from?",
+    "answer": "The airline Air Pacific (now rebranded as Fiji Airways) comes from Fiji, an island country in the South Pacific Ocean. The provided information's mention of \"Island\" aligns with Fiji being an island nation, which is the origin of Air Pacific.\n\nAnswer: Fiji.",
+    "expected_answer": "Fiji",
+    "time": 9.421090126037598,
+    "answer_length": 257,
+    "retrieval_time": 2.6411969661712646,
+    "generation_time": 9.392882823944092
+  },
+  {
+    "question": "In which branch of the arts does Allegra Kent work?",
+    "answer": "The provided information does not explicitly state Allegra Kent's field, but based on public knowledge, Allegra Kent was a renowned principal dancer with the New York City Ballet. Thus, she works in the branch of dance (specifically ballet, a form of performing arts).\n\nAnswer: Dance (ballet)",
+    "expected_answer": "Ballet",
+    "time": 11.68213701248169,
+    "answer_length": 292,
+    "retrieval_time": 2.629019260406494,
+    "generation_time": 11.654218196868896
+  },
+  {
+    "question": "Who had a 70s No 1 hit with Billy, Don't Be A Hero?",
+    "answer": "The song \"Billy, Don't Be A Hero\" had two number-one hits in the 1970s by different artists in different regions:  \n- Paper Lace scored a UK number-one hit with it in March 1974.  \n- Bo Donaldson & The Heywoods reached number one on the US Billboard Hot 100 with their cover version in June 1974.  \n\nThe provided information about Billy Idol is irrelevant here, as he was not involved in this song (his major hits came in the 1980s).  \n\nDepending on the region referenced, the answer is either Paper Lace or Bo Donaldson & The Heywoods. For a general answer, both artists had 1970s number-one hits with the track.  \n\n**Short answer:** Paper Lace (UK) and Bo Donaldson & The Heywoods (US). If a single answer is preferred, it may vary by context, but Paper Lace was the original artist with the UK No.1.  \n\nFinal answer: Paper Lace and Bo Donaldson & The Heywoods.  \n(Alternatively, if focusing on one: Paper Lace or Bo Donaldson & The Heywoods.)  \n\nBut to be precise: Both Paper Lace and Bo Donaldson & The Heywoods had 70s No.1 hits with \"Billy, Don't Be A Hero\" in different countries.  \n\nSimplified: Paper Lace (UK) and Bo Donaldson & The Heywoods (US).  \n\nIf the question expects one, perhaps the most common answer in some contexts is Bo Donaldson & The Heywoods (US) or Paper Lace (UK). Let's go with:  \n\n**Answer:** Bo Donaldson & The Heywoods (US) and Paper Lace (UK).  \n\nBut let's pick the one that's often cited in general trivia—maybe Bo Donaldson & The Heywoods, but I think it's better to mention both.  \n\nWait, let's confirm: According to standard trivia, both are correct, but let's state both clearly.  \n\n**Final Answer:** Paper Lace (UK) and Bo Donaldson & The Heywoods (US) each had a 1970s number-one hit with \"Billy, Don't Be A Hero\".</think_never_used_51bce0c785ca2f68081bfa7d91973934>Paper Lace (UK) and Bo Donaldson & The Heywoods (US) each had a 1970s number-one hit with \"Billy, Don't Be A Hero\".  \n\nPaper Lace's original version topped the UK Singles Chart in March 1974, while Bo Donaldson & The Heywoods' cover reached number one on the US Billboard Hot 100 in June 1974. The provided information about Billy Idol is irrelevant here, as he was not involved in this song (his major hits were in the 1980s).  \n\n**Answer:** Paper Lace and Bo Donaldson & The Heywoods.  \n\n(Note: Depending on regional context, either artist may be the expected answer, but both are correct for having 70s No.1 hits with the track.)  \n\nSimplified answer (if single choice is preferred): Bo Donaldson & The Heywoods (US) or Paper Lace (UK).  \n\nBut the most accurate answer includes both.  \n\n**Final Answer:** Paper Lace and Bo Donaldson & The Heywoods.",
+    "expected_answer": "Bo Donaldson & The Heywoods",
+    "time": 35.318543910980225,
+    "answer_length": 2657,
+    "retrieval_time": 2.7942490577697754,
+    "generation_time": 35.296173095703125
+  },
+  {
+    "question": "Banting and Best pioneered the use of what?",
+    "answer": "The provided information does not contain relevant content to answer the question about what Banting and Best pioneered the use of. The given details are about the banns, list of banned books, William Randolph Hearst, and Ray-Ban, none of which relate to Banting and Best's work.\n\n\n(Note: For context outside the provided info, Banting and Best are known for pioneering the use of insulin for treating diabetes, but this is not included in the given information.)",
+    "expected_answer": "Insulin",
+    "time": 8.85545802116394,
+    "answer_length": 463,
+    "retrieval_time": 2.6651298999786377,
+    "generation_time": 8.8278489112854
+  },
+  {
+    "question": "Who directed the movie La Dolce Vita?",
+    "answer": "The provided information does not contain details about who directed the movie La Dolce Vita. Therefore, I cannot answer this question based on the given content.\n\n(Note: For reference, the actual director of *La Dolce Vita* is Federico Fellini, but this information is not present in the provided data.)",
+    "expected_answer": "Federico Fellini",
+    "time": 5.9917519092559814,
+    "answer_length": 304,
+    "retrieval_time": 2.607607126235962,
+    "generation_time": 5.963378190994263
+  },
+  {
+    "question": "Which country does the airline LACSA come from?",
+    "answer": "The provided information does not contain the necessary details to answer the question about which country the airline LACSA comes from.",
+    "expected_answer": "Costa Rica",
+    "time": 7.8829262256622314,
+    "answer_length": 136,
+    "retrieval_time": 2.6130430698394775,
+    "generation_time": 7.855299949645996
+  },
+  {
+    "question": "Who directed 2001: A Space Odyssey?",
+    "answer": "The provided information does not include the director of *2001: A Space Odyssey*. Therefore, I cannot answer this question based on the given content.",
+    "expected_answer": "Stanley Kubrick",
+    "time": 5.921111106872559,
+    "answer_length": 151,
+    "retrieval_time": 2.959768772125244,
+    "generation_time": 5.902760028839111
+  },
+  {
+    "question": "Which is the largest of the Japanese Volcano Islands?",
+    "answer": "The provided information does not include any specific details about the Japanese Volcano Islands or their sizes, so it is not possible to determine which is the largest one based on the given content.\n\n(Note: For reference, the largest of the Japanese Volcano Islands (Kazan Retto) is Iwo Jima, but this information is not present in the provided data.)",
+    "expected_answer": "Iwo Jima",
+    "time": 7.1604650020599365,
+    "answer_length": 354,
+    "retrieval_time": 2.639261245727539,
+    "generation_time": 7.133839130401611
+  },
+  {
+    "question": "Ezzard Charles was a world champion in which sport?",
+    "answer": "The provided information only mentions the name \"Ezzard Charles\" repeatedly and does not specify the sport in which he was a world champion. Therefore, the answer cannot be determined from the given content.",
+    "expected_answer": "Boxing",
+    "time": 10.366029024124146,
+    "answer_length": 207,
+    "retrieval_time": 2.7329981327056885,
+    "generation_time": 10.338466882705688
+  },
+  {
+    "question": "Who was the first woman to make a solo flight across the Atlantic?",
+    "answer": "The provided information does not contain the answer to the question about who was the first woman to make a solo flight across the Atlantic. The given details include the first flight of the Wright Flyer, the first woman in space, and sailing around the world solo, but none of these relate to the specific query.\n\n\n**Answer:** The provided information does not include the answer to this question. (Note: For context, the first woman to make a solo flight across the Atlantic was Amelia Earhart in 1932, but this detail is not present in the given information.)",
+    "expected_answer": "Amelia Earhart",
+    "time": 11.011016130447388,
+    "answer_length": 563,
+    "retrieval_time": 2.630833864212036,
+    "generation_time": 10.984045267105103
+  },
+  {
+    "question": "Which port lies between Puget Sound and Lake Washington?",
+    "answer": "Seattle\n\nThe question asks for a port between Puget Sound and Lake Washington. Among the provided options:  \n- Puget Sound is a body of water, not a port.  \n- Fort Worth is a city in Texas, unrelated to the region of Puget Sound and Lake Washington.  \n- Seattle is a port city in Washington state that lies geographically between Puget Sound (to its west) and Lake Washington (to its east).  \n\nThus, the answer is Seattle.",
+    "expected_answer": "Seattle",
+    "time": 8.019501686096191,
+    "answer_length": 422,
+    "retrieval_time": 2.622622013092041,
+    "generation_time": 8.001376152038574
+  },
+  {
+    "question": "In which city were Rotary Clubs set up in 1905?",
+    "answer": "The provided information does not contain details about the city where Rotary Clubs were set up in 1905. Therefore, I cannot answer this question based on the given content.\n\n\n(Note: For reference, Rotary Clubs were first established in Chicago, USA, in 1905, but this fact is not present in the provided information.)",
+    "expected_answer": "Chicago",
+    "time": 6.559985160827637,
+    "answer_length": 318,
+    "retrieval_time": 2.6232750415802,
+    "generation_time": 6.539052963256836
+  },
+  {
+    "question": "Who became US Vice President when Spiro Agnew resigned?",
+    "answer": "Gerald Ford became the US Vice President when Spiro Agnew resigned in 1973. Following Agnew's resignation due to corruption charges, President Richard Nixon nominated Ford, who was confirmed by both the House of Representatives and the Senate, taking office as Vice President on December 6, 1973.\n\n\nGerald Ford",
+    "expected_answer": "Gerald Ford",
+    "time": 8.167607069015503,
+    "answer_length": 310,
+    "retrieval_time": 2.6265170574188232,
+    "generation_time": 8.147833824157715
+  },
+  {
+    "question": "In which decade of the 20th century was Billy Crystal born?",
+    "answer": "The provided information does not include any details about Billy Crystal's birth decade, so it is impossible to answer the question based on the given content.\n\n\n**Answer:** The provided information does not contain the relevant details to determine Billy Crystal's birth decade.\n\n\n(Note: If we were to use external knowledge, Billy Crystal was born in 1948, which is the 1940s. But since the question specifies using the provided information, the correct response is that the info is insufficient.)\n\nBut wait, the system says to use the provided info. The given info only has names, no birth dates. So the answer should state that the provided info doesn't have the answer.</think_never_used_51bce0c785ca2f68081bfa7d91973934>The provided information does not include details about Billy Crystal's birth decade, so it is not possible to answer the question based on the given content.",
+    "expected_answer": "1940s",
+    "time": 9.294476985931396,
+    "answer_length": 885,
+    "retrieval_time": 2.6864960193634033,
+    "generation_time": 9.27488112449646
+  },
+  {
+    "question": "Which George invented the Kodak roll-film camera?",
+    "answer": "George Eastman. The provided information repeatedly mentions George Eastman, who is known for inventing the Kodak roll-film camera.\n\n\nGeorge Eastman",
+    "expected_answer": "Eastman",
+    "time": 5.3928868770599365,
+    "answer_length": 148,
+    "retrieval_time": 2.6514008045196533,
+    "generation_time": 5.3654797077178955
+  },
+  {
+    "question": "Which series had the characters Felix Unger and Oscar Madison?",
+    "answer": "The series that featured the characters Felix Unger and Oscar Madison is **The Odd Couple**.  \n\n(Note: While the provided information includes \"Felix Mendelssohn\"—a renowned composer—the question refers to the iconic TV/play characters, whose series is widely known as *The Odd Couple*.)\n\n\nAnswer: The Odd Couple",
+    "expected_answer": "The Odd Couple",
+    "time": 7.60024619102478,
+    "answer_length": 312,
+    "retrieval_time": 2.644906997680664,
+    "generation_time": 7.571858882904053
+  },
+  {
+    "question": "Who along with Philips developed the CD in the late 70s?",
+    "answer": "Based on the provided information, the only other name mentioned alongside Phillips is Peter Philips. \n\nAnswer: Peter Philips.",
+    "expected_answer": "Sony",
+    "time": 16.420105934143066,
+    "answer_length": 126,
+    "retrieval_time": 2.629485845565796,
+    "generation_time": 16.396124839782715
+  },
+  {
+    "question": "Where is the multinational Nestle based?",
+    "answer": "Based on the provided information, the multinational Nestle is based in Spain.",
+    "expected_answer": "Switzerland",
+    "time": 13.445681095123291,
+    "answer_length": 78,
+    "retrieval_time": 2.625903844833374,
+    "generation_time": 13.421796798706055
+  },
+  {
+    "question": "Do You Know Where You're Going To? was the theme from which film?",
+    "answer": "The provided information does not mention the film associated with the theme song \"Do You Know Where You're Going To?\". The given details only reference the cinema film 'PRIDE AND PREJUDICE' with the code M55, which is unrelated to the question about the specified theme song.\n\n\n**Answer:** The provided information does not contain the answer to this question. However, for reference, the theme song \"Do You Know Where You're Going To?\" is from the 1975 film *Mahogany*—but this detail is not present in the given information. Based on the provided content alone, the answer cannot be determined.\n\nBut wait, if strictly adhering to only the provided info (which lacks the relevant data), the correct response is that the info doesn't specify it. However, sometimes in such cases, if the system expects the actual answer even if not in the info (though the instruction says to use provided info), but let's check again. The user's info is minimal and unrelated, so the proper answer per instructions is that the provided info doesn't have the answer. But let's see the expected format—maybe the user made a mistake in info, but given the info, the answer is not there.\n\nFinal answer (strictly using provided info): The provided information does not mention the film corresponding to the theme song \"Do You Know Where You're Going To?\".\n\n\nBut if the system expects the actual answer (despite info), then it's Mahogany. But since the instruction says to use provided info, the first option is correct. However, let's see—maybe the user intended to include the right info but didn't. But given the current info, the answer is not present. So I'll go with that.</think_never_used_51bce0c785ca2f68081bfa7d91973934>The provided information does not mention the film associated with the theme song \"Do You Know Where You're Going To?\". The given details only reference the cinema film \"PRIDE AND PREJUDICE\" with the code M55, which is unrelated to the question about the specified theme song. Therefore, the answer cannot be determined from the provided content.\n\n**Answer:** The provided information does not contain the relevant details to answer this question. The film corresponding to the theme song \"Do You Know Where You're Going To?\" is not mentioned here.\n\n\n(Note: For context outside the provided information, the song is the theme from the 1975 film *Mahogany*, but this is not included in the given data.)",
+    "expected_answer": "Mahogany",
+    "time": 23.96319317817688,
+    "answer_length": 2410,
+    "retrieval_time": 2.746903896331787,
+    "generation_time": 23.933648109436035
+  },
+  {
+    "question": "19969 was the Chinese year of which creature?",
+    "answer": "To determine the Chinese zodiac creature for the year 19969, follow these steps:\n\n\n### Step 1: Identify the 1994 zodiac  \nThe provided info links 1994 (China) to \"Pekingese\" (a dog breed), so **1994 is the Year of the Dog**.\n\n\n### Step 2: Use the 12-year zodiac cycle  \nThe Chinese zodiac repeats every 12 years. Calculate the difference between 19969 and 1994:  \n19969 - 1994 = 17975  \n\nFind the remainder when this difference is divided by 12:  \n17975 ÷ 12 = 1497 remainder **11**  \n\n\n### Step3: Map the remainder to the zodiac sequence  \nThe order after Dog (1994) is:  \nDog → Pig → Rat → Ox → Tiger → Rabbit → Dragon → Snake → Horse → Goat → Monkey → Rooster  \n\nA remainder of 11 means 11 positions after Dog → **Rooster**.\n\n\nAnswer: Rooster",
+    "expected_answer": "Rat",
+    "time": 24.030296087265015,
+    "answer_length": 745,
+    "retrieval_time": 2.6030080318450928,
+    "generation_time": 23.999492168426514
+  },
+  {
+    "question": "In the 90s how many points have been awarded for finishing second in a Grand Prix?",
+    "answer": "To determine the points awarded for finishing second in a Formula One Grand Prix during the 1990s, we refer to the F1 points systems active in that decade:\n\n- From 1990 (the start of the 90s) to 1999:  \n  The points system for the top 6 finishers was consistent in awarding **6 points** to second place.  \n  (Note: The only change in the 90s was increasing first place from 9 to 10 points in 1991, but second place remained 6 points throughout the decade.)\n\n\nAnswer: 6 points.",
+    "expected_answer": "6",
+    "time": 21.193886041641235,
+    "answer_length": 476,
+    "retrieval_time": 2.6609671115875244,
+    "generation_time": 21.18207097053528
+  },
+  {
+    "question": "Stapleton international airport is in which US state?",
+    "answer": "The provided information does not contain details about Stapleton International Airport, so I cannot answer this question using the given content.",
+    "expected_answer": "Colorado",
+    "time": 6.052922964096069,
+    "answer_length": 146,
+    "retrieval_time": 2.6037087440490723,
+    "generation_time": 6.036943197250366
+  },
+  {
+    "question": "What was Kevin Kline's first movie?",
+    "answer": "The provided information does not contain details about Kevin Kline's first movie, so I cannot answer this question based on the given content.",
+    "expected_answer": "Sophie's Choice",
+    "time": 4.948160171508789,
+    "answer_length": 143,
+    "retrieval_time": 2.641324043273926,
+    "generation_time": 4.918053865432739
+  },
+  {
+    "question": "Which actor had a Doberman Pinscher called Kirk?",
+    "answer": "The provided information does not specify which actor had a Doberman Pinscher called Kirk. The given details only include \"Doberman\" and \"James T. Kirk\" (twice) but no actor's name is provided to answer the question.\n\n\n**Answer:** The provided information does not mention the actor.",
+    "expected_answer": "William Shatner",
+    "time": 14.15540885925293,
+    "answer_length": 283,
+    "retrieval_time": 2.7054898738861084,
+    "generation_time": 14.133427858352661
+  },
+  {
+    "question": "What day of the week was the Wall Street Crash?",
+    "answer": "The provided information does not contain details about the day of the week when the Wall Street Crash occurred. Therefore, I cannot answer the question based on the given content.\n\n(Note: For reference, the Wall Street Crash of 1929, often called Black Tuesday, happened on Tuesday, October 29, 1929—but this detail is not present in the provided information.)",
+    "expected_answer": "Thursday",
+    "time": 6.8101842403411865,
+    "answer_length": 361,
+    "retrieval_time": 2.6271049976348877,
+    "generation_time": 6.792878866195679
+  },
+  {
+    "question": "The US signed a treaty with which country to allow the construction of the Panama Canal?",
+    "answer": "The US signed a treaty with Panama to allow the construction of the Panama Canal. Specifically, the Hay-Bunau-Varilla Treaty was signed in 1903 shortly after Panama gained independence from Colombia, granting the US rights to build and control the Panama Canal Zone.\n\n\nAnswer: Panama",
+    "expected_answer": "Columbia",
+    "time": 10.766535758972168,
+    "answer_length": 283,
+    "retrieval_time": 2.6231212615966797,
+    "generation_time": 10.739558935165405
+  },
+  {
+    "question": "What was Prince's last No 1 of the 80s?",
+    "answer": "The provided information does not include any details about Prince's songs, their chart positions, or which of his works were No.1 hits in the 1980s. Therefore, it is not possible to determine Prince's last No.1 of the 80s based on the given content.\n\n\n(Note: For reference, Prince's last No.1 single in the 1980s in the US Billboard Hot 100 was \"Batdance\" (from the Batman soundtrack) in 1989, but this detail is not present in the provided information.)",
+    "expected_answer": "Batdance",
+    "time": 7.919920206069946,
+    "answer_length": 455,
+    "retrieval_time": 2.6352829933166504,
+    "generation_time": 7.894912958145142
+  },
+  {
+    "question": "Man In The Mirror first featured on which Michel Jackson album?",
+    "answer": "The provided information does not include details about which Michael Jackson album \"Man In The Mirror\" first featured on, so I cannot answer this question based on the given content.",
+    "expected_answer": "Bad",
+    "time": 6.822456121444702,
+    "answer_length": 183,
+    "retrieval_time": 2.634121894836426,
+    "generation_time": 6.793154954910278
+  },
+  {
+    "question": "Where was the first battle with US involvement in the Korean War?",
+    "answer": "The provided information does not include details about the location of the first battle with US involvement in the Korean War, so I cannot answer this question based on the given content.",
+    "expected_answer": "Suwon",
+    "time": 5.582118034362793,
+    "answer_length": 188,
+    "retrieval_time": 2.713271141052246,
+    "generation_time": 5.554244041442871
+  },
+  {
+    "question": "On which Caribbean island did Princess Diana spend he first Christmas after her divorce was announced?",
+    "answer": "The provided information does not contain details about which Caribbean island Princess Diana spent her first Christmas after her divorce announcement. Therefore, I cannot answer this question using the given information.",
+    "expected_answer": "Barbuda",
+    "time": 5.087377071380615,
+    "answer_length": 221,
+    "retrieval_time": 2.835724115371704,
+    "generation_time": 5.062148094177246
+  },
+  {
+    "question": "In which decade was Arnold Schwarzenegger born?",
+    "answer": "The provided information does not contain any details about Arnold Schwarzenegger's birth year or decade, so it is impossible to answer the question based on the given content.",
+    "expected_answer": "1950s",
+    "time": 5.387779712677002,
+    "answer_length": 176,
+    "retrieval_time": 2.643252372741699,
+    "generation_time": 5.361498117446899
+  },
+  {
+    "question": "Which musical featured the song Thank Heaven for Little Girls?",
+    "answer": "The provided information only mentions \"Little Shop of Horrors\" and does not specify which musical featured the song \"Thank Heaven for Little Girls\". Therefore, based on the given information, there is no answer available for this question. \n\n(Note: For context outside the provided info, the song \"Thank Heaven for Little Girls\" is from the musical *Gigi*, but this detail is not included in the given content.)",
+    "expected_answer": "Gigi",
+    "time": 12.30361795425415,
+    "answer_length": 412,
+    "retrieval_time": 2.6495602130889893,
+    "generation_time": 12.276027917861938
+  },
+  {
+    "question": "The Queen Elizabeth liner was destroyed by fire in the 70s in which harbour?",
+    "answer": "There is no relevant information in the provided content to answer the question about which harbour the Queen Elizabeth liner was destroyed by fire in the 70s. The given information only mentions \"The Queen Elizabeth II\" repeatedly and the word \"Cooking\", with no details related to the fire incident or harbour.\n\n\nAnswer: No relevant information provided.",
+    "expected_answer": "Hong Kong",
+    "time": 7.156901121139526,
+    "answer_length": 356,
+    "retrieval_time": 2.6249501705169678,
+    "generation_time": 7.1295859813690186
+  },
+  {
+    "question": "What breed of dog did Columbo own?",
+    "answer": "Based on the provided information, the breed of dog mentioned is Collie. Therefore, the answer is Collie.",
+    "expected_answer": "Basset hound",
+    "time": 11.155252933502197,
+    "answer_length": 105,
+    "retrieval_time": 2.6892929077148438,
+    "generation_time": 11.127896070480347
+  },
+  {
+    "question": "What was the first movie western called?",
+    "answer": "Based on the provided information, the first movie western was called The Great Western.",
+    "expected_answer": "Kit Carson",
+    "time": 7.291707754135132,
+    "answer_length": 88,
+    "retrieval_time": 2.620983839035034,
+    "generation_time": 7.275267124176025
+  },
+  {
+    "question": "Which Oscar-winning actress was born on exactly the same day as actress Lindsay Wagner?",
+    "answer": "The provided information does not specify the name of an Oscar-winning actress who was born on exactly the same day as Lindsay Wagner. The given details only mention Lindsay Wagner, Lindsay Lohan, and the month July, with no reference to any Oscar-winning actress associated with Wagner's birth date.\n\n\n**Answer:** The provided information does not include the name of such an actress.",
+    "expected_answer": "Meryl Streep",
+    "time": 7.941077947616577,
+    "answer_length": 385,
+    "retrieval_time": 2.6313021183013916,
+    "generation_time": 7.921081066131592
+  },
+  {
+    "question": "Which Amendment to the Constitution brought in prohibition in 1920?",
+    "answer": "The 18th Amendment to the U.S. Constitution brought in prohibition in 1920. It prohibited the manufacture, sale, and transportation of intoxicating liquors nationwide, taking effect one year after its ratification in 1919.\n\n\n18th Amendment",
+    "expected_answer": "18th",
+    "time": 7.2927539348602295,
+    "answer_length": 239,
+    "retrieval_time": 2.8291759490966797,
+    "generation_time": 7.281106948852539
+  },
+  {
+    "question": "Which oil scandal hit the US in 1924?",
+    "answer": "The prominent oil scandal that impacted the US in 1924 was the Teapot Dome scandal. This bribery scandal involved the unauthorized leasing of federal oil reserves (including the Teapot Dome reserve in Wyoming) by the U.S. Secretary of the Interior, Albert Bacon Fall, to private oil companies without competitive bidding. Key investigations and revelations related to the scandal unfolded in 1924, making it a major national controversy of that year.\n\nAnswer: Teapot Dome scandal.",
+    "expected_answer": "Teapot Dome Scandal",
+    "time": 12.937809944152832,
+    "answer_length": 480,
+    "retrieval_time": 3.260504961013794,
+    "generation_time": 12.912519931793213
+  },
+  {
+    "question": "Phil Collins appeared in which Spielberg film with Robin Williams?",
+    "answer": "The provided information does not contain details about Phil Collins appearing in a Spielberg film with Robin Williams, so I cannot answer this question based on the given content.\n\n\n**Answer:** The provided information does not include the relevant details to answer this question.\n\n\n(Note: If we were to go beyond the given info, the answer would be *Hook* (1991), where Phil Collins had a cameo as a police inspector and Robin Williams starred as Peter Banning/Peter Pan, directed by Steven Spielberg. But since the provided info lacks this, the correct response based on the given data is to indicate the absence of necessary information.)\n\n\nBut strictly following the instruction to use only the provided information:  \nThe provided information does not have the answer. So the answer is that the given info is insufficient. However, if the system expects a direct answer even if info is missing? Wait no, the instruction says \"answer the question using the provided information.\" Since the info is just Robin Williams repeated, no relevant data, so the answer should state that the provided info doesn't allow answering.</think_never_used_51bce0c785ca2f68081bfa7d91973934>The provided information does not contain the necessary details to answer the question about which Spielberg film Phil Collins appeared in with Robin Williams.\n\n\n**Answer:** The provided information is insufficient to answer the question.",
+    "expected_answer": "Hook",
+    "time": 11.016048908233643,
+    "answer_length": 1416,
+    "retrieval_time": 2.739055871963501,
+    "generation_time": 10.99071717262268
+  },
+  {
+    "question": "1998 was the Chinese year of which creature?",
+    "answer": "The 1998 Chinese zodiac year was the Year of the Tiger. \n\nTo confirm: The Chinese zodiac follows a 12-year cycle. Using the formula (year - 4) mod 12, (1998-4) =1994, 1994 mod12=2. The remainder 2 corresponds to Tiger in the standard zodiac order (0=Rat,1=Ox,2=Tiger, etc.). \n\nAnswer: Tiger.",
+    "expected_answer": "Tiger",
+    "time": 19.27160882949829,
+    "answer_length": 291,
+    "retrieval_time": 2.647542953491211,
+    "generation_time": 19.243520975112915
+  },
+  {
+    "question": "Which country does musician Alfred Brendel come from?",
+    "answer": "The provided information only mentions \"Brueghel\" (or \"PETER BRUEGEL\") and does not include any details about musician Alfred Brendel, so it is impossible to determine which country he comes from based on the given content.\n\n\nAnswer: The provided information does not contain the relevant content to answer this question.",
+    "expected_answer": "Austria",
+    "time": 6.605678081512451,
+    "answer_length": 321,
+    "retrieval_time": 2.6332600116729736,
+    "generation_time": 6.578372001647949
+  },
+  {
+    "question": "Theodore Francis international airport is in which US state?",
+    "answer": "Theodore Francis Green Memorial State Airport (often referred to informally with \"international\" in context, though its official designation includes \"Memorial State\") is located in the U.S. state of Rhode Island, serving the Providence metropolitan area.\n\nAnswer: Rhode Island.",
+    "expected_answer": "Rhode Island",
+    "time": 2494.396411895752,
+    "answer_length": 278,
+    "retrieval_time": 2.6453330516815186,
+    "generation_time": 2494.36780500412
+  },
+  {
+    "question": "In which soap did Demi Moore find fame?",
+    "answer": "The provided information does not contain details about which soap opera Demi Moore found fame in, so I cannot answer this question based on the given content.",
+    "expected_answer": "General Hospital",
+    "time": 5.438060760498047,
+    "answer_length": 159,
+    "retrieval_time": 2.64935302734375,
+    "generation_time": 5.407206058502197
+  },
+  {
+    "question": "To the nearest million, what is the population of London, England?",
+    "answer": "The provided information includes \"800m\", which is likely a formatting error (missing a decimal point, intended as 8.00m meaning 8 million). To the nearest million, the population of London, England (based on the context of the given data) is 8 million.\n\nAnswer: 8 million.",
+    "expected_answer": "7 million",
+    "time": 14.443778038024902,
+    "answer_length": 273,
+    "retrieval_time": 2.8218350410461426,
+    "generation_time": 14.421108961105347
+  },
+  {
+    "question": "What did Clarice Cliff create?",
+    "answer": "The provided information only lists Clarice Cliff's name and does not specify what she created. Therefore, I cannot answer the question based on the given details.",
+    "expected_answer": "Pottery",
+    "time": 7.1075499057769775,
+    "answer_length": 163,
+    "retrieval_time": 2.543409824371338,
+    "generation_time": 7.082119941711426
+  },
+  {
+    "question": "Which James Bond film features a song by Louis Armstrong?",
+    "answer": "The James Bond film featuring a song by Louis Armstrong is **On Her Majesty's Secret Service** (1969). Armstrong performed the iconic track \"We Have All the Time in the World\" for this movie, which is associated with the romantic subplot between James Bond (George Lazenby) and Tracy di Vicenzo.\n\n\nAnswer: On Her Majesty's Secret Service",
+    "expected_answer": "On Her Majesty's Secret Service",
+    "time": 6.51754093170166,
+    "answer_length": 337,
+    "retrieval_time": 2.5473170280456543,
+    "generation_time": 6.4929118156433105
+  },
+  {
+    "question": "In what year were US ground troops first dispatched to Vietnam?",
+    "answer": "The provided information only lists the names of the war (The Vietnam War, The War in Vietnam) and does not include specific details about the year US ground troops were first dispatched to Vietnam. Therefore, I cannot answer this question based on the given information.",
+    "expected_answer": "1965",
+    "time": 6.214650869369507,
+    "answer_length": 271,
+    "retrieval_time": 2.616086006164551,
+    "generation_time": 6.186522006988525
+  },
+  {
+    "question": "In 1999 Anna Kournikova signed a lucrative contract to model what?",
+    "answer": "The provided information does not contain details about Anna Kournikova signing a lucrative modeling contract in 1999, so I cannot answer this question based on the given content.\n\n(Note: For reference, Anna Kournikova signed a contract with Adidas in 1999 for modeling, but this detail is not present in the provided information.)",
+    "expected_answer": "Bras",
+    "time": 6.606014251708984,
+    "answer_length": 331,
+    "retrieval_time": 2.5645220279693604,
+    "generation_time": 6.578323841094971
+  },
+  {
+    "question": "Which member of the Monkees came from Washington DC?",
+    "answer": "Peter Tork, a member of the Monkees, was born in Washington, DC. \n\n(Note: The provided information snippet includes repeated mentions of \"The Monkees\" and \"THE LEADER OF THE PACK\" (a song by The Shangri-Las), but to answer the question, additional verified knowledge about the Monkees' members' origins is required, as the given snippet does not directly contain this detail.)",
+    "expected_answer": "Peter Tork",
+    "time": 8.589953184127808,
+    "answer_length": 376,
+    "retrieval_time": 2.680734872817993,
+    "generation_time": 8.562134027481079
+  },
+  {
+    "question": "Which ship was sunk by a German submarine in 1915 with a loss of 1400 lives including 128 Americans?",
+    "answer": "The provided information does not contain the answer to the question. The information only mentions \"The sinking of the Titanic\" and \"Iraq\", neither of which is the ship sunk by a German submarine in 1915 as described in the question.\n\n\n(Note: The actual ship in question is the RMS Lusitania, but this detail is not present in the given information.)",
+    "expected_answer": "Lusitania",
+    "time": 7.720502138137817,
+    "answer_length": 351,
+    "retrieval_time": 2.5849549770355225,
+    "generation_time": 7.69304084777832
+  },
+  {
+    "question": "In what decade were video recorders first developed?",
+    "answer": "The provided information does not contain relevant details to determine the decade when video recorders were first developed. The given content only mentions \"Recording studios\", the number \"19\", \"THE HOLOCENE\", and \"TELEVISION\", none of which relate to the development timeline of video recorders.\n\n(Note: For reference, video recorders were first developed in the 1950s—for example, the Ampex VRX-1000, the first commercial videotape recorder, was introduced in 1956. But this information is not present in the provided data.)",
+    "expected_answer": "50s",
+    "time": 8.275125980377197,
+    "answer_length": 528,
+    "retrieval_time": 2.5645980834960938,
+    "generation_time": 8.24728512763977
+  },
+  {
+    "question": "Who had the noels Spy Hook and Spy Line published in the 80s?",
+    "answer": "The provided information only lists three works: *London Spy*, *The Spy Who Came In From The Cold*, and *THE SPY WHO LOVED ME*. It does not contain any details about the novels *Spy Hook* and *Spy Line* or their publication in the 1980s, so I cannot answer the question based on the given information.\n\n\n**Answer:** The provided information does not include details about the novels \"Spy Hook\" and \"Spy Line\" or their publication in the 80s, so the answer cannot be determined from the given content.",
+    "expected_answer": "Len Deighton",
+    "time": 7.699187994003296,
+    "answer_length": 500,
+    "retrieval_time": 2.623278856277466,
+    "generation_time": 7.670988082885742
+  },
+  {
+    "question": "the first credit cards were for use in what type of establishments?",
+    "answer": "The provided information mentions Mastercard, but to answer the question about the first credit cards' intended establishments (using context linked to early credit card history, as the given info is limited), the first widely accepted credit cards like Diners Club (a precursor to modern cards like Mastercard) were initially designed for use in travel and entertainment establishments—specifically restaurants and hotels. \n\nAnswer: Travel and entertainment establishments (e.g., restaurants, hotels).  \n\n(Note: The first multi-establishment credit card, Diners Club, launched in 1950 for dining and travel-related venues, which aligns with the context of early credit card usage even if the provided info is sparse.)",
+    "expected_answer": "Restaurants",
+    "time": 18.70899486541748,
+    "answer_length": 718,
+    "retrieval_time": 2.5583441257476807,
+    "generation_time": 18.68210482597351
+  },
+  {
+    "question": "In which country was Ursula Andrews born?",
+    "answer": "The provided information only repeats the name \"Ursula Andress\" and does not contain any details about the country where she was born. Therefore, I cannot answer this question based on the given information.\n\n(Note: For reference, Ursula Andress was actually born in Ostermundigen, Switzerland, but this fact is not present in the provided information.)",
+    "expected_answer": "Switzerland",
+    "time": 5.850420951843262,
+    "answer_length": 353,
+    "retrieval_time": 2.644105911254883,
+    "generation_time": 5.82262396812439
+  },
+  {
+    "question": "What was CBS TV news broadcaster Walter Cronkite's stock closing phrase?",
+    "answer": "The provided information does not include details about Walter Cronkite's stock closing phrase, so I cannot answer this question based on the given content.",
+    "expected_answer": "And that's the way it is",
+    "time": 5.7245118618011475,
+    "answer_length": 156,
+    "retrieval_time": 2.581389904022217,
+    "generation_time": 5.6969990730285645
+  },
+  {
+    "question": "Who had a 70s No 1 hit with Let Your Love Flow?",
+    "answer": "The provided information does not include the artist who had a 70s No 1 hit with \"Let Your Love Flow\". The song was a hit by The Bellamy Brothers in 1976, which is not mentioned in the given details.\n\n\nAnswer: The provided information does not contain the answer. The artist who had a 70s No.1 hit with \"Let Your Love Flow\" is The Bellamy Brothers, which is not listed in the given data.",
+    "expected_answer": "Bellamy Brothers",
+    "time": 10.778292179107666,
+    "answer_length": 387,
+    "retrieval_time": 2.5929970741271973,
+    "generation_time": 10.764251947402954
+  },
+  {
+    "question": "Which state renewed Mike Tyson's boxing license in 1998?",
+    "answer": "California\n\nThe provided information includes \"California\" as the only state mentioned alongside references to Mike Tyson, so based on the given details, California is the state that renewed Mike Tyson's boxing license in 1998.\n\n\nAnswer: California",
+    "expected_answer": "Nevada",
+    "time": 8.54328989982605,
+    "answer_length": 248,
+    "retrieval_time": 2.569456100463867,
+    "generation_time": 8.519419193267822
+  },
+  {
+    "question": "Neil Armstrong was a pilot in which war?",
+    "answer": "The provided information does not contain details about which war Neil Armstrong was a pilot in, so I cannot answer this question based on the given content.",
+    "expected_answer": "Korean",
+    "time": 5.894220590591431,
+    "answer_length": 157,
+    "retrieval_time": 2.5805211067199707,
+    "generation_time": 5.866706132888794
+  },
+  {
+    "question": "Which English-born US citizen hosted Masterpiece theater?",
+    "answer": "The question asks for an English-born US citizen who hosted Masterpiece Theatre. While the provided information about the Stephen Joseph Theatre in British Columbia does not directly relate to this query, based on general knowledge of the program, the answer is:\n\nAlistair Cooke. He was born in England and later became a U.S. citizen, serving as the host of Masterpiece Theatre from its debut in 1971 until 1992.\n\n\nAnswer: Alistair Cooke.",
+    "expected_answer": "Alistair Cooke",
+    "time": 13.250288009643555,
+    "answer_length": 439,
+    "retrieval_time": 2.733288049697876,
+    "generation_time": 13.223466873168945
+  },
+  {
+    "question": "Nickelodeon was founded in 1979 by which company?",
+    "answer": "The provided information does not contain any details about Nickelodeon or the company that founded it. Therefore, I cannot answer the question based on the given data.",
+    "expected_answer": "Warner Amex",
+    "time": 5.592732906341553,
+    "answer_length": 168,
+    "retrieval_time": 2.58656907081604,
+    "generation_time": 5.578685998916626
+  },
+  {
+    "question": "Which element along with polonium did the Curies discover?",
+    "answer": "The provided information only mentions polonium and does not specify the other element discovered by the Curies along with polonium. However, based on general scientific knowledge, the Curies also discovered radium. But since the provided information does not include this detail, the answer cannot be derived from the given content.\n\n(Note: If relying on common knowledge despite the info gap, the answer is radium, but per the instruction to use provided info, it's not mentioned.)  \n\nFinal answer (based on common knowledge as the provided info lacks the detail): Radium.",
+    "expected_answer": "Radium",
+    "time": 18.637032985687256,
+    "answer_length": 574,
+    "retrieval_time": 2.5983502864837646,
+    "generation_time": 18.61090898513794
+  },
+  {
+    "question": "In The Banana Splits what sort of animal was Snorky?",
+    "answer": "Snorky was an elephant.",
+    "expected_answer": "Elephant",
+    "time": 6.46431303024292,
+    "answer_length": 23,
+    "retrieval_time": 2.5592830181121826,
+    "generation_time": 6.436619997024536
+  },
+  {
+    "question": "Who had an 80s No 1 hit with Can't Fight This Feeling?",
+    "answer": "The provided information does not include the answer to the question about who had an 80s No 1 hit with \"Can't Fight This Feeling\". The given details mention Bryan Adams, Bruce Springsteen, \"When I'm Sixty Four\", and \"Punch-Out!!\", but none of these relate to the song in question.\n\n\n(Note: For context, the actual artist is REO Speedwagon, but this is not present in the provided information.)",
+    "expected_answer": "REO Speedwagon",
+    "time": 7.969675064086914,
+    "answer_length": 394,
+    "retrieval_time": 2.5779571533203125,
+    "generation_time": 7.942448854446411
+  },
+  {
+    "question": "Which parallel was the truce line in the Korean War?",
+    "answer": "The truce line in the Korean War was the 38th parallel, which formed the basis for the Korean Demilitarized Zone (DMZ) established by the 1953 Korean Armistice Agreement.\n\n\n38th parallel",
+    "expected_answer": "38th Parallel",
+    "time": 6.060030937194824,
+    "answer_length": 186,
+    "retrieval_time": 2.630941867828369,
+    "generation_time": 6.033163070678711
+  },
+  {
+    "question": "On a computer keyboard which letter is between A and D?",
+    "answer": "To determine the letter between A and D on a standard QWERTY keyboard, we refer to the layout of the home row (where fingers rest by default). The sequence of letters in this area is A → S → D. Thus, the letter between A and D is S.\n\nAnswer: S",
+    "expected_answer": "S",
+    "time": 8.280702114105225,
+    "answer_length": 243,
+    "retrieval_time": 2.5822627544403076,
+    "generation_time": 8.255102396011353
+  },
+  {
+    "question": "Which musical featured the song Flash Bang, Wallop?",
+    "answer": "Based on the provided information, it is not possible to determine which musical features the song \"Flash Bang, Wallop\"—the given details only list \"Billy Elliot the Musical\" as a specific musical but do not mention any songs associated with it or link the song in question to any listed work.\n\n\n**Answer:** The provided information does not specify which musical features the song \"Flash Bang, Wallop\".",
+    "expected_answer": "Half",
+    "time": 16.484713077545166,
+    "answer_length": 403,
+    "retrieval_time": 2.606081247329712,
+    "generation_time": 16.45856809616089
+  },
+  {
+    "question": "What was Hitchcock's first sound movie?",
+    "answer": "The provided information only contains the name \"Alfred Hitchcock\" repeated and does not include any details about his movies, so it is not possible to determine what Hitchcock's first sound movie was from the given content.",
+    "expected_answer": "Blackmail",
+    "time": 5.836015224456787,
+    "answer_length": 224,
+    "retrieval_time": 2.568983793258667,
+    "generation_time": 5.810834884643555
+  },
+  {
+    "question": "Which newspaper did Jackie Kennedy work for just before her marriage?",
+    "answer": "The provided information does not contain details about which newspaper Jackie Kennedy worked for just before her marriage, so I cannot answer this question based on the given content.",
+    "expected_answer": "Washington Times Herald",
+    "time": 5.5302300453186035,
+    "answer_length": 184,
+    "retrieval_time": 2.588454008102417,
+    "generation_time": 5.5044121742248535
+  },
+  {
+    "question": "What are the international registration letters of a vehicle from Turkey?",
+    "answer": "The international registration letters for a vehicle from Turkey are \"TR\". This is the standard code used globally to identify vehicles registered in Turkey for international travel.\n\nAnswer: TR",
+    "expected_answer": "TR",
+    "time": 7.033500909805298,
+    "answer_length": 194,
+    "retrieval_time": 2.6936070919036865,
+    "generation_time": 7.005665063858032
+  },
+  {
+    "question": "Who wrote The Turn Of The Screw in the 19th century and The Ambassadors in the 20th?",
+    "answer": "Henry James\n\nThe provided information states that *The Turn of the Screw* is by Henry James. Additionally, Henry James is the author of *The Ambassadors* (published in 1903, 20th century), which aligns with the question's requirements of an author who wrote both works in the specified time periods.\n\n\nHenry James",
+    "expected_answer": "Henry James",
+    "time": 6.996413230895996,
+    "answer_length": 313,
+    "retrieval_time": 2.6524851322174072,
+    "generation_time": 6.968976259231567
+  },
+  {
+    "question": "Which American nuclear submarine was the first to sail across the North Pole under the ice cap?",
+    "answer": "The provided information does not contain the specific details needed to answer the question about which American nuclear submarine was the first to sail across the North Pole under the ice cap. The given content only mentions the word \"Submarine\" repeatedly without any relevant historical or specific submarine details. \n\n(Note: For reference, the actual answer to this question is the USS Nautilus (SSN-571), which completed the first submerged transit of the North Pole on August 3, 1958. However, this information is not present in the provided content.)",
+    "expected_answer": "Nautilus",
+    "time": 11.509622812271118,
+    "answer_length": 559,
+    "retrieval_time": 2.719294309616089,
+    "generation_time": 11.481736898422241
+  },
+  {
+    "question": "What was John Glenn/'s first spacecraft called?",
+    "answer": "The provided information does not contain details about John Glenn's first spacecraft, so I cannot answer this question based on the given content.\n\n\n(Note: For reference, John Glenn's first spacecraft was Friendship 7, but this detail is not present in the provided information.)",
+    "expected_answer": "Friendship 7",
+    "time": 5.534159183502197,
+    "answer_length": 280,
+    "retrieval_time": 2.579517126083374,
+    "generation_time": 5.505661964416504
+  },
+  {
+    "question": "Which branch of medicine is concerned with disorders of the blood?",
+    "answer": "The branch of medicine concerned with disorders of the blood is **Hematology**.  \n\n(Note: While the provided information mentions \"Clinical Medicine\" and \"Medicine\" broadly, the specific specialty focused on blood disorders is Hematology, which falls under clinical medicine.)",
+    "expected_answer": "Haematology",
+    "time": 13.370074272155762,
+    "answer_length": 276,
+    "retrieval_time": 2.5885519981384277,
+    "generation_time": 13.34263300895691
+  },
+  {
+    "question": "Where was The Iron Triangle?",
+    "answer": "The provided information does not contain details about the location of The Iron Triangle, so I cannot answer this question based on the given content.\n\n\nIf we consider common knowledge (though not part of the provided info), the term \"Iron Triangle\" often refers to a region in South Vietnam during the Vietnam War, roughly between Saigon, Cu Chi, and Bien Hoa, known for its dense vegetation and being a stronghold of the Viet Cong. But since this isn't included in the provided information, the answer based on the given data is that it's not available. However, following the strict instruction to use only the provided info, the answer is that there's no relevant information to answer the question.\n\n\nBut according to the problem's requirement (answer using provided info), the accurate response is: The provided information does not specify where The Iron Triangle was.  \n\nAlternatively, since the info is just \"Triangle\" repeated, maybe the answer is that the location isn't mentioned. Let me phrase it clearly:  \n\nBased on the provided information (which only contains the word \"Triangle\" three times without any context about \"The Iron Triangle\"), the location of The Iron Triangle is not specified.  \n\nBut perhaps the problem expects a more direct answer. Let's go with:  \n\nThe provided information does not include details about the location of The Iron Triangle.  \n\nYes, that's correct.</think_never_used_51bce0c785ca2f68081bfa7d91973934>The provided information does not contain details about the location of The Iron Triangle, so it is impossible to answer this question based on the given content.\n\n\n(Note: If referring to common historical context not provided here, the \"Iron Triangle\" typically denotes a Viet Cong stronghold in South Vietnam during the Vietnam War, located between Saigon, Cu Chi, and Bien Hoa. However, this detail is not included in the provided information, so the above response adheres strictly to the given data.)",
+    "expected_answer": "Vietnam",
+    "time": 13.823218822479248,
+    "answer_length": 1956,
+    "retrieval_time": 2.6392569541931152,
+    "generation_time": 13.795860052108765
+  },
+  {
+    "question": "What is the correct name of laughing gas?",
+    "answer": "The provided information does not specify the correct name of laughing gas beyond the term \"laughing gas\" itself. No additional or formal name is mentioned in the given content.",
+    "expected_answer": "Nitrous oxide",
+    "time": 10.811377048492432,
+    "answer_length": 177,
+    "retrieval_time": 2.595374822616577,
+    "generation_time": 10.785626888275146
+  }
+]

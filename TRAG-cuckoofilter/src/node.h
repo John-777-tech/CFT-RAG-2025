@@ -23,6 +23,9 @@ namespace cuckoofilter {
     extern EntityInfo * temp_info;
     extern EntityInfo * result_info; // result of readTag
     extern std::set<uint64_t> first_hash;
+    
+    // AbstractNode: 使用PyObject*存储Python中的AbstractNode对象引用
+    // 或者使用pair_id来标识，这里我们使用PyObject*来直接存储Python对象
 
     struct EntityStruct {
         
@@ -39,10 +42,20 @@ namespace cuckoofilter {
     };
 
     struct EntityAddr {
-        EntityNode * addr1;
-        EntityNode * addr2;
-        EntityNode * addr3;
+        // 新架构：存储Abstract地址（pair_id）
+        int abstract_pair_id1;  // Abstract的pair_id，-1表示空
+        int abstract_pair_id2;
+        int abstract_pair_id3;
         EntityAddr * next;
+        
+        // 保持向后兼容：也可以存储EntityNode*（旧架构）
+        EntityNode * entity_addr1;  // 保留用于向后兼容
+        EntityNode * entity_addr2;
+        EntityNode * entity_addr3;
+        
+        // 构造函数：初始化所有地址为NULL/-1
+        EntityAddr() : abstract_pair_id1(-1), abstract_pair_id2(-1), abstract_pair_id3(-1),
+                       entity_addr1(NULL), entity_addr2(NULL), entity_addr3(NULL), next(NULL) {}
     };
 
     struct EntityInfo {
@@ -60,18 +73,23 @@ namespace cuckoofilter {
             EntityNode(std::string entity_name) : entity(entity_name) {
                 parent = NULL;
 
-                
+                // 注意：新架构中，EntityNode不再自动注册到addr_map
+                // Abstract地址应该在Python层面通过set_abstract_addresses设置
+                // 这里保留旧逻辑用于向后兼容，但默认不注册
 
+                // 如果需要在旧架构模式下注册，可以通过环境变量或参数控制
+                // 暂时注释掉自动注册，改为在Python层面手动设置
+                /*
                 if (addr_map[entity_name]){
 
                     EntityAddr * t0 = addr_map[entity_name]->head;
 
-                    if (t0->addr1 == NULL) t0->addr1 = this;  
-                    else if (t0->addr2 == NULL) t0->addr2 = this;
-                    else if (t0->addr3 == NULL) t0->addr3 = this; 
+                    if (t0->entity_addr1 == NULL) t0->entity_addr1 = this;  
+                    else if (t0->entity_addr2 == NULL) t0->entity_addr2 = this;
+                    else if (t0->entity_addr3 == NULL) t0->entity_addr3 = this; 
                     else {
                         EntityAddr * entityAddr = new EntityAddr();
-                        entityAddr->addr1 = this;    
+                        entityAddr->entity_addr1 = this;    
                         entityAddr->next = addr_map[entity_name]->head;
                         addr_map[entity_name]->head = entityAddr;
                     }
@@ -82,11 +100,11 @@ namespace cuckoofilter {
                     info->temperature = 0;
 
                     EntityAddr * entityAddr = new EntityAddr();
-                    entityAddr->addr1 = this;    
+                    entityAddr->entity_addr1 = this;    
 
                     addr_map[entity_name]->head = entityAddr;
                 }
-
+                */
 
             }
 

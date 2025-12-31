@@ -7,3 +7,14 @@ __pycache__/
 entity_forest_cache/*.pkl
 *.csv
 vec_db_cache/
+abstract_forest_cache/*.pkl
+extracted_data/
+datasets/unified/
+datasets/raw/
+*.log
+.DS_Store
+*.pyc
+*.so
+build/
+TRAG-cuckoofilter/build/
+lab-1806-vec-db-main/target/

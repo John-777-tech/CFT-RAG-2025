@@ -9,20 +9,56 @@ from ann.ann_calc import find_ann
 entity_number = 0
 
 
-def enhance_spacy(entities):
-    nlp = spacy.load("zh_core_web_sm")
+def enhance_spacy(entities, language="en"):
+    """
+    增强spacy模型，添加EntityRuler用于实体识别
+    
+    Args:
+        entities: 实体列表
+        language: 语言代码，"en"表示英文，"zh"表示中文，默认"en"
+    """
+    # 根据语言选择spacy模型
+    if language == "zh":
+        try:
+            nlp = spacy.load("zh_core_web_sm")
+        except OSError:
+            print("Warning: zh_core_web_sm not found, falling back to en_core_web_sm")
+            nlp = spacy.load("en_core_web_sm")
+    else:
+        try:
+            nlp = spacy.load("en_core_web_sm")
+        except OSError:
+            print("Warning: en_core_web_sm not found, trying zh_core_web_sm")
+            nlp = spacy.load("zh_core_web_sm")
 
     ruler = nlp.add_pipe("entity_ruler", before="ner")
 
     patterns = []
 
     for entity in entities:
-        pattern = []
-        words = list(entity.lower().strip().split())
-        for word in words:
-            pattern.append({"LOWER": word})
-
-        patterns.append({"label": "EXTRA", "pattern": pattern})
+        # 清理实体：移除首尾引号，但保留其他内容
+        entity_clean = entity.strip()
+        # 移除首尾的引号（单引号或双引号）
+        if (entity_clean.startswith('"') and entity_clean.endswith('"')) or \
+           (entity_clean.startswith("'") and entity_clean.endswith("'")):
+            entity_clean = entity_clean[1:-1].strip()
+        
+        if not entity_clean:
+            continue
+        
+        entity_lower = entity_clean.lower()
+        
+        # 检查是否包含空格（多词实体）
+        if ' ' in entity_lower:
+            # 多词实体：使用分词匹配
+            pattern = []
+            words = list(entity_lower.split())
+            for word in words:
+                pattern.append({"LOWER": word})
+            patterns.append({"label": "EXTRA", "pattern": pattern})
+        else:
+            # 单词实体：使用LOWER匹配（单个词）
+            patterns.append({"label": "EXTRA", "pattern": [{"LOWER": entity_lower}]})
 
     ruler.add_patterns(patterns)
 
@@ -129,6 +165,9 @@ def search_entity_info_cuckoofilter_enhanced(
     vec_db,
     embed_model,
     forest=None,
+    abstract_tree=None,  # 新架构：AbstractTree
+    entity_to_abstract_map=None,  # 新架构：Entity到Abstract的映射
+    entity_abstract_address_map=None,  # 新架构：从Cuckoo Filter地址映射（Entity -> AbstractNode地址）
     k: int = 3,
     max_hierarchy_depth: int = 2
 ) -> str:
@@ -139,7 +178,7 @@ def search_entity_info_cuckoofilter_enhanced(
     1. Identifies entities in query
     2. Finds entities in Cuckoo Filter (which maps to abstracts in entity tree)
     3. For each found abstract, retrieves corresponding original text chunks (top k)
-    4. Traverses up/down the hierarchy (1-2 levels) to get parent/child abstracts and their chunks
+    4. Traverses up/down the hierarchy (1-3 levels) to get parent/child abstracts and their chunks
     5. Combines all retrieved contexts for RAG
     
     Args:
@@ -149,7 +188,7 @@ def search_entity_info_cuckoofilter_enhanced(
         embed_model: Embedding model for similarity search
         forest: List of EntityTree instances (optional, for hierarchy traversal)
         k: Number of top chunks to retrieve per abstract
-        max_hierarchy_depth: Maximum depth for up/down traversal (default: 2)
+        max_hierarchy_depth: Maximum depth for up/down traversal (default: 3)
     
     Returns:
         Combined context string with abstracts and original text chunks
@@ -173,6 +212,88 @@ def search_entity_info_cuckoofilter_enhanced(
     if not found_entities:
         return ""
     
+    # 新架构：如果提供了abstract_tree和entity_to_abstract_map，使用新的查询逻辑
+    # 或者如果可以从Cuckoo Filter获取Abstract地址，也使用新架构
+    use_new_architecture = False
+    if abstract_tree is not None and entity_to_abstract_map is not None:
+        use_new_architecture = True
+    else:
+        # 尝试从Cuckoo Filter获取Abstract地址（如果已设置）
+        try:
+            from trag_tree.set_cuckoo_abstract_addresses import get_entity_abstract_addresses_from_cuckoo
+            test_entity = found_entities[0] if found_entities else None
+            if test_entity:
+                pair_ids = get_entity_abstract_addresses_from_cuckoo(test_entity)
+                if pair_ids:
+                    # Cuckoo Filter中已经有Abstract地址，使用新架构
+                    use_new_architecture = True
+        except:
+            pass
+    
+    if use_new_architecture:
+        try:
+            from entity.ruler_new_architecture import search_entity_info_with_abstract_tree
+            # 如果没有提供映射，尝试从Cuckoo Filter获取
+            if entity_to_abstract_map is None:
+                from trag_tree.set_cuckoo_abstract_addresses import get_entity_abstract_addresses_from_cuckoo
+                from trag_tree.build import get_all_abstracts_from_vec_db
+                # 从Cuckoo Filter获取pair_ids，然后构建映射
+                entity_to_abstract_map = {}
+                pair_id_to_node = {}
+                # 获取所有abstracts
+                from rag_base import build_index
+                db_id = id(vec_db)
+                table_name = None
+                if hasattr(build_index.load_vec_db, '_db_table_map'):
+                    table_name = build_index.load_vec_db._db_table_map.get(db_id)
+                if table_name is None:
+                    keys = vec_db.get_all_keys()
+                    table_name = keys[0] if keys else "default_table"
+                
+                abstracts_metadata = get_all_abstracts_from_vec_db(vec_db, table_name)
+                for meta in abstracts_metadata:
+                    pair_id_str = meta.get("pair_id", "")
+                    if pair_id_str:
+                        try:
+                            pair_id = int(pair_id_str)
+                            from trag_tree.abstract_node import AbstractNode
+                            content = meta.get("content", meta.get("title", ""))
+                            chunk_ids_str = meta.get("chunk_ids", "")
+                            chunk_ids = []
+                            if chunk_ids_str:
+                                import ast
+                                if chunk_ids_str.startswith('['):
+                                    chunk_ids = ast.literal_eval(chunk_ids_str)
+                                else:
+                                    chunk_ids = [int(x.strip()) for x in chunk_ids_str.split(',') if x.strip().isdigit()]
+                            node = AbstractNode(pair_id, content, chunk_ids)
+                            pair_id_to_node[pair_id] = node
+                        except:
+                            pass
+                
+                # 为每个entity获取Abstract地址
+                for entity_text in found_entities:
+                    pair_ids = get_entity_abstract_addresses_from_cuckoo(entity_text)
+                    entity_to_abstract_map[entity_text] = [pair_id_to_node[pid] for pid in pair_ids if pid in pair_id_to_node]
+                
+                # 构建AbstractTree
+                if pair_id_to_node:
+                    from trag_tree.abstract_tree import AbstractTree
+                    abstract_tree = AbstractTree(list(pair_id_to_node.values()), build_hierarchy=True)
+            
+            return search_entity_info_with_abstract_tree(
+                nlp, query, vec_db, embed_model,
+                abstract_tree=abstract_tree,
+                entity_to_abstract_map=entity_to_abstract_map,
+                entity_abstract_address_map=entity_abstract_address_map,  # 传递地址映射
+                k=k,
+                max_hierarchy_depth=max_hierarchy_depth
+            )
+        except Exception as e:
+            print(f"Warning: Failed to use new architecture, falling back to old method: {e}")
+            # 继续使用旧方法
+    
+    # 旧架构：原有的查询逻辑（保持向后兼容）
     # Step 2: Find entities in Cuckoo Filter and get their abstracts (tree nodes)
     entity_to_abstract_nodes = {}  # entity_name -> abstract context from Cuckoo Filter
     

@@ -85,3 +85,6 @@ PYEOF
     sleep 30  # 每30秒检查一次
 done
 
+
+
+

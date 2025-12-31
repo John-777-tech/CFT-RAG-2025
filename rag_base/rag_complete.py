@@ -11,6 +11,7 @@ from lab_1806_vec_db import VecDB as RagVecDB
 # RagMultiVecDB may not exist in this version, use RagVecDB for both
 RagMultiVecDB = RagVecDB
 from openai import OpenAI
+import httpx
 
 from rag_base.embed_model import get_embed_model
 from trag_tree import EntityTree
@@ -208,7 +209,15 @@ def filter_contexts_by_dual_threshold(
 retrieval_time = None
 generation_time = None
 
-def augment_prompt(query: str, db: RagVecDB | RagMultiVecDB, forest: list[EntityTree]=None, nlp=None, search_method=1, k=3, model_name="gpt-3.5-turbo", debug=False):
+def get_retrieval_time():
+    """获取检索时间"""
+    return retrieval_time
+
+def get_generation_time():
+    """获取生成时间"""
+    return generation_time
+
+def augment_prompt(query: str, db: RagVecDB | RagMultiVecDB, forest: list[EntityTree]=None, nlp=None, search_method=1, k=3, model_name="gpt-3.5-turbo", debug=False, max_hierarchy_depth=None):
     global retrieval_time
     
     embed_model = get_embed_model()
@@ -239,22 +248,322 @@ def augment_prompt(query: str, db: RagVecDB | RagMultiVecDB, forest: list[Entity
             build_index.load_vec_db._db_table_map = {}
         build_index.load_vec_db._db_table_map[db_id] = table_name
     
-    # VecDB.search requires (key, query, k, ...)
-    search_results = db.search(table_name, input_embedding, k * 3)
-    # Convert to expected format: list of dicts with "content", "title", "embedding", etc.
-    results = []
-    for metadata, distance in search_results:
-        result = dict(metadata)  # Copy metadata
-        result["distance"] = distance
-        # Extract embedding if available, otherwise will compute in enrich function
-        results.append(result)
+    # 对于Cuckoo Filter (search_method=7)，跳过初始向量搜索，直接使用Cuckoo Filter逻辑
+    if search_method == 7:
+        # Cuckoo Filter不需要初始向量搜索，直接进入Cuckoo Filter逻辑
+        results = []
+    else:
+        # VecDB.search requires (key, query, k, ...)
+        search_results = db.search(table_name, input_embedding, k * 3)
+        # Convert to expected format: list of dicts with "content", "title", "embedding", etc.
+        results = []
+        for metadata, distance in search_results:
+            result = dict(metadata)  # Copy metadata
+            result["distance"] = distance
+            # Extract embedding if available, otherwise will compute in enrich function
+            results.append(result)
     
     # Baseline RAG (search_method=0) 不需要abstract相关的处理
     if search_method == 0 or forest is None:
         # 对于baseline RAG，直接使用向量数据库检索的结果，只取top k
         results = results[:k]
+        # 记录Baseline的检索时间（向量数据库检索完成到结果处理完成的时间）
+        baseline_retrieval_end = time.time()
+        retrieval_time = baseline_retrieval_end - start_time
+    elif search_method == 7:
+        # Cuckoo Filter (search_method=7): 新算法
+        # 1. spaCy NLP实体识别 -> 2. Cuckoo Filter查询实体找到对应的abstract pair_ids
+        # 3. 从abstract找到对应的chunks（每个abstract对应2个chunks: pair_id*2 和 pair_id*2+1）
+        # 4. 计算query和所有chunks的余弦相似度，选top k（只计算chunk相似度，不算abstract相似度）
+        # 检索时间从实体识别开始计算
+        cuckoo_retrieval_start = time.time()
+        results = []
+        
+        if nlp is not None:
+            # Step 1: spaCy NLP实体识别
+            # 重置entity_number，确保每次查询都重新计数
+            from entity import ruler
+            ruler.entity_number = 0
+            
+            query_lower = query.lower().strip()
+            doc = nlp(query_lower)
+            found_entities = []
+            
+            # 调试：检查所有识别的实体
+            all_entities = [(ent.text, ent.label_) for ent in doc.ents]
+            
+            for ent in doc.ents:
+                if ent.label_ == 'EXTRA':
+                    found_entities.append(ent.text)
+                    ruler.entity_number += 1  # 更新entity_number，与ruler模块保持一致
+            
+            # 调试：打印实体识别结果
+            if debug or True:  # 临时启用，方便调试
+                print(f"Debug [search_method=7]: query entity number: {ruler.entity_number}")
+                if all_entities:
+                    print(f"Debug [search_method=7]: All entities found: {all_entities}")
+                if found_entities:
+                    print(f"Debug [search_method=7]: Found EXTRA entities: {found_entities}")
+                else:
+                    print(f"Debug [search_method=7]: No EXTRA entities found. All entities: {all_entities}")
+            
+            if found_entities:
+                # Step 2-3: 通过Cuckoo Filter找到实体对应的abstract pair_ids，然后找到对应的chunks
+                all_chunk_ids = set()  # 存储所有找到的chunk_ids
+                pair_ids_set = set()  # 存储所有找到的pair_ids
+                
+                # 从Cuckoo Filter获取实体对应的abstract pair_ids
+                from trag_tree import hash
+                try:
+                    from trag_tree.set_cuckoo_abstract_addresses import get_entity_abstract_addresses_from_cuckoo
+                    use_new_api = True
+                except ImportError:
+                    use_new_api = False
+                
+                for entity_text in found_entities:
+                    try:
+                        if use_new_api:
+                            # 新API：直接获取pair_ids列表
+                            # 统一使用小写实体名称，确保与Cuckoo Filter中存储的一致
+                            entity_text_lower = entity_text.lower()
+                            pair_ids = get_entity_abstract_addresses_from_cuckoo(entity_text_lower)
+                            if debug or True:  # 临时启用，方便调试
+                                print(f"Debug [search_method=7]: Entity '{entity_text}' (lower: '{entity_text_lower}') -> Cuckoo Filter returned {len(pair_ids) if pair_ids else 0} pair_ids")
+                            if pair_ids:
+                                for pair_id in pair_ids:
+                                    pair_ids_set.add(pair_id)
+                                    # 每个abstract对应2个chunks
+                                    chunk_id1 = pair_id * 2
+                                    chunk_id2 = pair_id * 2 + 1
+                                    all_chunk_ids.add(chunk_id1)
+                                    all_chunk_ids.add(chunk_id2)
+                            else:
+                                if debug or True:  # 临时启用，方便调试
+                                    print(f"Debug [search_method=7]: Entity '{entity_text}' -> Cuckoo Filter returned empty pair_ids")
+                        else:
+                            # 旧API：从Cuckoo Filter提取（可能包含pair_id信息）
+                            cuckoo_result = hash.cuckoo_extract(entity_text)
+                            if debug or True:  # 临时启用，方便调试
+                                print(f"Debug [search_method=7]: Entity '{entity_text}' -> Cuckoo Filter result: {cuckoo_result[:100] if cuckoo_result else 'None'}...")
+                            if cuckoo_result:
+                                # 解析pair_id（格式可能是 [Abstract pair_id=123]）
+                                import re
+                                pair_id_pattern = r'\[Abstract pair_id=(\d+)\]'
+                                pair_ids = re.findall(pair_id_pattern, cuckoo_result)
+                                if debug or True:  # 临时启用，方便调试
+                                    print(f"Debug [search_method=7]: Entity '{entity_text}' -> Parsed {len(pair_ids)} pair_ids from cuckoo_result")
+                                for pair_id_str in pair_ids:
+                                    try:
+                                        pair_id = int(pair_id_str)
+                                        pair_ids_set.add(pair_id)
+                                        chunk_id1 = pair_id * 2
+                                        chunk_id2 = pair_id * 2 + 1
+                                        all_chunk_ids.add(chunk_id1)
+                                        all_chunk_ids.add(chunk_id2)
+                                    except ValueError:
+                                        pass
+                    except Exception as e:
+                        if debug or True:  # 临时启用，方便调试
+                            print(f"Warning: Failed to process entity '{entity_text}': {e}")
+                        continue
+                
+                # 调试：检查all_chunk_ids
+                if debug or True:  # 临时启用，方便调试
+                    print(f"Debug [search_method=7]: Total pair_ids found: {len(pair_ids_set)}, Total chunk_ids: {len(all_chunk_ids)}")
+                
+                # Step 4: 从向量数据库获取all_chunk_ids对应的chunks，直接计算query和这2m个chunks的余弦相似度，选top k
+                if all_chunk_ids:
+                    if debug or True:  # 临时启用，方便调试
+                        print(f"Debug [search_method=7]: Executing extract_data() for {len(all_chunk_ids)} chunk_ids")
+                    # 获取table_name
+                    from rag_base import build_index
+                    db_id = id(db)
+                    table_name = None
+                    if hasattr(build_index.load_vec_db, '_db_table_map'):
+                        table_name = build_index.load_vec_db._db_table_map.get(db_id)
+                    if table_name is None:
+                        keys = db.get_all_keys()
+                        table_name = keys[0] if keys else "default_table"
+                    
+                    # 从向量数据库提取数据，只处理all_chunk_ids中的chunks（候选池 = 这2m个chunks）
+                    # 注意：由于向量数据库API不支持直接通过chunk_id获取，需要遍历所有数据
+                    # 但只处理chunk_id in all_chunk_ids的chunks，逻辑上就是直接获取这2m个chunks
+                    all_data = db.extract_data(table_name)
+                    
+                    candidate_chunks = []
+                    found_chunk_ids = set()  # 跟踪已找到的chunks，用于提前停止优化
+                    
+                    for vec_data, metadata in all_data:
+                        result = dict(metadata)
+                        if result.get("type") == "raw_chunk":
+                            chunk_id_str = result.get("chunk_id", "")
+                            try:
+                                chunk_id = int(chunk_id_str) if isinstance(chunk_id_str, str) else chunk_id_str
+                                if chunk_id in all_chunk_ids:
+                                    # 获取chunk的embedding（从向量数据或metadata）
+                                    chunk_embedding = vec_data if vec_data else None
+                                    if chunk_embedding is None:
+                                        chunk_content = result.get("content", result.get("title", ""))
+                                        if chunk_content:
+                                            chunk_embedding = embed_model.encode([chunk_content], normalize_embeddings=True)[0].tolist()
+                                    
+                                    if chunk_embedding:
+                                        # 直接计算query和chunk的余弦相似度（只计算chunk相似度，不算abstract相似度）
+                                        from sentence_transformers import util
+                                        similarity = util.pytorch_cos_sim(
+                                            util.tensor(input_embedding),
+                                            util.tensor(chunk_embedding)
+                                        )[0].item()
+                                        
+                                        result["similarity"] = similarity
+                                        result["embedding"] = chunk_embedding
+                                        candidate_chunks.append(result)
+                                        found_chunk_ids.add(chunk_id)
+                                        
+                                        # 优化：如果已找到所有需要的chunks，可以提前停止（但extract_data可能不支持，保留此逻辑以备将来优化）
+                                        if len(found_chunk_ids) >= len(all_chunk_ids):
+                                            if debug:
+                                                print(f"Found all {len(all_chunk_ids)} chunks, early stopping")
+                                            break
+                            except (ValueError, TypeError) as e:
+                                if debug:
+                                    print(f"Warning: Failed to process chunk_id '{chunk_id_str}': {e}")
+                                pass
+                    
+                    # Step 5: 按余弦相似度排序，选top k
+                    if candidate_chunks:
+                        # 去重（按chunk_id）
+                        seen_chunk_ids = set()
+                        unique_chunks = []
+                        for chunk in candidate_chunks:
+                            chunk_id_str = chunk.get("chunk_id", "")
+                            try:
+                                chunk_id = int(chunk_id_str) if isinstance(chunk_id_str, str) else chunk_id_str
+                                if chunk_id not in seen_chunk_ids:
+                                    seen_chunk_ids.add(chunk_id)
+                                    unique_chunks.append(chunk)
+                            except (ValueError, TypeError):
+                                pass
+                        
+                        # 按相似度排序（降序）
+                        unique_chunks.sort(key=lambda x: x.get("similarity", 0), reverse=True)
+                        
+                        # 取top k
+                        results = unique_chunks[:k]
+                        
+                        # 获取对应的abstracts内容（摘要）
+                        # 从选中的chunks中提取对应的pair_ids，然后获取abstracts
+                        selected_pair_ids = set()
+                        for chunk in results:
+                            chunk_id_str = chunk.get("chunk_id", "")
+                            try:
+                                chunk_id = int(chunk_id_str) if isinstance(chunk_id_str, str) else chunk_id_str
+                                pair_id = chunk_id // 2
+                                selected_pair_ids.add(pair_id)
+                            except (ValueError, TypeError):
+                                pass
+                        
+                        # 根据max_hierarchy_depth扩展pair_ids（depth=2时获取父节点）
+                        expanded_pair_ids = set(selected_pair_ids)
+                        if max_hierarchy_depth == 2:
+                            # 从模块级变量获取AbstractForest（在run_benchmark.py中设置）
+                            try:
+                                # 从当前模块（rag_complete）获取AbstractForest
+                                import sys
+                                current_module = sys.modules[__name__]
+                                abstract_forest = getattr(current_module, '_abstract_forest', None)
+                                
+                                if abstract_forest:
+                                    # 在AbstractForest中查找每个pair_id对应的AbstractNode
+                                    for pair_id in selected_pair_ids:
+                                        for tree in abstract_forest:
+                                            node = tree.find_node_by_pair_id(pair_id)
+                                            if node:
+                                                # 获取父节点
+                                                parent = node.get_parent()
+                                                if parent:
+                                                    parent_pair_id = parent.get_pair_id()
+                                                    expanded_pair_ids.add(parent_pair_id)
+                                                    if debug:
+                                                        print(f"Debug [search_method=7, depth=2]: Expanded pair_id {pair_id} -> added parent {parent_pair_id}")
+                                                break  # 找到了就跳出tree循环
+                                    if debug:
+                                        print(f"Debug [search_method=7, depth=2]: Expanded from {len(selected_pair_ids)} to {len(expanded_pair_ids)} pair_ids")
+                                else:
+                                    if debug:
+                                        print(f"Debug [search_method=7, depth=2]: AbstractForest not found, using selected_pair_ids only")
+                            except Exception as e:
+                                if debug:
+                                    print(f"Warning [search_method=7, depth=2]: Failed to expand pair_ids: {e}")
+                                # 如果扩展失败，使用原始的selected_pair_ids
+                                pass
+                        else:
+                            # depth=1时不追溯，直接使用selected_pair_ids
+                            if debug and max_hierarchy_depth is not None:
+                                print(f"Debug [search_method=7, depth={max_hierarchy_depth}]: Not expanding (depth=1 or None)")
+                        
+                        # 从向量数据库获取这些abstracts的内容
+                        abstract_contents = []
+                        if expanded_pair_ids:
+                            # 修改：直接从向量数据库提取所有数据，然后筛选出expanded_pair_ids对应的abstracts
+                            # 这样确保能找到所有相关的abstracts，不依赖向量搜索
+                            all_data_abstracts = db.extract_data(table_name)
+                            for vec_data, metadata in all_data_abstracts:
+                                result = dict(metadata)
+                                if result.get("type") == "tree_node":
+                                    pair_id_str = result.get("pair_id", "")
+                                    try:
+                                        pair_id = int(pair_id_str) if isinstance(pair_id_str, str) else pair_id_str
+                                        if pair_id in expanded_pair_ids:
+                                            abstract_content = result.get("content", result.get("title", ""))
+                                            if abstract_content:
+                                                abstract_contents.append(abstract_content)
+                                    except (ValueError, TypeError):
+                                        pass
+                        
+                        # 将abstracts内容存储到模块级变量，供后续构建prompt使用
+                        if abstract_contents:
+                            # 使用set去重，保持顺序
+                            seen_abstracts = set()
+                            unique_abstracts = []
+                            for abs_content in abstract_contents:
+                                if abs_content not in seen_abstracts:
+                                    seen_abstracts.add(abs_content)
+                                    unique_abstracts.append(abs_content)
+                            # 将abstracts存储到results的metadata中，或者使用全局变量
+                            # 我们将在构建prompt时使用这些abstracts
+                            if not hasattr(augment_prompt, '_cuckoo_abstracts'):
+                                augment_prompt._cuckoo_abstracts = []
+                            augment_prompt._cuckoo_abstracts = unique_abstracts
+                        else:
+                            if hasattr(augment_prompt, '_cuckoo_abstracts'):
+                                augment_prompt._cuckoo_abstracts = []
+        
+        # 如果没有通过实体找到chunks，回退到向量数据库检索
+        if not results:
+            # 获取table_name
+            from rag_base import build_index
+            db_id = id(db)
+            table_name = None
+            if hasattr(build_index.load_vec_db, '_db_table_map'):
+                table_name = build_index.load_vec_db._db_table_map.get(db_id)
+            if table_name is None:
+                keys = db.get_all_keys()
+                table_name = keys[0] if keys else "default_table"
+            
+            # 完全回退：使用向量数据库的初始检索结果
+            search_results = db.search(table_name, input_embedding, k)
+            results = []
+            for metadata, distance in search_results:
+                result = dict(metadata)
+                result["distance"] = distance
+                results.append(result)
+        
+        # 记录检索时间（从实体识别开始到检索完成的时间）
+        cuckoo_retrieval_end = time.time()
+        retrieval_time = cuckoo_retrieval_end - cuckoo_retrieval_start
     else:
-        # Abstract RAG: Enrich results with summary_embeddings (two chunks share one abstract)
+        # Abstract RAG (其他search_method): Enrich results with summary_embeddings (two chunks share one abstract)
         results = enrich_results_with_summary_embeddings(results, db, embed_model, input_embedding)
         
         # Dual-similarity filtering: query–chunk AND query–summary
@@ -284,19 +593,29 @@ def augment_prompt(query: str, db: RagVecDB | RagMultiVecDB, forest: list[Entity
         #     print(f"{idx}: {title=}")
 
     source_knowledge = "\n".join([x["content"] for x in results])
+    
+    # 对于Cuckoo Filter (search_method=7)，获取对应的abstracts（摘要）
+    abstract_knowledge = ""
+    if search_method == 7:
+        # 获取之前存储的abstracts
+        if hasattr(augment_prompt, '_cuckoo_abstracts') and augment_prompt._cuckoo_abstracts:
+            abstract_knowledge = "\n---\n".join(augment_prompt._cuckoo_abstracts)
+            # 清理，避免影响下一次调用
+            augment_prompt._cuckoo_abstracts = []
+        else:
+            abstract_knowledge = ""
 
     if forest is None or search_method == 0:
         # max_allowed_tokens = MAX_TOKENS - 500
         # source_knowledge = truncate_to_fit(source_knowledge, max_allowed_tokens, model_name)
-        # Use English prompt for English datasets, Chinese for Chinese datasets
-        # For AESLC (English email summarization), use English prompt
+        # Baseline RAG: 使用简单的prompt
         if any(keyword in query.lower() for keyword in ['summarize', 'email', 'summary']):
             augmented_prompt = (
-                f"Use the provided information to answer the question.\n\nInformation:\n{source_knowledge}\n\nQuestion: \n{query}"
+                f"Answer the question using the provided information.\n\nInformation:\n{source_knowledge}\n\nQuestion: \n{query}"
             )
         else:
             augmented_prompt = (
-                f"使用提供的信息回答问题。\n\n信息:\n{source_knowledge}\n\n问题: \n{query}"
+                f"Answer the question using the provided information.\n\nInformation:\n{source_knowledge}\n\nQuestion: \n{query}"
             )
         if debug:
             # print(f"augmented_prompt: {augmented_prompt}")
@@ -313,24 +632,13 @@ def augment_prompt(query: str, db: RagVecDB | RagMultiVecDB, forest: list[Entity
     elif search_method == 4:
         node_list = ruler.search_entity_info_naive_hash(nlp, query)
     elif search_method == 7:
-        # Enhanced Cuckoo Filter search with hierarchical abstract retrieval
-        # This uses the new enhanced function that retrieves abstracts and original text chunks
-        try:
-            search_context = ruler.search_entity_info_cuckoofilter_enhanced(
-                nlp, 
-                query,
-                db,  # Vector database for retrieving chunks
-                embed_model,  # Embedding model
-                forest,  # Entity forest for hierarchy traversal
-                k=k,  # Number of chunks per abstract
-                max_hierarchy_depth=2  # Traverse 1-2 levels up/down
-            )
-            node_list = [search_context] if search_context else []
-        except Exception as e:
-            # Fallback to original Cuckoo Filter search if enhanced version fails
-            print(f"Warning: Enhanced Cuckoo Filter search failed, falling back to original: {e}")
-            search_context = ruler.search_entity_info_cuckoofilter(nlp, query)
-            node_list = [search_context] if search_context else []
+        # Cuckoo Filter (search_method=7): 新算法已经在上面处理了chunks和abstracts
+        # 这里不再需要额外的处理，直接使用之前获取的abstract_knowledge
+        # 如果abstract_knowledge已经获取，就使用它；否则使用空字符串
+        if abstract_knowledge:
+            node_list = [abstract_knowledge]
+        else:
+            node_list = []
     elif search_method in [8, 9]:
         node_list = ruler.search_entity_info_ann(nlp, query)
     
@@ -359,14 +667,38 @@ def augment_prompt(query: str, db: RagVecDB | RagMultiVecDB, forest: list[Entity
     # tree_knowledge = truncate_to_fit(tree_knowledge, max_allowed_tokens, model_name)
 
     # Use English prompt for English queries (e.g., "Summarize the following email")
-    if any(keyword in query.lower() for keyword in ['summarize', 'email', 'summary']):
-        augmented_prompt = (
-            f"Answer the question using the provided information. Be concise and direct.\n\nInformation:\n{source_knowledge}\n\nRelations:\n{tree_knowledge}\n\nQuestion: \n{query}"
-        )
+    # 对于Cuckoo Filter (search_method=7)，使用abstract_knowledge；对于其他方法，使用tree_knowledge
+    if search_method == 7:
+        # Cuckoo Filter: 使用abstract_knowledge（摘要）
+        if abstract_knowledge:
+            if any(keyword in query.lower() for keyword in ['summarize', 'email', 'summary']):
+                augmented_prompt = (
+                    f"Answer the question using the provided information.\n\nInformation:\n{source_knowledge}\n\nAbstracts:\n{abstract_knowledge}\n\nQuestion: \n{query}"
+                )
+            else:
+                augmented_prompt = (
+                    f"请回答问题，可以使用我提供的信息（不保证信息是有用的），在回答中不要有分析我提供信息的内容，直接说答案，答案要简略。\n\n信息:\n{source_knowledge}\n\n摘要：\n{abstract_knowledge}\n\n问题: \n{query}"
+                )
+        else:
+            # 如果没有abstracts，只使用source_knowledge
+            if any(keyword in query.lower() for keyword in ['summarize', 'email', 'summary']):
+                augmented_prompt = (
+                    f"Answer the question using the provided information.\n\nInformation:\n{source_knowledge}\n\nQuestion: \n{query}"
+                )
+            else:
+                augmented_prompt = (
+                    f"请回答问题，可以使用我提供的信息（不保证信息是有用的），在回答中不要有分析我提供信息的内容，直接说答案，答案要简略。\n\n信息:\n{source_knowledge}\n\n问题: \n{query}"
+                )
     else:
-        augmented_prompt = (
-            f"请回答问题，可以使用我提供的信息（不保证信息是有用的），在回答中不要有分析我提供信息的内容，直接说答案，答案要简略。\n\n信息:\n{source_knowledge}\n\n关系：\n{tree_knowledge}\n\n问题: \n{query}"
-        )
+        # 其他search_method: 使用tree_knowledge
+        if any(keyword in query.lower() for keyword in ['summarize', 'email', 'summary']):
+            augmented_prompt = (
+                f"Answer the question using the provided information.\n\nInformation:\n{source_knowledge}\n\nRelations:\n{tree_knowledge}\n\nQuestion: \n{query}"
+            )
+        else:
+            augmented_prompt = (
+                f"请回答问题，可以使用我提供的信息（不保证信息是有用的），在回答中不要有分析我提供信息的内容，直接说答案，答案要简略。\n\n信息:\n{source_knowledge}\n\n关系：\n{tree_knowledge}\n\n问题: \n{query}"
+            )
 
     execution_time = end_time - start_time
     retrieval_time = execution_time
@@ -381,9 +713,12 @@ def augment_prompt(query: str, db: RagVecDB | RagMultiVecDB, forest: list[Entity
 api_key = os.environ.get("ARK_API_KEY") or os.environ.get("OPENAI_API_KEY")
 base_url = os.environ.get("BASE_URL") or "https://ark.cn-beijing.volces.com/api/v3"
 
+# 使用httpx.Timeout设置超时配置
+timeout_config = httpx.Timeout(60.0, connect=20.0)  # 总超时60秒，连接超时20秒
 client = OpenAI(
     api_key=api_key,
     base_url=base_url,
+    timeout=timeout_config,
 )
 
 def rag_complete(
@@ -394,6 +729,7 @@ def rag_complete(
     search_method=1,
     model_name: str | None = None,
     debug=False,
+    max_hierarchy_depth=None,
 ) -> Iterable[str]:
     
     global retrieval_time
@@ -403,9 +739,12 @@ def rag_complete(
     api_key = os.environ.get("ARK_API_KEY") or os.environ.get("OPENAI_API_KEY")
     base_url = os.environ.get("BASE_URL") or "https://ark.cn-beijing.volces.com/api/v3"
 
+    # 使用httpx.Timeout设置超时配置
+    timeout_config = httpx.Timeout(60.0, connect=20.0)  # 总超时60秒，连接超时20秒
     client = OpenAI(
         api_key=api_key,
         base_url=base_url,
+        timeout=timeout_config,
     )
 
     model_name = model_name or get_model_name()
@@ -418,7 +757,7 @@ def rag_complete(
     if is_ark_api:
         # ARK API uses responses.create() with input format
         try:
-            augmented_content = augment_prompt(prompt, db, forest, nlp, search_method=search_method, model_name=model_name, debug=debug)
+            augmented_content = augment_prompt(prompt, db, forest, nlp, search_method=search_method, model_name=model_name, debug=debug, max_hierarchy_depth=max_hierarchy_depth)
             response = client.responses.create(
                 model=model_name,
                 input=[
@@ -491,7 +830,7 @@ def rag_complete(
                 },
                 {
                     "role": "user",
-                    "content": augment_prompt(prompt, db, forest, nlp, search_method=search_method, model_name=model_name, debug=debug),
+                    "content": augment_prompt(prompt, db, forest, nlp, search_method=search_method, model_name=model_name, debug=debug, max_hierarchy_depth=max_hierarchy_depth),
                 },
             ],
             stream=True,

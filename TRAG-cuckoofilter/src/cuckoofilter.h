@@ -320,9 +320,26 @@ const ItemType &key) const {
     EntityAddr * addr = victim_.info->head;
     while (addr != NULL){
       
-      if (addr->addr1 != NULL) result += addr->addr1->get_context();
-      if (addr->addr2 != NULL) result += addr->addr2->get_context();
-      if (addr->addr3 != NULL) result += addr->addr3->get_context();
+      // 新架构：使用abstract_pair_id
+      // 旧架构：使用entity_addr
+      // 优先使用abstract_pair_id，如果为-1则回退到entity_addr
+      if (addr->abstract_pair_id1 != -1) {
+        // Abstract地址（pair_id），需要在Python层面处理
+        // 这里先返回占位符，实际内容在Python中获取
+        result += "[Abstract pair_id=" + std::to_string(addr->abstract_pair_id1) + "]";
+      } else if (addr->entity_addr1 != NULL) {
+        result += addr->entity_addr1->get_context();
+      }
+      if (addr->abstract_pair_id2 != -1) {
+        result += "[Abstract pair_id=" + std::to_string(addr->abstract_pair_id2) + "]";
+      } else if (addr->entity_addr2 != NULL) {
+        result += addr->entity_addr2->get_context();
+      }
+      if (addr->abstract_pair_id3 != -1) {
+        result += "[Abstract pair_id=" + std::to_string(addr->abstract_pair_id3) + "]";
+      } else if (addr->entity_addr3 != NULL) {
+        result += addr->entity_addr3->get_context();
+      }
       
       addr = addr->next;
     } 
@@ -339,14 +356,31 @@ const ItemType &key) const {
     std::string result = "";
     EntityInfo * r0;
     EntityAddr * addr;
-    if (r0 = table_->FindInfoInBuckets(i1, i2, tag)){
+    if ((r0 = table_->FindInfoInBuckets(i1, i2, tag))){
       addr = r0->head;
     }else return "";
     while (addr != NULL){
 
-      if (addr->addr1 != NULL) result += addr->addr1->get_context();
-      if (addr->addr2 != NULL) result += addr->addr2->get_context();
-      if (addr->addr3 != NULL) result += addr->addr3->get_context();
+      // 新架构：使用abstract_pair_id
+      // 旧架构：使用entity_addr
+      // 优先使用abstract_pair_id，如果为-1则回退到entity_addr
+      if (addr->abstract_pair_id1 != -1) {
+        // Abstract地址（pair_id），需要在Python层面处理
+        // 这里先返回占位符，实际内容在Python中获取
+        result += "[Abstract pair_id=" + std::to_string(addr->abstract_pair_id1) + "]";
+      } else if (addr->entity_addr1 != NULL) {
+        result += addr->entity_addr1->get_context();
+      }
+      if (addr->abstract_pair_id2 != -1) {
+        result += "[Abstract pair_id=" + std::to_string(addr->abstract_pair_id2) + "]";
+      } else if (addr->entity_addr2 != NULL) {
+        result += addr->entity_addr2->get_context();
+      }
+      if (addr->abstract_pair_id3 != -1) {
+        result += "[Abstract pair_id=" + std::to_string(addr->abstract_pair_id3) + "]";
+      } else if (addr->entity_addr3 != NULL) {
+        result += addr->entity_addr3->get_context();
+      }
       
       addr = addr->next;
     } 

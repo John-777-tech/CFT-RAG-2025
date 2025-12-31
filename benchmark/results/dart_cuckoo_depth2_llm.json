@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Generate a description based on the following triples: (Mars Hill College, JOINED, 1973) | (Mars Hill College, LOCATION, Mars Hill, North Carolina)",
+    "answer": "Mars Hill College, which is located in Mars Hill, North Carolina, joined an organization or group in the year 1973. This description incorporates both key facts from the provided triples: the college's location and the year it became a member of some entity.",
+    "expected_answer": "A school from Mars Hill, North Carolina, joined in 1973.",
+    "time": 26.08964514732361,
+    "answer_length": 258,
+    "retrieval_time": 0.08053088188171387,
+    "generation_time": 26.065649032592773
+  },
+  {
+    "question": "Generate a description based on the following triples: (Newberry College, NICKNAME, Wolves)",
+    "answer": "Newberry College is known by the nickname Wolves. This moniker likely represents traits such as strength, teamwork, and resilience that the college associates with its community, including students, athletes, and alumni. Whether in academic pursuits or athletic competitions, the Wolves nickname serves as a unifying symbol for Newberry College.",
+    "expected_answer": "Newberry College's nickname is the wolves.",
+    "time": 5.673139810562134,
+    "answer_length": 345,
+    "retrieval_time": 0.013700008392333984,
+    "generation_time": 5.6471476554870605
+  },
+  {
+    "question": "Generate a description based on the following triples: (Presbyterian College, TYPE, Private)",
+    "answer": "Presbyterian College is a private college. This description directly conveys the information from the triple, specifying that the institution's type is private.",
+    "expected_answer": "Presbyterian College is a private school.",
+    "time": 5.646004915237427,
+    "answer_length": 160,
+    "retrieval_time": 0.010138988494873047,
+    "generation_time": 5.61931300163269
+  },
+  {
+    "question": "Generate a description based on the following triples: (Queens University of Charlotte, NICKNAME, Royals) | (Queens University of Charlotte, ENROLLMENT, 2386)",
+    "answer": "Queens University of Charlotte, nicknamed the Royals, has an enrollment of 2386.",
+    "expected_answer": "The nickname of the school with an enrollment of 2,386 is the royals.",
+    "time": 8.153949975967407,
+    "answer_length": 80,
+    "retrieval_time": 0.09594321250915527,
+    "generation_time": 7.924932956695557
+  },
+  {
+    "question": "Generate a description based on the following triples: (Inars Kivlenieks, COUNTRY, Latvia)",
+    "answer": "Inars Kivlenieks's country is Latvia.",
+    "expected_answer": "The Athlete is Inars Kivlenieks.The country is Latvia",
+    "time": 7.97933292388916,
+    "answer_length": 37,
+    "retrieval_time": 0.010943889617919922,
+    "generation_time": 7.953449010848999
+  },
+  {
+    "question": "Generate a description based on the following triples: (New York, SWIMSUIT, 8.713) | (New York, EVENING_GOWN, 8.400) | (New York, AVERAGE, 8.525)",
+    "answer": "For New York, the score in the SWIMSUIT category is 8.713, the score in the EVENING_GOWN category is 8.400, and the average score across these categories is 8.525.",
+    "expected_answer": "New York\t it 8.713 New York\t 8.525",
+    "time": 7.311249256134033,
+    "answer_length": 163,
+    "retrieval_time": 0.08018803596496582,
+    "generation_time": 7.287343978881836
+  },
+  {
+    "question": "Generate a description based on the following triples: (Atlanta, OFFICIAL_POPULATION, 5,457,831) | ([TABLECONTEXT], METROPOLITAN_AREA, Atlanta) | (5,457,831, YEAR, 2012) | ([TABLECONTEXT], [TITLE], List of metropolitan areas by population) | (Atlanta, COUNTRY, United States)",
+    "answer": "According to the \"List of metropolitan areas by population\", Atlanta—a metropolitan area located in the United States—had an official population of 5,457,831 in the year 2012.",
+    "expected_answer": "Metropolitan areas by population is Atlanta Country United States Official population is 5,457,831 ,2012",
+    "time": 10.119655847549438,
+    "answer_length": 175,
+    "retrieval_time": 0.012560129165649414,
+    "generation_time": 10.09203815460205
+  },
+  {
+    "question": "Generate a description based on the following triples: (Bogotá, COUNTRY, Colombia)",
+    "answer": "Bogotá is a city located in the country Colombia. This triple indicates the geographical association between Bogotá and Colombia, specifying that Colombia is the country to which Bogotá belongs.",
+    "expected_answer": "The Bogotá metropolitan area is in Colombia.",
+    "time": 6.5726189613342285,
+    "answer_length": 194,
+    "retrieval_time": 0.010493993759155273,
+    "generation_time": 6.548462867736816
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], METROPOLITAN_AREA, Berlin) | (Berlin, COUNTRY, Germany) | ([TABLECONTEXT], [TITLE], List of metropolitan areas by population) | (Berlin, OFFICIAL_POPULATION, 5,097,712)",
+    "answer": "The table titled \"List of metropolitan areas by population\" features Berlin, a metropolitan area located in Germany, which has an official population of 5,097,712.",
+    "expected_answer": "Berlin is a metropolitan area in Germany with an official population of 5,097,712.",
+    "time": 9.149181365966797,
+    "answer_length": 163,
+    "retrieval_time": 0.009391307830810547,
+    "generation_time": 9.123247861862183
+  },
+  {
+    "question": "Generate a description based on the following triples: (1983-1984 season, JORNADA_OR_OTHER, 2) | (2, AWAY_TEAM, América) | (2, HOME_TEAM, Chivas)",
+    "answer": "In Jornada 2 of the 1983-1984 season, Chivas served as the home team and América was the away team.",
+    "expected_answer": "Chivas played against América in the 1983-1984 season.",
+    "time": 8.9399733543396,
+    "answer_length": 99,
+    "retrieval_time": 0.009154081344604492,
+    "generation_time": 8.917341232299805
+  },
+  {
+    "question": "Generate a description based on the following triples: (Final Vuelta, RESULT, 3-1) | (Final Vuelta, HOME_TEAM, América) | (Final Vuelta, DATE, 10 June 1984)",
+    "answer": "On 10 June 1984, the Final Vuelta was held with América as the home team, and the result of the match was 3-1.",
+    "expected_answer": "America earned a 3-1 victory in the second-leg final in 1984.",
+    "time": 9.936672925949097,
+    "answer_length": 110,
+    "retrieval_time": 0.10672903060913086,
+    "generation_time": 9.908908128738403
+  },
+  {
+    "question": "Generate a description based on the following triples: (24, DATE, 11 January 1987) | (24, HOME_TEAM, Chivas) | (24, AWAY_TEAM, América) | (24, RESULT, 2-2)",
+    "answer": "On 11 January 1987, the match identified as event 24 took place, with Chivas as the home team and América as the away team, ending in a 2-2 result.",
+    "expected_answer": "On 11 January 1987, América and Chivas drew 2-2.",
+    "time": 10.638645887374878,
+    "answer_length": 147,
+    "retrieval_time": 0.01534891128540039,
+    "generation_time": 10.609864950180054
+  },
+  {
+    "question": "Generate a description based on the following triples: (14, STADIUM, Estadio Jalisco) | (14, RESULT, 1-1)",
+    "answer": "Match 14 was played at Estadio Jalisco, and the result of the match was 1-1.",
+    "expected_answer": "The pair tied the score 1-1 at Estadio Jalisco.",
+    "time": 7.469484090805054,
+    "answer_length": 76,
+    "retrieval_time": 0.011293888092041016,
+    "generation_time": 7.446670055389404
+  },
+  {
+    "question": "Generate a description based on the following triples: (Apertura 2006, JORNADA_OR_OTHER, Semifinals Ida) | (Semifinals Ida, AWAY_TEAM, América) | (Semifinals Ida, HOME_TEAM, Chivas)",
+    "answer": "Within the Apertura 2006 tournament, the Semifinals Ida is a stage where Chivas served as the home team and América as the away team.",
+    "expected_answer": "Chivas and América will compete in the semifinals of the Apertura 2006 tournament.",
+    "time": 9.440512895584106,
+    "answer_length": 133,
+    "retrieval_time": 0.01461482048034668,
+    "generation_time": 9.41701889038086
+  },
+  {
+    "question": "Generate a description based on the following triples: (1983-1984 season, JORNADA_OR_OTHER, 21) | (21, AWAY_TEAM, Chivas) | (21, STADIUM, Estadio Azteca) | (21, HOME_TEAM, América)",
+    "answer": "Jornada 21 of the 1983-1984 season featured a match between home team América and away team Chivas, which took place at Estadio Azteca.",
+    "expected_answer": "El Clásico de Clásicos Season 1983–1984 Jornada  is 21 away team is Chivas Chivas Estadio Azteca",
+    "time": 9.893585205078125,
+    "answer_length": 135,
+    "retrieval_time": 0.0790700912475586,
+    "generation_time": 9.822601079940796
+  },
+  {
+    "question": "Generate a description based on the following triples: (Everything Man, TIME, 3:16)",
+    "answer": "The Everything Man is associated with the time 3:16, a timestamp that carries significance in his narrative—this moment might mark a pivotal event in his origin, a recurring interval when his multifaceted abilities reach their peak, or a symbolic marker tied to the core purpose that defines his role as the Everything Man.",
+    "expected_answer": "Everything Man is 3 minutes and 16 seconds long.",
+    "time": 11.903552055358887,
+    "answer_length": 323,
+    "retrieval_time": 0.08766412734985352,
+    "generation_time": 11.879289865493774
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], [TITLE], Eardrum (album)) | (2, TITLE, NY Weather Report) | (NY Weather Report, SONGWRITERS, Talib Kweli Greene) | ([TABLECONTEXT], NUMBER, 2)",
+    "answer": "The album Eardrum contains a track numbered 2 titled \"NY Weather Report\", and the songwriter for this track is Talib Kweli Greene.",
+    "expected_answer": "Talib Kweli Green wrote NY Weather Report, the second song on Eardrum.",
+    "time": 14.212244033813477,
+    "answer_length": 130,
+    "retrieval_time": 0.012989997863769531,
+    "generation_time": 14.189176082611084
+  },
+  {
+    "question": "Generate a description based on the following triples: (Say Something, PRODUCER(S), will.i.am) | (Say Something, PERFORMER(S), Talib Kweli, Jean Grae)",
+    "answer": "The song \"Say Something\" was produced by will.i.am and performed by Talib Kweli and Jean Grae.",
+    "expected_answer": "willi.i.am produced Say Something, performed by Talib Kweli and Jean Grae.",
+    "time": 8.435518980026245,
+    "answer_length": 94,
+    "retrieval_time": 0.02344226837158203,
+    "generation_time": 8.410547018051147
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], [TITLE], Eardrum (album)) | (5, TITLE, Country Cousins) | ([TABLECONTEXT], NUMBER, 5)",
+    "answer": "The table associated with the album Eardrum includes an entry numbered 5, whose title is Country Cousins. This likely refers to a track listing table for the album Eardrum, where the 5th track is titled \"Country Cousins\".",
+    "expected_answer": "Country Cousins is the fifth song on Eardrum.",
+    "time": 14.111373901367188,
+    "answer_length": 221,
+    "retrieval_time": 0.018385887145996094,
+    "generation_time": 14.087469100952148
+  },
+  {
+    "question": "Generate a description based on the following triples: (Holy Moly, SAMPLES_AND_NOTES, Border Song (Holy Moses) by Aretha Franklin)",
+    "answer": "The musical work or project \"Holy Moly\" contains samples or references related to Aretha Franklin's song \"Border Song (Holy Moses)\". This connection indicates that \"Holy Moly\" either incorporates elements of Franklin's track or includes notes (such as liner notes or contextual mentions) linking it to \"Border Song (Holy Moses)\".",
+    "expected_answer": "Holy Moly samples Border Song (Holy Moses) by Aretha Franklin.",
+    "time": 10.167166948318481,
+    "answer_length": 329,
+    "retrieval_time": 0.031748056411743164,
+    "generation_time": 10.142072677612305
+  }
+]

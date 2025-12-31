@@ -1,30 +1,38 @@
 #!/bin/bash
 # 检查benchmark运行进度
 
-cd "$(dirname "$0")"
+cd /Users/zongyikun/Downloads/CFT-RAG-2025-main
 
-echo "检查 AESLC Baseline vs Cuckoo Filter Benchmark 进度..."
+echo "========================================"
+echo "Benchmark运行进度检查"
+echo "========================================"
 echo ""
 
-# 检查Baseline RAG进度
-baseline_file="./benchmark/results/aeslc_baseline_comparison.json"
-if [ -f "$baseline_file" ]; then
-    count=$(python -c "import json; data=json.load(open('$baseline_file')); print(len(data))" 2>/dev/null || echo "0")
-    echo "✓ Baseline RAG: $count/30 个样本已完成"
+# 检查运行中的进程
+RUNNING=$(ps aux | grep "run_benchmark.py" | grep -v grep | wc -l | tr -d ' ')
+if [ "$RUNNING" -gt 0 ]; then
+    echo "✓ 有 $RUNNING 个benchmark进程正在运行"
+    ps aux | grep "run_benchmark.py" | grep -v grep | awk '{print "  PID:", $2, "运行:", $11, $12, $13, $14, $15}'
 else
-    echo "✗ Baseline RAG: 尚未开始"
-fi
-
-# 检查Cuckoo Filter进度
-cuckoo_file="./benchmark/results/aeslc_cuckoo_comparison.json"
-if [ -f "$cuckoo_file" ]; then
-    count=$(python -c "import json; data=json.load(open('$cuckoo_file')); print(len(data))" 2>/dev/null || echo "0")
-    echo "✓ Cuckoo Filter: $count/30 个样本已完成"
-else
-    echo "✗ Cuckoo Filter: 尚未开始"
+    echo "- 当前没有benchmark进程在运行"
 fi
 
 echo ""
-echo "查看最新日志:"
-tail -20 benchmark/results/aeslc_baseline_vs_cuckoo_run.log 2>/dev/null || echo "日志文件不存在"
+echo "结果文件状态:"
+echo ""
 
+for dataset in medqa dart triviaqa; do
+    for depth in 1 2; do
+        file="benchmark/results/${dataset}_cuckoo_abstract_depth${depth}_100.json"
+        if [ -f "$file" ]; then
+            size=$(wc -l < "$file" 2>/dev/null || echo "0")
+            mtime=$(stat -f "%Sm" -t "%Y-%m-%d %H:%M:%S" "$file" 2>/dev/null || stat -c "%y" "$file" 2>/dev/null | cut -d' ' -f1-2)
+            echo "  ✓ $dataset depth=$depth: $size 行, 修改时间: $mtime"
+        else
+            echo "  - $dataset depth=$depth: 文件不存在"
+        fi
+    done
+done
+
+echo ""
+echo "查看最新日志: tail -50 benchmark_run.log"

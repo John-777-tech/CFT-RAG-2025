@@ -1,0 +1,66 @@
+% 合并表格版本 - 所有数据集在一个表格中
+
+% 评估指标合并表格
+\begin{table*}[htbp]
+  \centering
+  \caption{评估指标对比 - 所有数据集}
+  \label{tab:all_metrics}
+  \begin{tabular}{lcccccc}
+    \toprule
+    \multirow{2}{*}{数据集} & \multirow{2}{*}{方法} & \multicolumn{5}{c}{评估指标} \\
+    \cmidrule(lr){3-7}
+    & & ROUGE-1 & ROUGE-2 & ROUGE-L & BLEU & BERTScore F1 \\
+    \midrule
+    \multirow{4}{*}{MedQA}
+      & Baseline & 0.0338 & 0.0180 & 0.0331 & 0.0064 & 0.7843 \\
+      & Depth=1 & 0.3185 & 0.2204 & 0.3155 & 0.1144 & 0.8656 \\
+      & Depth=2 & 0.3080 & 0.2007 & 0.3058 & 0.1148 & 0.8572 \\
+      & Depth=3 & 0.3101 & 0.1976 & 0.3080 & 0.1065 & 0.8611 \\
+    \midrule
+    \multirow{4}{*}{DART}
+      & Baseline & 0.4889 & 0.3531 & 0.4195 & 0.2222 & 0.9004 \\
+      & Depth=1 & 0.7292 & 0.5400 & 0.6003 & 0.3805 & 0.9328 \\
+      & Depth=2 & 0.7351 & 0.5399 & 0.6070 & 0.3861 & 0.9335 \\
+      & Depth=3 & 0.7330 & 0.5303 & 0.6021 & 0.3751 & 0.9335 \\
+    \midrule
+    \multirow{4}{*}{TriviaQA}
+      & Baseline & 0.0353 & 0.0091 & 0.0353 & 0.0032 & 0.8106 \\
+      & Depth=1 & 0.6700 & 0.2798 & 0.6700 & 0.1535 & 0.9290 \\
+      & Depth=2 & 0.6949 & 0.2798 & 0.6949 & 0.1527 & 0.9311 \\
+      & Depth=3 & 0.6848 & 0.2859 & 0.6848 & 0.1496 & 0.9259 \\
+    \bottomrule
+  \end{tabular}
+\end{table*}
+
+% 时间性能合并表格
+\begin{table*}[htbp]
+  \centering
+  \caption{时间性能对比 - 所有数据集}
+  \label{tab:all_time}
+  \begin{tabular}{lcccc}
+    \toprule
+    \multirow{2}{*}{数据集} & \multirow{2}{*}{方法} & \multicolumn{3}{c}{时间性能(秒)} \\
+    \cmidrule(lr){3-5}
+    & & 平均总耗时 & 平均检索时间 & 平均生成时间 \\
+    \midrule
+    \multirow{4}{*}{MedQA}
+      & Baseline & 41.21 & 0.263 & 41.18 \\
+      & Depth=1 & 15.36 & 0.075 & 15.33 \\
+      & Depth=2 & 15.42 & 0.041 & 15.40 \\
+      & Depth=3 & 14.56 & 0.041 & 14.54 \\
+    \midrule
+    \multirow{4}{*}{DART}
+      & Baseline & 17.82 & 0.335 & 17.80 \\
+      & Depth=1 & 7.20 & 0.038 & 7.17 \\
+      & Depth=2 & 6.49 & 0.023 & 6.47 \\
+      & Depth=3 & 6.07 & 0.024 & 6.06 \\
+    \midrule
+    \multirow{4}{*}{TriviaQA}
+      & Baseline & 19.09 & 5.621 & 19.07 \\
+      & Depth=1 & 10.43 & 0.022 & 10.41 \\
+      & Depth=2 & 7.40 & 0.013 & 7.38 \\
+      & Depth=3 & 7.74 & 0.013 & 7.72 \\
+    \bottomrule
+  \end{tabular}
+\end{table*}
+

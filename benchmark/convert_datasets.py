@@ -41,9 +41,13 @@ def convert_dart_dataset(json_file: str, output_file: str, max_samples: int = No
             continue
         
         # 使用第一个annotation作为答案
-        target_text = annotations[0].get('text', '')
+        first_ann = annotations[0]
+        target_text = first_ann.get('text', '')
         if not target_text:
             continue
+        
+        # 获取source字段（如果有）
+        source = first_ann.get('source', '')
         
         # 构建prompt
         triple_strs = []
@@ -56,11 +60,17 @@ def convert_dart_dataset(json_file: str, output_file: str, max_samples: int = No
         else:
             continue
         
-        results.append({
+        result = {
             "prompt": prompt,
             "answer": target_text,
             "expected_answer": target_text  # DART中answer就是expected_answer
-        })
+        }
+        
+        # 保留source字段（用于后续分组）
+        if source:
+            result["source"] = source
+        
+        results.append(result)
         
         if max_samples and len(results) >= max_samples:
             break

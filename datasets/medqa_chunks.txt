@@ -1,0 +1,3824 @@
+# Chunk 0
+Tell the attending that he cannot fail to disclose this mistake
+
+# Chunk 1
+Cross-linking of DNA
+
+# Chunk 2
+Cholesterol embolization
+
+# Chunk 3
+Lactose-fermenting, gram-negative rods forming pink colonies on MacConkey agar
+
+# Chunk 4
+Ketotifen eye drops
+
+# Chunk 5
+Reassurance and continuous monitoring
+
+# Chunk 6
+Common iliac artery aneurysm
+
+# Chunk 7
+Clopidogrel
+
+# Chunk 8
+Active or recurrent pelvic inflammatory disease (PID)
+
+# Chunk 9
+Silvery plaques on extensor surfaces
+
+# Chunk 10
+It is an HIV-1/HIV2 antibody differentiation immunoassay
+
+# Chunk 11
+Ruxolitinib
+
+# Chunk 12
+Meningioma
+
+# Chunk 13
+A reduction in diastolic filling time
+
+# Chunk 14
+Rotavirus
+
+# Chunk 15
+Gallbladder cancer
+
+# Chunk 16
+IL-4
+
+# Chunk 17
+Matching
+
+# Chunk 18
+Ibuprofen + colchicine +/- omeprazole
+
+# Chunk 19
+Benzodiazepine intoxication
+"
+
+# Chunk 20
+Previous radiation therapy
+
+# Chunk 21
+22q11 deletion
+
+# Chunk 22
+Histoplasma capsulatum infection
+
+# Chunk 23
+Staphylococcus aureus
+
+# Chunk 24
+Intubate with mechanical ventilation
+
+# Chunk 25
+Respiratory burst
+
+# Chunk 26
+Steeple sign
+
+# Chunk 27
+Induction of CYP3A4 by rifampin leading to decreased serum levels of ethinylestradiol and progesterone
+
+# Chunk 28
+Increased cerebrospinal fluid protein with normal cell count
+
+# Chunk 29
+Reassurance
+
+# Chunk 30
+Obstruction of the cystic duct
+
+# Chunk 31
+Increased ventricular wall stiffness
+
+# Chunk 32
+Chloramphenicol
+
+# Chunk 33
+Proliferation of gastric mucus-producing cells
+
+# Chunk 34
+Insulin, potassium, IV fluids, and glucose
+
+# Chunk 35
+Psoriatic arthritis
+
+# Chunk 36
+Paraneoplastic syndrome from small cell carcinoma of the lung
+
+# Chunk 37
+Defective T cell function
+
+# Chunk 38
+2.67
+
+# Chunk 39
+Arcuate fasciculus
+
+# Chunk 40
+Polycystic ovarian syndrome (PCOS)
+
+# Chunk 41
+Strict blood glucose control
+
+# Chunk 42
+Duodenal atresia
+
+# Chunk 43
+Coronary sinus
+
+# Chunk 44
+Globular 10-week sized uterus
+
+# Chunk 45
+Fomepizole
+
+# Chunk 46
+20
+
+# Chunk 47
+Femoropopliteal artery stenosis
+
+# Chunk 48
+Recommend autopsy of the infant
+
+# Chunk 49
+Proliferation of surfactant-secreting cells
+
+# Chunk 50
+Induces breaks in double-stranded DNA
+
+# Chunk 51
+Aldosterone excess
+
+# Chunk 52
+Defective hepatic bile excretion
+
+# Chunk 53
+Atropine
+
+# Chunk 54
+Tardive dyskinesia
+
+# Chunk 55
+KOH examination of lesion scrapings
+
+# Chunk 56
+Gynecomastia
+
+# Chunk 57
+Variable β-sequence of the T cell receptor
+
+# Chunk 58
+Hemolytic uremic syndrome
+
+# Chunk 59
+Patients with this disorder are not further sub-typed
+
+# Chunk 60
+Salmonella typhi
+
+# Chunk 61
+Acetaldehyde
+
+# Chunk 62
+No tests required
+
+# Chunk 63
+Insert a ‘straight cath’ into the patient’s bladder
+
+# Chunk 64
+Disruption of cell membrane permeability
+
+# Chunk 65
+Lytic lesions of the lumbar spine
+
+# Chunk 66
+Perform emergency laparotomy
+
+# Chunk 67
+Transplacental passage of TSH receptor antibodies
+
+# Chunk 68
+Nadalol
+
+# Chunk 69
+Proceed with liver biopsy
+
+# Chunk 70
+Spontaneous bacterial peritonitis
+
+# Chunk 71
+Cardiac contusion
+
+# Chunk 72
+Liver transplantation
+
+# Chunk 73
+Methimazole
+
+# Chunk 74
+Potassium hydroxide preparation
+
+# Chunk 75
+5
+
+# Chunk 76
+Biopsy of the mass
+
+# Chunk 77
+Deposition of calcium pyrophosphate (CPP) crystals
+
+# Chunk 78
+Transposition of great vessels
+
+# Chunk 79
+Interrupted 2-0 polypropylene suture with supporting pledgets
+
+# Chunk 80
+Reid Index > 50%
+
+# Chunk 81
+Caspase-9
+
+# Chunk 82
+Acral lentiginous
+
+# Chunk 83
+Jaw claudication
+
+# Chunk 84
+Endometrial tissue outside the uterine cavity
+
+# Chunk 85
+Friable irregular masses attached to the valve
+
+# Chunk 86
+Laparoscopy
+
+# Chunk 87
+High LDL-cholesterol
+
+# Chunk 88
+Thoracic aortic rupture
+
+# Chunk 89
+Propylthiouracil
+
+# Chunk 90
+Freshwater snails
+
+# Chunk 91
+Normal hemoglobin in patients with tetralogy of Fallot does not rule out iron deficiency anemia.
+
+# Chunk 92
+Delirium
+
+# Chunk 93
+Rheumatoid arthritis
+
+# Chunk 94
+A drop in systolic blood pressure of 14 mmHg during inspiration
+
+# Chunk 95
+MR angiography of the brain
+
+# Chunk 96
+Autosomal dominant
+
+# Chunk 97
+Antigenic variation
+
+# Chunk 98
+Cervical immobilization
+
+# Chunk 99
+Bromocriptine
+
+# Chunk 100
+Anti-B antibodies
+
+# Chunk 101
+Amantadine
+
+# Chunk 102
+Stop magnesium sulfate and give calcium gluconate
+
+# Chunk 103
+Myxedema coma
+
+# Chunk 104
+Aortic regurgitation
+
+# Chunk 105
+Borderline personality disorder
+
+# Chunk 106
+Positive emission tomography (PET) of chest now
+
+# Chunk 107
+Primary spermatocyte
+
+# Chunk 108
+Surgical pinning of the femoral head
+
+# Chunk 109
+Stool leukocytes
+
+# Chunk 110
+Bacterial translocation
+
+# Chunk 111
+Racemic epinephrine and intramuscular corticosteroid therapy
+
+# Chunk 112
+Esophageal fibrosis
+
+# Chunk 113
+JAK/STAT
+
+# Chunk 114
+Metformin
+
+# Chunk 115
+Power stroke
+
+# Chunk 116
+TSC1 gene on chromosome 9
+
+# Chunk 117
+Metformin
+
+# Chunk 118
+Chronic obstructive pulmonary disease
+
+# Chunk 119
+Avoid exposure to birds
+
+# Chunk 120
+Uterine artery
+
+# Chunk 121
+Epstein-Barr virus
+
+# Chunk 122
+Zika virus
+
+# Chunk 123
+Mixing study
+
+# Chunk 124
+Diarrhea
+
+# Chunk 125
+Isoniazid
+
+# Chunk 126
+Herniation of the uncus
+
+# Chunk 127
+Natural killer cells
+
+# Chunk 128
+Intrafascicular infiltration on muscle biopsy
+
+# Chunk 129
+Decreased acetylcholine release
+
+# Chunk 130
+Biliary atresia
+
+# Chunk 131
+QT prolongation
+
+# Chunk 132
+Diverticulitis
+
+# Chunk 133
+Aortoiliac atherosclerosis
+
+# Chunk 134
+Increased PTH, decreased calcium, increased phosphate, decreased calcitriol
+
+# Chunk 135
+Binds endogenous peptides that have been transported by the TAP channel
+
+# Chunk 136
+Gastroesophageal junction incompetence
+
+# Chunk 137
+Treatment with radioactive iodine
+
+# Chunk 138
+Reassuring the parents and use of an enuresis alarm
+
+# Chunk 139
+Decreased positional sense in the ipsilateral leg
+
+# Chunk 140
+Amoxicilin
+
+# Chunk 141
+MRI of the adrenal glands
+
+# Chunk 142
+Inhibition of beta-tubulin polymerization
+
+# Chunk 143
+Aromatic amines
+
+# Chunk 144
+Reassurance and follow-up
+
+# Chunk 145
+Normal light microscopy findings
+
+# Chunk 146
+Tumor arising from cutaneous T cells
+
+# Chunk 147
+Cognitive behavioral therapy
+
+# Chunk 148
+Frontotemporal dementia
+
+# Chunk 149
+Immunoglobulin- IgM
+
+# Chunk 150
+Levofloxacin
+
+# Chunk 151
+Theca leutein cysts
+
+# Chunk 152
+Serum antibodies against hemagglutinin
+
+# Chunk 153
+Previous suicide attempt
+
+# Chunk 154
+Chickenpox
+
+# Chunk 155
+Synthetic cathinone intoxication
+
+# Chunk 156
+Benztropine
+
+# Chunk 157
+Acute pancreatitis
+
+# Chunk 158
+Administer calcium gluconate
+
+# Chunk 159
+Bartter's syndrome
+
+# Chunk 160
+1 and 2
+
+# Chunk 161
+Non-Hodgkin lymphoma
+
+# Chunk 162
+Linear IgG staining on immunofluorescence
+
+# Chunk 163
+Positive latex agglutination test
+
+# Chunk 164
+Viral reactivation in dorsal root ganglia
+
+# Chunk 165
+Using mortality rates in the analysis
+
+# Chunk 166
+Silicosis
+
+# Chunk 167
+Takotsubo cardiomyopathy
+
+# Chunk 168
+Undergo upper GI endoscopy
+
+# Chunk 169
+Antigen-antibody complexes
+
+# Chunk 170
+Miosis
+
+# Chunk 171
+Prominent occiput
+
+# Chunk 172
+Olanzapine
+
+# Chunk 173
+Increase in serum ACTH
+
+# Chunk 174
+Lead-time bias
+
+# Chunk 175
+Needle decompression
+
+# Chunk 176
+580 / (580 + 20)
+
+# Chunk 177
+Osteoarthritis
+
+# Chunk 178
+Right-sided analgesia
+
+# Chunk 179
+Chlamydia trachomatis infection
+
+# Chunk 180
+Glanzmann’s thrombasthenia
+
+# Chunk 181
+Non-enveloped with linear, double-stranded DNA
+
+# Chunk 182
+Glandular tissue enlargement
+
+# Chunk 183
+Resistance to clotting factor degradation
+
+# Chunk 184
+Fluoxetine
+
+# Chunk 185
+Seek a court order for neoadjuvant chemotherapy
+
+# Chunk 186
+The mischarged tRNA with valine will be incorporated in the codons that specificy for lysine
+
+# Chunk 187
+Ketamine
+
+# Chunk 188
+Rotator cuff injury
+
+# Chunk 189
+Erosion of tooth enamel
+
+# Chunk 190
+Citalopram
+
+# Chunk 191
+Maternal diabetes
+
+# Chunk 192
+Effect modification
+
+# Chunk 193
+IFN-gamma
+
+# Chunk 194
+Conversion of aminolevulinic acid to porphobilinogen
+
+# Chunk 195
+Recall bias
+
+# Chunk 196
+Warfarin
+
+# Chunk 197
+Chronic kidney failure
+
+# Chunk 198
+Prostate cancer
+
+# Chunk 199
+Cortical thinning with tubular atrophy
+
+# Chunk 200
+Calcium oxalate crystals
+
+# Chunk 201
+Ovarian cancer
+
+# Chunk 202
+Inferior thyroid arteries
+
+# Chunk 203
+Benznidazole
+
+# Chunk 204
+Inferior mesenteric artery
+
+# Chunk 205
+I, III, IV
+
+# Chunk 206
+LOD Score > 3
+
+# Chunk 207
+Close observation, pap smear screening at 6 and 12 months, and HPV DNA testing at 12 months
+
+# Chunk 208
+Inhibits viral assembly
+
+# Chunk 209
+Squamous cell carcinoma
+
+# Chunk 210
+Initiation of S phase
+
+# Chunk 211
+Hepatitis C virus antibodies
+
+# Chunk 212
+Lack of risk calculation
+
+# Chunk 213
+Acalculous cholecystitis
+
+# Chunk 214
+Factitious disorder
+
+# Chunk 215
+Digital rectal examination
+
+# Chunk 216
+Vasoconstriction of the medullary vessels
+
+# Chunk 217
+Dilation and curettage
+
+# Chunk 218
+Dermis
+
+# Chunk 219
+Dysfunction in a transmembrane regulator
+
+# Chunk 220
+Decreased FEV1 and FVC with normal FEV1/FVC ratio
+
+# Chunk 221
+Administer zidovudine
+
+# Chunk 222
+Increased gene expression of GLUT-4
+
+# Chunk 223
+Endometrial sloughing and uterine contractions mediated by prostaglandin
+
+# Chunk 224
+Retrograde migration up peripheral nerve axons
+
+# Chunk 225
+Vitiligo
+
+# Chunk 226
+Fludarabinern
+
+# Chunk 227
+Amphotericin B
+
+# Chunk 228
+Chikungunya
+
+# Chunk 229
+Treating the underlying illness
+
+# Chunk 230
+Coarctation of the aorta
+
+# Chunk 231
+Staphylococcus epidermidis
+
+# Chunk 232
+Antibiotics and drainage
+
+# Chunk 233
+Acid-fast
+
+# Chunk 234
+Secretion of γ-interferon by activated T-lymphocytes
+
+# Chunk 235
+Active hepatitis A infection
+
+# Chunk 236
+Nucleotide excision repair
+
+# Chunk 237
+Dense fibroinflammatory infiltrate
+
+# Chunk 238
+Incidence rates will be higher during shorter time periods than longer periods.
+
+# Chunk 239
+Muscle biopsy
+
+# Chunk 240
+Neuron-specific enolase
+
+# Chunk 241
+Urease-producing organism in the small intestine
+
+# Chunk 242
+Absent Barr bodies on buccal smear
+
+# Chunk 243
+Restart rosuvastatin at a lower dose
+
+# Chunk 244
+Larynx
+
+# Chunk 245
+Increase PEEP
+
+# Chunk 246
+Repeat blood cultures now
+
+# Chunk 247
+Azithromycin and ethambutol
+
+# Chunk 248
+E2F transcription factors
+
+# Chunk 249
+PPV decreases, NPV increases
+
+# Chunk 250
+Cognitive behavioral therapy (CBT)
+
+# Chunk 251
+Finasteride
+
+# Chunk 252
+Methylphenidate
+
+# Chunk 253
+Imbalance of fluid secretion and resorption by the tunica vaginalis
+
+# Chunk 254
+Surgical debridement
+
+# Chunk 255
+Microcytic red blood cells
+
+# Chunk 256
+Actinic keratosis
+
+# Chunk 257
+Tetrahydrobiopterin
+
+# Chunk 258
+Decreased ALA synthesis
+
+# Chunk 259
+HFE gene
+
+# Chunk 260
+Reassurance
+
+# Chunk 261
+Staphylococcus aureus
+
+# Chunk 262
+↓ ↑ ↓
+
+# Chunk 263
+Systematic desensitization
+
+# Chunk 264
+Diffuse alveolar damage
+
+# Chunk 265
+Lower lobe cavitary mass
+
+# Chunk 266
+Primary respiratory acidosis
+
+# Chunk 267
+100%
+
+# Chunk 268
+Cochlea
+
+# Chunk 269
+Gram-negative, oxidase-positive bacilli
+
+# Chunk 270
+Oligoclonal IgG bands on electrophoresis
+
+# Chunk 271
+No tests required
+
+# Chunk 272
+Autoimmune endocrinopathy
+
+# Chunk 273
+Abdominal CT scan
+
+# Chunk 274
+Keratoacanthoma
+
+# Chunk 275
+Adenosine
+
+# Chunk 276
+Interleukin 11
+
+# Chunk 277
+Toxic tubulointerstitial nephritis
+
+# Chunk 278
+BiPAP
+
+# Chunk 279
+Intravenous dexamethasone therapy
+
+# Chunk 280
+Cognitive behavioral therapy
+
+# Chunk 281
+Hemidesmosomes
+
+# Chunk 282
+Schizoid personality disorder
+
+# Chunk 283
+Streptococcus pneumoniae
+
+# Chunk 284
+Decrease in transmembrane sodium gradient
+
+# Chunk 285
+Start him on both hydrocortisone and fludrocortisone therapy
+
+# Chunk 286
+Polymerase chain reaction
+
+# Chunk 287
+Doxycycline
+
+# Chunk 288
+Impaired CSF flow through the arachnoid granulations
+
+# Chunk 289
+Small blue cells arranged in rosettes around a central neuropil
+
+# Chunk 290
+There is a 5.2% chance that A is more effective than B is due to chance
+
+# Chunk 291
+Anti-cardiolipin
+
+# Chunk 292
+Acute arterial occlusion
+
+# Chunk 293
+IM epinephrine
+
+# Chunk 294
+Metaplasia
+
+# Chunk 295
+Endometrial carcinoma
+
+# Chunk 296
+Brown-black color in one area of the lesion to red-white in a different area
+
+# Chunk 297
+Fluid restriction
+
+# Chunk 298
+Polyostotic fibrous dysplasia
+
+# Chunk 299
+16
+
+# Chunk 300
+Superomedial quadrant of the right buttock
+
+# Chunk 301
+Papillary muscles
+
+# Chunk 302
+Alport syndrome
+
+# Chunk 303
+Vaginal septum
+
+# Chunk 304
+Asthma attack
+
+# Chunk 305
+Lactulose
+
+# Chunk 306
+Ehlers-Danlos syndrome
+
+# Chunk 307
+Contact another family member for consent
+
+# Chunk 308
+Increased glomerular filtration rate, restricted aldosterone release, vascular smooth muscle dilation
+
+# Chunk 309
+Informed consent is not needed in this case
+
+# Chunk 310
+Prevalence
+
+# Chunk 311
+Impaired degradation of β-catenin
+
+# Chunk 312
+Linear aggregations of red blood cells
+
+# Chunk 313
+Oxybutynin
+
+# Chunk 314
+Alpha-adrenergic agonist
+
+# Chunk 315
+Mixed connective tissue disease
+
+# Chunk 316
+Bupropion
+
+# Chunk 317
+Denaturation of lens protein
+
+# Chunk 318
+Somatization disorder
+
+# Chunk 319
+Bipolar II disorder
+
+# Chunk 320
+Abdominal x-ray
+
+# Chunk 321
+Subcutaneous fondaparinux
+
+# Chunk 322
+Intracellular inclusions of alpha-synuclein
+
+# Chunk 323
+Impaired growth plate mineralization
+
+# Chunk 324
+ERCP
+
+# Chunk 325
+Autosomal dominant polycystic kidney disease
+
+# Chunk 326
+MRI of the hip
+
+# Chunk 327
+Preventable by a live attenuated vaccine
+
+# Chunk 328
+Sympathetic block
+
+# Chunk 329
+Exchange transfusion
+
+# Chunk 330
+Interstitial edema
+
+# Chunk 331
+Sickle cell disease
+
+# Chunk 332
+Inhibition of P-glycoprotein
+
+# Chunk 333
+Intubation and mechanical ventilation
+
+# Chunk 334
+Comprehensive foot exam every year
+
+# Chunk 335
+Hypertrophic cardiomyopathy
+
+# Chunk 336
+Epstein-Barr virus
+
+# Chunk 337
+Decrease in systemic vascular resistance
+
+# Chunk 338
+Clonidine
+
+# Chunk 339
+Desensitization
+
+# Chunk 340
+Cognitive training
+
+# Chunk 341
+External anal sphincter
+
+# Chunk 342
+Needle thoracostomy
+
+# Chunk 343
+Rectouterine pouch
+
+# Chunk 344
+Cerebellar demyelination
+
+# Chunk 345
+Fexofenadine
+
+# Chunk 346
+Reaction formation
+
+# Chunk 347
+Primary hyperparathyroidism
+
+# Chunk 348
+Continue current therapy
+
+# Chunk 349
+Decreased adiposity contributes to hypoestrogenemia in this patient
+
+# Chunk 350
+Incision and drainage with intravenous ampicillin-sulbactam therapy
+
+# Chunk 351
+Factitious disorder
+
+# Chunk 352
+Adverse effect of anesthetic
+
+# Chunk 353
+Bone marrow biopsy
+
+# Chunk 354
+Heliobacter pylori infection
+
+# Chunk 355
+HIV, syphilis, and hepatitis B
+
+# Chunk 356
+Schizotypal personality disorder
+
+# Chunk 357
+Heroin
+
+# Chunk 358
+Moderate flexion then hyperpronation
+
+# Chunk 359
+Polymyositis
+
+# Chunk 360
+Anterior horn cell degeneration
+
+# Chunk 361
+Methimazole and propranolol therapy
+
+# Chunk 362
+Tenderness at the insertion of the Achilles tendon
+
+# Chunk 363
+Papillary carcinoma of the thyroid
+
+# Chunk 364
+Methadone
+
+# Chunk 365
+Renin
+
+# Chunk 366
+Raynaud's phenomenon
+
+# Chunk 367
+Recommend additional serologic testing for parvovirus B19
+
+# Chunk 368
+Trichomonal vaginitis
+
+# Chunk 369
+6th pharyngeal arch
+
+# Chunk 370
+Increased adenylate cyclase activity
+
+# Chunk 371
+Cladribine
+
+# Chunk 372
+Urine antigen test
+
+# Chunk 373
+Pseudomonas keratitis
+
+# Chunk 374
+Valley fever
+
+# Chunk 375
+Exchange transfusion
+
+# Chunk 376
+Polymerase chain reaction for viral genes
+
+# Chunk 377
+Anti-HEV IgM
+
+# Chunk 378
+Inflammation and edema
+
+# Chunk 379
+Accumulation of fluid in the pericardial space
+
+# Chunk 380
+Hydrochlorothiazide
+
+# Chunk 381
+It is inhibited by protein kinase A activity
+
+# Chunk 382
+Bupropion
+
+# Chunk 383
+Hematopoietic cell transplantation
+
+# Chunk 384
+Autoantibody-mediated platelet activation
+
+# Chunk 385
+Integration of foreign DNA into host genome
+"
+
+# Chunk 386
+HIV and HCV testing
+
+# Chunk 387
+Pseudomonas
+
+# Chunk 388
+Reassurance and counseling on positioning
+
+# Chunk 389
+Left cord hemisection
+
+# Chunk 390
+PSA
+
+# Chunk 391
+Pericardiocentesis
+
+# Chunk 392
+Chronic obstructive pulmonary disease
+
+# Chunk 393
+Wrap the intestines in a sterile bowel bag
+
+# Chunk 394
+Upregulation of hepcidin
+
+# Chunk 395
+Add fluticasone daily
+
+# Chunk 396
+Struma ovarii
+
+# Chunk 397
+Autosomal dominant
+
+# Chunk 398
+Chronic obstructive bronchitis
+
+# Chunk 399
+The drug caused uncoupling of the electron transport chain and oxidative phosphorylation.
+
+# Chunk 400
+Rough endoplasmic reticulum
+
+# Chunk 401
+Administer ulipristal acetate
+
+# Chunk 402
+Lamotrigine
+
+# Chunk 403
+Pancreas divisum
+
+# Chunk 404
+Seizures due to hypocalcemia
+
+# Chunk 405
+Mevalonate
+
+# Chunk 406
+Acetylcholine receptor
+
+# Chunk 407
+Release of prostaglandins
+
+# Chunk 408
+Sofosbuvir and ledipasvir therapy
+
+# Chunk 409
+Parietal cells
+
+# Chunk 410
+ADH resistance in the renal collecting ducts
+
+# Chunk 411
+Celiac disease
+
+# Chunk 412
+Inpatient treatment with intravenous ciprofloxacin
+
+# Chunk 413
+0.9% saline IV
+
+# Chunk 414
+Enterotoxigenic Escherichia coli
+
+# Chunk 415
+If the sensitivity of this screening test were decreased, the statistical power would decrease.
+
+# Chunk 416
+Creates pores in the cell membrane
+
+# Chunk 417
+Inadvertent surgical removal of parathyroid glands
+
+# Chunk 418
+Iron supplementation
+
+# Chunk 419
+Protein C concentrate
+
+# Chunk 420
+Long face and large everted ears
+
+# Chunk 421
+Metoprolol
+
+# Chunk 422
+Increased alveolar dead space due to absent perfusion of certain alveoli
+
+# Chunk 423
+Protein deposition
+
+# Chunk 424
+A small region of red, velvet-like mucosa in the lower esophagus
+
+# Chunk 425
+Refuse the procedure because it violates the ethical principle of autonomy
+
+# Chunk 426
+Inhibit phagocytosis
+
+# Chunk 427
+Glycosidic bonds
+
+# Chunk 428
+Oral acyclovir
+
+# Chunk 429
+Surgical gastropexy
+
+# Chunk 430
+Distributive shock with warm skin
+
+# Chunk 431
+Head MRI
+
+# Chunk 432
+Intravenous thiamine
+
+# Chunk 433
+Trichomonas vaginalis
+
+# Chunk 434
+Acetylcholine
+
+# Chunk 435
+Atropine and pralidoxime
+
+# Chunk 436
+Endochondral ossification
+
+# Chunk 437
+HER2
+
+# Chunk 438
+Na+/Cl- cotransporter in the membranes of epithelial cells in the distal convoluted tubule
+
+# Chunk 439
+Itraconazole
+
+# Chunk 440
+Squeezing the nostrils manually for 10 minutes with the head elevated
+
+# Chunk 441
+Infection
+
+# Chunk 442
+Projection
+
+# Chunk 443
+Chikungunya virus
+
+# Chunk 444
+Accept the patient's wishes and ensure he receives appropriate care.
+
+# Chunk 445
+Compression ultrasonography
+
+# Chunk 446
+Headache and tinnitus
+
+# Chunk 447
+Carotid baroreceptor firing activity
+
+# Chunk 448
+Emergency open surgical repair
+
+# Chunk 449
+Recurrent laryngeal nerve injury
+
+# Chunk 450
+Isolated gonadotropin-releasing hormone (GnRH) deficiency
+
+# Chunk 451
+Phosphodiesterase inhibitor
+
+# Chunk 452
+D-glutamate capsule
+
+# Chunk 453
+Staphylococcus aureus
+
+# Chunk 454
+E
+
+# Chunk 455
+Posterior cerebral artery
+
+# Chunk 456
+Breastfeeding jaundice
+
+# Chunk 457
+It is a diagnosis of exclusion
+
+# Chunk 458
+Sympathetic nervous system activation
+
+# Chunk 459
+Surgical pinning of the right hip
+
+# Chunk 460
+Leydig cell tumor
+
+# Chunk 461
+Nocturnal penile tumescence testing
+
+# Chunk 462
+Amoxicillin-clavulanic acid
+
+# Chunk 463
+Oral prednisone
+
+# Chunk 464
+Borderline personality disorder
+
+# Chunk 465
+Papillary necrosis
+
+# Chunk 466
+Excess weight
+
+# Chunk 467
+Negative selection
+
+# Chunk 468
+μ, κ, and ẟ receptor antagonist
+
+# Chunk 469
+Sarcoidosis
+
+# Chunk 470
+CN X
+
+# Chunk 471
+Reidel thyroiditis
+
+# Chunk 472
+Principal cells; aldosterone
+
+# Chunk 473
+HSV-1
+
+# Chunk 474
+Respect the patient's prior wishes and do not resuscitate
+
+# Chunk 475
+Synchronized cardioversion
+
+# Chunk 476
+Spherocytes
+
+# Chunk 477
+Elbow flexion
+
+# Chunk 478
+Shellfish
+
+# Chunk 479
+Arterial emboli
+
+# Chunk 480
+Hypokalemia
+
+# Chunk 481
+Increase in false negative test results
+
+# Chunk 482
+Increases levels of fetal hemoglobin (HgbF)
+
+# Chunk 483
+Potassium
+
+# Chunk 484
+Hair tourniquet syndrome
+
+# Chunk 485
+Omeprazole
+
+# Chunk 486
+Dexamethasome, racemic epinephrine and observation for 4 hours; discharge if stridor remits
+
+# Chunk 487
+Conversion of a protein from an a-helix to a ß-pleated form, which resists degradation.
+
+# Chunk 488
+Anti-Sjögren's syndrome type B (SS-B) antibody
+
+# Chunk 489
+Tiotropium
+
+# Chunk 490
+Impaired migration of GnRH neurons
+
+# Chunk 491
+Inform the patient that romantic relationships with current patients are unethical.
+
+# Chunk 492
+It consists of a largely circumscribed granuloma with epithelioid cells with Langhans cells.
+
+# Chunk 493
+Phosphoinositol system
+
+# Chunk 494
+Monochorionic-diamniotic monozygotic
+
+# Chunk 495
+Deep venous thrombosis
+
+# Chunk 496
+Decreased antidiuretic hormone secretion
+
+# Chunk 497
+Sensory loss
+
+# Chunk 498
+pH = 7.5, Pco2 = 50 mm Hg, HCO32- = 38 mEq/L
+
+# Chunk 499
+Retrograde cytoskeletal motor protein
+
+# Chunk 500
+Inflammation of the gallbladder wall
+
+# Chunk 501
+Adaptation in binding proteins
+
+# Chunk 502
+Surgical excision
+
+# Chunk 503
+25/5 mmHg
+
+# Chunk 504
+Tympanostomy tube insertion
+
+# Chunk 505
+Citrate
+
+# Chunk 506
+Hallucinations
+
+# Chunk 507
+Cefepime and levofloxacin
+
+# Chunk 508
+Schizoaffective disorder
+
+# Chunk 509
+Vascular dementia
+
+# Chunk 510
+"""Let's talk about what makes it difficult for you to take your medications."""
+
+# Chunk 511
+Ultrasonography of the neck
+
+# Chunk 512
+Discontinue methimazole, start propylthiouracil
+
+# Chunk 513
+Spinal stenosis
+
+# Chunk 514
+Anaphylactic transfusion reactions
+
+# Chunk 515
+Granulomas with giant cells
+
+# Chunk 516
+Change lisinopril to losartan
+
+# Chunk 517
+Mu receptor agonist
+
+# Chunk 518
+Thrombotic thrombocytopenic purpura
+
+# Chunk 519
+Exploratory laparotomy
+
+# Chunk 520
+Muscle relaxation time: increased, cytosolic calcium concentration: increased
+
+# Chunk 521
+Percutaneous coronary intervention
+
+# Chunk 522
+History of abdominal surgery
+
+# Chunk 523
+Continuous mucosal damage
+
+# Chunk 524
+T-cell receptor signaling
+
+# Chunk 525
+Presence of smudge cells
+
+# Chunk 526
+Sodium bicarbonate
+
+# Chunk 527
+Thick and thin blood smear
+
+# Chunk 528
+Streptomycin
+
+# Chunk 529
+Central retinal artery occlusion
+
+# Chunk 530
+Patent foramen ovale
+
+# Chunk 531
+Replace potassium intravenously
+
+# Chunk 532
+Fluphenazine
+
+# Chunk 533
+Membrano proliferative glomerulonephritis (MPGN)
+
+# Chunk 534
+S3 gallop
+
+# Chunk 535
+It reflects a smaller sample size
+
+# Chunk 536
+Centrilobular hepatocytes
+
+# Chunk 537
+Propofol
+
+# Chunk 538
+Inhibits cell wall synthesis
+
+# Chunk 539
+Excess collagen deposition in the extracellular matrix of the lung
+
+# Chunk 540
+Clomipramine
+
+# Chunk 541
+The association is not statistically significant, and low education is not a risk factor.
+
+# Chunk 542
+Neural tube defect
+
+# Chunk 543
+D-dimer
+
+# Chunk 544
+DIP has more neutrophils and fewer monocytes than PIP
+
+# Chunk 545
+Temporomandibular joint dysfunction
+
+# Chunk 546
+Atelectasis
+
+# Chunk 547
+CT scan of the head
+
+# Chunk 548
+Continue antitubercular therapy and antiretroviral therapy without any change
+
+# Chunk 549
+Pyriform sinus fistula
+
+# Chunk 550
+Bladder tumor
+
+# Chunk 551
+Decreased glucose uptake by adipocytes
+
+# Chunk 552
+Endoscopic retrograde cholangiopancreatography (ERCP)
+
+# Chunk 553
+Eplerenone
+
+# Chunk 554
+1 month of associated symptoms
+
+# Chunk 555
+Involuntary hospitalization after informing the parents
+
+# Chunk 556
+Bacillary angiomatosis
+
+# Chunk 557
+Plague
+
+# Chunk 558
+Molluscum contagiosum
+
+# Chunk 559
+Reaction formation
+
+# Chunk 560
+Dietary changes
+
+# Chunk 561
+Heat stroke
+
+# Chunk 562
+Gynecomastia
+
+# Chunk 563
+Clear cell adenocarcinoma
+
+# Chunk 564
+Lowering citalopram dose
+
+# Chunk 565
+Fludarabine, cyclophosphamide, rituximab
+
+# Chunk 566
+Left circumflex artery
+
+# Chunk 567
+Thoracic aortic aneurysm
+
+# Chunk 568
+Primary biliary cirrhosis
+
+# Chunk 569
+Dantrolene
+
+# Chunk 570
+Administration of oral ketorolac
+
+# Chunk 571
+Pneumonia
+
+# Chunk 572
+Topical metronidazole
+
+# Chunk 573
+Increased right ventricular afterload
+
+# Chunk 574
+Selective albuminuria
+
+# Chunk 575
+Notochord
+
+# Chunk 576
+Ruptured ovarian cyst
+
+# Chunk 577
+Increased peak tricuspid regurgitation
+
+# Chunk 578
+Fluoxetine
+
+# Chunk 579
+Well-defined cystic lesion with peritrabecular fibrosis
+
+# Chunk 580
+Brief psychotic disorder
+
+# Chunk 581
+Age
+
+# Chunk 582
+Inhibition of the 60S ribosomal subunit, resulting in decreased protein synthesis in gastrointestinal mucosal cells
+
+# Chunk 583
+Wilson disease
+
+# Chunk 584
+Tracheobronchial rupture
+
+# Chunk 585
+Cardiac tamponade
+
+# Chunk 586
+Lactotrophs
+
+# Chunk 587
+Ventricular septal defect
+
+# Chunk 588
+Support pessary
+
+# Chunk 589
+Infundibulopelvic ligament
+
+# Chunk 590
+Smudge cells
+
+# Chunk 591
+Chlamydia trachomatis
+
+# Chunk 592
+Inosine monophosphate dehydrogenase
+
+# Chunk 593
+Mismatch repair
+
+# Chunk 594
+Gastric peptic ulcer
+
+# Chunk 595
+Prevent excess anterior translation of the tibia relative to the femur
+
+# Chunk 596
+Oxidization of Fe2+ to Fe3+
+
+# Chunk 597
+Sodium hypochlorite
+
+# Chunk 598
+Pseudocyesis
+
+# Chunk 599
+Alcohol use disorder
+
+# Chunk 600
+Conjugation with a protein carrier provides effective protection to infants
+
+# Chunk 601
+Influx of calcium
+
+# Chunk 602
+Rifampin alters normal gastrointestinal flora, which leads to a decrease in the enterohepatic circulation of estrogens.
+
+# Chunk 603
+Dermatofibroma
+
+# Chunk 604
+Coronary artery aneurysm
+
+# Chunk 605
+Marijuana
+
+# Chunk 606
+Superior mesenteric artery
+
+# Chunk 607
+The observed number of deaths divided by the expected number of deaths
+
+# Chunk 608
+Hypoxanthine-guanine phosphoribosyl transferase of the purine metabolism pathway
+
+# Chunk 609
+Zinc
+
+# Chunk 610
+Repeat antibody screening at 28 weeks. Administer anti-D immunoglobulin at 28 weeks and after delivery if the newborn is Rh(D) positive.
+
+# Chunk 611
+Parasitic infection
+
+# Chunk 612
+Decreased complement levels
+
+# Chunk 613
+Food-borne illness
+
+# Chunk 614
+Inhibition of vitamin K-dependent clotting factors
+
+# Chunk 615
+Benztropine
+
+# Chunk 616
+Minimal change disease
+
+# Chunk 617
+Mutation of DNA gyrase
+
+# Chunk 618
+Diazepam
+
+# Chunk 619
+Inhibition of lipase
+
+# Chunk 620
+Triamterene
+
+# Chunk 621
+Dog bite
+
+# Chunk 622
+Presence of immunoglobulin bands on cerebrospinal fluid immunofixation
+
+# Chunk 623
+Case-control study
+
+# Chunk 624
+Sodium bicarbonate
+
+# Chunk 625
+Low IgA, normal IgG, and IgM
+
+# Chunk 626
+Elevated serum creatine kinase
+
+# Chunk 627
+Elevate posterior fornix
+
+# Chunk 628
+Insulin resistance
+
+# Chunk 629
+Runs posteriorly from the medial femoral condyle
+
+# Chunk 630
+Increased Aa gradient, decreased surface area for diffusion, increased diffusion distance
+
+# Chunk 631
+Babesiosis
+
+# Chunk 632
+Atrial myxoma
+
+# Chunk 633
+Classical Hodgkin’s lymphoma (HL)
+
+# Chunk 634
+Bethanechol and intermittent straight catheterization
+
+# Chunk 635
+Echocardiogram
+
+# Chunk 636
+Indomethacin
+
+# Chunk 637
+Boys are more commonly affected than girls
+
+# Chunk 638
+Chlorine-based solution
+
+# Chunk 639
+Alanine
+
+# Chunk 640
+Dimercaptosuccinic acid (DMSA), also known as succimer
+
+# Chunk 641
+Femoral neck fracture
+
+# Chunk 642
+Alveolar hypoventilation
+
+# Chunk 643
+Ask the son to step out so you can speak with the patient alone
+
+# Chunk 644
+Increased activity of D cells
+
+# Chunk 645
+Capsular invasion
+
+# Chunk 646
+Tumor stage
+
+# Chunk 647
+Adenosine deaminase deficiency
+
+# Chunk 648
+ATP7A
+
+# Chunk 649
+Gonadectomy
+
+# Chunk 650
+Gastritis
+
+# Chunk 651
+Decreased iron-binding capacity
+
+# Chunk 652
+Measure serum drug concentration
+
+# Chunk 653
+Acute calculous cholecystitis
+
+# Chunk 654
+Muellerian agenesis
+
+# Chunk 655
+Gastrohepatic ligament
+
+# Chunk 656
+Perforated gastric peptic ulcer
+
+# Chunk 657
+Begin warfarin and heparin
+
+# Chunk 658
+Case-control
+
+# Chunk 659
+Extending fine striations
+
+# Chunk 660
+Generalized anxiety disorder
+
+# Chunk 661
+Systolic murmur that increases with hand clenching
+
+# Chunk 662
+Blunting of costophrenic angle
+
+# Chunk 663
+Ventral thalamus
+
+# Chunk 664
+Von Willebrand disease
+
+# Chunk 665
+Flexor pollicis longus tendon
+
+# Chunk 666
+Imbalance of fluid secretion and resorption by tunica vaginalis
+
+# Chunk 667
+Emergent fasciotomy
+
+# Chunk 668
+Varicella
+
+# Chunk 669
+Conservative management with IV fluid hydration and observation
+
+# Chunk 670
+Its activity depends on pH and is greatly reduced in the presence of organic matter
+
+# Chunk 671
+Tinea cruris
+
+# Chunk 672
+The baby’s oocytes are arrested in prophase
+
+# Chunk 673
+Folic acid supplementation
+
+# Chunk 674
+Sitagliptin
+
+# Chunk 675
+Airway remodeling
+
+# Chunk 676
+Platelet activating factor
+
+# Chunk 677
+CT scan of the head
+
+# Chunk 678
+Factorial design study
+
+# Chunk 679
+Iodine deficiency
+
+# Chunk 680
+Acute hepatitis B
+
+# Chunk 681
+Antibodies directed against phospholipids
+
+# Chunk 682
+Prednisone
+
+# Chunk 683
+Streptococcus pneumoniae
+
+# Chunk 684
+Complement inhibitor deficiency
+
+# Chunk 685
+Functional residual capacity
+
+# Chunk 686
+Ornithine and carbamoyl phosphate to citrulline
+
+# Chunk 687
+Germ cells
+
+# Chunk 688
+Organic acids competing with urate for tubular secretion
+
+# Chunk 689
+Treat with three weekly injections of penicillin, obtain titers in 6 months
+
+# Chunk 690
+Cholelithiasis
+
+# Chunk 691
+3 months prior to conception, begin a restricted diet to lower phenylalanine levels to below 6 mg/dL
+
+# Chunk 692
+Aortic regurgitation
+
+# Chunk 693
+Isosorbide dinitrate
+
+# Chunk 694
+Bed rest and activity limitation
+
+# Chunk 695
+Osmotic diuresis
+
+# Chunk 696
+Peroxisome proliferator-activated receptor gamma
+
+# Chunk 697
+Anti-glomerular basement membrane antibodies
+
+# Chunk 698
+Major depressive disorder
+
+# Chunk 699
+Pyridostigmine
+
+# Chunk 700
+International normalized ratio
+
+# Chunk 701
+P/D1 cells
+
+# Chunk 702
+Negative predictive value
+
+# Chunk 703
+CA 19-9
+
+# Chunk 704
+Continue normal breast feeding
+
+# Chunk 705
+Urethral hypermobility
+
+# Chunk 706
+IV fluids and mannitol
+
+# Chunk 707
+Proximal tubule
+
+# Chunk 708
+Absence of UDP-glucuronosyltransferase-1A1
+
+# Chunk 709
+B
+
+# Chunk 710
+Malabsorption of fatty acids
+
+# Chunk 711
+Ichthyosis vulgaris
+
+# Chunk 712
+Cervical trauma
+
+# Chunk 713
+Administer IV fluids and insulin
+
+# Chunk 714
+Late systolic crescendo murmur at the apex with mid-systolic click
+
+# Chunk 715
+They occur only during non-REM sleep
+
+# Chunk 716
+Hyperpermeability of superficial dermal microvasculature
+
+# Chunk 717
+Secondary hyperparathyroidism
+
+# Chunk 718
+Amlodipine
+
+# Chunk 719
+α-ketoglutarate dehydrogenase
+
+# Chunk 720
+Decreased progesterone
+
+# Chunk 721
+Interventricular foramen
+
+# Chunk 722
+Vitamin K deficiency
+
+# Chunk 723
+Mitral valve regurgitation
+
+# Chunk 724
+IV fluids and monitoring
+
+# Chunk 725
+Nystatin
+
+# Chunk 726
+Pyoverdine
+
+# Chunk 727
+Cells staining positive for CD15 and CD30
+
+# Chunk 728
+Crown-rump length
+
+# Chunk 729
+Elongated and thickened pylorus on abdominal ultrasound
+
+# Chunk 730
+The child should be administered a single dose of oral azithromycin.
+
+# Chunk 731
+Cytogenetics
+
+# Chunk 732
+Intravenous ciprofloxacin and vancomycin therapy
+
+# Chunk 733
+Metabolic alkalosis
+
+# Chunk 734
+pol gene mutation
+
+# Chunk 735
+Alendronate
+
+# Chunk 736
+She fears not being able to escape similar situations.
+
+# Chunk 737
+Vagal stimulation
+
+# Chunk 738
+4%
+
+# Chunk 739
+Tearing of the middle meningeal artery
+
+# Chunk 740
+Reducing daily insulin dose
+
+# Chunk 741
+Chlorine dioxide
+
+# Chunk 742
+Transient hypertrophic cardiomyopathy
+
+# Chunk 743
+Spinal metastasis
+
+# Chunk 744
+Modafinil
+
+# Chunk 745
+Cooling the dialysate
+
+# Chunk 746
+Increased tryptophan intake
+
+# Chunk 747
+Methylprednisolone, plasmapheresis, and cyclophosphamide
+
+# Chunk 748
+Intracellular receptors
+
+# Chunk 749
+IV steroids
+
+# Chunk 750
+Blocks microtubule formation
+
+# Chunk 751
+Posterior urethral valves
+
+# Chunk 752
+Filgrastim
+
+# Chunk 753
+Hyaline membranes lining the alveoli on lung biopsy
+
+# Chunk 754
+Choledocholithiasis
+
+# Chunk 755
+V/Q scan
+
+# Chunk 756
+Cyclophosphamide
+
+# Chunk 757
+Currently menstruating
+
+# Chunk 758
+Group D streptococci
+
+# Chunk 759
+Sargramostim
+
+# Chunk 760
+Check serum electrolytes
+
+# Chunk 761
+Perform percutaneous drainage
+"
+
+# Chunk 762
+Add a sulfonylurea
+
+# Chunk 763
+Alpha-Ketoglutarate + NAD+ + CoA <=> Succinyl-CoA + CO2 + NADH
+
+# Chunk 764
+Treat and transfer the patient after she makes a written request
+
+# Chunk 765
+Muscarinic antagonist
+
+# Chunk 766
+Failure of paramesonephric duct development
+
+# Chunk 767
+Elevated serum CA-125 level
+
+# Chunk 768
+Ultrasound
+
+# Chunk 769
+Propranolol
+
+# Chunk 770
+Hypothesis testing cannot be performed
+
+# Chunk 771
+Cell wall cross-linking inhibitor
+
+# Chunk 772
+Pyrantel pamoate
+
+# Chunk 773
+Central fusion of the inferior poles of the kidneys
+
+# Chunk 774
+Impaired urine concentration ability
+
+# Chunk 775
+Inferior vena cava
+
+# Chunk 776
+250/25
+
+# Chunk 777
+Paroxetine
+
+# Chunk 778
+He may work longer shifts
+
+# Chunk 779
+Increased norepinephrine at the sinoatrial node
+
+# Chunk 780
+Surgical resection
+
+# Chunk 781
+A Western blot will show increased HIF-1α compared to a normoxic control.
+
+# Chunk 782
+Proteinuria
+
+# Chunk 783
+Relative protein intake
+
+# Chunk 784
+Cell-free DNA testing
+
+# Chunk 785
+Macrophage
+
+# Chunk 786
+Factor XII
+
+# Chunk 787
+Night blindness
+
+# Chunk 788
+Type II pneumocytes
+
+# Chunk 789
+Prolonged QT interval
+
+# Chunk 790
+480 mg
+
+# Chunk 791
+Gastroenteritis
+
+# Chunk 792
+Triazolam
+
+# Chunk 793
+GI upset
+
+# Chunk 794
+Aortic valve stenosis
+
+# Chunk 795
+Increased production of nitric oxide
+
+# Chunk 796
+“I can not help you due to the ethical principle of nonmaleficence.”
+
+# Chunk 797
+IL-4
+
+# Chunk 798
+Duodenal atresia
+
+# Chunk 799
+Beta-1 adrenergic receptor
+
+# Chunk 800
+Deferoxamine
+
+# Chunk 801
+Meningocele
+
+# Chunk 802
+Ages 2 months, 6 months, and 12 months
+
+# Chunk 803
+CT angiogram
+
+# Chunk 804
+Antitoxin
+
+# Chunk 805
+Cystocele
+
+# Chunk 806
+Crohn’s disease
+
+# Chunk 807
+Cardiac tamponade
+
+# Chunk 808
+Donepezil
+
+# Chunk 809
+WBC/mm3 53,000; % PMN > 75%; Viscosity low
+
+# Chunk 810
+Eosin-5-maleimide binding test
+
+# Chunk 811
+Atrophy of the striatum
+
+# Chunk 812
+Adenocarcinoma of the lung
+
+# Chunk 813
+Stiffening of the aorta
+
+# Chunk 814
+Orchiopexy
+
+# Chunk 815
+Urinalysis
+
+# Chunk 816
+Pulmonary embolism
+
+# Chunk 817
+Fee-for-service may incentivize physicians to increase healthcare utilization irrespective of quality
+
+# Chunk 818
+Aspirin and heparin
+
+# Chunk 819
+Androgen insensitivity
+
+# Chunk 820
+Waldenstrom’s macroglobulinemia
+
+# Chunk 821
+Hyperphosphorylated tau
+
+# Chunk 822
+Hyperpigmentation of the liver
+
+# Chunk 823
+X
+
+# Chunk 824
+gp120
+
+# Chunk 825
+This mass will most likely decrease in size or disappear over time
+
+# Chunk 826
+Lumbar puncture
+
+# Chunk 827
+Inhibition of gonadotropin-releasing hormone release
+
+# Chunk 828
+Substance abuse
+
+# Chunk 829
+Moxifloxacin and admission to the medical floor
+
+# Chunk 830
+Liquefactive necrosis
+
+# Chunk 831
+Throat culture
+
+# Chunk 832
+Amniotic fluid entering the endocervical veins
+
+# Chunk 833
+Tartrate-resistant acid phosphatase
+
+# Chunk 834
+Halothane
+
+# Chunk 835
+Parietal cell destruction
+
+# Chunk 836
+Hyperkalemia
+
+# Chunk 837
+Administer lactulose
+
+# Chunk 838
+Hyperparathyroidism
+
+# Chunk 839
+Increase in circulating fetal hemoglobin
+
+# Chunk 840
+Type IV hypersensitivity; CD4+ T cells
+
+# Chunk 841
+Adenomatous polyp
+
+# Chunk 842
+Bacillus cereus infection
+
+# Chunk 843
+Histoplasmosis
+
+# Chunk 844
+Pregnancy success rate with donor oocytes is similar to patients with primary ovarian failure
+
+# Chunk 845
+Perichondrium
+
+# Chunk 846
+MRI of the brain and spine
+
+# Chunk 847
+Inhibition of primary active transport
+
+# Chunk 848
+Brown recluse spider
+
+# Chunk 849
+Area postrema
+
+# Chunk 850
+Urinalysis
+
+# Chunk 851
+High BNP, high ADH, low sodium, low potassium
+
+# Chunk 852
+Urgent endoscopic retrograde cholangiopancreatography (ECRP)
+
+# Chunk 853
+Neuroleptic malignant syndrome
+
+# Chunk 854
+Beta-hemolytic cocci in chains
+
+# Chunk 855
+Arylsulfatase A
+
+# Chunk 856
+Folinic acid
+
+# Chunk 857
+Activating natural killer cells and cytotoxic T cells
+
+# Chunk 858
+Papillary carcinoma
+
+# Chunk 859
+Decreased pulmonary capillary wedge pressure
+
+# Chunk 860
+Pituitary infarction
+
+# Chunk 861
+Cholecystitis
+
+# Chunk 862
+Discontinue birth control and place an intrauterine device
+
+# Chunk 863
+Administer naloxone
+
+# Chunk 864
+Exploratory laparotomy
+
+# Chunk 865
+Reintubate
+
+# Chunk 866
+Insufficient production of procollagen type 1
+
+# Chunk 867
+Antithrombin III deficiency
+
+# Chunk 868
+Cardiac pacing
+
+# Chunk 869
+45/195
+
+# Chunk 870
+Ulcerative colitis
+
+# Chunk 871
+Chronic, non-bacterial prostatitis
+
+# Chunk 872
+Left gastroepiploic artery
+
+# Chunk 873
+Administer hepatitis B vaccine and HBIG
+
+# Chunk 874
+Supportive care
+
+# Chunk 875
+Tolterodine
+
+# Chunk 876
+Sumatriptan
+
+# Chunk 877
+32 breaths per minute
+
+# Chunk 878
+Wrap finger in moist gauze, put in a plastic bag, and place on ice
+
+# Chunk 879
+Anovulation
+
+# Chunk 880
+Turner syndrome
+
+# Chunk 881
+Bleomycin
+
+# Chunk 882
+Contrast administration
+
+# Chunk 883
+Caspase 1
+
+# Chunk 884
+Rough endoplasmic reticulum
+
+# Chunk 885
+Medication reaction
+
+# Chunk 886
+Neisseria gonorrhoeae and Chlamydia trachomatis screening
+
+# Chunk 887
+Hemolytic anemia and ataxia
+
+# Chunk 888
+The 99% confidence interval includes the null hypothesis.
+
+# Chunk 889
+Gp Ib
+
+# Chunk 890
+Alendronate
+
+# Chunk 891
+Allow vaginal delivery
+
+# Chunk 892
+Increased renal tubular sodium reabsorption
+
+# Chunk 893
+Amoxicillin-clavulanate
+
+# Chunk 894
+Kwashiorkor
+
+# Chunk 895
+X-linked dominant
+
+# Chunk 896
+Schizophrenia
+
+# Chunk 897
+Mesna
+
+# Chunk 898
+Avoidant personality disorder
+
+# Chunk 899
+pH 7.36, PCO2 22 mmHg, and HCO3- 16 mEq/L
+
+# Chunk 900
+↓ hemosiderin stores
+
+# Chunk 901
+Dilation and curettage
+
+# Chunk 902
+Sexually transmitted infection
+
+# Chunk 903
+Irreversible inhibition of H+/K+-ATPase at parietal cells
+
+# Chunk 904
+Fatty casts and albumin
+
+# Chunk 905
+Measurement bias
+
+# Chunk 906
+Nests of atypical melanocytes
+
+# Chunk 907
+Myocardial perfusion scan under pharmacological stress
+
+# Chunk 908
+Urine culture should be performed in this patient again.
+
+# Chunk 909
+Omphalocele
+
+# Chunk 910
+Melanoma
+
+# Chunk 911
+Tachycardia
+
+# Chunk 912
+Blue-green pigment
+
+# Chunk 913
+Isotype switching
+
+# Chunk 914
+Inhibition of cross-bridge cycling
+
+# Chunk 915
+It can lead to hydrops fetalis secondary to fetal anemia.
+
+# Chunk 916
+Coronary artery vasospasm
+
+# Chunk 917
+Factitious disorder imposed on another
+"
+
+# Chunk 918
+Bladder catheterization
+
+# Chunk 919
+Straight leg raise
+
+# Chunk 920
+Plummer-Vinson syndrome
+
+# Chunk 921
+Sorbitol dehydrogenase
+
+# Chunk 922
+Chronic granulomatous disease
+
+# Chunk 923
+Initiation of abduction
+
+# Chunk 924
+Osteophytes with joint-space narrowing on x-ray
+
+# Chunk 925
+Chediak-Higashi syndrome
+
+# Chunk 926
+CT angiography of the chest and give oxygen
+
+# Chunk 927
+Inhibition of xanthine oxidase
+
+# Chunk 928
+Administer glucagon
+
+# Chunk 929
+Flutamide
+
+# Chunk 930
+Hyponatremia
+
+# Chunk 931
+Accumulation of S-adenosylmethionine
+
+# Chunk 932
+No further work-up needed
+
+# Chunk 933
+Escherichia coli infection
+
+# Chunk 934
+Determining patient’s life-expectancy without treatment
+
+# Chunk 935
+These cells transform to macrophages when they migrate to peripheral tissues.
+
+# Chunk 936
+ß-hCG
+
+# Chunk 937
+History in the previous pregnancy
+
+# Chunk 938
+Medication
+
+# Chunk 939
+Decreased lymphocyte count
+
+# Chunk 940
+Increase in capillary pressure
+
+# Chunk 941
+Pancreatic adenocarcinoma
+
+# Chunk 942
+Adrenalectomy
+
+# Chunk 943
+Efflux of calcium ions
+
+# Chunk 944
+Intravenous hydration
+
+# Chunk 945
+Embryonic hematopoiesis
+
+# Chunk 946
+Cerebellar degeneration
+
+# Chunk 947
+Short stature
+
+# Chunk 948
+Metoprolol succinate
+
+# Chunk 949
+Prednisone and albuterol
+
+# Chunk 950
+Ovaries
+
+# Chunk 951
+Varenicline
+
+# Chunk 952
+Avoiding all dairy products
+
+# Chunk 953
+Fractional excretion of urea (FEUrea)
+
+# Chunk 954
+Diffuse maculopapular rash
+
+# Chunk 955
+New York Heart Association Class III
+
+# Chunk 956
+Multiple periventricular sclerotic plaques
+
+# Chunk 957
+Anti-D IgG
+
+# Chunk 958
+Secondary active transporters fail to completely reabsorb glucose in the renal tubules
+
+# Chunk 959
+Adhesive capsulitis
+
+# Chunk 960
+Toxic exposure
+
+# Chunk 961
+Adjust dosage of medication throughout the pregnancy
+
+# Chunk 962
+Intravenous cefotetan and doxycycline with inpatient admission
+
+# Chunk 963
+20%
+
+# Chunk 964
+Amoxicillin
+
+# Chunk 965
+Inhibitor of xanthine oxidase
+
+# Chunk 966
+Creatine kinase (CK-MB)
+
+# Chunk 967
+Thumb spica cast and repeat x-rays in 2 weeks
+
+# Chunk 968
+Periductal concentric scarring and fibrosis
+
+# Chunk 969
+Haemophilus ducreyi
+
+# Chunk 970
+Buspirone
+
+# Chunk 971
+Hyponatremia
+
+# Chunk 972
+Reassurance
+
+# Chunk 973
+Anti-intrinsic factor antibodies
+
+# Chunk 974
+Relapse
+
+# Chunk 975
+Projection
+
+# Chunk 976
+Oral mifepristone + misoprostol
+
+# Chunk 977
+Seborrheic keratosis
+
+# Chunk 978
+Increased residual volume and decreased 1 second forced expiratory volume
+
+# Chunk 979
+Lymphoma
+
+# Chunk 980
+Hysterosalpingogram
+
+# Chunk 981
+Relative lipophobicity
+
+# Chunk 982
+Pleural effusion
+
+# Chunk 983
+Nadolol
+
+# Chunk 984
+2-pralidoxime
+
+# Chunk 985
+Chronic lymphocytic leukemia (CLL)
+
+# Chunk 986
+Opportunistic colonization
+
+# Chunk 987
+Dietary restriction of phenylalanine
+
+# Chunk 988
+A type 2 error is not possible in this case.
+
+# Chunk 989
+Impaired iron absorption
+
+# Chunk 990
+Rectal suction biopsy
+
+# Chunk 991
+Ewing sarcoma
+
+# Chunk 992
+"I really haven't thought about the colonoscopy until today. Worrying before getting the results wasn't going to help anything."
+
+# Chunk 993
+Hemoptysis
+
+# Chunk 994
+Disulfide bond cleavage
+
+# Chunk 995
+Meconium aspiration
+
+# Chunk 996
+Inhibiting bacterial adherance and colonization of mucous membranes
+
+# Chunk 997
+Opioid overdose
+
+# Chunk 998
+"I have bad news I need to share with you. Please sit down so we can discuss."
+
+# Chunk 999
+Slit-lamp examination
+
+# Chunk 1000
+Vitamin B12 deficiency
+
+# Chunk 1001
+Testing for serum ESR and autoantibodies
+
+# Chunk 1002
+Paroxysmal atrial fibrillation
+
+# Chunk 1003
+Pulmonic valve stenosis
+
+# Chunk 1004
+Levofloxacin
+
+# Chunk 1005
+Antineutrophil cytoplasmic antibodies
+
+# Chunk 1006
+Exophthalmos
+
+# Chunk 1007
+Abdominal radiograph
+
+# Chunk 1008
+No treatment is necessary
+
+# Chunk 1009
+Deficient nitrogenous base production
+
+# Chunk 1010
+PCR positive for Chlamydia trachomatis
+
+# Chunk 1011
+Decreased ATP
+
+# Chunk 1012
+NH3 + HCO3- + 2 ATP --> carbamoyl phosphate + 2 ADP + Pi
+
+# Chunk 1013
+Methotrexate
+
+# Chunk 1014
+Administer ampicillin intrapartum
+
+# Chunk 1015
+Tetralogy of Fallot
+
+# Chunk 1016
+Disseminated intravascular coagulation
+
+# Chunk 1017
+Streptococcus bovis
+
+# Chunk 1018
+Cocaine
+
+# Chunk 1019
+This patient's apnea-hypopnea index (AHI) is more than 5.
+
+# Chunk 1020
+Radial traction on airway wall
+
+# Chunk 1021
+Transfusion reaction
+
+# Chunk 1022
+Oral morphine therapy
+
+# Chunk 1023
+Urine porphyrin levels
+
+# Chunk 1024
+Lysosomes
+
+# Chunk 1025
+Decreased gastric blood flow
+
+# Chunk 1026
+Leaden paralysis
+
+# Chunk 1027
+1,500 units
+
+# Chunk 1028
+Telomerase
+
+# Chunk 1029
+Elevated TSH
+
+# Chunk 1030
+Low levels of parathyroid hormone in serum
+
+# Chunk 1031
+Yolk sac tumor
+
+# Chunk 1032
+Immediate debridement and empiric IV antibiotics
+
+# Chunk 1033
+Physostigmine
+
+# Chunk 1034
+A septal hematoma causing a perforation
+
+# Chunk 1035
+Hair follicles
+
+# Chunk 1036
+Lateral aspect of the shoulder
+
+# Chunk 1037
+Decreased production of PGE2
+
+# Chunk 1038
+Blocking reuptake of dopamine and norepinephrine
+
+# Chunk 1039
+Pramipexole
+
+# Chunk 1040
+Capillary leakage
+
+# Chunk 1041
+Heparan sulfate
+
+# Chunk 1042
+Acute lymphocytic leukemia
+
+# Chunk 1043
+Papillary carcinoma
+
+# Chunk 1044
+TH2 cells
+
+# Chunk 1045
+Left middle cerebral
+
+# Chunk 1046
+15%
+
+# Chunk 1047
+Cutaneous xanthomas
+
+# Chunk 1048
+Wide pulse pressure
+
+# Chunk 1049
+Transformation
+
+# Chunk 1050
+Timing of the dosing of colesevelam should be separated from this patient’s other medications.
+
+# Chunk 1051
+1200 milligrams
+
+# Chunk 1052
+Clostridium tetani
+
+# Chunk 1053
+VIPoma
+
+# Chunk 1054
+Supraspinatus
+
+# Chunk 1055
+Chorea
+
+# Chunk 1056
+Complete blood count
+
+# Chunk 1057
+Interaction of B7 and CD28 ligands
+
+# Chunk 1058
+Adrenocortical insufficiency
+
+# Chunk 1059
+Ketamine
+
+# Chunk 1060
+Deficiency of ATP
+
+# Chunk 1061
+Propranolol
+
+# Chunk 1062
+Constriction of afferent arteriole and no effect on efferent arteriole
+
+# Chunk 1063
+It competes with acetylcholine for binding sites in the neuromuscular junction
+
+# Chunk 1064
+Hereditary angioedema
+
+# Chunk 1065
+Oral glucose challenge test
+
+# Chunk 1066
+Glutamate capsule
+
+# Chunk 1067
+Fecal incontinence
+
+# Chunk 1068
+Pancreatic islet cell amyloid deposition
+
+# Chunk 1069
+Phyllodes tumor
+
+# Chunk 1070
+Zenker's diverticulum
+
+# Chunk 1071
+Intravenous immunoglobulin (IVIG)
+
+# Chunk 1072
+Blocks reuptake of norepinephrine and serotonin
+
+# Chunk 1073
+Low-dose, no change in ACTH; high-dose, decreased ACTH
+
+# Chunk 1074
+Methadone
+
+# Chunk 1075
+Lambert-Eaton syndrome
+
+# Chunk 1076
+Inquire why the patient's daughter feels her mother should not be informed of the diagnosis
+
+# Chunk 1077
+Erythroblasts with mitochondrial iron deposits
+
+# Chunk 1078
+Amiodarone
+
+# Chunk 1079
+Medial longitudinal fasciculus
+
+# Chunk 1080
+Decreased release of glycine
+
+# Chunk 1081
+Degenerative disease of the joints
+
+# Chunk 1082
+Bullous pemphigoid
+
+# Chunk 1083
+Rest and acetaminophen
+
+# Chunk 1084
+Passage of a catheter through the nasal cavity not possible
+
+# Chunk 1085
+Increased Ca2+ influx in phase 4
+
+# Chunk 1086
+Cranial ultrasonography
+
+# Chunk 1087
+Hypertrophic cardiomyopathy
+
+# Chunk 1088
+No specific management required
+
+# Chunk 1089
+Benign salivary gland tumor composed of stromal and epithelial tissue
+
+# Chunk 1090
+Reassure the mother
+
+# Chunk 1091
+Sacubitril
+
+# Chunk 1092
+Advanced sleep phase disorder
+
+# Chunk 1093
+Dual-energy x-ray bone absorptiometry
+
+# Chunk 1094
+Minimal change disease
+
+# Chunk 1095
+Rectus abdominis
+
+# Chunk 1096
+Type IV–cell-mediated (delayed) hypersensitivity reaction
+
+# Chunk 1097
+Colorectal cancer
+
+# Chunk 1098
+46XX
+
+# Chunk 1099
+Autosomal dominant
+
+# Chunk 1100
+Enlarges hemolytic area of Staphylococcus aureus
+
+# Chunk 1101
+Rationalization
+
+# Chunk 1102
+Viral core antibody
+
+# Chunk 1103
+Increased capillary hydrostatic pressure
+
+# Chunk 1104
+The vascular protrusion drains into the superior rectal vein.
+
+# Chunk 1105
+Adenoma
+
+# Chunk 1106
+Cyclothymic disorder
+
+# Chunk 1107
+Increased lung compliance
+
+# Chunk 1108
+He will have pain with inversion and eversion of his foot.
+
+# Chunk 1109
+Amphotericin B and flucytosine
+
+# Chunk 1110
+Low-density lipoprotein
+
+# Chunk 1111
+Villous atrophy and crypt hypertrophy
+
+# Chunk 1112
+Avoidant personality disorder
+
+# Chunk 1113
+Vaccination
+
+# Chunk 1114
+Adverse effect of anesthetic
+
+# Chunk 1115
+Hemolytic transfusion reaction; discontinue transfusion
+
+# Chunk 1116
+Amitriptyline
+
+# Chunk 1117
+Papilledema
+
+# Chunk 1118
+Monosodium urate
+
+# Chunk 1119
+Pes anserine bursitis
+
+# Chunk 1120
+Mifepristone
+
+# Chunk 1121
+Demyelination of the medial longitudinal fasciculus
+
+# Chunk 1122
+Cilostazol
+
+# Chunk 1123
+Thoracic aortic aneurysm
+
+# Chunk 1124
+Flagellated protozoa
+
+# Chunk 1125
+NSAIDs
+
+# Chunk 1126
+Corneal reflex test
+
+# Chunk 1127
+Adhesive pili
+
+# Chunk 1128
+Brownish inclusions in the pulmonary macrophages on H&E staining
+
+# Chunk 1129
+Analysis of variance
+
+# Chunk 1130
+Propranolol
+
+# Chunk 1131
+Left frontal lobe
+
+# Chunk 1132
+Dilation of the intracerebral arterioles
+
+# Chunk 1133
+Tetanus, diphtheria, and acellular pertussis booster (Tdap) vaccine
+
+# Chunk 1134
+Gram-negative bacilli
+
+# Chunk 1135
+Increased breakdown of intracellular RNA
+
+# Chunk 1136
+HLA-A3
+
+# Chunk 1137
+Gluten-free diet
+
+# Chunk 1138
+Cell injury due to drug metabolites
+
+# Chunk 1139
+Can be transmitted on medical equipment even after autoclaving instruments
+
+# Chunk 1140
+Hypoparathyroidism
+
+# Chunk 1141
+Diminished ovarian reserve
+
+# Chunk 1142
+N-acetylcysteine
+
+# Chunk 1143
+Gonadal mosaicism
+
+# Chunk 1144
+High TSH
+
+# Chunk 1145
+Fibroadenoma
+
+# Chunk 1146
+Respect the patient's written instructions and do not adminster a blood transfusion
+
+# Chunk 1147
+Increase the frequency of blood glucose checks.
+
+# Chunk 1148
+Hyperplasia
+
+# Chunk 1149
+Reassurance and follow-up
+
+# Chunk 1150
+No further intervention
+
+# Chunk 1151
+Ventricular septal defect
+
+# Chunk 1152
+Lipodystrophy
+
+# Chunk 1153
+Overflow proteinuria
+
+# Chunk 1154
+T-score of -1.6
+
+# Chunk 1155
+Corynebacterium diphtheriae
+
+# Chunk 1156
+Lysosomal acid maltase
+
+# Chunk 1157
+Granulocyte-macrophage colony-stimulating factor
+
+# Chunk 1158
+ANA and anti-dsDNA levels
+
+# Chunk 1159
+Bacteroides fragilis
+
+# Chunk 1160
+Psoriatic arthritis
+
+# Chunk 1161
+Required for dehydrogenase enzymes
+
+# Chunk 1162
+Sentinel node - right lumbar trunk - cisterna chyli - thoracic duct - left subclavian vein - systemic circulation
+
+# Chunk 1163
+Granulation tissue
+
+# Chunk 1164
+Angiotensin-converting-enzyme inhibitor (ACEI)
+
+# Chunk 1165
+Abnormal CFTR protein
+
+# Chunk 1166
+Fluoxetine
+
+# Chunk 1167
+Endocardial cushion
+
+# Chunk 1168
+Tumor necrosis factor-α
+
+# Chunk 1169
+Eosinophilic esophagitis
+
+# Chunk 1170
+Exertional heat stroke
+
+# Chunk 1171
+Impaired methylation of myelin phospholipids
+
+# Chunk 1172
+Reassurance
+
+# Chunk 1173
+Sofosbuvir and simeprevir
+
+# Chunk 1174
+Silent thyroiditis
+
+# Chunk 1175
+Anti-cyclic citrullinated peptide (anti-CCP) antibody
+
+# Chunk 1176
+Increased serum amyloid A production
+
+# Chunk 1177
+Copper
+
+# Chunk 1178
+Gram-positive bacteria producing exotoxin that acts via ADP ribosylation
+
+# Chunk 1179
+Syringomyelia
+
+# Chunk 1180
+Increased creatine kinase concentration
+
+# Chunk 1181
+Hyperplasia of the adrenal cortex
+
+# Chunk 1182
+Hyperplasia of juxtaglomerular cells
+
+# Chunk 1183
+Hyperbaric oxygen therapy
+
+# Chunk 1184
+Right main
+
+# Chunk 1185
+Formation of noncaseating granulomas
+
+# Chunk 1186
+Osteitis deformans
+
+# Chunk 1187
+Dantrolene
+
+# Chunk 1188
+Double-positive T cell
+
+# Chunk 1189
+Posttraumatic stress disorder
+
+# Chunk 1190
+Elastase
+
+# Chunk 1191
+Rosiglitazone
+
+# Chunk 1192
+Cognitive-behavioral therapy
+
+# Chunk 1193
+Trimethoprim, sulfamethoxazole, azithromycin
+
+# Chunk 1194
+Is transmitted by air conditioning
+
+# Chunk 1195
+Radiograph of the wrist
+
+# Chunk 1196
+Clomiphene therapy
+
+# Chunk 1197
+Acute inferior myocardial infarction
+
+# Chunk 1198
+Request further information about which drugs he has taken recently and in the past
+
+# Chunk 1199
+Botox
+
+# Chunk 1200
+Intravenous vancomycin therapy
+
+# Chunk 1201
+Iron deficiency
+
+# Chunk 1202
+Pancreas
+
+# Chunk 1203
+Bupropion lowers the seizure threshold and it should not be taken by patients with a history of seizure disorder.
+
+# Chunk 1204
+“I'm sorry for your loss. This must be a difficult situation for you.”
+
+# Chunk 1205
+Iron deficiency
+
+# Chunk 1206
+67%
+
+# Chunk 1207
+Cell wall inhibitor
+
+# Chunk 1208
+A 9-month-old boy who has had recurrent otitis media and pneumococcal pneumonia in the past three months
+
+# Chunk 1209
+Affective symptoms
+
+# Chunk 1210
+Decreased activity of UDP-glucuronosyltransferase
+
+# Chunk 1211
+Hypercellular areas of spindle cells and hypocellular areas of myxoid stroma
+
+# Chunk 1212
+Decreasing sodium intake
+
+# Chunk 1213
+Propranolol therapy
+
+# Chunk 1214
+Recipient T-cells in the graft
+
+# Chunk 1215
+Proton-pump inhibitors
+
+# Chunk 1216
+Cardiac contusion
+
+# Chunk 1217
+Broad and waxy casts
+
+# Chunk 1218
+Upper gastointestinal endoscopy
+
+# Chunk 1219
+Echocardiography
+
+# Chunk 1220
+Glycine
+
+# Chunk 1221
+Anion gap metabolic acidosis
+
+# Chunk 1222
+Nasal congestion due to a viral infection
+
+# Chunk 1223
+Hepatocytes with shrunken, eosinophilic cytoplasm and pyknotic nuclei
+
+# Chunk 1224
+Punctate bleeding spots when dermatologic scales are removed
+
+# Chunk 1225
+Proper diet and iron supplementation
+
+# Chunk 1226
+Phenoxybenzamine
+
+# Chunk 1227
+Decreased heart rate
+
+# Chunk 1228
+Craniopharyngioma
+
+# Chunk 1229
+Administer betamethasone, ampicillin, and proceed with cesarean section
+
+# Chunk 1230
+Lysosomal enzymes
+
+# Chunk 1231
+The future risk of open-angle glaucoma is the same in patients with and those without diabetes
+
+# Chunk 1232
+A type 1 error occurs when the null hypothesis is true but is rejected in error.
+
+# Chunk 1233
+Myocardial infarction
+
+# Chunk 1234
+Incision and drainage
+
+# Chunk 1235
+9/100
+
+# Chunk 1236
+Multiple endocrine neoplasia (MEN) 2A
+
+# Chunk 1237
+Increased alveolar-arterial gradient
+
+# Chunk 1238
+Protein S deficiency
+
+# Chunk 1239
+Epstein barr virus (EBV)
+
+# Chunk 1240
+X-linked recessive
+
+# Chunk 1241
+Deep vein thrombosis
+"
+
+# Chunk 1242
+Mefloquine
+
+# Chunk 1243
+MEN1
+
+# Chunk 1244
+Insulin production by the pancreas is insufficient for exenatide to be effective.
+
+# Chunk 1245
+Mesothelioma
+
+# Chunk 1246
+Blood glucose and cholesterol level measurements
+
+# Chunk 1247
+480 mL
+
+# Chunk 1248
+Prednisone
+
+# Chunk 1249
+Progestin therapy
+
+# Chunk 1250
+Efavirenz
+
+# Chunk 1251
+Ixodes scapularis
+
+# Chunk 1252
+Simvastatin
+
+# Chunk 1253
+Scalded skin syndrome
+
+# Chunk 1254
+Lichen sclerosus
+
+# Chunk 1255
+Bilateral miosis
+
+# Chunk 1256
+Laparoscopy
+
+# Chunk 1257
+Arteriovenous malformation in the colonic wall
+
+# Chunk 1258
+Vasovagal syncope
+
+# Chunk 1259
+Apply a simple shoulder sling
+
+# Chunk 1260
+Direct activation of dopamine receptors
+
+# Chunk 1261
+Retinoic acid
+
+# Chunk 1262
+Blocking antibody attack on the O antigen
+
+# Chunk 1263
+Ventricular shunting
+
+# Chunk 1264
+Surgical fusion of C1/C2
+
+# Chunk 1265
+Delirium
+
+# Chunk 1266
+Nifedipine
+
+# Chunk 1267
+Plasmodium falciparum
+
+# Chunk 1268
+Thyroid-stimulating hormone (TSH)
+
+# Chunk 1269
+Medication abuse
+
+# Chunk 1270
+Stop evening exercise
+
+# Chunk 1271
+Schizotypal personality disorder
+
+# Chunk 1272
+Chronic obstructive pulmonary disease (COPD)
+

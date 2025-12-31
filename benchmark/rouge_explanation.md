@@ -166,3 +166,6 @@ scores = scorer.score(reference, prediction)
 **结论**: 改进版本在所有指标上都优于原始版本，特别是ROUGE-L提升了约80.8%，说明两个chunk对应一个abstract的方法显著提升了摘要质量。
 
 
+
+
+

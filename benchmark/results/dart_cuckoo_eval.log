@@ -1,116 +1,0 @@
-Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-================================================================================
-使用多种指标评估摘要质量
-================================================================================
-
-支持的指标:
-  ROUGE: ✓
-  BLEU: ✓
-  BERTScore: ✓
-================================================================================
-
-正在计算BERTScore（150个样本）...
-  注意：首次运行需要下载BERT模型（roberta-large，约1.3GB）
-  如果网络连接有问题，可以：
-  1. 设置环境变量: export HF_ENDPOINT=https://hf-mirror.com
-  2. 或使用 --skip-bertscore 跳过BERTScore评估
-  3. 下载可能需要10-20分钟，请耐心等待...
-  使用HuggingFace镜像: https://hf-mirror.com
-  正在计算BERTScore...
-calculating scores...
-computing bert embedding.
-  0%|          | 0/9 [00:00<?, ?it/s] 11%|█         | 1/9 [00:03<00:29,  3.75s/it] 22%|██▏       | 2/9 [00:05<00:16,  2.37s/it] 33%|███▎      | 3/9 [00:06<00:12,  2.00s/it] 44%|████▍     | 4/9 [00:07<00:08,  1.65s/it] 56%|█████▌    | 5/9 [00:09<00:06,  1.61s/it] 67%|██████▋   | 6/9 [00:10<00:04,  1.43s/it] 78%|███████▊  | 7/9 [00:11<00:02,  1.15s/it] 89%|████████▉ | 8/9 [00:11<00:00,  1.10it/s]100%|██████████| 9/9 [00:11<00:00,  1.41it/s]100%|██████████| 9/9 [00:11<00:00,  1.30s/it]
-computing greedy matching.
-  0%|          | 0/5 [00:00<?, ?it/s]100%|██████████| 5/5 [00:00<00:00, 129.89it/s]
-done in 11.74 seconds, 12.78 sentences/sec
-
-总样本数: 150
-
-平均分数:
-  ROUGE1: 0.7267
-  ROUGE2: 0.5220
-  ROUGEL: 0.5893
-  BLEU: 0.3640
-  BERTSCORE: 0.9319
-
-前10个详细结果:
-
-[1] Generate a description based on the following trip...
-    ROUGE-1: 0.6364
-    ROUGE-2: 0.6000
-    ROUGE-L: 0.6364
-    BLEU: 0.5828
-    BERTScore: 0.9323
-
-[2] Generate a description based on the following trip...
-    ROUGE-1: 1.0000
-    ROUGE-2: 1.0000
-    ROUGE-L: 1.0000
-    BLEU: 1.0000
-    BERTScore: 0.9783
-
-[3] Generate a description based on the following trip...
-    ROUGE-1: 1.0000
-    ROUGE-2: 1.0000
-    ROUGE-L: 1.0000
-    BLEU: 1.0000
-    BERTScore: 1.0000
-
-[4] Generate a description based on the following trip...
-    ROUGE-1: 0.5517
-    ROUGE-2: 0.2963
-    ROUGE-L: 0.4828
-    BLEU: 0.2358
-    BERTScore: 0.9030
-
-[5] Generate a description based on the following trip...
-    ROUGE-1: 0.6250
-    ROUGE-2: 0.1429
-    ROUGE-L: 0.5000
-    BLEU: 0.0393
-    BERTScore: 0.9257
-
-[6] Generate a description based on the following trip...
-    ROUGE-1: 0.3871
-    ROUGE-2: 0.2069
-    ROUGE-L: 0.3871
-    BLEU: 0.0230
-    BERTScore: 0.8585
-
-[7] Generate a description based on the following trip...
-    ROUGE-1: 0.7027
-    ROUGE-2: 0.4000
-    ROUGE-L: 0.7027
-    BLEU: 0.1473
-    BERTScore: 0.9023
-
-[8] Generate a description based on the following trip...
-    ROUGE-1: 0.7273
-    ROUGE-2: 0.4444
-    ROUGE-L: 0.7273
-    BLEU: 0.3881
-    BERTScore: 0.9136
-
-[9] Generate a description based on the following trip...
-    ROUGE-1: 0.7317
-    ROUGE-2: 0.7179
-    ROUGE-L: 0.7317
-    BLEU: 0.4404
-    BERTScore: 0.9520
-
-[10] Generate a description based on the following trip...
-    ROUGE-1: 0.5333
-    ROUGE-2: 0.3571
-    ROUGE-L: 0.3333
-    BLEU: 0.1308
-    BERTScore: 0.9088
-
-✓ 评估结果已保存到: ./benchmark/results/dart_cuckoo_150_evaluation.json
-
-================================================================================
-指标说明：
-  ROUGE: 基于n-gram重叠的摘要评估指标
-  BLEU: 基于n-gram精确匹配的翻译/摘要评估指标
-  BERTScore: 基于BERT语义相似度的评估指标
-================================================================================

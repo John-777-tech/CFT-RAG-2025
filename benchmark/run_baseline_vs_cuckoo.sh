@@ -60,7 +60,7 @@ echo "   只使用向量数据库检索"
 echo ""
 $PYTHON benchmark/run_benchmark.py \
   --dataset ./datasets/processed/dart.json \
-  --vec-db-key medqa \
+  --vec-db-key dart \
   --entities-file-name dart_entities_file \
   --tree-num-max 50 \
   --search-method 0 \
@@ -73,7 +73,7 @@ echo "   使用Cuckoo Filter和Abstract机制（两个chunk对应一个abstract�
 echo ""
 $PYTHON benchmark/run_benchmark.py \
   --dataset ./datasets/processed/dart.json \
-  --vec-db-key medqa \
+  --vec-db-key dart \
   --entities-file-name dart_entities_file \
   --tree-num-max 50 \
   --search-method 7 \

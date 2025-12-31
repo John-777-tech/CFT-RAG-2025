@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Generate a description based on the following triples: (Mars Hill College, JOINED, 1973) | (Mars Hill College, LOCATION, Mars Hill, North Carolina)",
+    "answer": "Mars Hill College is located in Mars Hill, North Carolina and joined in 1973.",
+    "expected_answer": "A school from Mars Hill, North Carolina, joined in 1973.",
+    "time": 9.526159286499023,
+    "answer_length": 77,
+    "retrieval_time": 1.5974044799804688e-05,
+    "generation_time": 9.5140380859375
+  },
+  {
+    "question": "Generate a description based on the following triples: (Newberry College, NICKNAME, Wolves)",
+    "answer": "Newberry College's nickname is Wolves.",
+    "expected_answer": "Newberry College's nickname is the wolves.",
+    "time": 4.275490760803223,
+    "answer_length": 38,
+    "retrieval_time": 1.52587890625e-05,
+    "generation_time": 4.263283014297485
+  },
+  {
+    "question": "Generate a description based on the following triples: (Presbyterian College, TYPE, Private)",
+    "answer": "Presbyterian College is a private school.",
+    "expected_answer": "Presbyterian College is a private school.",
+    "time": 3.844614267349243,
+    "answer_length": 41,
+    "retrieval_time": 1.9073486328125e-05,
+    "generation_time": 3.8260338306427
+  },
+  {
+    "question": "Generate a description based on the following triples: (Queens University of Charlotte, NICKNAME, Royals) | (Queens University of Charlotte, ENROLLMENT, 2386)",
+    "answer": "Queens University of Charlotte has an enrollment of 2386 and its nickname is the Royals.",
+    "expected_answer": "The nickname of the school with an enrollment of 2,386 is the royals.",
+    "time": 3.8353941440582275,
+    "answer_length": 88,
+    "retrieval_time": 1.6927719116210938e-05,
+    "generation_time": 3.8199570178985596
+  },
+  {
+    "question": "Generate a description based on the following triples: (Inars Kivlenieks, COUNTRY, Latvia)",
+    "answer": "Inars Kivlenieks's country is Latvia.",
+    "expected_answer": "The Athlete is Inars Kivlenieks.The country is Latvia",
+    "time": 3.6285760402679443,
+    "answer_length": 37,
+    "retrieval_time": 1.3113021850585938e-05,
+    "generation_time": 3.6119701862335205
+  }
+]

@@ -36,6 +36,17 @@ def cuckoo_extract(entity):
     global filter
     if cuckoo_filter_module is None:
         raise ImportError("cuckoo_filter_module is required. Please compile TRAG-cuckoofilter first.")
+    
+    # 新架构：优先使用get_entity_abstract_addresses获取Abstract地址（pair_ids）
+    try:
+        pair_ids = cuckoo_filter_module.get_entity_abstract_addresses(entity)
+        if pair_ids:
+            # 返回pair_ids列表，而不是字符串
+            return pair_ids
+    except:
+        pass
+    
+    # 回退到旧的extract方法
     item_ = cuckoo_filter_module.EntityStruct()
     item_.content = entity
     info = filter.extract(item_)

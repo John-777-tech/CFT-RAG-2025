@@ -1,0 +1,44 @@
+% 两张大表格版本 - 按照图片格式
+
+% 第一张表格：评估指标对比（所有数据集和方法）
+\begin{table*}[htbp]
+  \centering
+  \caption{Evaluation Score - All Datasets}
+  \label{tab:evaluation_score}
+  \resizebox{\textwidth}{!}{%
+  \begin{tabular}{l*{5}{c}*{5}{c}*{5}{c}}
+    \toprule
+    \multirow{2}{*}{Method} & \multicolumn{5}{c}{MedQA} & \multicolumn{5}{c}{DART} & \multicolumn{5}{c}{TriviaQA} \\
+    \cmidrule(lr){2-6} \cmidrule(lr){7-11} \cmidrule(lr){12-16}
+    & ROUGE-1 & ROUGE-2 & ROUGE-L & BLEU & BERTScore F1 & ROUGE-1 & ROUGE-2 & ROUGE-L & BLEU & BERTScore F1 & ROUGE-1 & ROUGE-2 & ROUGE-L & BLEU & BERTScore F1 \\
+    \midrule
+    Baseline & 0.0338 & 0.0180 & 0.0331 & 0.0064 & 0.7843 & 0.4889 & 0.3531 & 0.4195 & 0.2222 & 0.9004 & 0.0353 & 0.0091 & 0.0353 & 0.0032 & 0.8106 \\
+    Depth=1 & 0.3185 & 0.2204 & 0.3155 & 0.1144 & 0.8656 & 0.7292 & 0.5400 & 0.6003 & 0.3805 & 0.9328 & 0.6700 & 0.2798 & 0.6700 & 0.1535 & 0.9290 \\
+    Depth=2 & 0.3080 & 0.2007 & 0.3058 & 0.1148 & 0.8572 & 0.7351 & 0.5399 & 0.6070 & 0.3861 & 0.9335 & 0.6949 & 0.2798 & 0.6949 & 0.1527 & 0.9311 \\
+    Depth=3 & 0.3101 & 0.1976 & 0.3080 & 0.1065 & 0.8611 & 0.7330 & 0.5303 & 0.6021 & 0.3751 & 0.9335 & 0.6848 & 0.2859 & 0.6848 & 0.1496 & 0.9259 \\
+    \bottomrule
+  \end{tabular}%
+  }
+\end{table*}
+
+% 第二张表格：时间性能对比（所有数据集和方法）
+\begin{table*}[htbp]
+  \centering
+  \caption{Time Comparison - All Datasets}
+  \label{tab:time_comparison}
+  \resizebox{\textwidth}{!}{%
+  \begin{tabular}{l*{3}{c}*{3}{c}*{3}{c}}
+    \toprule
+    \multirow{2}{*}{Method} & \multicolumn{3}{c}{MedQA} & \multicolumn{3}{c}{DART} & \multicolumn{3}{c}{TriviaQA} \\
+    \cmidrule(lr){2-4} \cmidrule(lr){5-7} \cmidrule(lr){8-10}
+    & Avg Time (s) & Avg Search (s) & Avg Gen (s) & Avg Time (s) & Avg Search (s) & Avg Gen (s) & Avg Time (s) & Avg Search (s) & Avg Gen (s) \\
+    \midrule
+    Baseline & 41.21 & 0.263 & 41.18 & 17.82 & 0.335 & 17.80 & 19.09 & 5.621 & 19.07 \\
+    Depth=1 & 15.36 & 0.075 & 15.33 & 7.20 & 0.038 & 7.17 & 10.43 & 0.022 & 10.41 \\
+    Depth=2 & 15.42 & 0.041 & 15.40 & 6.49 & 0.023 & 6.47 & 7.40 & 0.013 & 7.38 \\
+    Depth=3 & 14.56 & 0.041 & 14.54 & 6.07 & 0.024 & 6.06 & 7.74 & 0.013 & 7.72 \\
+    \bottomrule
+  \end{tabular}%
+  }
+\end{table*}
+

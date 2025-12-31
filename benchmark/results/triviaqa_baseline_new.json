@@ -1,0 +1,902 @@
+[
+  {
+    "question": "Which American-born Sinclair won the Nobel Prize for Literature in 1930?",
+    "answer": "The provided information (Chunks 104448, 96038, and 24653) only mentions the phrase \"Nobel Prize for Literature\" without any details about an American-born Sinclair who won the prize in 1930. Therefore, the answer cannot be determined from the given information.\n\nHowever, for context outside the provided chunks: The American-born Sinclair who won the Nobel Prize for Literature in 1930 is Sinclair Lewis. But since this detail is not present in the provided chunks, the response based solely on the given information is that the required details are missing.\n\nFinal answer (based on provided info): The provided information does not contain the necessary details to answer the question. \n\n(Note: If external knowledge is allowed, the answer is Sinclair Lewis.) But per the instruction to use only provided info, the answer is that the info is insufficient.</think_never_used_51bce0c785ca2f68081bfa7d91973934>The provided information (Chunks 104448, 96038, and 24653) only mentions the phrase \"Nobel Prize for Literature\" without any details about an American-born Sinclair who won the prize in 1930. Therefore, the answer cannot be determined from the given information.\n\nIf considering general knowledge outside the provided chunks, the American-born Sinclair who won the Nobel Prize for Literature in 1930 is Sinclair Lewis. However, since this detail is not present in the provided content, the response based solely on the given information is that the required details are missing.\n\nFinal answer (strictly based on provided info): The provided information does not contain the necessary details to answer the question.\n\n(Note: For reference beyond the given chunks, the answer is Sinclair Lewis.)",
+    "expected_answer": "Sinclair Lewis",
+    "time": 27.154731035232544,
+    "answer_length": 1703,
+    "retrieval_time": 0.6781749725341797,
+    "generation_time": 27.14315700531006
+  },
+  {
+    "question": "Where in England was Dame Judi Dench born?",
+    "answer": "The provided information does not contain details about where in England Dame Judi Dench was born. The given chunks only mention her name but no relevant birth location information. Therefore, I cannot answer this question based on the provided data.",
+    "expected_answer": "York",
+    "time": 5.384112119674683,
+    "answer_length": 250,
+    "retrieval_time": 0.14168715476989746,
+    "generation_time": 5.367504835128784
+  },
+  {
+    "question": "In which decade did Billboard magazine first publish and American hit chart?",
+    "answer": "The provided information does not contain details about the decade when Billboard magazine first published an American hit chart. Therefore, the answer cannot be determined from the given content.",
+    "expected_answer": "30s",
+    "time": 4.926201820373535,
+    "answer_length": 196,
+    "retrieval_time": 0.09941506385803223,
+    "generation_time": 4.902874946594238
+  },
+  {
+    "question": "From which country did Angola achieve independence in 1975?",
+    "answer": "The provided information does not contain details about the country from which Angola achieved independence in 1975. The chunks only mention the name \"Angola\" without any relevant context regarding its independence. Therefore, the answer cannot be determined based on the given content.",
+    "expected_answer": "Portugal",
+    "time": 5.73194694519043,
+    "answer_length": 286,
+    "retrieval_time": 0.12754106521606445,
+    "generation_time": 5.699573040008545
+  },
+  {
+    "question": "Which city does David Soul come from?",
+    "answer": "There is no information provided in the given chunks about which city David Soul comes from. The chunks only mention David Soul's name but do not include any details regarding his place of origin.\n\nAnswer: No information available.",
+    "expected_answer": "Chicago",
+    "time": 5.941685199737549,
+    "answer_length": 231,
+    "retrieval_time": 0.09793686866760254,
+    "generation_time": 5.915999889373779
+  },
+  {
+    "question": "Who won Super Bowl XX?",
+    "answer": "The provided information does not contain details about who won Super Bowl XX. The available chunks only mention \"Super Bowl\" without any specific context related to Super Bowl XX or its winner. Therefore, I cannot answer this question based on the given data.",
+    "expected_answer": "Chicago Bears",
+    "time": 4.914233922958374,
+    "answer_length": 260,
+    "retrieval_time": 0.09889507293701172,
+    "generation_time": 4.8888630867004395
+  },
+  {
+    "question": "Which was the first European country to abolish capital punishment?",
+    "answer": "The provided information does not contain details about which was the first European country to abolish capital punishment. The chunks only mention the topic of abolition of the death penalty in general and lethal gas as an execution method, but no specific country or timeline related to the first European abolition is included. Therefore, the answer cannot be determined from the given content.",
+    "expected_answer": "Norway",
+    "time": 7.6922502517700195,
+    "answer_length": 397,
+    "retrieval_time": 0.11800336837768555,
+    "generation_time": 7.663745164871216
+  },
+  {
+    "question": "In which country did he widespread use of ISDN begin in 1988?",
+    "answer": "There is no information in the provided chunks to answer the question about the country where widespread use of ISDN began in 1988. The given chunks only mention the Dutch East India Company, Ronald Reagan, Hexadecimal, and China and India, with no relevant details about ISDN or its adoption in 1988.\n\nAnswer: No relevant information available.",
+    "expected_answer": "Japan",
+    "time": 6.21356987953186,
+    "answer_length": 345,
+    "retrieval_time": 0.09940218925476074,
+    "generation_time": 6.187970161437988
+  },
+  {
+    "question": "What is Bruce Willis' real first name?",
+    "answer": "The provided information does not contain details about Bruce Willis' real first name. The chunks only mention \"Bruce Willis\" without any additional context about his birth name or real first name. Therefore, the answer cannot be determined from the given information.",
+    "expected_answer": "Walter",
+    "time": 5.193680047988892,
+    "answer_length": 268,
+    "retrieval_time": 0.09607100486755371,
+    "generation_time": 5.167038202285767
+  },
+  {
+    "question": "Which William wrote the novel Lord Of The Flies?",
+    "answer": "The provided information does not mention the William who wrote the novel *Lord of the Flies*. There is no relevant detail about the author's name in the given chunks.\n\nAnswer: The provided information does not contain the answer.",
+    "expected_answer": "Golding",
+    "time": 5.131261825561523,
+    "answer_length": 230,
+    "retrieval_time": 0.09676599502563477,
+    "generation_time": 5.103518009185791
+  },
+  {
+    "question": "Which innovation for the car was developed by Prince Henry of Prussia in 1911?",
+    "answer": "The provided information does not contain details about the innovation developed by Prince Henry of Prussia in 1911 related to cars. None of the given chunks mention Prince Henry of Prussia or any specific car innovation from that year. Therefore, the answer cannot be determined from the provided content.",
+    "expected_answer": "Windshield wipers",
+    "time": 7.917535305023193,
+    "answer_length": 306,
+    "retrieval_time": 0.08949899673461914,
+    "generation_time": 7.901650905609131
+  },
+  {
+    "question": "How is musician William Lee Conley better known?",
+    "answer": "The provided information does not contain the answer to the question about how musician William Lee Conley is better known. The chunks only mention Dylan Thomas, Christopher Lee, Alan Bennett, and Fred Astaire, none of which relate to William Lee Conley's stage name.\n\nAnswer: The provided information does not include the answer to this question.",
+    "expected_answer": "Big Bill Broonzy",
+    "time": 8.382169246673584,
+    "answer_length": 347,
+    "retrieval_time": 0.1406552791595459,
+    "generation_time": 8.359092950820923
+  },
+  {
+    "question": "How is Joan Molinsky better known?",
+    "answer": "There is no information available in the provided chunks to answer the question about how Joan Molinsky is better known. The chunks only mention Joan Crawford, Joan Baez, Switzerland, and Berlin, with no reference to Joan Molinsky.\n\nAnswer: No information available.",
+    "expected_answer": "Joan Rivers",
+    "time": 5.456189393997192,
+    "answer_length": 266,
+    "retrieval_time": 0.09066414833068848,
+    "generation_time": 5.443469047546387
+  },
+  {
+    "question": "In which branch of the arts is Patricia Neary famous?",
+    "answer": "The provided information does not mention Patricia Neary, so it is impossible to determine in which branch of the arts she is famous based on the given chunks.\n\nAnswer: No information available.",
+    "expected_answer": "Ballet",
+    "time": 5.190331220626831,
+    "answer_length": 194,
+    "retrieval_time": 0.09857797622680664,
+    "generation_time": 5.164453983306885
+  },
+  {
+    "question": "Which country is Europe's largest silk producer?",
+    "answer": "The provided information does not contain data about which country is Europe's largest silk producer. Therefore, the answer cannot be determined from the given content.",
+    "expected_answer": "Italy",
+    "time": 4.429509878158569,
+    "answer_length": 168,
+    "retrieval_time": 0.09952807426452637,
+    "generation_time": 4.4042840003967285
+  },
+  {
+    "question": "The VS-300 was a type of what?",
+    "answer": "The VS-300 was a type of helicopter.  \n\n(Note: While the provided chunks do not explicitly mention \"helicopter,\" the VS-300 is widely known as the first practical single-rotor helicopter, designed by Igor Sikorsky. Given the context of the question, this is the correct answer.)  \n\nAnswer: helicopter",
+    "expected_answer": "Helicopter",
+    "time": 17.072996139526367,
+    "answer_length": 300,
+    "retrieval_time": 0.09959602355957031,
+    "generation_time": 17.047950744628906
+  },
+  {
+    "question": "At which university did Joseph Goebbels become a doctor of philosophy?",
+    "answer": "The provided information does not contain details about the university where Joseph Goebbels became a doctor of philosophy. The chunks only mention his name but no relevant educational background regarding this specific question. Therefore, the answer cannot be determined from the given information.",
+    "expected_answer": "Heidelberg",
+    "time": 5.173556804656982,
+    "answer_length": 300,
+    "retrieval_time": 0.09967517852783203,
+    "generation_time": 5.147438287734985
+  },
+  {
+    "question": "Which prince is Queen Elizabeth II's youngest son?",
+    "answer": "The provided information does not contain details about Queen Elizabeth II's sons, so it is impossible to determine who her youngest son is based on the given content.",
+    "expected_answer": "Edward",
+    "time": 4.249562740325928,
+    "answer_length": 167,
+    "retrieval_time": 0.14683008193969727,
+    "generation_time": 4.223114967346191
+  },
+  {
+    "question": "When did the founder of Jehovah's Witnesses say the world would end?",
+    "answer": "The provided information only contains references to the name \"Jehovah's Witnesses\" (in various forms) but does not include any details about the founder of Jehovah's Witnesses or any statement by them regarding when the world would end. Thus, the answer cannot be determined from the given information.",
+    "expected_answer": "1914",
+    "time": 5.014671802520752,
+    "answer_length": 303,
+    "retrieval_time": 0.0889139175415039,
+    "generation_time": 4.998715877532959
+  },
+  {
+    "question": "Who found the remains of the Titanic?",
+    "answer": "The provided information does not contain details about who found the remains of the Titanic. The chunks only mention the \"WRECK OF THE TITANIC\" or \"Titanic\" but lack specific content regarding the discoverer of the wreckage. Therefore, the answer cannot be determined from the given information.",
+    "expected_answer": "Robert Ballard",
+    "time": 5.033445835113525,
+    "answer_length": 296,
+    "retrieval_time": 0.09113383293151855,
+    "generation_time": 5.012754917144775
+  },
+  {
+    "question": "Who was the only Spice Girl not to have a middle name?",
+    "answer": "The provided information does not contain details about the middle names of individual Spice Girls. Therefore, I cannot answer the question based on the given chunks.",
+    "expected_answer": "Posh Spice",
+    "time": 5.102417230606079,
+    "answer_length": 166,
+    "retrieval_time": 0.09851312637329102,
+    "generation_time": 5.0766777992248535
+  },
+  {
+    "question": "What are the international registration letters of a vehicle from Algeria?",
+    "answer": "The provided information does not include the international registration letters of a vehicle from Algeria. The chunks only mention the name \"Algeria\" multiple times but no details about vehicle registration codes.\n\n(Note: For reference, Algeria's international vehicle registration code is \"DZ\", but this detail is not present in the given information.)",
+    "expected_answer": "DZ",
+    "time": 6.508857011795044,
+    "answer_length": 354,
+    "retrieval_time": 0.09434199333190918,
+    "generation_time": 6.486014127731323
+  },
+  {
+    "question": "How did Jock die in Dallas?",
+    "answer": "There is no information in the provided chunks about how Jock died in Dallas. The chunks mention names like Will Rogers, Bobby Ewing, and the term \"EWING\" but no details regarding Jock's death.\n\nAnswer: No relevant information is provided.",
+    "expected_answer": "Helicopter accident",
+    "time": 6.239619016647339,
+    "answer_length": 239,
+    "retrieval_time": 0.09740400314331055,
+    "generation_time": 6.214051961898804
+  },
+  {
+    "question": "What star sign is Michael Caine?",
+    "answer": "The provided information only mentions Michael Caine's name and does not include any details about his birth date or star sign. Therefore, I cannot determine his star sign based on the given content.",
+    "expected_answer": "Pisces",
+    "time": 5.080903053283691,
+    "answer_length": 199,
+    "retrieval_time": 0.08594179153442383,
+    "generation_time": 5.067420959472656
+  },
+  {
+    "question": "Who wrote the novel Evening Class?",
+    "answer": "There is no information available in the provided chunks to answer who wrote the novel Evening Class. The chunks only mention \"The Theory of the Leisure Class\" (twice), \"Historical romance novel\" (without specific title or author), and \"Wilson Whineray\" (no connection to Evening Class is indicated).\n\nAnswer: No information available.",
+    "expected_answer": "Maeve Binchy",
+    "time": 9.82102918624878,
+    "answer_length": 335,
+    "retrieval_time": 0.1396021842956543,
+    "generation_time": 9.798977136611938
+  },
+  {
+    "question": "Which country does the airline Air Pacific come from?",
+    "answer": "There is no information available in the provided chunks to determine which country the airline Air Pacific comes from. The given chunks only mention terms like Island, Airline, Japan, Aircraft carriers, and Singapore Airlines, none of which relate to Air Pacific or its origin country.\n\nAnswer: No information available.",
+    "expected_answer": "Fiji",
+    "time": 6.784502983093262,
+    "answer_length": 321,
+    "retrieval_time": 0.0977637767791748,
+    "generation_time": 6.756400108337402
+  },
+  {
+    "question": "In which branch of the arts does Allegra Kent work?",
+    "answer": "There is no information provided in the given chunks that mentions Allegra Kent or specifies the branch of the arts she works in. The chunks only reference Kent State University and the term \"Nones,\" which are unrelated to the question. \n\nAnswer: No relevant information available.",
+    "expected_answer": "Ballet",
+    "time": 6.523778200149536,
+    "answer_length": 281,
+    "retrieval_time": 0.09408283233642578,
+    "generation_time": 6.500056982040405
+  },
+  {
+    "question": "Who had a 70s No 1 hit with Billy, Don't Be A Hero?",
+    "answer": "The provided information does not contain details about who had a 70s No 1 hit with \"Billy, Don't Be A Hero\". The chunks only list names (Billy the Kid, David Cassidy, Billy Joel, Billy Williams, William Harvey) without any context related to the song or its chart performance. \n\nAnswer: No relevant information provided.",
+    "expected_answer": "Bo Donaldson & The Heywoods",
+    "time": 7.89188289642334,
+    "answer_length": 321,
+    "retrieval_time": 0.08894181251525879,
+    "generation_time": 7.875148057937622
+  },
+  {
+    "question": "Banting and Best pioneered the use of what?",
+    "answer": "There is no information available in the provided chunks to answer the question about what Banting and Best pioneered the use of. The given chunks only mention a list of banned books, \"Fish\", and \"An Essay on Criticism\", none of which relate to Banting and Best.\n\n\n**Answer:** No relevant information provided.",
+    "expected_answer": "Insulin",
+    "time": 6.711930990219116,
+    "answer_length": 310,
+    "retrieval_time": 0.11551117897033691,
+    "generation_time": 6.684212923049927
+  },
+  {
+    "question": "Who directed the movie La Dolce Vita?",
+    "answer": "The provided information does not contain details about who directed the movie La Dolce Vita. Therefore, I cannot answer the question based on the given content.",
+    "expected_answer": "Federico Fellini",
+    "time": 4.519765138626099,
+    "answer_length": 161,
+    "retrieval_time": 0.11046385765075684,
+    "generation_time": 4.491343021392822
+  },
+  {
+    "question": "Which country does the airline LACSA come from?",
+    "answer": "The provided information does not contain any details about the airline LACSA or its country of origin. Therefore, I cannot answer this question based on the given content.",
+    "expected_answer": "Costa Rica",
+    "time": 5.135379076004028,
+    "answer_length": 172,
+    "retrieval_time": 0.09901595115661621,
+    "generation_time": 5.108057975769043
+  },
+  {
+    "question": "Who directed 2001: A Space Odyssey?",
+    "answer": "The provided information only mentions the title \"2001: A Space Odyssey\" in three chunks but does not include any details about who directed the film. Therefore, the answer cannot be determined from the given content.",
+    "expected_answer": "Stanley Kubrick",
+    "time": 6.408265829086304,
+    "answer_length": 217,
+    "retrieval_time": 0.08804512023925781,
+    "generation_time": 6.392107963562012
+  },
+  {
+    "question": "Which is the largest of the Japanese Volcano Islands?",
+    "answer": "The provided information does not contain any details about the Japanese Volcano Islands or their sizes, so I cannot answer this question.",
+    "expected_answer": "Iwo Jima",
+    "time": 4.801245927810669,
+    "answer_length": 138,
+    "retrieval_time": 0.1665802001953125,
+    "generation_time": 4.777044296264648
+  },
+  {
+    "question": "Ezzard Charles was a world champion in which sport?",
+    "answer": "The provided information only mentions Ezzard Charles's name in three chunks but does not include any details about the sport in which he was a world champion. Therefore, the answer cannot be determined from the given content.",
+    "expected_answer": "Boxing",
+    "time": 6.618607044219971,
+    "answer_length": 226,
+    "retrieval_time": 0.0953369140625,
+    "generation_time": 6.593553066253662
+  },
+  {
+    "question": "Who was the first woman to make a solo flight across the Atlantic?",
+    "answer": "The provided information does not contain the answer to the question about who was the first woman to make a solo flight across the Atlantic. The given chunks only mention the first flight of the Wright Flyer, sailing solo around the world, and the first woman in space, none of which relate to the specific query.\n\nAnswer: The provided information does not include the answer to this question.",
+    "expected_answer": "Amelia Earhart",
+    "time": 7.947192668914795,
+    "answer_length": 394,
+    "retrieval_time": 0.09671211242675781,
+    "generation_time": 7.919467926025391
+  },
+  {
+    "question": "Which port lies between Puget Sound and Lake Washington?",
+    "answer": "The provided information does not contain details about a port lying between Puget Sound and Lake Washington. The chunks only mention Puget Sound, Bering Strait, Lake Superior, and Fort Worth, with no relevant port information related to the question.\n\nAnswer: The provided information does not have the answer to this question.",
+    "expected_answer": "Seattle",
+    "time": 7.302588939666748,
+    "answer_length": 328,
+    "retrieval_time": 0.09746122360229492,
+    "generation_time": 7.274993181228638
+  },
+  {
+    "question": "In which city were Rotary Clubs set up in 1905?",
+    "answer": "The provided information does not include details about the city where Rotary Clubs were set up in 1905. Therefore, the answer cannot be determined from the given content.",
+    "expected_answer": "Chicago",
+    "time": 5.331035852432251,
+    "answer_length": 171,
+    "retrieval_time": 0.09795689582824707,
+    "generation_time": 5.303390979766846
+  },
+  {
+    "question": "Who became US Vice President when Spiro Agnew resigned?",
+    "answer": "The provided information does not contain the answer to the question about who became US Vice President when Spiro Agnew resigned. The chunks only mention general terms like \"VICE PRESIDENT OF THE USA\" and \"The Vice President\" but no specific details related to Spiro Agnew's resignation or his successor.\n\n\nAnswer: The provided information does not include the answer to this question.",
+    "expected_answer": "Gerald Ford",
+    "time": 6.283530950546265,
+    "answer_length": 386,
+    "retrieval_time": 0.09831690788269043,
+    "generation_time": 6.257958173751831
+  },
+  {
+    "question": "In which decade of the 20th century was Billy Crystal born?",
+    "answer": "The provided information does not contain details about the decade in the 20th century when Billy Crystal was born. Therefore, I cannot answer this question based on the given chunks.\n\n\n**Answer:** Not enough information to determine.",
+    "expected_answer": "1940s",
+    "time": 6.214923143386841,
+    "answer_length": 234,
+    "retrieval_time": 0.10015392303466797,
+    "generation_time": 6.201470851898193
+  },
+  {
+    "question": "Which George invented the Kodak roll-film camera?",
+    "answer": "George Eastman\n\nThe question asks for the George who invented the Kodak roll-film camera. Among the provided chunks, Chunk 39544 identifies \"GEORGE EASTMAN\"—a well-known figure associated with the invention of the Kodak roll-film camera and the founding of the Kodak company. This aligns with the query, so the answer is George Eastman.\n\n\nGeorge Eastman",
+    "expected_answer": "Eastman",
+    "time": 6.344599962234497,
+    "answer_length": 353,
+    "retrieval_time": 0.12217307090759277,
+    "generation_time": 6.315867900848389
+  },
+  {
+    "question": "Which series had the characters Felix Unger and Oscar Madison?",
+    "answer": "The provided information does not contain details about the series featuring characters Felix Unger and Oscar Madison. Therefore, the answer cannot be determined from the given chunks.",
+    "expected_answer": "The Odd Couple",
+    "time": 9.039127111434937,
+    "answer_length": 184,
+    "retrieval_time": 0.0948028564453125,
+    "generation_time": 9.014401197433472
+  },
+  {
+    "question": "Who along with Philips developed the CD in the late 70s?",
+    "answer": "Based on the provided information, the only relevant entity that could be associated with Philips in CD development (from the given chunks) is Eastman. \n\nAnswer: Eastman",
+    "expected_answer": "Sony",
+    "time": 20.429978132247925,
+    "answer_length": 169,
+    "retrieval_time": 0.09177708625793457,
+    "generation_time": 20.40954303741455
+  },
+  {
+    "question": "Where is the multinational Nestle based?",
+    "answer": "The provided information does not contain any details about the multinational company Nestle or its base location. The chunks only mention the Dutch East India Company, Amnesty International, and the East India Company, with no reference to Nestle. Therefore, I cannot answer this question using the given information.",
+    "expected_answer": "Switzerland",
+    "time": 6.729342937469482,
+    "answer_length": 318,
+    "retrieval_time": 0.14357709884643555,
+    "generation_time": 6.703803062438965
+  },
+  {
+    "question": "Do You Know Where You're Going To? was the theme from which film?",
+    "answer": "The provided information does not contain any details about the song \"Do You Know Where You're Going To?\" or which film it was the theme from. Therefore, I cannot answer this question using the given chunks.",
+    "expected_answer": "Mahogany",
+    "time": 4.932904958724976,
+    "answer_length": 207,
+    "retrieval_time": 0.1029198169708252,
+    "generation_time": 4.904222011566162
+  },
+  {
+    "question": "19969 was the Chinese year of which creature?",
+    "answer": "The provided information does not contain any details about the Chinese zodiac or the creature associated with the year 19969. Therefore, I cannot answer this question based on the given content.",
+    "expected_answer": "Rat",
+    "time": 4.79244589805603,
+    "answer_length": 195,
+    "retrieval_time": 0.09566092491149902,
+    "generation_time": 4.773985862731934
+  },
+  {
+    "question": "In the 90s how many points have been awarded for finishing second in a Grand Prix?",
+    "answer": "The provided information does not contain details about the number of points awarded for finishing second in a Grand Prix during the 90s. Therefore, I cannot answer this question based on the given chunks.",
+    "expected_answer": "6",
+    "time": 4.441484212875366,
+    "answer_length": 205,
+    "retrieval_time": 0.09691095352172852,
+    "generation_time": 4.419559955596924
+  },
+  {
+    "question": "Stapleton international airport is in which US state?",
+    "answer": "The provided information does not contain any details about Stapleton International Airport, so it is not possible to determine which US state it is in based on the given chunks.\n\nAnswer: No information available.",
+    "expected_answer": "Colorado",
+    "time": 5.23319411277771,
+    "answer_length": 213,
+    "retrieval_time": 0.1719050407409668,
+    "generation_time": 5.207268953323364
+  },
+  {
+    "question": "What was Kevin Kline's first movie?",
+    "answer": "The provided information does not contain details about Kevin Kline's first movie. The chunks only mention \"KEVIN KLINE\" repeatedly and the word \"SLOW\" once, with no relevant content about his filmography or first movie. Therefore, I cannot answer the question based on the given information.",
+    "expected_answer": "Sophie's Choice",
+    "time": 5.258909225463867,
+    "answer_length": 292,
+    "retrieval_time": 0.08975410461425781,
+    "generation_time": 5.244042158126831
+  },
+  {
+    "question": "Which actor had a Doberman Pinscher called Kirk?",
+    "answer": "The provided information does not contain details about an actor who had a Doberman Pinscher called Kirk. The chunks only mention names like James T. Kirk, A Kirk, and Johnny Appleseed, with no relevant context about the question asked. Therefore, the answer cannot be determined from the given information.",
+    "expected_answer": "William Shatner",
+    "time": 6.389132976531982,
+    "answer_length": 307,
+    "retrieval_time": 0.09195995330810547,
+    "generation_time": 6.373990058898926
+  },
+  {
+    "question": "What day of the week was the Wall Street Crash?",
+    "answer": "The provided information does not contain details about the day of the week the Wall Street Crash occurred. The available chunks only mention \"WALL STREET\", \"The Wall Street Journal\", and \"The Daily Mail\" without any reference to the crash or its timing. Therefore, the answer cannot be determined from the given information.",
+    "expected_answer": "Thursday",
+    "time": 5.571637868881226,
+    "answer_length": 325,
+    "retrieval_time": 0.09880805015563965,
+    "generation_time": 5.5434558391571045
+  },
+  {
+    "question": "The US signed a treaty with which country to allow the construction of the Panama Canal?",
+    "answer": "The provided information does not contain details about the country the US signed a treaty with to allow the construction of the Panama Canal. The chunks only mention the name \"Panama Canal\" but no relevant treaty or country information is included. Therefore, the answer cannot be determined from the given content.",
+    "expected_answer": "Columbia",
+    "time": 6.060740232467651,
+    "answer_length": 316,
+    "retrieval_time": 0.09778404235839844,
+    "generation_time": 6.038006067276001
+  },
+  {
+    "question": "What was Prince's last No 1 of the 80s?",
+    "answer": "The provided information does not contain relevant details about the musician Prince's No 1 hits in the 1980s, so it is not possible to answer the question based on the given content. The chunks only mention \"Prince Charles\" (a royal figure), \"Corazón\" (a Spanish word meaning heart, no context linking to Prince's music), and \"The Black Prince\" (a historical title), none of which relate to the musician Prince's chart achievements.\n\nAnswer: The provided information does not have the necessary details to answer the question.",
+    "expected_answer": "Batdance",
+    "time": 6.073184013366699,
+    "answer_length": 527,
+    "retrieval_time": 0.09168100357055664,
+    "generation_time": 6.05502986907959
+  },
+  {
+    "question": "Man In The Mirror first featured on which Michel Jackson album?",
+    "answer": "The provided information does not include details about which Michael Jackson album \"Man In The Mirror\" first featured on. The available chunks only mention the title \"Man In The Mirror\" (Chunk 31184) but no related album information. Therefore, the answer cannot be determined from the given content.",
+    "expected_answer": "Bad",
+    "time": 5.957682132720947,
+    "answer_length": 301,
+    "retrieval_time": 0.09938573837280273,
+    "generation_time": 5.930426120758057
+  },
+  {
+    "question": "Where was the first battle with US involvement in the Korean War?",
+    "answer": "The provided information only mentions the term \"Korean War\" in the chunks but does not contain any details about the location of the first battle involving US forces in the Korean War. Therefore, the answer cannot be determined from the given content.",
+    "expected_answer": "Suwon",
+    "time": 5.0313849449157715,
+    "answer_length": 252,
+    "retrieval_time": 0.09123110771179199,
+    "generation_time": 5.015552043914795
+  },
+  {
+    "question": "On which Caribbean island did Princess Diana spend he first Christmas after her divorce was announced?",
+    "answer": "The provided information does not contain details about which Caribbean island Princess Diana spent her first Christmas on after her divorce was announced. Therefore, I cannot answer this question with the given content.",
+    "expected_answer": "Barbuda",
+    "time": 5.126216888427734,
+    "answer_length": 220,
+    "retrieval_time": 0.10097885131835938,
+    "generation_time": 5.098588943481445
+  },
+  {
+    "question": "In which decade was Arnold Schwarzenegger born?",
+    "answer": "The provided information only mentions Arnold Schwarzenegger's name in multiple chunks but does not include any details about his birth year or decade. Therefore, there is insufficient information to answer the question.",
+    "expected_answer": "1950s",
+    "time": 4.826933145523071,
+    "answer_length": 220,
+    "retrieval_time": 0.11784076690673828,
+    "generation_time": 4.799031019210815
+  },
+  {
+    "question": "Which musical featured the song Thank Heaven for Little Girls?",
+    "answer": "The provided information does not contain details about which musical featured the song \"Thank Heaven for Little Girls\". Therefore, the answer cannot be determined from the given chunks.",
+    "expected_answer": "Gigi",
+    "time": 6.205715894699097,
+    "answer_length": 186,
+    "retrieval_time": 0.09808111190795898,
+    "generation_time": 6.182021856307983
+  },
+  {
+    "question": "The Queen Elizabeth liner was destroyed by fire in the 70s in which harbour?",
+    "answer": "The provided information only contains mentions of \"Queen Elizabeth II\" but does not include any details about the Queen Elizabeth liner being destroyed by fire in the 70s or the harbour where this event occurred. Therefore, there is no relevant information to answer the question.",
+    "expected_answer": "Hong Kong",
+    "time": 5.861543893814087,
+    "answer_length": 281,
+    "retrieval_time": 0.09807586669921875,
+    "generation_time": 5.835708141326904
+  },
+  {
+    "question": "What breed of dog did Columbo own?",
+    "answer": "The provided information does not contain details about the breed of dog Columbo owned. The available chunks only mention general categories like \"a breed of dog\" or unrelated names, but no specific link to Columbo's dog breed is present. \n\nAnswer: The provided information does not specify the breed of dog Columbo owned.",
+    "expected_answer": "Basset hound",
+    "time": 8.731412887573242,
+    "answer_length": 322,
+    "retrieval_time": 0.09918594360351562,
+    "generation_time": 8.70389723777771
+  },
+  {
+    "question": "What was the first movie western called?",
+    "answer": "The provided information does not contain details about what the first movie western was called. The chunks only mention \"Butch Cassidy and The Sundance Kid\" (with slight variations in capitalization) and \"Vietnam\", which are unrelated to the question about the first movie western. Therefore, I cannot answer this question using the given information.",
+    "expected_answer": "Kit Carson",
+    "time": 5.088958978652954,
+    "answer_length": 352,
+    "retrieval_time": 0.11236190795898438,
+    "generation_time": 5.062751054763794
+  },
+  {
+    "question": "Which Oscar-winning actress was born on exactly the same day as actress Lindsay Wagner?",
+    "answer": "There is no information provided about the birth dates of any actress, including Lindsay Wagner, nor any details about Oscar-winning actresses born on the same day as her. Thus, the question cannot be answered with the given information.",
+    "expected_answer": "Meryl Streep",
+    "time": 5.734206199645996,
+    "answer_length": 237,
+    "retrieval_time": 0.0983591079711914,
+    "generation_time": 5.7069408893585205
+  },
+  {
+    "question": "Which Amendment to the Constitution brought in prohibition in 1920?",
+    "answer": "The Eighteenth Amendment to the Constitution brought in prohibition in 1920. This is indicated by the mentions of the Eighteenth Amendment in Chunk 88468 and Chunk 15011, paired with the reference to PROHIBITION in Chunk 117835, linking the amendment to the prohibition era.\n\nAnswer: The Eighteenth Amendment.",
+    "expected_answer": "18th",
+    "time": 5.628773927688599,
+    "answer_length": 309,
+    "retrieval_time": 0.09418082237243652,
+    "generation_time": 5.609653949737549
+  },
+  {
+    "question": "Which oil scandal hit the US in 1924?",
+    "answer": "The provided information does not contain details about an oil scandal that hit the US in 1924. The chunks include references to the 1920's, Mustard Gas, John D. Rockefeller (an oil tycoon but no mention of a 1924 scandal involving him), and Franklin D. Roosevelt (who was not associated with an oil scandal in 1924), but none of these address the specific question about an oil scandal in 1924.\n\n\n**Answer:** No information available to determine the oil scandal in the US in 1924 from the provided chunks.",
+    "expected_answer": "Teapot Dome Scandal",
+    "time": 14.75595498085022,
+    "answer_length": 507,
+    "retrieval_time": 0.09908390045166016,
+    "generation_time": 14.728585004806519
+  },
+  {
+    "question": "Phil Collins appeared in which Spielberg film with Robin Williams?",
+    "answer": "The provided information does not contain details about any Spielberg film in which Phil Collins appeared with Robin Williams. Therefore, the answer cannot be determined from the given chunks.",
+    "expected_answer": "Hook",
+    "time": 5.141441106796265,
+    "answer_length": 192,
+    "retrieval_time": 0.09733772277832031,
+    "generation_time": 5.115818023681641
+  },
+  {
+    "question": "1998 was the Chinese year of which creature?",
+    "answer": "There is no information in the provided chunks that mentions the Chinese zodiac creature for the year 1998. Therefore, the answer cannot be determined from the given information.",
+    "expected_answer": "Tiger",
+    "time": 6.103322267532349,
+    "answer_length": 178,
+    "retrieval_time": 0.0982048511505127,
+    "generation_time": 6.076159954071045
+  },
+  {
+    "question": "Which country does musician Alfred Brendel come from?",
+    "answer": "There is no information about musician Alfred Brendel in the provided chunks, so his country of origin cannot be determined from the given content.",
+    "expected_answer": "Austria",
+    "time": 6.39974308013916,
+    "answer_length": 147,
+    "retrieval_time": 0.09807300567626953,
+    "generation_time": 6.37386679649353
+  },
+  {
+    "question": "Theodore Francis international airport is in which US state?",
+    "answer": "The provided information does not contain any details about Theodore Francis International Airport, so it is not possible to determine which US state it is in based on the given chunks.",
+    "expected_answer": "Rhode Island",
+    "time": 4.894683837890625,
+    "answer_length": 185,
+    "retrieval_time": 0.09825992584228516,
+    "generation_time": 4.867565155029297
+  },
+  {
+    "question": "In which soap did Demi Moore find fame?",
+    "answer": "The provided information does not contain details about which soap opera Demi Moore found fame in. The available chunks only mention her name without any relevant context regarding her early career or soap opera roles. Therefore, the answer cannot be determined from the given data.",
+    "expected_answer": "General Hospital",
+    "time": 5.154964923858643,
+    "answer_length": 282,
+    "retrieval_time": 0.09758806228637695,
+    "generation_time": 5.131773948669434
+  },
+  {
+    "question": "To the nearest million, what is the population of London, England?",
+    "answer": "The provided information does not contain any data about the population of London, England. Therefore, I cannot answer this question based on the given chunks.",
+    "expected_answer": "7 million",
+    "time": 4.6634111404418945,
+    "answer_length": 159,
+    "retrieval_time": 0.0870211124420166,
+    "generation_time": 4.650888919830322
+  },
+  {
+    "question": "What did Clarice Cliff create?",
+    "answer": "The provided information only mentions Clarice Cliff's name and the year 1927, but does not include details about what she created. Therefore, I cannot answer the question based on the given content.",
+    "expected_answer": "Pottery",
+    "time": 4.007751941680908,
+    "answer_length": 199,
+    "retrieval_time": 0.09004807472229004,
+    "generation_time": 3.991760015487671
+  },
+  {
+    "question": "Which James Bond film features a song by Louis Armstrong?",
+    "answer": "The provided information (Chunks 24178, 90169, and 104516) only mentions the name \"James Bond\" and does not include any details about James Bond films or songs by Louis Armstrong. Therefore, the answer cannot be determined from the given content.",
+    "expected_answer": "On Her Majesty's Secret Service",
+    "time": 4.9158689975738525,
+    "answer_length": 246,
+    "retrieval_time": 0.09326982498168945,
+    "generation_time": 4.897626161575317
+  },
+  {
+    "question": "In what year were US ground troops first dispatched to Vietnam?",
+    "answer": "The provided information does not contain details about the specific year US ground troops were first dispatched to Vietnam. The given chunks only mention terms related to the Vietnam War but lack the required chronological data. Therefore, I cannot answer this question based on the provided content.",
+    "expected_answer": "1965",
+    "time": 6.015175104141235,
+    "answer_length": 301,
+    "retrieval_time": 0.09779000282287598,
+    "generation_time": 5.9896240234375
+  },
+  {
+    "question": "In 1999 Anna Kournikova signed a lucrative contract to model what?",
+    "answer": "The provided information only mentions Anna Kournikova's name in three chunks but does not contain any details about a lucrative contract she signed in 1999 to model something. Therefore, the answer cannot be determined from the given content.",
+    "expected_answer": "Bras",
+    "time": 5.002810955047607,
+    "answer_length": 243,
+    "retrieval_time": 0.09844517707824707,
+    "generation_time": 4.975660085678101
+  },
+  {
+    "question": "Which member of the Monkees came from Washington DC?",
+    "answer": "The provided information does not contain details about individual members of The Monkees or their places of origin, so it is not possible to determine which member came from Washington DC based on the given chunks.\n\n\n**Answer:** The provided information does not include details about individual members of The Monkees or their origins, so this question cannot be answered with the given data.",
+    "expected_answer": "Peter Tork",
+    "time": 6.243716239929199,
+    "answer_length": 394,
+    "retrieval_time": 0.08931517601013184,
+    "generation_time": 6.22578501701355
+  },
+  {
+    "question": "Which ship was sunk by a German submarine in 1915 with a loss of 1400 lives including 128 Americans?",
+    "answer": "The provided information does not contain the specific details needed to answer the question (such as the name of the ship sunk in 1915 by a German submarine with the mentioned casualties). Therefore, I cannot determine the answer based on the given chunks.\n\n\n(Note: For reference, the actual ship in question is the RMS Lusitania, but this detail is not present in the provided information.)",
+    "expected_answer": "Lusitania",
+    "time": 9.540089130401611,
+    "answer_length": 392,
+    "retrieval_time": 0.09741473197937012,
+    "generation_time": 9.51524806022644
+  },
+  {
+    "question": "In what decade were video recorders first developed?",
+    "answer": "The provided information does not contain details about when video recorders were first developed, so it is impossible to answer this question based on the given content.",
+    "expected_answer": "50s",
+    "time": 5.4280688762664795,
+    "answer_length": 170,
+    "retrieval_time": 0.09945106506347656,
+    "generation_time": 5.40033483505249
+  },
+  {
+    "question": "Who had the noels Spy Hook and Spy Line published in the 80s?",
+    "answer": "There is no information in the provided chunks to answer the question about who had the Noel's Spy Hook and Spy Line published in the 80s. The given chunks only mention titles like \"The Spy Who Came In From The Cold\", \"NOEL'S HOUSE PARTY\", \"CHELMSFORD\", \"Police\", and \"The Spy Who Loved Me\", none of which relate to the specific publication mentioned in the question.\n\nAnswer: No relevant information available.",
+    "expected_answer": "Len Deighton",
+    "time": 7.9134931564331055,
+    "answer_length": 411,
+    "retrieval_time": 0.09939193725585938,
+    "generation_time": 7.885953903198242
+  },
+  {
+    "question": "the first credit cards were for use in what type of establishments?",
+    "answer": "The provided information does not contain details about the type of establishments the first credit cards were for. The chunks only mention Bill Gates, Mastercard, Cigarette cards, and the Social Credit Party, none of which relate to the origin or initial use cases of the first credit cards. Therefore, the answer cannot be determined from the given data.",
+    "expected_answer": "Restaurants",
+    "time": 6.638345956802368,
+    "answer_length": 356,
+    "retrieval_time": 0.09766793251037598,
+    "generation_time": 6.610760927200317
+  },
+  {
+    "question": "In which country was Ursula Andrews born?",
+    "answer": "The provided information does not specify the country where Ursula Andrews (or Ursula Andress, as mentioned in the chunks) was born. There is no explicit link between Ursula Andress and Brazil (or any other country) in the given chunks.\n\nAnswer: The provided information does not contain the answer.",
+    "expected_answer": "Switzerland",
+    "time": 12.174278974533081,
+    "answer_length": 299,
+    "retrieval_time": 0.08875489234924316,
+    "generation_time": 12.15985107421875
+  },
+  {
+    "question": "What was CBS TV news broadcaster Walter Cronkite's stock closing phrase?",
+    "answer": "The provided information only mentions Walter Cronkite's name and does not include details about his stock closing phrase. Therefore, I cannot answer the question based on the given content.",
+    "expected_answer": "And that's the way it is",
+    "time": 5.5284929275512695,
+    "answer_length": 190,
+    "retrieval_time": 0.10172700881958008,
+    "generation_time": 5.500794887542725
+  },
+  {
+    "question": "Who had a 70s No 1 hit with Let Your Love Flow?",
+    "answer": "The provided information does not contain the answer to the question about who had a 70s No 1 hit with \"Let Your Love Flow\". None of the given chunks mention this song or its associated artist.\n\n(Note: For reference, the actual artist is The Bellamy Brothers, but this detail is not present in the provided information.)",
+    "expected_answer": "Bellamy Brothers",
+    "time": 7.507500886917114,
+    "answer_length": 320,
+    "retrieval_time": 0.09648513793945312,
+    "generation_time": 7.482257843017578
+  },
+  {
+    "question": "Which state renewed Mike Tyson's boxing license in 1998?",
+    "answer": "Based on the provided information, the only state mentioned is California, which is associated with Mike Tyson. Therefore, the answer is:\n\nCalifornia",
+    "expected_answer": "Nevada",
+    "time": 12.3554368019104,
+    "answer_length": 149,
+    "retrieval_time": 0.0995020866394043,
+    "generation_time": 12.328389167785645
+  },
+  {
+    "question": "Neil Armstrong was a pilot in which war?",
+    "answer": "The provided information only mentions Neil Armstrong's name in three chunks but does not contain any details about which war he was a pilot in. Therefore, I cannot answer this question based on the given content.",
+    "expected_answer": "Korean",
+    "time": 5.121266841888428,
+    "answer_length": 213,
+    "retrieval_time": 0.09810376167297363,
+    "generation_time": 5.094332933425903
+  },
+  {
+    "question": "Which English-born US citizen hosted Masterpiece theater?",
+    "answer": "The provided information does not contain details about which English-born US citizen hosted Masterpiece Theatre. The chunks given only reference the Stephen Joseph Theatre, British Columbia, the Artistic Director of the National Theatre, and The National Theatre—none of which relate to the question asked. Therefore, the answer cannot be determined from the provided content.",
+    "expected_answer": "Alistair Cooke",
+    "time": 5.19722318649292,
+    "answer_length": 377,
+    "retrieval_time": 0.0901193618774414,
+    "generation_time": 5.1824939250946045
+  },
+  {
+    "question": "Nickelodeon was founded in 1979 by which company?",
+    "answer": "The provided information does not contain details about which company founded Nickelodeon in 1979. The chunks only mention PEANUTS, 1983, 1979, The Simpsons, Mickey Mouse, and The Teenage Mutant Ninja Turtles, with no relevant content about Nickelodeon's founding. Therefore, the answer cannot be determined from the given information.",
+    "expected_answer": "Warner Amex",
+    "time": 6.953634738922119,
+    "answer_length": 335,
+    "retrieval_time": 0.09604382514953613,
+    "generation_time": 6.927854061126709
+  },
+  {
+    "question": "Which element along with polonium did the Curies discover?",
+    "answer": "The provided information only mentions the element \"Polonium\" and does not include details about any other element that the Curies discovered along with polonium. Therefore, the answer cannot be determined from the given content.",
+    "expected_answer": "Radium",
+    "time": 6.267460107803345,
+    "answer_length": 229,
+    "retrieval_time": 0.10019207000732422,
+    "generation_time": 6.239084005355835
+  },
+  {
+    "question": "In The Banana Splits what sort of animal was Snorky?",
+    "answer": "The provided information does not contain details about what sort of animal Snorky was in The Banana Splits. The available chunks only mention \"Pig\", \"Banana\", and repeat \"The banana splits\" but no relevant information about Snorky.\n\nAnswer: The provided information is insufficient to answer the question.",
+    "expected_answer": "Elephant",
+    "time": 5.371787071228027,
+    "answer_length": 306,
+    "retrieval_time": 0.09873509407043457,
+    "generation_time": 5.344067096710205
+  },
+  {
+    "question": "Who had an 80s No 1 hit with Can't Fight This Feeling?",
+    "answer": "The provided information does not contain details about who had an 80s No 1 hit with \"Can't Fight This Feeling\". The given chunks only mention \"The Boat That Rocked\", \"Band on the Run\", \"1980’s\", and \"Smells Like Teen Spirit by Nirvana\", none of which relate to the song or its artist.\n\nAnswer: No relevant information available.",
+    "expected_answer": "REO Speedwagon",
+    "time": 6.123584032058716,
+    "answer_length": 329,
+    "retrieval_time": 0.09950685501098633,
+    "generation_time": 6.096595048904419
+  },
+  {
+    "question": "Which parallel was the truce line in the Korean War?",
+    "answer": "The provided information (Chunks 89556, 87750, 16440) only mentions the \"Korean War\" but does not include any details about the truce line parallel. Therefore, I cannot answer the question based on the given information. The truce line (Armistice Line) in the Korean War is near the 38th parallel, but this detail is not present in the provided chunks.\n\n\nAnswer: The provided information does not contain the necessary details to determine the truce line parallel of the Korean War. However, the truce line (Armistice Line) is near the 38th parallel, which is not mentioned in the given chunks. \n\nBut wait, according to the system prompt, if the info is insufficient, we should state that. Let me adjust to strictly follow:\n\nThe provided information (Chunks 89556, 87750, 16440) only references the \"Korean War\" without providing any details about the truce line parallel. Thus, there is no answer available from the given information.\n\nFinal Answer: The provided information does not contain the necessary details to answer the question.</think_never_used_51bce0c785ca2f68081bfa7d91973934>The provided information (Chunks 89556, 87750, 16440) only mentions the \"Korean War\" but does not include any details about the truce line parallel. Therefore, there is no answer available from the given information.",
+    "expected_answer": "38th Parallel",
+    "time": 11.455070972442627,
+    "answer_length": 1306,
+    "retrieval_time": 0.08934617042541504,
+    "generation_time": 11.439555883407593
+  },
+  {
+    "question": "On a computer keyboard which letter is between A and D?",
+    "answer": "The provided information chunks do not contain details about the layout of a computer keyboard (e.g., which letters are positioned between A and D). Therefore, the answer cannot be determined from the given content.",
+    "expected_answer": "S",
+    "time": 7.781023025512695,
+    "answer_length": 215,
+    "retrieval_time": 0.09842777252197266,
+    "generation_time": 7.753140926361084
+  },
+  {
+    "question": "Which musical featured the song Flash Bang, Wallop?",
+    "answer": "The provided information does not include details about which musical featured the song \"Flash Bang, Wallop.\" Therefore, I cannot answer the question based on the given chunks.",
+    "expected_answer": "Half",
+    "time": 6.46015191078186,
+    "answer_length": 176,
+    "retrieval_time": 0.09382486343383789,
+    "generation_time": 6.437626838684082
+  },
+  {
+    "question": "What was Hitchcock's first sound movie?",
+    "answer": "The provided information only mentions Alfred Hitchcock's name in three chunks but does not contain any details about his first sound movie. Therefore, I cannot answer this question based on the given content.",
+    "expected_answer": "Blackmail",
+    "time": 4.749288082122803,
+    "answer_length": 209,
+    "retrieval_time": 0.09742212295532227,
+    "generation_time": 4.72230076789856
+  },
+  {
+    "question": "Which newspaper did Jackie Kennedy work for just before her marriage?",
+    "answer": "The provided information does not contain any details about which newspaper Jackie Kennedy worked for just before her marriage. Therefore, the answer cannot be determined from the given content.",
+    "expected_answer": "Washington Times Herald",
+    "time": 3.9546101093292236,
+    "answer_length": 194,
+    "retrieval_time": 0.10083889961242676,
+    "generation_time": 3.9312150478363037
+  },
+  {
+    "question": "What are the international registration letters of a vehicle from Turkey?",
+    "answer": "The provided information does not include the international registration letters of a vehicle from Turkey. None of the given chunks (mentioning Gerald Ford, Turkish, Turkey, NATO, ISTANBUL, 2005) contain relevant details about vehicle international registration codes for Turkey.\n\nAnswer: The provided information does not have the relevant content to answer this question.",
+    "expected_answer": "TR",
+    "time": 6.964062929153442,
+    "answer_length": 373,
+    "retrieval_time": 0.08984875679016113,
+    "generation_time": 6.947953224182129
+  },
+  {
+    "question": "Who wrote The Turn Of The Screw in the 19th century and The Ambassadors in the 20th?",
+    "answer": "Henry James. \n\nThe provided information states that \"The Turn of the Screw by Henry James\" (Chunk 58029). Henry James is also the author of \"The Ambassadors,\" which aligns with the question's pairing of these two works across the 19th and 20th centuries.\n\n\nHenry James",
+    "expected_answer": "Henry James",
+    "time": 6.20737099647522,
+    "answer_length": 268,
+    "retrieval_time": 0.09192085266113281,
+    "generation_time": 6.185854196548462
+  },
+  {
+    "question": "Which American nuclear submarine was the first to sail across the North Pole under the ice cap?",
+    "answer": "The provided information does not contain the specific name of the American nuclear submarine that was the first to sail across the North Pole under the ice cap. The chunks only mention general terms like \"a Submarine\", \"The North Pole\", and \"THE ARCTIC OCEAN\" but lack the required details to answer the question.\n\n\n**Answer:** The provided information does not include the name of the submarine. Therefore, I cannot answer this question based on the given content.",
+    "expected_answer": "Nautilus",
+    "time": 7.290339708328247,
+    "answer_length": 466,
+    "retrieval_time": 0.10220193862915039,
+    "generation_time": 7.261698007583618
+  },
+  {
+    "question": "What was John Glenn/'s first spacecraft called?",
+    "answer": "The provided information does not include details about John Glenn's first spacecraft. Therefore, I cannot answer this question based on the given content.",
+    "expected_answer": "Friendship 7",
+    "time": 5.75259804725647,
+    "answer_length": 155,
+    "retrieval_time": 0.10405802726745605,
+    "generation_time": 5.74065899848938
+  },
+  {
+    "question": "Which branch of medicine is concerned with disorders of the blood?",
+    "answer": "The provided information does not contain the answer to the question. The question asks for the branch of medicine concerned with blood disorders, which is hematology, but none of the given chunks (Differential, Hippocrates, DOES NOT CONTAIN BLOOD, ZOOLOGY, Legionnaire's disease) mention this branch or relevant details about it.\n\n\n**Answer:** The provided information does not include the answer to the question. However, if we consider standard knowledge not in the given chunks, the branch is hematology, but based solely on the provided data, no answer is available. \n\nBut wait, according to the instruction to use only provided info: since none of the chunks have the required information, the correct response is that the answer cannot be determined from the given information. \n\nFinal Answer: The provided information does not contain the answer to the question. (Or, if forced to state based on absence: No relevant information available.) \n\nBut let's follow the rules strictly: the user said to use the provided info, so if it's not present, we should state that.\n</think_never_used_51bce0c785ca2f68081bfa7d91973934>The provided information does not contain the answer to the question. None of the given chunks mention the branch of medicine concerned with disorders of the blood. \n\n(Note: The branch of medicine in question is hematology, but this term is not present in the provided information.)",
+    "expected_answer": "Haematology",
+    "time": 19.932034015655518,
+    "answer_length": 1408,
+    "retrieval_time": 0.09900188446044922,
+    "generation_time": 19.90340495109558
+  },
+  {
+    "question": "Where was The Iron Triangle?",
+    "answer": "The provided information does not contain any details about the location of \"The Iron Triangle.\" The chunks only mention Fort Boyard, isosceles triangle, equilateral triangle, and cosine, which are unrelated to the question. Therefore, the answer cannot be determined from the given data.",
+    "expected_answer": "Vietnam",
+    "time": 4.684206962585449,
+    "answer_length": 288,
+    "retrieval_time": 0.10441327095031738,
+    "generation_time": 4.670392274856567
+  },
+  {
+    "question": "What is the correct name of laughing gas?",
+    "answer": "Based on the provided information, the term used to refer to laughing gas is \"Laughing gas\" (with two chunks using lowercase \"gas\" and one using uppercase \"Gas\"). However, if considering the chemical name (though not explicitly mentioned in the given chunks), laughing gas is also known as nitrous oxide. But strictly adhering to the provided chunks, the name mentioned is \"Laughing gas\".\n\nAnswer: Laughing gas",
+    "expected_answer": "Nitrous oxide",
+    "time": 15.684305191040039,
+    "answer_length": 410,
+    "retrieval_time": 0.09042215347290039,
+    "generation_time": 15.670595169067383
+  }
+]

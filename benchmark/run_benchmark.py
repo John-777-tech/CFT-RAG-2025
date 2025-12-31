@@ -26,28 +26,35 @@ class BenchmarkRunner:
     
     def __init__(self, vec_db_key: str, tree_num_max: int = 50, 
                  entities_file_name: str = "entities_file",
-                 search_method: int = 2, node_num_max: int = 2000000):
+                 search_method: int = 2, node_num_max: int = 2000000,
+                 max_hierarchy_depth: int = 2):
         self.vec_db_key = vec_db_key
         self.tree_num_max = tree_num_max
         self.entities_file_name = entities_file_name
         self.search_method = search_method
         self.node_num_max = node_num_max
+        self.max_hierarchy_depth = max_hierarchy_depth
         
-        print("正在加载向量数据库和实体树...")
+        # 根据search_method显示不同的加载信息
+        if search_method == 7:
+            print("正在加载向量数据库和Cuckoo Filter（新架构，不使用实体树）...")
+        else:
+            print("正在加载向量数据库和实体树...")
         start_time = time.time()
         
         # 加载向量数据库
         # 根据vec_db_key确定数据源路径
+        # 使用新的chunks文件构建向量数据库
         if vec_db_key == "medqa":
-            data_source = "/Users/zongyikun/Downloads/Med_data_clean/textbooks/en"
+            data_source = "./extracted_data/medqa_chunks.txt"
         elif vec_db_key == "dart":
-            data_source = "/Users/zongyikun/Downloads/dart-v1.1.1-full-dev.json"
+            data_source = "./extracted_data/dart_chunks.txt"
         elif vec_db_key == "aeslc":
             # AESLC数据集路径（使用answer字段作为chunks）
             data_source = "./datasets/processed/aeslc.json"
         elif vec_db_key == "triviaqa":
-            # TriviaQA数据集路径（使用answer字段作为chunks）
-            data_source = "./datasets/processed/triviaqa.json"
+            # TriviaQA数据集路径（使用新的chunks文件）
+            data_source = "./extracted_data/triviaqa_chunks.txt"
         else:
             # 默认尝试从vec_db_cache加载已存在的数据库
             data_source = "vec_db_cache/"
@@ -60,8 +67,137 @@ class BenchmarkRunner:
             self.forest = None
             self.nlp = None
             print(f"✓ Baseline RAG模式，跳过Forest和NLP构建 ({time.time() - start_time:.2f}秒)")
+        elif search_method == 7:
+            # Cuckoo Filter (search_method == 7) - 不需要构建实体树，只需要加载实体列表和初始化spacy
+            self.forest = None  # 不使用实体树
+            
+            # 从实体文件中读取所有实体
+            import csv
+            entities_list = []
+            entities_file_path_csv = f"{entities_file_name}.csv"
+            entities_file_path_txt = f"{entities_file_name}.txt"
+            
+            # 首先尝试从txt文件读取（实体列表，每行一个实体）
+            try:
+                if os.path.exists(entities_file_path_txt):
+                    with open(entities_file_path_txt, "r", encoding='utf-8') as f:
+                        for line in f:
+                            entity = line.strip()
+                            if entity:
+                                entities_list.append(entity)
+                    print(f"从实体列表文件读取到 {len(entities_list)} 个实体: {entities_file_path_txt}")
+                else:
+                    # 回退到csv文件（实体关系）
+                    if os.path.exists(entities_file_path_csv):
+                        with open(entities_file_path_csv, "r", encoding='utf-8') as csvfile:
+                            csvreader = csv.reader(csvfile, delimiter=',')
+                            for row in csvreader:
+                                if len(row) >= 2:
+                                    entities_list.append(row[0].strip())
+                                    entities_list.append(row[1].strip())
+                        print(f"从实体关系文件读取到 {len(entities_list)} 个实体: {entities_file_path_csv}")
+                    else:
+                        raise FileNotFoundError(f"Neither {entities_file_path_txt} nor {entities_file_path_csv} found")
+            except Exception as e:
+                print(f"✗ 错误：无法读取实体文件: {e}")
+                raise
+            
+            # 根据实体文件名判断语言：medqa/dart/triviaqa是英文，其他默认中文
+            language = "en" if any(x in entities_file_name.lower() for x in ["medqa", "dart", "triviaqa", "aeslc"]) else "zh"
+            from entity.ruler import enhance_spacy
+            self.nlp = enhance_spacy(entities_list, language=language)
+            print(f"✓ Spacy模型加载并增强完成（已添加 {len(entities_list)} 个实体模式）")
+            
+            # 初始化Cuckoo Filter
+            if hash.filter is None:
+                hash.change_filter(len(entities_list) * 2)  # 乘以2以留出空间
+                print(f"✓ Cuckoo Filter已初始化，容量: {len(entities_list) * 2}")
+            
+            # 构建AbstractTree和Entity映射
+            # 首先尝试从缓存文件加载
+            import pickle
+            abstract_cache_dir = "./abstract_forest_cache"
+            os.makedirs(abstract_cache_dir, exist_ok=True)
+            cache_file_path = f"{abstract_cache_dir}/abstract_forest_{self.vec_db_key}.pkl"
+            
+            if os.path.exists(cache_file_path):
+                print(f"正在从缓存加载AbstractTree: {cache_file_path}")
+                try:
+                    with open(cache_file_path, 'rb') as f:
+                        cached_data = pickle.load(f)
+                        self.abstract_forest = cached_data['abstract_forest']
+                        self.entity_to_abstract_map = cached_data['entity_to_abstract_map']
+                        self.entity_abstract_address_map = cached_data['entity_abstract_address_map']
+                    
+                    # 验证缓存是否有效（检查实体数量是否匹配）
+                    if len(entities_list) == cached_data.get('entities_count', 0):
+                        print(f"✓ 从缓存加载成功，包含 {len(self.abstract_forest)} 个AbstractTree")
+                        # 更新Cuckoo Filter映射（从缓存中恢复的映射可能已过期）
+                        from trag_tree.set_cuckoo_abstract_addresses import set_entity_abstract_addresses_in_cuckoo
+                        print("正在更新Cuckoo Filter地址映射（使用缓存的映射）...")
+                        for entity, pair_ids in self.entity_abstract_address_map.items():
+                            if pair_ids:
+                                set_entity_abstract_addresses_in_cuckoo(entity, pair_ids)
+                        print(f"✓ 已更新 {len([e for e, ids in self.entity_abstract_address_map.items() if ids])} 个entities的Abstract地址映射到Cuckoo Filter")
+                    else:
+                        print(f"⚠ 缓存中的实体数量 ({cached_data.get('entities_count', 0)}) 与当前实体数量 ({len(entities_list)}) 不匹配，重新构建")
+                        raise ValueError("Cache mismatch")
+                except Exception as e:
+                    print(f"⚠ 加载缓存失败: {e}，重新构建AbstractTree")
+                    # 继续执行构建流程
+            
+            # 如果缓存不存在或加载失败，重新构建
+            if not hasattr(self, 'abstract_forest') or self.abstract_forest is None:
+                print("正在构建AbstractTree和Entity映射（新架构）...")
+                try:
+                    # 获取table_name
+                    from rag_base import build_index
+                    db_id = id(self.vec_db)
+                    table_name = None
+                    if hasattr(build_index.load_vec_db, '_db_table_map'):
+                        table_name = build_index.load_vec_db._db_table_map.get(db_id)
+                    if table_name is None:
+                        keys = self.vec_db.get_all_keys()
+                        table_name = keys[0] if keys else "default_table"
+                    
+                    # 构建AbstractForest（多个AbstractTree）和映射
+                    self.abstract_forest, self.entity_to_abstract_map, self.entity_abstract_address_map = build.build_abstract_forest_and_entity_mapping(
+                        self.vec_db,
+                        entities_list,
+                        table_name=table_name
+                    )
+                    
+                    # 保存到缓存
+                    print(f"正在保存AbstractTree到缓存: {cache_file_path}")
+                    try:
+                        with open(cache_file_path, 'wb') as f:
+                            pickle.dump({
+                                'abstract_forest': self.abstract_forest,
+                                'entity_to_abstract_map': self.entity_to_abstract_map,
+                                'entity_abstract_address_map': self.entity_abstract_address_map,
+                                'entities_count': len(entities_list)
+                            }, f)
+                        print(f"✓ AbstractTree已保存到缓存")
+                    except Exception as e:
+                        print(f"⚠ 保存缓存失败: {e}，但不影响运行")
+                except Exception as e:
+                    print(f"✗ 错误：构建AbstractForest失败: {e}")
+                    import traceback
+                    traceback.print_exc()
+                    raise
+            
+            # 将数据存储到模块级变量，供rag_complete使用
+            from rag_base import rag_complete as rag_module
+            rag_module._abstract_forest = self.abstract_forest  # 现在是列表
+            rag_module._entity_to_abstract_map = self.entity_to_abstract_map
+            rag_module._entity_abstract_address_map = self.entity_abstract_address_map  # Cuckoo Filter地址映射
+            
+            # 统计所有AbstractTree中的abstracts总数
+            total_abstracts = sum(len(tree.get_all_nodes()) for tree in self.abstract_forest)
+            print(f"✓ AbstractForest已就绪，包含 {len(self.abstract_forest)} 个AbstractTree，共 {total_abstracts} 个abstracts")
+            print(f"✓ Cuckoo Filter地址映射已更新：EntityNode地址已替换为AbstractNode地址")
         else:
-            # 构建forest和nlp
+            # 其他search_method：构建forest和nlp
             self.forest, self.nlp = build.build_forest(
                 tree_num_max, entities_file_name, search_method, node_num_max
             )
@@ -79,29 +215,6 @@ class BenchmarkRunner:
             if search_method in [8, 9]:
                 from ann.ann_calc import build_ann
                 build_ann()
-            
-            # Cuckoo filter (search_method == 7) - initialize cuckoo filter if needed
-            if search_method == 7:
-                # Check if filter is already initialized (from build_forest)
-                # If not, initialize it now
-                if hash.filter is None:
-                    # First initialize the filter (change_filter must be called before cuckoo_build)
-                    estimated_entities = 100000  # Safe default
-                    try:
-                        # Try to get actual entity count from forest if available
-                        if self.forest:
-                            total_entities = sum(len(tree.all_nodes) for tree in self.forest if hasattr(tree, 'all_nodes'))
-                            if total_entities > 0:
-                                estimated_entities = max(total_entities, 10000)
-                    except:
-                        pass
-                    hash.change_filter(estimated_entities)
-                
-                # Note: cuckoo_build reads from "new_entities_file.csv" which may not exist
-                # The enhanced search function doesn't strictly require cuckoo_build
-                # So we'll skip it for now and use the filter directly
-                # If needed, cuckoo_build can be called separately after ensuring the file exists
-                print(f"✓ Cuckoo Filter已初始化 (跳过build步骤，使用增强搜索函数)")
         
         print(f"✓ 初始化完成 ({time.time() - start_time:.2f}秒)\n")
     
@@ -120,6 +233,7 @@ class BenchmarkRunner:
             self.nlp,
             search_method=self.search_method,
             debug=False,
+            max_hierarchy_depth=getattr(self, 'max_hierarchy_depth', 2),
         )
         
         answer = ""
@@ -309,6 +423,8 @@ def main():
                        help='搜索方法: 0 for vec-db only (standard RAG), 1 for BFS, 2 for BloomFilter, 5 for improved BloomFilter, 7 for Cuckoo Filter, 8 for ANN-Tree, 9 for ANN-Graph')
     parser.add_argument('--node-num-max', type=int, default=2000000,
                        help='最大节点数')
+    parser.add_argument('--max-hierarchy-depth', type=int, default=2,
+                       help='最大层次深度（用于Cuckoo Filter Abstract RAG）')
     parser.add_argument('--max-samples', type=int, default=None,
                        help='最大测试样本数（用于快速测试）')
     parser.add_argument('--output', type=str, default=None,
@@ -336,7 +452,8 @@ def main():
         tree_num_max=args.tree_num_max,
         entities_file_name=args.entities_file_name,
         search_method=args.search_method,
-        node_num_max=args.node_num_max
+        node_num_max=args.node_num_max,
+        max_hierarchy_depth=args.max_hierarchy_depth
     )
     
     # 确定输出路径和checkpoint路径

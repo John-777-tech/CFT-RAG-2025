@@ -1,0 +1,902 @@
+[
+  {
+    "question": "Which American-born Sinclair won the Nobel Prize for Literature in 1930?",
+    "answer": "Sinclair Lewis",
+    "expected_answer": "Sinclair Lewis",
+    "time": 24.230544328689575,
+    "answer_length": 14,
+    "retrieval_time": 0.02269291877746582,
+    "generation_time": 24.208050966262817
+  },
+  {
+    "question": "Where in England was Dame Judi Dench born?",
+    "answer": "York, Yorkshire, England.",
+    "expected_answer": "York",
+    "time": 8.491632223129272,
+    "answer_length": 25,
+    "retrieval_time": 0.015302896499633789,
+    "generation_time": 8.468676090240479
+  },
+  {
+    "question": "In which decade did Billboard magazine first publish and American hit chart?",
+    "answer": "1930s",
+    "expected_answer": "30s",
+    "time": 9.265635013580322,
+    "answer_length": 5,
+    "retrieval_time": 0.010583877563476562,
+    "generation_time": 9.242408990859985
+  },
+  {
+    "question": "From which country did Angola achieve independence in 1975?",
+    "answer": "Portugal",
+    "expected_answer": "Portugal",
+    "time": 8.031532049179077,
+    "answer_length": 8,
+    "retrieval_time": 0.02729487419128418,
+    "generation_time": 8.008668899536133
+  },
+  {
+    "question": "Which city does David Soul come from?",
+    "answer": "Chicago.",
+    "expected_answer": "Chicago",
+    "time": 14.413072109222412,
+    "answer_length": 8,
+    "retrieval_time": 0.0063440799713134766,
+    "generation_time": 14.390286922454834
+  },
+  {
+    "question": "Who won Super Bowl XX?",
+    "answer": "Chicago Bears.",
+    "expected_answer": "Chicago Bears",
+    "time": 9.086844205856323,
+    "answer_length": 14,
+    "retrieval_time": 0.08635306358337402,
+    "generation_time": 9.062520742416382
+  },
+  {
+    "question": "Which was the first European country to abolish capital punishment?",
+    "answer": "The Netherlands.",
+    "expected_answer": "Norway",
+    "time": 9.486776113510132,
+    "answer_length": 16,
+    "retrieval_time": 0.03573107719421387,
+    "generation_time": 9.462415933609009
+  },
+  {
+    "question": "In which country did he widespread use of ISDN begin in 1988?",
+    "answer": "Germany.",
+    "expected_answer": "Japan",
+    "time": 10.779416799545288,
+    "answer_length": 8,
+    "retrieval_time": 0.021445274353027344,
+    "generation_time": 10.756415843963623
+  },
+  {
+    "question": "What is Bruce Willis' real first name?",
+    "answer": "Walter.",
+    "expected_answer": "Walter",
+    "time": 7.91300106048584,
+    "answer_length": 7,
+    "retrieval_time": 0.007467031478881836,
+    "generation_time": 7.889880895614624
+  },
+  {
+    "question": "Which William wrote the novel Lord Of The Flies?",
+    "answer": "William Golding",
+    "expected_answer": "Golding",
+    "time": 8.154425144195557,
+    "answer_length": 15,
+    "retrieval_time": 0.00933980941772461,
+    "generation_time": 8.132053852081299
+  },
+  {
+    "question": "Which innovation for the car was developed by Prince Henry of Prussia in 1911?",
+    "answer": "The four-wheel braking system.",
+    "expected_answer": "Windshield wipers",
+    "time": 44.488555908203125,
+    "answer_length": 30,
+    "retrieval_time": 0.029632091522216797,
+    "generation_time": 44.46316170692444
+  },
+  {
+    "question": "How is musician William Lee Conley better known?",
+    "answer": "Bill Monroe",
+    "expected_answer": "Big Bill Broonzy",
+    "time": 9.801439046859741,
+    "answer_length": 11,
+    "retrieval_time": 0.08456611633300781,
+    "generation_time": 9.762932062149048
+  },
+  {
+    "question": "How is Joan Molinsky better known?",
+    "answer": "Joan Rivers.",
+    "expected_answer": "Joan Rivers",
+    "time": 8.227052688598633,
+    "answer_length": 12,
+    "retrieval_time": 0.007538795471191406,
+    "generation_time": 8.199476957321167
+  },
+  {
+    "question": "In which branch of the arts is Patricia Neary famous?",
+    "answer": "Ballet",
+    "expected_answer": "Ballet",
+    "time": 9.040522813796997,
+    "answer_length": 6,
+    "retrieval_time": 0.008544921875,
+    "generation_time": 9.01052212715149
+  },
+  {
+    "question": "Which country is Europe's largest silk producer?",
+    "answer": "Netherlands",
+    "expected_answer": "Italy",
+    "time": 8.355703115463257,
+    "answer_length": 11,
+    "retrieval_time": 0.0074329376220703125,
+    "generation_time": 8.326483964920044
+  },
+  {
+    "question": "The VS-300 was a type of what?",
+    "answer": "helicopter",
+    "expected_answer": "Helicopter",
+    "time": 10.076218843460083,
+    "answer_length": 10,
+    "retrieval_time": 0.007666349411010742,
+    "generation_time": 10.052077770233154
+  },
+  {
+    "question": "At which university did Joseph Goebbels become a doctor of philosophy?",
+    "answer": "Heidelberg University.",
+    "expected_answer": "Heidelberg",
+    "time": 8.06716799736023,
+    "answer_length": 22,
+    "retrieval_time": 0.007786273956298828,
+    "generation_time": 8.035746097564697
+  },
+  {
+    "question": "Which prince is Queen Elizabeth II's youngest son?",
+    "answer": "Prince Edward.",
+    "expected_answer": "Edward",
+    "time": 8.520981073379517,
+    "answer_length": 14,
+    "retrieval_time": 0.008411169052124023,
+    "generation_time": 8.492305994033813
+  },
+  {
+    "question": "When did the founder of Jehovah's Witnesses say the world would end?",
+    "answer": "1914",
+    "expected_answer": "1914",
+    "time": 11.481496095657349,
+    "answer_length": 4,
+    "retrieval_time": 0.009446144104003906,
+    "generation_time": 11.455683708190918
+  },
+  {
+    "question": "Who found the remains of the Titanic?",
+    "answer": "Robert Ballard.",
+    "expected_answer": "Robert Ballard",
+    "time": 8.58971095085144,
+    "answer_length": 15,
+    "retrieval_time": 0.0069620609283447266,
+    "generation_time": 8.566792011260986
+  },
+  {
+    "question": "Who was the only Spice Girl not to have a middle name?",
+    "answer": "Melanie Chisholm (Sporty Spice) is the only Spice Girl without a middle name.",
+    "expected_answer": "Posh Spice",
+    "time": 24.022713899612427,
+    "answer_length": 77,
+    "retrieval_time": 0.009284734725952148,
+    "generation_time": 23.9948992729187
+  },
+  {
+    "question": "What are the international registration letters of a vehicle from Algeria?",
+    "answer": "DZ",
+    "expected_answer": "DZ",
+    "time": 9.254648923873901,
+    "answer_length": 2,
+    "retrieval_time": 0.03698611259460449,
+    "generation_time": 9.229473114013672
+  },
+  {
+    "question": "How did Jock die in Dallas?",
+    "answer": "Jock Ewing died in a helicopter crash.",
+    "expected_answer": "Helicopter accident",
+    "time": 8.553585052490234,
+    "answer_length": 38,
+    "retrieval_time": 0.006348133087158203,
+    "generation_time": 8.524961948394775
+  },
+  {
+    "question": "What star sign is Michael Caine?",
+    "answer": "Pisces",
+    "expected_answer": "Pisces",
+    "time": 9.061972856521606,
+    "answer_length": 6,
+    "retrieval_time": 0.010289907455444336,
+    "generation_time": 9.034834861755371
+  },
+  {
+    "question": "Who wrote the novel Evening Class?",
+    "answer": "Maeve Binchy",
+    "expected_answer": "Maeve Binchy",
+    "time": 9.520082950592041,
+    "answer_length": 12,
+    "retrieval_time": 0.014155864715576172,
+    "generation_time": 9.488821029663086
+  },
+  {
+    "question": "Which country does the airline Air Pacific come from?",
+    "answer": "Fiji",
+    "expected_answer": "Fiji",
+    "time": 8.397071838378906,
+    "answer_length": 4,
+    "retrieval_time": 0.008344650268554688,
+    "generation_time": 8.368760108947754
+  },
+  {
+    "question": "In which branch of the arts does Allegra Kent work?",
+    "answer": "Ballet.",
+    "expected_answer": "Ballet",
+    "time": 8.193479299545288,
+    "answer_length": 7,
+    "retrieval_time": 0.007971048355102539,
+    "generation_time": 8.165812969207764
+  },
+  {
+    "question": "Who had a 70s No 1 hit with Billy, Don't Be A Hero?",
+    "answer": "Bo Donaldson and The Heywoods",
+    "expected_answer": "Bo Donaldson & The Heywoods",
+    "time": 8.913968086242676,
+    "answer_length": 29,
+    "retrieval_time": 0.014801025390625,
+    "generation_time": 8.885282754898071
+  },
+  {
+    "question": "Banting and Best pioneered the use of what?",
+    "answer": "Insulin\n\n（注：班廷（Frederick Banting）和贝斯特（Charles Best）是胰岛素的主要发现者，他们开创性地将胰岛素用于治疗糖尿病。）",
+    "expected_answer": "Insulin",
+    "time": 8.431792259216309,
+    "answer_length": 81,
+    "retrieval_time": 0.008600950241088867,
+    "generation_time": 8.408528327941895
+  },
+  {
+    "question": "Who directed the movie La Dolce Vita?",
+    "answer": "Federico Fellini.",
+    "expected_answer": "Federico Fellini",
+    "time": 7.355948209762573,
+    "answer_length": 17,
+    "retrieval_time": 0.007459163665771484,
+    "generation_time": 7.327195167541504
+  },
+  {
+    "question": "Which country does the airline LACSA come from?",
+    "answer": "哥斯达黎加",
+    "expected_answer": "Costa Rica",
+    "time": 8.168701887130737,
+    "answer_length": 5,
+    "retrieval_time": 0.012918949127197266,
+    "generation_time": 8.141857147216797
+  },
+  {
+    "question": "Who directed 2001: A Space Odyssey?",
+    "answer": "Stanley Kubrick.",
+    "expected_answer": "Stanley Kubrick",
+    "time": 7.26175594329834,
+    "answer_length": 16,
+    "retrieval_time": 0.00740504264831543,
+    "generation_time": 7.2323291301727295
+  },
+  {
+    "question": "Which is the largest of the Japanese Volcano Islands?",
+    "answer": "硫磺岛（Iwo Jima）是日本火山群岛中最大的岛屿。",
+    "expected_answer": "Iwo Jima",
+    "time": 14.217753887176514,
+    "answer_length": 27,
+    "retrieval_time": 0.038745880126953125,
+    "generation_time": 14.192058086395264
+  },
+  {
+    "question": "Ezzard Charles was a world champion in which sport?",
+    "answer": "Boxing",
+    "expected_answer": "Boxing",
+    "time": 8.833384037017822,
+    "answer_length": 6,
+    "retrieval_time": 0.01776409149169922,
+    "generation_time": 8.800302982330322
+  },
+  {
+    "question": "Who was the first woman to make a solo flight across the Atlantic?",
+    "answer": "Amelia Earhart",
+    "expected_answer": "Amelia Earhart",
+    "time": 8.959781169891357,
+    "answer_length": 14,
+    "retrieval_time": 0.008925914764404297,
+    "generation_time": 8.932955026626587
+  },
+  {
+    "question": "Which port lies between Puget Sound and Lake Washington?",
+    "answer": "Seattle\n\n（注：根据常识及提供的信息中包含的SEATTLE，西雅图港位于普吉特湾（Puget Sound）与华盛顿湖（Lake Washington）之间。）",
+    "expected_answer": "Seattle",
+    "time": 9.43534517288208,
+    "answer_length": 83,
+    "retrieval_time": 0.007533073425292969,
+    "generation_time": 9.40907096862793
+  },
+  {
+    "question": "In which city were Rotary Clubs set up in 1905?",
+    "answer": "Chicago",
+    "expected_answer": "Chicago",
+    "time": 8.320528984069824,
+    "answer_length": 7,
+    "retrieval_time": 0.012410163879394531,
+    "generation_time": 8.29547119140625
+  },
+  {
+    "question": "Who became US Vice President when Spiro Agnew resigned?",
+    "answer": "Gerald Ford.",
+    "expected_answer": "Gerald Ford",
+    "time": 7.9036431312561035,
+    "answer_length": 12,
+    "retrieval_time": 0.010922908782958984,
+    "generation_time": 7.875471830368042
+  },
+  {
+    "question": "In which decade of the 20th century was Billy Crystal born?",
+    "answer": "The 1940s.",
+    "expected_answer": "1940s",
+    "time": 8.842123031616211,
+    "answer_length": 10,
+    "retrieval_time": 0.010138988494873047,
+    "generation_time": 8.814435958862305
+  },
+  {
+    "question": "Which George invented the Kodak roll-film camera?",
+    "answer": "George Eastman.",
+    "expected_answer": "Eastman",
+    "time": 7.226835250854492,
+    "answer_length": 15,
+    "retrieval_time": 0.008413076400756836,
+    "generation_time": 7.201491832733154
+  },
+  {
+    "question": "Which series had the characters Felix Unger and Oscar Madison?",
+    "answer": "The Odd Couple.",
+    "expected_answer": "The Odd Couple",
+    "time": 7.940204858779907,
+    "answer_length": 15,
+    "retrieval_time": 0.03609108924865723,
+    "generation_time": 7.9153430461883545
+  },
+  {
+    "question": "Who along with Philips developed the CD in the late 70s?",
+    "answer": "Sony.",
+    "expected_answer": "Sony",
+    "time": 7.878194808959961,
+    "answer_length": 5,
+    "retrieval_time": 0.00874781608581543,
+    "generation_time": 7.849848031997681
+  },
+  {
+    "question": "Where is the multinational Nestle based?",
+    "answer": "Switzerland.",
+    "expected_answer": "Switzerland",
+    "time": 8.100523948669434,
+    "answer_length": 12,
+    "retrieval_time": 0.007375955581665039,
+    "generation_time": 8.075755834579468
+  },
+  {
+    "question": "Do You Know Where You're Going To? was the theme from which film?",
+    "answer": "Mahogany",
+    "expected_answer": "Mahogany",
+    "time": 15.249043226242065,
+    "answer_length": 8,
+    "retrieval_time": 0.015413999557495117,
+    "generation_time": 15.227473974227905
+  },
+  {
+    "question": "19969 was the Chinese year of which creature?",
+    "answer": "Rat\n\n（注：1996年为中国农历丙子年，生肖属鼠，对应英文为Rat）",
+    "expected_answer": "Rat",
+    "time": 14.593316793441772,
+    "answer_length": 36,
+    "retrieval_time": 0.05026698112487793,
+    "generation_time": 14.564335823059082
+  },
+  {
+    "question": "In the 90s how many points have been awarded for finishing second in a Grand Prix?",
+    "answer": "6 points.",
+    "expected_answer": "6",
+    "time": 20.332857847213745,
+    "answer_length": 9,
+    "retrieval_time": 0.014000177383422852,
+    "generation_time": 20.309348106384277
+  },
+  {
+    "question": "Stapleton international airport is in which US state?",
+    "answer": "Colorado",
+    "expected_answer": "Colorado",
+    "time": 8.67347002029419,
+    "answer_length": 8,
+    "retrieval_time": 0.011250019073486328,
+    "generation_time": 8.646719932556152
+  },
+  {
+    "question": "What was Kevin Kline's first movie?",
+    "answer": "Sophie's Choice",
+    "expected_answer": "Sophie's Choice",
+    "time": 9.447067975997925,
+    "answer_length": 15,
+    "retrieval_time": 0.007725954055786133,
+    "generation_time": 9.418015003204346
+  },
+  {
+    "question": "Which actor had a Doberman Pinscher called Kirk?",
+    "answer": "William Shatner.",
+    "expected_answer": "William Shatner",
+    "time": 10.21119999885559,
+    "answer_length": 16,
+    "retrieval_time": 0.008094072341918945,
+    "generation_time": 10.18169379234314
+  },
+  {
+    "question": "What day of the week was the Wall Street Crash?",
+    "answer": "Tuesday",
+    "expected_answer": "Thursday",
+    "time": 8.499942302703857,
+    "answer_length": 7,
+    "retrieval_time": 0.055817365646362305,
+    "generation_time": 8.471701622009277
+  },
+  {
+    "question": "The US signed a treaty with which country to allow the construction of the Panama Canal?",
+    "answer": "Panama",
+    "expected_answer": "Columbia",
+    "time": 9.476603031158447,
+    "answer_length": 6,
+    "retrieval_time": 0.01137089729309082,
+    "generation_time": 9.44844913482666
+  },
+  {
+    "question": "What was Prince's last No 1 of the 80s?",
+    "answer": "Batdance",
+    "expected_answer": "Batdance",
+    "time": 10.617705345153809,
+    "answer_length": 8,
+    "retrieval_time": 0.03784990310668945,
+    "generation_time": 10.551192045211792
+  },
+  {
+    "question": "Man In The Mirror first featured on which Michel Jackson album?",
+    "answer": "Bad\n\n（注：Man In The Mirror首次收录于迈克尔·杰克逊1987年发行的专辑《Bad》中。）",
+    "expected_answer": "Bad",
+    "time": 8.292764902114868,
+    "answer_length": 55,
+    "retrieval_time": 0.011284351348876953,
+    "generation_time": 8.26318097114563
+  },
+  {
+    "question": "Where was the first battle with US involvement in the Korean War?",
+    "answer": "Osan.",
+    "expected_answer": "Suwon",
+    "time": 8.411025047302246,
+    "answer_length": 5,
+    "retrieval_time": 0.009147882461547852,
+    "generation_time": 8.387032985687256
+  },
+  {
+    "question": "On which Caribbean island did Princess Diana spend he first Christmas after her divorce was announced?",
+    "answer": "Nevis.",
+    "expected_answer": "Barbuda",
+    "time": 12.869423151016235,
+    "answer_length": 6,
+    "retrieval_time": 0.08427906036376953,
+    "generation_time": 12.839782953262329
+  },
+  {
+    "question": "In which decade was Arnold Schwarzenegger born?",
+    "answer": "The 1940s.",
+    "expected_answer": "1950s",
+    "time": 9.446390867233276,
+    "answer_length": 10,
+    "retrieval_time": 0.012530803680419922,
+    "generation_time": 9.422829151153564
+  },
+  {
+    "question": "Which musical featured the song Thank Heaven for Little Girls?",
+    "answer": "Gigi\n\n（注：《Thank Heaven for Little Girls》出自音乐剧及电影《Gigi》，而非所给信息中的《Little Shop of Horrors》）",
+    "expected_answer": "Gigi",
+    "time": 8.396102905273438,
+    "answer_length": 88,
+    "retrieval_time": 0.010941028594970703,
+    "generation_time": 8.373892068862915
+  },
+  {
+    "question": "The Queen Elizabeth liner was destroyed by fire in the 70s in which harbour?",
+    "answer": "Hong Kong Harbour.",
+    "expected_answer": "Hong Kong",
+    "time": 10.237261772155762,
+    "answer_length": 18,
+    "retrieval_time": 0.016335010528564453,
+    "generation_time": 10.20296597480774
+  },
+  {
+    "question": "What breed of dog did Columbo own?",
+    "answer": "Collie",
+    "expected_answer": "Basset hound",
+    "time": 7.596033096313477,
+    "answer_length": 6,
+    "retrieval_time": 0.007506847381591797,
+    "generation_time": 7.569576263427734
+  },
+  {
+    "question": "What was the first movie western called?",
+    "answer": "The Great Train Robbery",
+    "expected_answer": "Kit Carson",
+    "time": 10.982911109924316,
+    "answer_length": 23,
+    "retrieval_time": 0.006929874420166016,
+    "generation_time": 10.954901933670044
+  },
+  {
+    "question": "Which Oscar-winning actress was born on exactly the same day as actress Lindsay Wagner?",
+    "answer": "Meryl Streep",
+    "expected_answer": "Meryl Streep",
+    "time": 11.218607187271118,
+    "answer_length": 12,
+    "retrieval_time": 0.011888265609741211,
+    "generation_time": 11.191033124923706
+  },
+  {
+    "question": "Which Amendment to the Constitution brought in prohibition in 1920?",
+    "answer": "The 18th Amendment.",
+    "expected_answer": "18th",
+    "time": 8.235975980758667,
+    "answer_length": 19,
+    "retrieval_time": 0.00785374641418457,
+    "generation_time": 8.205724954605103
+  },
+  {
+    "question": "Which oil scandal hit the US in 1924?",
+    "answer": "Teapot Dome scandal.",
+    "expected_answer": "Teapot Dome Scandal",
+    "time": 10.058037042617798,
+    "answer_length": 20,
+    "retrieval_time": 0.05083799362182617,
+    "generation_time": 10.034459829330444
+  },
+  {
+    "question": "Phil Collins appeared in which Spielberg film with Robin Williams?",
+    "answer": "Hook（铁钩船长）",
+    "expected_answer": "Hook",
+    "time": 10.1390380859375,
+    "answer_length": 10,
+    "retrieval_time": 0.009692907333374023,
+    "generation_time": 10.109117031097412
+  },
+  {
+    "question": "1998 was the Chinese year of which creature?",
+    "answer": "Tiger",
+    "expected_answer": "Tiger",
+    "time": 11.99451994895935,
+    "answer_length": 5,
+    "retrieval_time": 0.023952007293701172,
+    "generation_time": 11.962894678115845
+  },
+  {
+    "question": "Which country does musician Alfred Brendel come from?",
+    "answer": "Austria",
+    "expected_answer": "Austria",
+    "time": 10.87426209449768,
+    "answer_length": 7,
+    "retrieval_time": 0.007277011871337891,
+    "generation_time": 10.851881980895996
+  },
+  {
+    "question": "Theodore Francis international airport is in which US state?",
+    "answer": "Rhode Island.",
+    "expected_answer": "Rhode Island",
+    "time": 9.16753101348877,
+    "answer_length": 13,
+    "retrieval_time": 0.01020193099975586,
+    "generation_time": 9.139152765274048
+  },
+  {
+    "question": "In which soap did Demi Moore find fame?",
+    "answer": "General Hospital",
+    "expected_answer": "General Hospital",
+    "time": 8.45226788520813,
+    "answer_length": 16,
+    "retrieval_time": 0.03219914436340332,
+    "generation_time": 8.42928695678711
+  },
+  {
+    "question": "To the nearest million, what is the population of London, England?",
+    "answer": "9 million",
+    "expected_answer": "7 million",
+    "time": 11.360991954803467,
+    "answer_length": 9,
+    "retrieval_time": 0.008253812789916992,
+    "generation_time": 11.328387975692749
+  },
+  {
+    "question": "What did Clarice Cliff create?",
+    "answer": "Clarice Cliff created Art Deco-style ceramic works, especially colorful hand-painted pottery.",
+    "expected_answer": "Pottery",
+    "time": 9.94057011604309,
+    "answer_length": 93,
+    "retrieval_time": 0.3397698402404785,
+    "generation_time": 9.911518096923828
+  },
+  {
+    "question": "Which James Bond film features a song by Louis Armstrong?",
+    "answer": "On Her Majesty's Secret Service",
+    "expected_answer": "On Her Majesty's Secret Service",
+    "time": 8.792888164520264,
+    "answer_length": 31,
+    "retrieval_time": 0.009576082229614258,
+    "generation_time": 8.768911123275757
+  },
+  {
+    "question": "In what year were US ground troops first dispatched to Vietnam?",
+    "answer": "1965年",
+    "expected_answer": "1965",
+    "time": 8.049101829528809,
+    "answer_length": 5,
+    "retrieval_time": 0.025912046432495117,
+    "generation_time": 8.02087926864624
+  },
+  {
+    "question": "In 1999 Anna Kournikova signed a lucrative contract to model what?",
+    "answer": "Sports apparel.",
+    "expected_answer": "Bras",
+    "time": 18.076740741729736,
+    "answer_length": 15,
+    "retrieval_time": 0.008939027786254883,
+    "generation_time": 18.054055213928223
+  },
+  {
+    "question": "Which member of the Monkees came from Washington DC?",
+    "answer": "Peter Tork.",
+    "expected_answer": "Peter Tork",
+    "time": 9.146923065185547,
+    "answer_length": 11,
+    "retrieval_time": 0.007664203643798828,
+    "generation_time": 9.124554872512817
+  },
+  {
+    "question": "Which ship was sunk by a German submarine in 1915 with a loss of 1400 lives including 128 Americans?",
+    "answer": "The Lusitania.",
+    "expected_answer": "Lusitania",
+    "time": 8.586786985397339,
+    "answer_length": 14,
+    "retrieval_time": 0.00945901870727539,
+    "generation_time": 8.561107873916626
+  },
+  {
+    "question": "In what decade were video recorders first developed?",
+    "answer": "The 1950s.",
+    "expected_answer": "50s",
+    "time": 9.737945795059204,
+    "answer_length": 10,
+    "retrieval_time": 0.0077037811279296875,
+    "generation_time": 9.714509010314941
+  },
+  {
+    "question": "Who had the noels Spy Hook and Spy Line published in the 80s?",
+    "answer": "Len Deighton\n\n(Note: Spy Hook and Spy Line are novels by Len Deighton, published in 1988 and 1989 respectively.)",
+    "expected_answer": "Len Deighton",
+    "time": 20.52612614631653,
+    "answer_length": 112,
+    "retrieval_time": 0.03389120101928711,
+    "generation_time": 20.4964120388031
+  },
+  {
+    "question": "the first credit cards were for use in what type of establishments?",
+    "answer": "Restaurants and travel-related establishments.",
+    "expected_answer": "Restaurants",
+    "time": 22.84380602836609,
+    "answer_length": 46,
+    "retrieval_time": 0.008985757827758789,
+    "generation_time": 22.812423944473267
+  },
+  {
+    "question": "In which country was Ursula Andrews born?",
+    "answer": "Switzerland",
+    "expected_answer": "Switzerland",
+    "time": 8.366198062896729,
+    "answer_length": 11,
+    "retrieval_time": 0.007663249969482422,
+    "generation_time": 8.339532136917114
+  },
+  {
+    "question": "What was CBS TV news broadcaster Walter Cronkite's stock closing phrase?",
+    "answer": "And that's the way it is.",
+    "expected_answer": "And that's the way it is",
+    "time": 7.997528791427612,
+    "answer_length": 25,
+    "retrieval_time": 0.06614089012145996,
+    "generation_time": 7.96799111366272
+  },
+  {
+    "question": "Who had a 70s No 1 hit with Let Your Love Flow?",
+    "answer": "The Bellamy Brothers.",
+    "expected_answer": "Bellamy Brothers",
+    "time": 9.212208271026611,
+    "answer_length": 21,
+    "retrieval_time": 0.009562969207763672,
+    "generation_time": 9.188231945037842
+  },
+  {
+    "question": "Which state renewed Mike Tyson's boxing license in 1998?",
+    "answer": "California",
+    "expected_answer": "Nevada",
+    "time": 7.874923944473267,
+    "answer_length": 10,
+    "retrieval_time": 0.03386497497558594,
+    "generation_time": 7.843014717102051
+  },
+  {
+    "question": "Neil Armstrong was a pilot in which war?",
+    "answer": "Korean War.",
+    "expected_answer": "Korean",
+    "time": 7.521252155303955,
+    "answer_length": 11,
+    "retrieval_time": 0.006521940231323242,
+    "generation_time": 7.4898741245269775
+  },
+  {
+    "question": "Which English-born US citizen hosted Masterpiece theater?",
+    "answer": "Alistair Cooke.",
+    "expected_answer": "Alistair Cooke",
+    "time": 8.779043912887573,
+    "answer_length": 15,
+    "retrieval_time": 0.006790876388549805,
+    "generation_time": 8.750775814056396
+  },
+  {
+    "question": "Nickelodeon was founded in 1979 by which company?",
+    "answer": "Warner Cable Communications.",
+    "expected_answer": "Warner Amex",
+    "time": 12.549916982650757,
+    "answer_length": 28,
+    "retrieval_time": 0.0065419673919677734,
+    "generation_time": 12.522017002105713
+  },
+  {
+    "question": "Which element along with polonium did the Curies discover?",
+    "answer": "Radium",
+    "expected_answer": "Radium",
+    "time": 8.190209150314331,
+    "answer_length": 6,
+    "retrieval_time": 0.007016181945800781,
+    "generation_time": 8.161311149597168
+  },
+  {
+    "question": "In The Banana Splits what sort of animal was Snorky?",
+    "answer": "Elephant.",
+    "expected_answer": "Elephant",
+    "time": 8.067354202270508,
+    "answer_length": 9,
+    "retrieval_time": 0.02461719512939453,
+    "generation_time": 8.04248571395874
+  },
+  {
+    "question": "Who had an 80s No 1 hit with Can't Fight This Feeling?",
+    "answer": "REO Speedwagon",
+    "expected_answer": "REO Speedwagon",
+    "time": 9.347947120666504,
+    "answer_length": 14,
+    "retrieval_time": 0.009145259857177734,
+    "generation_time": 9.31861686706543
+  },
+  {
+    "question": "Which parallel was the truce line in the Korean War?",
+    "answer": "The 38th parallel.",
+    "expected_answer": "38th Parallel",
+    "time": 8.169756174087524,
+    "answer_length": 18,
+    "retrieval_time": 0.03439784049987793,
+    "generation_time": 8.146898746490479
+  },
+  {
+    "question": "On a computer keyboard which letter is between A and D?",
+    "answer": "S",
+    "expected_answer": "S",
+    "time": 8.245054960250854,
+    "answer_length": 1,
+    "retrieval_time": 0.007845878601074219,
+    "generation_time": 8.216098070144653
+  },
+  {
+    "question": "Which musical featured the song Flash Bang, Wallop?",
+    "answer": "Half a Sixpence",
+    "expected_answer": "Half",
+    "time": 12.204437017440796,
+    "answer_length": 15,
+    "retrieval_time": 0.029318809509277344,
+    "generation_time": 12.176393985748291
+  },
+  {
+    "question": "What was Hitchcock's first sound movie?",
+    "answer": "Blackmail.",
+    "expected_answer": "Blackmail",
+    "time": 9.003320932388306,
+    "answer_length": 10,
+    "retrieval_time": 0.006982088088989258,
+    "generation_time": 8.97470211982727
+  },
+  {
+    "question": "Which newspaper did Jackie Kennedy work for just before her marriage?",
+    "answer": "The Washington Times-Herald",
+    "expected_answer": "Washington Times Herald",
+    "time": 9.487332820892334,
+    "answer_length": 27,
+    "retrieval_time": 0.009150028228759766,
+    "generation_time": 9.459189891815186
+  },
+  {
+    "question": "What are the international registration letters of a vehicle from Turkey?",
+    "answer": "TR",
+    "expected_answer": "TR",
+    "time": 8.268558025360107,
+    "answer_length": 2,
+    "retrieval_time": 0.060758113861083984,
+    "generation_time": 8.238714218139648
+  },
+  {
+    "question": "Who wrote The Turn Of The Screw in the 19th century and The Ambassadors in the 20th?",
+    "answer": "Henry James",
+    "expected_answer": "Henry James",
+    "time": 9.588931798934937,
+    "answer_length": 11,
+    "retrieval_time": 0.01012873649597168,
+    "generation_time": 9.560378074645996
+  },
+  {
+    "question": "Which American nuclear submarine was the first to sail across the North Pole under the ice cap?",
+    "answer": "USS Nautilus (SSN-571)",
+    "expected_answer": "Nautilus",
+    "time": 11.119977951049805,
+    "answer_length": 22,
+    "retrieval_time": 0.009835958480834961,
+    "generation_time": 11.097363233566284
+  },
+  {
+    "question": "What was John Glenn/'s first spacecraft called?",
+    "answer": "Friendship 7",
+    "expected_answer": "Friendship 7",
+    "time": 9.74472188949585,
+    "answer_length": 12,
+    "retrieval_time": 0.06677985191345215,
+    "generation_time": 9.716336011886597
+  },
+  {
+    "question": "Which branch of medicine is concerned with disorders of the blood?",
+    "answer": "Hematology",
+    "expected_answer": "Haematology",
+    "time": 8.127587795257568,
+    "answer_length": 10,
+    "retrieval_time": 0.007937192916870117,
+    "generation_time": 8.09881591796875
+  },
+  {
+    "question": "Where was The Iron Triangle?",
+    "answer": "The Iron Triangle was a region in South Vietnam, approximately 25 miles northwest of Saigon (now Ho Chi Minh City).",
+    "expected_answer": "Vietnam",
+    "time": 11.99095606803894,
+    "answer_length": 115,
+    "retrieval_time": 0.00635981559753418,
+    "generation_time": 11.968478918075562
+  },
+  {
+    "question": "What is the correct name of laughing gas?",
+    "answer": "Nitrous oxide (N₂O)",
+    "expected_answer": "Nitrous oxide",
+    "time": 7.728164911270142,
+    "answer_length": 19,
+    "retrieval_time": 0.0061151981353759766,
+    "generation_time": 7.705901145935059
+  }
+]

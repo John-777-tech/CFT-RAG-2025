@@ -1,0 +1,92 @@
+{
+  "average_scores": {
+    "rouge1": 0.7317004561956858,
+    "rouge2": 0.5325650306301312,
+    "rougeL": 0.5936435630210013,
+    "bleu": 0.36948853849889657,
+    "bertscore": 0.9336920398473739
+  },
+  "total_samples": 100,
+  "detailed_results": [
+    {
+      "question": "Generate a description based on the following trip",
+      "rouge1": 0.6363636363636365,
+      "rouge2": 0.6,
+      "rougeL": 0.6363636363636365,
+      "bleu": 0.5828233954152653,
+      "bertscore": 0.9322876334190369
+    },
+    {
+      "question": "Generate a description based on the following trip",
+      "rouge1": 0.923076923076923,
+      "rouge2": 0.7272727272727272,
+      "rougeL": 0.923076923076923,
+      "bleu": 0.6129752413741056,
+      "bertscore": 0.9770615696907043
+    },
+    {
+      "question": "Generate a description based on the following trip",
+      "rouge1": 1.0,
+      "rouge2": 1.0,
+      "rougeL": 1.0,
+      "bleu": 1.0,
+      "bertscore": 1.000000238418579
+    },
+    {
+      "question": "Generate a description based on the following trip",
+      "rouge1": 0.5517241379310344,
+      "rouge2": 0.29629629629629634,
+      "rougeL": 0.4827586206896552,
+      "bleu": 0.23578316044531802,
+      "bertscore": 0.9029585719108582
+    },
+    {
+      "question": "Generate a description based on the following trip",
+      "rouge1": 0.6666666666666667,
+      "rouge2": 0.4615384615384615,
+      "rougeL": 0.6666666666666667,
+      "bleu": 0.15228621982435664,
+      "bertscore": 0.9334114193916321
+    },
+    {
+      "question": "Generate a description based on the following trip",
+      "rouge1": 0.37500000000000006,
+      "rouge2": 0.19999999999999998,
+      "rougeL": 0.37500000000000006,
+      "bleu": 0.021847844937497602,
+      "bertscore": 0.8652722239494324
+    },
+    {
+      "question": "Generate a description based on the following trip",
+      "rouge1": 0.7027027027027026,
+      "rouge2": 0.4,
+      "rougeL": 0.7027027027027026,
+      "bleu": 0.14728212724124626,
+      "bertscore": 0.9016719460487366
+    },
+    {
+      "question": "Generate a description based on the following trip",
+      "rouge1": 0.7272727272727273,
+      "rouge2": 0.4444444444444444,
+      "rougeL": 0.7272727272727273,
+      "bleu": 0.3880684294761699,
+      "bertscore": 0.913628101348877
+    },
+    {
+      "question": "Generate a description based on the following trip",
+      "rouge1": 0.7692307692307693,
+      "rouge2": 0.7027027027027025,
+      "rougeL": 0.7692307692307693,
+      "bleu": 0.518836150464752,
+      "bertscore": 0.9371331930160522
+    },
+    {
+      "question": "Generate a description based on the following trip",
+      "rouge1": 0.48484848484848486,
+      "rouge2": 0.3225806451612903,
+      "rougeL": 0.30303030303030304,
+      "bleu": 0.10401577613691954,
+      "bertscore": 0.8991343975067139
+    }
+  ]
+}

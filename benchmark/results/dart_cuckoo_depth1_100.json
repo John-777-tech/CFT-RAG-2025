@@ -1,0 +1,902 @@
+[
+  {
+    "question": "Generate a description based on the following triples: (Mars Hill College, JOINED, 1973) | (Mars Hill College, LOCATION, Mars Hill, North Carolina)",
+    "answer": "Mars Hill College, located in Mars Hill, North Carolina, joined in 1973.",
+    "expected_answer": "A school from Mars Hill, North Carolina, joined in 1973.",
+    "time": 13.275213718414307,
+    "answer_length": 72,
+    "retrieval_time": 5.245208740234375e-06,
+    "generation_time": 13.262785911560059
+  },
+  {
+    "question": "Generate a description based on the following triples: (Newberry College, NICKNAME, Wolves)",
+    "answer": "Newberry College's nickname is Wolves.",
+    "expected_answer": "Newberry College's nickname is the wolves.",
+    "time": 4.2795188426971436,
+    "answer_length": 38,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 4.267582893371582
+  },
+  {
+    "question": "Generate a description based on the following triples: (Presbyterian College, TYPE, Private)",
+    "answer": "Presbyterian College is a private school.",
+    "expected_answer": "Presbyterian College is a private school.",
+    "time": 7.730785131454468,
+    "answer_length": 41,
+    "retrieval_time": 5.0067901611328125e-06,
+    "generation_time": 7.705153942108154
+  },
+  {
+    "question": "Generate a description based on the following triples: (Queens University of Charlotte, NICKNAME, Royals) | (Queens University of Charlotte, ENROLLMENT, 2386)",
+    "answer": "Queens University of Charlotte has an enrollment of 2386 and its nickname is the Royals.",
+    "expected_answer": "The nickname of the school with an enrollment of 2,386 is the royals.",
+    "time": 4.948655843734741,
+    "answer_length": 88,
+    "retrieval_time": 9.5367431640625e-07,
+    "generation_time": 4.937129974365234
+  },
+  {
+    "question": "Generate a description based on the following triples: (Inars Kivlenieks, COUNTRY, Latvia)",
+    "answer": "Inars Kivlenieks's country is Latvia.",
+    "expected_answer": "The Athlete is Inars Kivlenieks.The country is Latvia",
+    "time": 3.9569029808044434,
+    "answer_length": 37,
+    "retrieval_time": 4.0531158447265625e-06,
+    "generation_time": 3.9442858695983887
+  },
+  {
+    "question": "Generate a description based on the following triples: (New York, SWIMSUIT, 8.713) | (New York, EVENING_GOWN, 8.400) | (New York, AVERAGE, 8.525)",
+    "answer": "New York received a score of 8.713 in SWIMSUIT, 8.400 in EVENING_GOWN, and an average score of 8.525.",
+    "expected_answer": "New York\t it 8.713 New York\t 8.525",
+    "time": 5.893072128295898,
+    "answer_length": 101,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 5.880984783172607
+  },
+  {
+    "question": "Generate a description based on the following triples: (Atlanta, OFFICIAL_POPULATION, 5,457,831) | ([TABLECONTEXT], METROPOLITAN_AREA, Atlanta) | (5,457,831, YEAR, 2012) | ([TABLECONTEXT], [TITLE], List of metropolitan areas by population) | (Atlanta, COUNTRY, United States)",
+    "answer": "The table titled \"List of metropolitan areas by population\" includes Atlanta, a metropolitan area in the United States, with an official population of 5,457,831 in 2012.",
+    "expected_answer": "Metropolitan areas by population is Atlanta Country United States Official population is 5,457,831 ,2012",
+    "time": 12.20195460319519,
+    "answer_length": 169,
+    "retrieval_time": 2.86102294921875e-06,
+    "generation_time": 12.190395832061768
+  },
+  {
+    "question": "Generate a description based on the following triples: (Bogotá, COUNTRY, Colombia)",
+    "answer": "Bogotá is in Colombia.",
+    "expected_answer": "The Bogotá metropolitan area is in Colombia.",
+    "time": 5.402195930480957,
+    "answer_length": 22,
+    "retrieval_time": 3.0994415283203125e-06,
+    "generation_time": 5.390491962432861
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], METROPOLITAN_AREA, Berlin) | (Berlin, COUNTRY, Germany) | ([TABLECONTEXT], [TITLE], List of metropolitan areas by population) | (Berlin, OFFICIAL_POPULATION, 5,097,712)",
+    "answer": "Berlin is a metropolitan area in Germany with an official population of 5,097,712, as listed in the \"List of metropolitan areas by population\".",
+    "expected_answer": "Berlin is a metropolitan area in Germany with an official population of 5,097,712.",
+    "time": 7.052723169326782,
+    "answer_length": 143,
+    "retrieval_time": 1.9073486328125e-06,
+    "generation_time": 7.0410356521606445
+  },
+  {
+    "question": "Generate a description based on the following triples: (1983-1984 season, JORNADA_OR_OTHER, 2) | (2, AWAY_TEAM, América) | (2, HOME_TEAM, Chivas)",
+    "answer": "In the 1983-1984 season, during jornada 2, Chivas was the home team and América was the away team.",
+    "expected_answer": "Chivas played against América in the 1983-1984 season.",
+    "time": 12.870241165161133,
+    "answer_length": 98,
+    "retrieval_time": 4.0531158447265625e-06,
+    "generation_time": 12.858395099639893
+  },
+  {
+    "question": "Generate a description based on the following triples: (Final Vuelta, RESULT, 3-1) | (Final Vuelta, HOME_TEAM, América) | (Final Vuelta, DATE, 10 June 1984)",
+    "answer": "The Final Vuelta on 10 June 1984 had América as the home team and ended with a result of 3-1.",
+    "expected_answer": "America earned a 3-1 victory in the second-leg final in 1984.",
+    "time": 15.022867918014526,
+    "answer_length": 93,
+    "retrieval_time": 3.0994415283203125e-06,
+    "generation_time": 15.00881290435791
+  },
+  {
+    "question": "Generate a description based on the following triples: (24, DATE, 11 January 1987) | (24, HOME_TEAM, Chivas) | (24, AWAY_TEAM, América) | (24, RESULT, 2-2)",
+    "answer": "On 11 January 1987, home team Chivas and away team América drew 2-2.",
+    "expected_answer": "On 11 January 1987, América and Chivas drew 2-2.",
+    "time": 7.841080904006958,
+    "answer_length": 68,
+    "retrieval_time": 8.344650268554688e-06,
+    "generation_time": 7.82914400100708
+  },
+  {
+    "question": "Generate a description based on the following triples: (14, STADIUM, Estadio Jalisco) | (14, RESULT, 1-1)",
+    "answer": "El Clásico de Clásicos Season 1983–1984 Jornada 21 had a result of 1-1 at Estadio Jalisco.",
+    "expected_answer": "The pair tied the score 1-1 at Estadio Jalisco.",
+    "time": 16.430580854415894,
+    "answer_length": 90,
+    "retrieval_time": 3.0994415283203125e-06,
+    "generation_time": 16.418362140655518
+  },
+  {
+    "question": "Generate a description based on the following triples: (Apertura 2006, JORNADA_OR_OTHER, Semifinals Ida) | (Semifinals Ida, AWAY_TEAM, América) | (Semifinals Ida, HOME_TEAM, Chivas)",
+    "answer": "The Semifinals Ida of the Apertura 2006 tournament features Chivas as the home team and América as the away team.",
+    "expected_answer": "Chivas and América will compete in the semifinals of the Apertura 2006 tournament.",
+    "time": 9.509315013885498,
+    "answer_length": 113,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 9.496275901794434
+  },
+  {
+    "question": "Generate a description based on the following triples: (1983-1984 season, JORNADA_OR_OTHER, 21) | (21, AWAY_TEAM, Chivas) | (21, STADIUM, Estadio Azteca) | (21, HOME_TEAM, América)",
+    "answer": "In the 1983-1984 season's Jornada 21 (El Clásico de Clásicos), América was the home team, Chivas was the away team, and the match took place at Estadio Azteca.",
+    "expected_answer": "El Clásico de Clásicos Season 1983–1984 Jornada  is 21 away team is Chivas Chivas Estadio Azteca",
+    "time": 13.337208032608032,
+    "answer_length": 159,
+    "retrieval_time": 1.9073486328125e-06,
+    "generation_time": 13.325786828994751
+  },
+  {
+    "question": "Generate a description based on the following triples: (Everything Man, TIME, 3:16)",
+    "answer": "Everything Man's time is 3:16.",
+    "expected_answer": "Everything Man is 3 minutes and 16 seconds long.",
+    "time": 6.806118965148926,
+    "answer_length": 30,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 6.793543815612793
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], [TITLE], Eardrum (album)) | (2, TITLE, NY Weather Report) | (NY Weather Report, SONGWRITERS, Talib Kweli Greene) | ([TABLECONTEXT], NUMBER, 2)",
+    "answer": "NY Weather Report is the second track on the album Eardrum, and its songwriter is Talib Kweli Greene.",
+    "expected_answer": "Talib Kweli Green wrote NY Weather Report, the second song on Eardrum.",
+    "time": 7.857095956802368,
+    "answer_length": 101,
+    "retrieval_time": 3.0994415283203125e-06,
+    "generation_time": 7.844825029373169
+  },
+  {
+    "question": "Generate a description based on the following triples: (Say Something, PRODUCER(S), will.i.am) | (Say Something, PERFORMER(S), Talib Kweli, Jean Grae)",
+    "answer": "Say Something was produced by will.i.am and performed by Talib Kweli and Jean Grae.",
+    "expected_answer": "willi.i.am produced Say Something, performed by Talib Kweli and Jean Grae.",
+    "time": 5.276487350463867,
+    "answer_length": 83,
+    "retrieval_time": 1.9073486328125e-06,
+    "generation_time": 5.264280796051025
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], [TITLE], Eardrum (album)) | (5, TITLE, Country Cousins) | ([TABLECONTEXT], NUMBER, 5)",
+    "answer": "Country Cousins is the fifth song on the album Eardrum.",
+    "expected_answer": "Country Cousins is the fifth song on Eardrum.",
+    "time": 3.8490500450134277,
+    "answer_length": 55,
+    "retrieval_time": 1.9788742065429688e-05,
+    "generation_time": 3.837346076965332
+  },
+  {
+    "question": "Generate a description based on the following triples: (Holy Moly, SAMPLES_AND_NOTES, Border Song (Holy Moses) by Aretha Franklin)",
+    "answer": "Holy Moly samples Border Song (Holy Moses) by Aretha Franklin.",
+    "expected_answer": "Holy Moly samples Border Song (Holy Moses) by Aretha Franklin.",
+    "time": 4.931349039077759,
+    "answer_length": 62,
+    "retrieval_time": 5.0067901611328125e-06,
+    "generation_time": 4.919416189193726
+  },
+  {
+    "question": "Generate a description based on the following triples: (15, TITLE, The Perfect Beat) | (The Perfect Beat, PRODUCER(S), Swiff D) | (The Perfect Beat, SAMPLES_AND_NOTES, Do It Twice by Bob Marley) | (The Perfect Beat, PERFORMER(S), Talib Kweli, KRS-One)",
+    "answer": "The Perfect Beat ranked 15th, was produced by Swiff D, uses samples of Do It Twice by Bob Marley, and features performers Talib Kweli and KRS-One.",
+    "expected_answer": "The Perfect Beat ranked 15th, was produced by Swiff D, uses samples of Do it Twice by Bob Marley, and features Talib Kweli, KRS-One.",
+    "time": 11.028386116027832,
+    "answer_length": 146,
+    "retrieval_time": 3.0994415283203125e-06,
+    "generation_time": 11.014818906784058
+  },
+  {
+    "question": "Generate a description based on the following triples: (Soon the New Day, TIME, 4:02) | (Soon the New Day, SONGWRITERS, Talib Kweli Greene, Otis Jackson Jr., Paul Charles, John Mason)",
+    "answer": "Soon the New Day is a song with a duration of 4:02, written by Talib Kweli Greene, Otis Jackson Jr., Paul Charles, and John Mason.",
+    "expected_answer": "Songwriters Talib Kweli Greene, Otis Jackson Jr., Paul Charles, John Mason are writing Soon the New Day song with the duration of 4:02",
+    "time": 5.73892617225647,
+    "answer_length": 130,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 5.724615097045898
+  },
+  {
+    "question": "Generate a description based on the following triples: (Arabic numerals, BINARY, 0011 0000) | (Arabic numerals, GLYPH, 0)",
+    "answer": "The Arabic numeral glyph 0 corresponds to the binary number 0011 0000.",
+    "expected_answer": "The binary number 0011 0000 corresponds to an Arabic numeral glyph of 0.",
+    "time": 6.79512882232666,
+    "answer_length": 70,
+    "retrieval_time": 7.867813110351562e-06,
+    "generation_time": 6.781351089477539
+  },
+  {
+    "question": "Generate a description based on the following triples: (Arabic numerals, GLYPH, 2) | (Arabic numerals, OCTAL, 062)",
+    "answer": "Arabic numerals have a glyph 2, and the Arabic numeral 2 corresponds to the octal number 062.",
+    "expected_answer": "In Arabic numerals, 2 is the same as octal's 062.",
+    "time": 17.20925736427307,
+    "answer_length": 93,
+    "retrieval_time": 3.0994415283203125e-06,
+    "generation_time": 17.196539878845215
+  },
+  {
+    "question": "Generate a description based on the following triples: (Arabic numerals, DECIMAL, 51) | (Arabic numerals, HEXADECIMAL, 33)",
+    "answer": "Arabic numerals' decimal value 51 corresponds to the hexadecimal value 33.",
+    "expected_answer": "Hexadecimal 33 is equivalent to decimal 51.",
+    "time": 12.960584878921509,
+    "answer_length": 74,
+    "retrieval_time": 5.0067901611328125e-06,
+    "generation_time": 12.94801115989685
+  },
+  {
+    "question": "Generate a description based on the following triples: (Arabic numerals, OCTAL, 064) | (Arabic numerals, BINARY, 0011 0100)",
+    "answer": "Arabic numeral 4 corresponds to octal number 064 and binary number 0011 0100.",
+    "expected_answer": "0011 0100 in binary is the same as 064 in octal.",
+    "time": 12.194533109664917,
+    "answer_length": 77,
+    "retrieval_time": 4.291534423828125e-06,
+    "generation_time": 12.181761980056763
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], NAME, William Bennett) | ([TABLECONTEXT], [TITLE], Office of National Drug Control Policy) | (William Bennett, TERM_OF_OFFICE, 1989 - 1991)",
+    "answer": "William Bennett served in the Office of National Drug Control Policy from 1989 to 1991.",
+    "expected_answer": "In the Office of National Drug Control Policy from 1989-1991, William Bennett served.",
+    "time": 5.446014165878296,
+    "answer_length": 87,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 5.43415904045105
+  },
+  {
+    "question": "Generate a description based on the following triples: (Bob Martinez, PRESIDENT(S)_SERVED_UNDER, George H. W. Bush)",
+    "answer": "Bob Martinez served under President George H. W. Bush.",
+    "expected_answer": "Bob Martinez served under President George H. W. Bush.",
+    "time": 3.537390947341919,
+    "answer_length": 54,
+    "retrieval_time": 1.9073486328125e-06,
+    "generation_time": 3.5258090496063232
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], NAME, Lee P. Brown) | (Lee P. Brown, NUMBER, 3) | ([TABLECONTEXT], [TITLE], Office of National Drug Control Policy)",
+    "answer": "Lee P. Brown was the third director of the Office of National Drug Control Policy.",
+    "expected_answer": "Lee P. Brown was the third director of the Office of National Drug Control Policy.",
+    "time": 6.345347166061401,
+    "answer_length": 82,
+    "retrieval_time": 3.0994415283203125e-06,
+    "generation_time": 6.332863092422485
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], NAME, Barry McCaffrey) | (Barry McCaffrey, TERM_OF_OFFICE, February 29, 1996 - January 4, 2001) | ([TABLECONTEXT], [TITLE], Office of National Drug Control Policy)",
+    "answer": "Barry McCaffrey directed the Office of National Drug Control Policy from February 29, 1996 to January 4, 2001.",
+    "expected_answer": "From February 29, 1996 to January 4, 2001, Barry McCaffrey directed the Office of National Drug Control Policy.",
+    "time": 19.956387996673584,
+    "answer_length": 110,
+    "retrieval_time": 2.86102294921875e-06,
+    "generation_time": 19.94096803665161
+  },
+  {
+    "question": "Generate a description based on the following triples: (John P. Walters, PRESIDENT(S)_SERVED_UNDER, George W. Bush) | (John P. Walters, TERM_OF_OFFICE, December 7, 2001 - January 19, 2009)",
+    "answer": "John P. Walters served under President George W. Bush from December 7, 2001 to January 19, 2009.",
+    "expected_answer": "John P. Walters worked with George W. Bush from December 7, 2001 to January 19, 2009.",
+    "time": 5.429573059082031,
+    "answer_length": 96,
+    "retrieval_time": 1.1920928955078125e-06,
+    "generation_time": 5.4172539710998535
+  },
+  {
+    "question": "Generate a description based on the following triples: (Gil Kerlikowske, PRESIDENT(S)_SERVED_UNDER, Barack Obama) | (Gil Kerlikowske, TERM_OF_OFFICE, May 7, 2009 - March 6, 2014) | (Gil Kerlikowske, NUMBER, 6)",
+    "answer": "Gil Kerlikowske was the 6th person in the Office of National Drug Control Policy, serving under President Barack Obama from May 7, 2009 to March 6, 2014.",
+    "expected_answer": "No 6 The Office of National Drug Control Policy person name Gil Kerlikowske the term office May 7, 2009 – March 6, 2014 by Barack Obama",
+    "time": 17.210242986679077,
+    "answer_length": 153,
+    "retrieval_time": 1.9073486328125e-06,
+    "generation_time": 17.182634115219116
+  },
+  {
+    "question": "Generate a description based on the following triples: (Sky Sport Extra HD, CONTENT, sport) | (Sky Sport Extra HD, NUMBER, 204)",
+    "answer": "Sky Sport Extra HD, numbered 204, provides sport content.",
+    "expected_answer": "The content offered by the package number 204's sport.",
+    "time": 6.905359268188477,
+    "answer_length": 57,
+    "retrieval_time": 3.0994415283203125e-06,
+    "generation_time": 6.893294811248779
+  },
+  {
+    "question": "Generate a description based on the following triples: (87, TIME/RETIRED, 1:48:11.023) | ([TABLECONTEXT], [TITLE], 2003 Grand Prix of Monterey) | ([TABLECONTEXT], DRIVERS, Patrick Carpentier) | (Patrick Carpentier, NUMBER, 32) | (Patrick Carpentier, LAPS, 87)",
+    "answer": "In the 2003 Grand Prix of Monterey, driver Patrick Carpentier (car number 32) finished 87 laps in 1:48:11.023.",
+    "expected_answer": "No 32, Patrick Carpentier, finished the 87 laps of 2003 Grand Prix of Monterey in 1:48:11.023.",
+    "time": 18.489367723464966,
+    "answer_length": 110,
+    "retrieval_time": 1.6689300537109375e-06,
+    "generation_time": 18.471521854400635
+  },
+  {
+    "question": "Generate a description based on the following triples: (Bruno Junqueira, TEAM, Newman/Haas Racing) | ([TABLECONTEXT], [TITLE], 2003 Grand Prix of Monterey) | (Bruno Junqueira, LAPS, 87) | ([TABLECONTEXT], DRIVERS, Bruno Junqueira) | (87, TIME/RETIRED, +0.8 secs)",
+    "answer": "The table context titled 2003 Grand Prix of Monterey includes driver Bruno Junqueira from Newman/Haas Racing, who completed 87 laps with a time difference of +0.8 secs.",
+    "expected_answer": "Bruno Junqueira of the Newman/Haas Racing finished the 2003 Grand Prix of Monterey 0.8 secs behind the winner.",
+    "time": 11.241818904876709,
+    "answer_length": 168,
+    "retrieval_time": 1.9073486328125e-06,
+    "generation_time": 11.229841232299805
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], DRIVERS, Tiago Monteiro) | (86, TIME/RETIRED, + 1 Lap) | (Tiago Monteiro, LAPS, 86) | ([TABLECONTEXT], [TITLE], 2003 Grand Prix of Monterey) | (Tiago Monteiro, TEAM, Fittipaldi-Dingman Racing)",
+    "answer": "In the 2003 Grand Prix of Monterey, Tiago Monteiro of Fittipaldi-Dingman Racing completed 86 laps and retired with 1 lap remaining.",
+    "expected_answer": "Tiago Monteiro of the Fittipaldi-Dingman Racing team retired with 1 lap remaining in the 2003 Grand Prix of Monterey.",
+    "time": 10.639575004577637,
+    "answer_length": 131,
+    "retrieval_time": 3.814697265625e-06,
+    "generation_time": 10.624015092849731
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], [TITLE], 2003 Grand Prix of Monterey) | (85, TIME/RETIRED, + 2 Laps) | (Joel Camathias, LAPS, 85) | (Joel Camathias, TEAM, Dale Coyne Racing) | ([TABLECONTEXT], DRIVERS, Joel Camathias)",
+    "answer": "The 2003 Grand Prix of Monterey features driver Joel Camathias from Dale Coyne Racing, who completed 85 laps with +2 laps remaining.",
+    "expected_answer": "Joel Camathias of Dale Coyne Racing finished 85 laps with 2 more remaining in the 2003 Grand Prix of Monterey.",
+    "time": 13.976221084594727,
+    "answer_length": 132,
+    "retrieval_time": 1.9073486328125e-06,
+    "generation_time": 13.960479974746704
+  },
+  {
+    "question": "Generate a description based on the following triples: (83, TIME/RETIRED, Mechanical) | (Geoff Boss, TEAM, Dale Coyne Racing) | ([TABLECONTEXT], DRIVERS, Geoff Boss) | (Geoff Boss, LAPS, 83) | ([TABLECONTEXT], [TITLE], 2003 Grand Prix of Monterey)",
+    "answer": "In the 2003 Grand Prix of Monterey, Geoff Boss, a driver of Dale Coyne Racing, completed 83 laps and retired due to mechanical problems.",
+    "expected_answer": "Geoff Boss of the Dale Coyne Racing team did not finish the 2003 Grand Prix of Monterey due to mechanical problems.",
+    "time": 13.496785879135132,
+    "answer_length": 136,
+    "retrieval_time": 5.7220458984375e-06,
+    "generation_time": 13.481281042098999
+  },
+  {
+    "question": "Generate a description based on the following triples: (Jimmy Vasser, LAPS, 87) | ([TABLECONTEXT], DRIVERS, Jimmy Vasser) | ([TABLECONTEXT], [TITLE], 2003 Grand Prix of Monterey) | (Jimmy Vasser, TEAM, American Spirit Team Johansson)",
+    "answer": "In the 2003 Grand Prix of Monterey, Jimmy Vasser from American Spirit Team Johansson drove 87 laps.",
+    "expected_answer": "During the 2003 Grand Prix of Monterey, Jimmy Vasser drove 87 laps for American Spirit Team Johansson.",
+    "time": 7.6204400062561035,
+    "answer_length": 99,
+    "retrieval_time": 3.814697265625e-06,
+    "generation_time": 7.60384726524353
+  },
+  {
+    "question": "Generate a description based on the following triples: (Adrian Fernández, NUMBER, 51) | (Adrian Fernández, TEAM, Fernández Racing) | (87, TIME/RETIRED, +1:01.4) | (Adrian Fernández, LAPS, 87)",
+    "answer": "Adrian Fernández (no. 51) of Fernández Racing team completed 87 laps with a time of +1:01.4.",
+    "expected_answer": "Adrian Fernández (no. 51) of Fernández Racing team completed 87 laps by +1:01.4.",
+    "time": 8.313598155975342,
+    "answer_length": 92,
+    "retrieval_time": 1.6689300537109375e-06,
+    "generation_time": 8.28941798210144
+  },
+  {
+    "question": "Generate a description based on the following triples: (San Francisco de Macorís, ECCLESIASTICAL_PROVINCE, Santiago de los Caballeros) | (San Francisco de Macorís, TYPE, Diocese) | (San Francisco de Macorís, AREA_KM2, 3,682) | (San Francisco de Macorís, ESTABLISHED, 16 January 1978)",
+    "answer": "San Francisco de Macorís is a Diocese in the ecclesiastical province of Santiago de los Caballeros, with an area of 3,682 km², established on 16 January 1978.",
+    "expected_answer": "San Francisco de Macorís is a Diocese in the province of Santiago de los Caballeros that has an area of 3,682 km-sq and was established on 16 January 1978.",
+    "time": 7.18953800201416,
+    "answer_length": 158,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 7.1684863567352295
+  },
+  {
+    "question": "Generate a description based on the following triples: (San Pedro de Macorís, LATIN_NAME, Sancti Petri de Macoris)",
+    "answer": "San Pedro de Macorís's Latin name is Sancti Petri de Macoris.",
+    "expected_answer": "San Pedro de Macoris named in Latin as Sancti Petri de Macoris.",
+    "time": 5.036381959915161,
+    "answer_length": 61,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 5.008990049362183
+  },
+  {
+    "question": "Generate a description based on the following triples: (Nuestra Señora de la Altagracia en Higuey, LATIN_NAME, Higueyensis / a Domina Nostra vulgo de la Altagracia in Higuey) | (Nuestra Señora de la Altagracia en Higuey, ESTABLISHED, 1 April 1959) | (Nuestra Señora de la Altagracia en Higuey, ECCLESIASTICAL_PROVINCE, Santo Domingo)",
+    "answer": "Nuestra Señora de la Altagracia en Higuey has the Latin name Higueyensis / a Domina Nostra vulgo de la Altagracia in Higuey, was established on 1 April 1959, and belongs to the ecclesiastical province of Santo Domingo.",
+    "expected_answer": "The ecclesiastical Jurisdictions is Nuestra Señora de la Altagracia en Higüey. The Higueyensis / a Domina Nostra vulgo de la Altagracia in Higüey. The ecclesiastical Province is Santo Domingo. The Established is 1 April 1959 .",
+    "time": 9.37377381324768,
+    "answer_length": 218,
+    "retrieval_time": 2.86102294921875e-06,
+    "generation_time": 9.346556901931763
+  },
+  {
+    "question": "Generate a description based on the following triples: (29, SCORE, 3 - 1) | (29, DATE, December 11)",
+    "answer": "The game against Memphis on December 11 had a score of 3-1.",
+    "expected_answer": "The score of the game on December 11 was 3 - 1.",
+    "time": 11.056865930557251,
+    "answer_length": 59,
+    "retrieval_time": 3.0994415283203125e-06,
+    "generation_time": 11.031702995300293
+  },
+  {
+    "question": "Generate a description based on the following triples: (35, DATE, December 27) | (35, OPPONENT, Florida Panthers)",
+    "answer": "The game on December 27 had Florida Panthers as the opponent.",
+    "expected_answer": "Florida panthers was the opponent on December 27.",
+    "time": 8.047634840011597,
+    "answer_length": 61,
+    "retrieval_time": 1.9073486328125e-06,
+    "generation_time": 8.020638942718506
+  },
+  {
+    "question": "Generate a description based on the following triples: (Trisha, GENDER, Female) | (Trisha, STATUS, Winner)",
+    "answer": "Trisha is a female winner.",
+    "expected_answer": "Trisha, a female, is the winner",
+    "time": 4.168194055557251,
+    "answer_length": 26,
+    "retrieval_time": 1.9073486328125e-06,
+    "generation_time": 4.14063286781311
+  },
+  {
+    "question": "Generate a description based on the following triples: (London, AGE, 46)",
+    "answer": "London's age is 46.",
+    "expected_answer": "London's age is 46",
+    "time": 3.241218090057373,
+    "answer_length": 19,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 3.2136518955230713
+  },
+  {
+    "question": "Generate a description based on the following triples: (Adria, FROM, Seattle, WA) | (Adria, AGE, 25) | (Adria, PROFESSION, Bartender)",
+    "answer": "Adria is a 25-year-old bartender from Seattle, WA.",
+    "expected_answer": "Adria is 25 year old bartender from Seattle, WA",
+    "time": 6.746728181838989,
+    "answer_length": 50,
+    "retrieval_time": 1.9073486328125e-06,
+    "generation_time": 6.735055208206177
+  },
+  {
+    "question": "Generate a description based on the following triples: (Lucas, STATUS, 6th Captured (by Kim)) | (Lucas, GENDER, Male)",
+    "answer": "Lucas is a male who was the 6th captured by Kim.",
+    "expected_answer": "A male was the 6th captured (by Kim)",
+    "time": 6.408221960067749,
+    "answer_length": 48,
+    "retrieval_time": 4.291534423828125e-06,
+    "generation_time": 6.379820108413696
+  },
+  {
+    "question": "Generate a description based on the following triples: (Andrew, FROM, Redondo Beach, CA)",
+    "answer": "Contestant Andrew is from Redondo Beach, California.",
+    "expected_answer": "Contestant Andrew is from Redondo Beach, California.",
+    "time": 3.9723236560821533,
+    "answer_length": 52,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 3.9441018104553223
+  },
+  {
+    "question": "Generate a description based on the following triples: (Tracy, PRIZE_MONEY_(USD), $0) | (Tracy, PROFESSION, Student)",
+    "answer": "Tracy is a student who won $0 in prize money.",
+    "expected_answer": "Tracy is a student who won $0 in prize money",
+    "time": 5.321488857269287,
+    "answer_length": 45,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 5.294934988021851
+  },
+  {
+    "question": "Generate a description based on the following triples: (Carmenta Farra, DIAMETER_(KM), 180.0) | (Carmenta Farra, LONGITUDE, 8.0E)",
+    "answer": "Carmenta Farra has a longitude of 8.0E and a diameter of 180.0 km.",
+    "expected_answer": "The diameter of the feature with longitude 8.0e is 180.0.",
+    "time": 5.60442590713501,
+    "answer_length": 66,
+    "retrieval_time": 3.0994415283203125e-06,
+    "generation_time": 5.578992128372192
+  },
+  {
+    "question": "Generate a description based on the following triples: (Liban Farra, LATITUDE, 23.9S)",
+    "answer": "Liban Farra is at latitude 23.9S.",
+    "expected_answer": "Liban farra is at latitude 23.9S.",
+    "time": 4.95667290687561,
+    "answer_length": 33,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 4.930114030838013
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], MIDWEST_DIVISION, Denver Nuggets) | (Denver Nuggets, WINS, 50) | ([TABLECONTEXT], [TITLE], 1976-77 NBA season) | (Denver Nuggets, L, 32)",
+    "answer": "In the 1976-77 NBA season, the Denver Nuggets of the Midwest Division had 50 wins and 32 losses.",
+    "expected_answer": "The Denver Nuggets won 50 and lost 32 games in the 1976-77 NBA season.",
+    "time": 7.3603479862213135,
+    "answer_length": 96,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 7.332489967346191
+  },
+  {
+    "question": "Generate a description based on the following triples: (Chicago Bulls, PCT, .537) | ([TABLECONTEXT], [TITLE], 1976-77 NBA season) | ([TABLECONTEXT], MIDWEST_DIVISION, Chicago Bulls) | (Chicago Bulls, HOME, 31-10)",
+    "answer": "In the 1976-77 NBA season, the Chicago Bulls (Midwest Division) had a winning percentage of .537 and a home record of 31-10.",
+    "expected_answer": "The Chicago Bulls winning percentage was .537 and achieved 31-10 at home court in 1976-77.",
+    "time": 10.724569082260132,
+    "answer_length": 124,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 10.69792890548706
+  },
+  {
+    "question": "Generate a description based on the following triples: (Kansas City Kings, DIV, 7-13) | (Kansas City Kings, GB, 10) | ([TABLECONTEXT], [TITLE], 1976-77 NBA season) | ([TABLECONTEXT], MIDWEST_DIVISION, Kansas City Kings)",
+    "answer": "In the 1976-77 NBA season, the Kansas City Kings (a Midwest Division team) were 10 games behind the leading team and had a 7-13 record against Midwest Division opponents.",
+    "expected_answer": "Kansas City Kings was 10 games behind the leading team and finished the season 7-13 playing against teams in the Midwest Division in 1976-77.",
+    "time": 11.529860973358154,
+    "answer_length": 170,
+    "retrieval_time": 1.9073486328125e-06,
+    "generation_time": 11.502309083938599
+  },
+  {
+    "question": "Generate a description based on the following triples: (Indiana Pacers, WINS, 36) | (Indiana Pacers, PCT, .439)",
+    "answer": "The Indiana Pacers have 36 wins and a PCT of .439.",
+    "expected_answer": "The Pacers won 36 of their games, which amounts to only .439 for their PCT.",
+    "time": 5.911487102508545,
+    "answer_length": 50,
+    "retrieval_time": 1.6689300537109375e-06,
+    "generation_time": 5.883692979812622
+  },
+  {
+    "question": "Generate a description based on the following triples: (Milwaukee Bucks, ROAD, 6-35) | (Milwaukee Bucks, HOME, 24-17)",
+    "answer": "Milwaukee Bucks had a 6-35 record on the road and a 24-17 record at home.",
+    "expected_answer": "Milwaukee performed drastically worse on the road with 6-35 compared to their 24-17 when having home court advantage.",
+    "time": 4.57368016242981,
+    "answer_length": 73,
+    "retrieval_time": 1.9073486328125e-06,
+    "generation_time": 4.546011209487915
+  },
+  {
+    "question": "Generate a description based on the following triples: (Reed, LAND_(_SQMI_), 20.261)",
+    "answer": "The land area of Reed is 20.261 sqmi.",
+    "expected_answer": "The land area of Reed Township is 20.261 sqmi",
+    "time": 7.93170428276062,
+    "answer_length": 37,
+    "retrieval_time": 5.9604644775390625e-06,
+    "generation_time": 7.9041619300842285
+  },
+  {
+    "question": "Generate a description based on the following triples: (Rich, POP._(2010), 64) | (Rich, LAND_(_SQMI_), 36.098)",
+    "answer": "Rich had a population of 64 in 2010 and a land area of 36.098 square miles.",
+    "expected_answer": "Rich town is home to 64 people in its 36.098 square miles.",
+    "time": 12.128232955932617,
+    "answer_length": 75,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 12.100690841674805
+  },
+  {
+    "question": "Generate a description based on the following triples: (Rifle, LONGITUDE, -102.602182) | (Rifle, LATITUDE, 46.580715) | (Rifle, COUNTY, Hettinger)",
+    "answer": "Rifle is in Hettinger county with longitude -102.602182 and latitude 46.580715.",
+    "expected_answer": "The coordinates 46.580715,-102.602182  are in Hettinger county.",
+    "time": 8.609935760498047,
+    "answer_length": 79,
+    "retrieval_time": 9.5367431640625e-07,
+    "generation_time": 8.591508865356445
+  },
+  {
+    "question": "Generate a description based on the following triples: (Rochester, COUNTY, Cass) | (Rochester, ANSI_CODE, 1036399)",
+    "answer": "Rochester is in Cass County and has an ANSI code of 1036399.",
+    "expected_answer": "1036399 ANSI code is in Cass county.",
+    "time": 6.472175121307373,
+    "answer_length": 60,
+    "retrieval_time": 1.9073486328125e-06,
+    "generation_time": 6.443015098571777
+  },
+  {
+    "question": "Generate a description based on the following triples: (Rosendal, LAND_(_SQMI_), 34.781)",
+    "answer": "Rosendal has a land area of 34.781 sqmi.",
+    "expected_answer": "The land area of rosendal is 34.781 sqmi",
+    "time": 4.06716513633728,
+    "answer_length": 40,
+    "retrieval_time": 2.86102294921875e-06,
+    "generation_time": 4.03970193862915
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], PARTY, Australian Labor Party) | (Australian Labor Party, PERCENT, 51.52) | (Australian Labor Party, VOTES, 324,135) | ([TABLECONTEXT], [TITLE], South Australian state election, 1973)",
+    "answer": "In the 1973 South Australian state election, the Australian Labor Party received 324,135 votes (accounting for 51.52%) and won 15 seats.",
+    "expected_answer": "In the 1973 South Australian state election, the Australian labor party got 324,135 votes, or 51.52%.",
+    "time": 16.439878940582275,
+    "answer_length": 136,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 16.41389012336731
+  },
+  {
+    "question": "Generate a description based on the following triples: (Liberal and Country League, CHANGE, 0) | (Liberal and Country League, SEATS, 20) | (Liberal and Country League, SWING, -3.97) | ([TABLECONTEXT], PARTY, Liberal and Country League) | ([TABLECONTEXT], [TITLE], South Australian state election, 1973)",
+    "answer": "In the 1973 South Australian state election, the Liberal and Country League had a swing of -3.97, won 20 seats, and had a change of 0.",
+    "expected_answer": "During the 1973 South Australian state election, the Liberal and Country League had a swing of -3.97, 20 seats, and a change of 0.",
+    "time": 7.535918951034546,
+    "answer_length": 134,
+    "retrieval_time": 2.86102294921875e-06,
+    "generation_time": 7.508394956588745
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], PARTY, Nationals SA) | (Nationals SA, CHANGE, +1) | (Nationals SA, PERCENT, 3.94) | ([TABLECONTEXT], [TITLE], South Australian state election, 1973) | (Nationals SA, VOTES, 24,810)",
+    "answer": "In the 1973 South Australian state election, Nationals SA received 24,810 votes (3.94%) with a change of +1.",
+    "expected_answer": "Nationals SA got 24,810, or 3.94%, in the 1973 South Australian state election, for a change of +1.",
+    "time": 7.120583772659302,
+    "answer_length": 108,
+    "retrieval_time": 3.0994415283203125e-06,
+    "generation_time": 7.092421293258667
+  },
+  {
+    "question": "Generate a description based on the following triples: (Independent, SWING, +2.86) | ([TABLECONTEXT], PARTY, Independent) | (Independent, VOTES, 27,178) | ([TABLECONTEXT], [TITLE], South Australian state election, 1973)",
+    "answer": "In the 1973 South Australian state election, the Independent party got 27,178 votes and a swing of +2.86.",
+    "expected_answer": "Independents got 27,178 votes in the 1973 South Australian state election, with a swing of +2.86.",
+    "time": 9.507306814193726,
+    "answer_length": 105,
+    "retrieval_time": 9.5367431640625e-07,
+    "generation_time": 9.48545217514038
+  },
+  {
+    "question": "Generate a description based on the following triples: (Other, CHANGE, 0) | ([TABLECONTEXT], [TITLE], South Australian state election, 1973) | (Other, SEATS, 0) | ([TABLECONTEXT], PARTY, Other)",
+    "answer": "In the 1973 South Australian state election, the Other party had a change of 0 and won 0 seats.",
+    "expected_answer": "Other candidates had 0 seats and a change of zero in the 1973 South Australian state election.",
+    "time": 7.734878063201904,
+    "answer_length": 95,
+    "retrieval_time": 2.6226043701171875e-06,
+    "generation_time": 7.70773983001709
+  },
+  {
+    "question": "Generate a description based on the following triples: (New York 9, INCUMBENT, Charles Schumer) | (New York 9, CANDIDATES, Anthony Weiner (D) 66% Leslie Telano (R) 24%) | (Charles Schumer, FIRST_ELECTED, 1980)",
+    "answer": "Charles Schumer, first elected in 1980, is the incumbent of New York 9, where the candidates are Anthony Weiner (D) 66% and Leslie Telano (R) 24%.",
+    "expected_answer": "The candidates in the district that first elected in 1980 were anthony weiner (d) 66% leslie telano (r) 24%.",
+    "time": 12.600169897079468,
+    "answer_length": 146,
+    "retrieval_time": 3.0994415283203125e-06,
+    "generation_time": 12.573018074035645
+  },
+  {
+    "question": "Generate a description based on the following triples: (Ed Towns, FIRST_ELECTED, 1982)",
+    "answer": "Ed Towns was first elected in 1982.",
+    "expected_answer": "The first elected year of the district that Ed Towns is an incumbent of's 1982.",
+    "time": 4.3276050090789795,
+    "answer_length": 35,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 4.29967188835144
+  },
+  {
+    "question": "Generate a description based on the following triples: (Jose Serrano, PARTY, Democratic) | (Jose Serrano, FIRST_ELECTED, 1990)",
+    "answer": "Jose Serrano is a member of the Democratic party and was first elected in 1990.",
+    "expected_answer": "The party elected in the district that first elected in 1990's democratic.",
+    "time": 5.40305495262146,
+    "answer_length": 79,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 5.376817941665649
+  },
+  {
+    "question": "Generate a description based on the following triples: (John McHugh, PARTY, Republican)",
+    "answer": "John McHugh is a member of the Republican Party.",
+    "expected_answer": "John McHugh is a member of republican.",
+    "time": 3.450406312942505,
+    "answer_length": 48,
+    "retrieval_time": 3.0994415283203125e-06,
+    "generation_time": 3.42362380027771
+  },
+  {
+    "question": "Generate a description based on the following triples: (LS ( Leading Seaman ), MECHANICAL, LME) | (LS ( Leading Seaman ), REGULATING, LPM)",
+    "answer": "Leading Seaman (LS) handles mechanical aspects of LME and regulates LPM.",
+    "expected_answer": "LME comes with LPM regulation.",
+    "time": 13.554839134216309,
+    "answer_length": 72,
+    "retrieval_time": 2.86102294921875e-06,
+    "generation_time": 13.526324987411499
+  },
+  {
+    "question": "Generate a description based on the following triples: (LS ( Leading Seaman ), REGULATING, LPM) | (LS ( Leading Seaman ), RADIO_ELECTRICAL, LREN)",
+    "answer": "Leading Seaman (LS) regulates LPM and handles radio electrical aspects related to LREN.",
+    "expected_answer": "LPM regulattopm comes with radio electrical IREN.",
+    "time": 8.508132696151733,
+    "answer_length": 87,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 8.480327844619751
+  },
+  {
+    "question": "Generate a description based on the following triples: (15-01, EPISODE, 183) | (15-01, SEGMENT_D, High-Performance Engines)",
+    "answer": "15-01 corresponds to episode 183, and its Segment D is High-Performance Engines.",
+    "expected_answer": "Segment D for episode 183 was high-performance engines.",
+    "time": 5.637432098388672,
+    "answer_length": 80,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 5.612174987792969
+  },
+  {
+    "question": "Generate a description based on the following triples: (15-06, SEGMENT_D, Luxury Sports Cars) | (15-06, SEGMENT_A, s Pipe)",
+    "answer": "For 15-06, Segment D is Luxury Sports Cars and Segment A is s Pipe.",
+    "expected_answer": "When Segment D was luxury sports cars, segment A was s pipe.",
+    "time": 7.954103946685791,
+    "answer_length": 67,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 7.935870885848999
+  },
+  {
+    "question": "Generate a description based on the following triples: (12, TEAM, charlotte) | (12, SCORE, w 88-83 (ot))",
+    "answer": "Charlotte's score in event 12 is w 88–83 (ot).",
+    "expected_answer": "The scores made by Charlotte team are w 88–83 (ot)",
+    "time": 7.320089101791382,
+    "answer_length": 46,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 7.308362007141113
+  },
+  {
+    "question": "Generate a description based on the following triples: (6, HIGH_REBOUNDS, al horford (17)) | (6, HIGH_ASSISTS, joe johnson (8))",
+    "answer": "In context 6, Al Horford (17) had the highest rebounds and Joe Johnson (8) had the highest assists.",
+    "expected_answer": "Joe johnson (8) made highest assists when high rebounds was Al Horford (17)",
+    "time": 9.635475873947144,
+    "answer_length": 99,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 9.608283996582031
+  },
+  {
+    "question": "Generate a description based on the following triples: (Georgian, FRIDAY_DAY_SIX, პარასკევი p'arask'evi) | (Georgian, THURSDAY_DAY_FIVE, ხუთშაბათი xutšabati)",
+    "answer": "In Georgian, FRIDAY_DAY_SIX is პარასკევი p'arask'evi and THURSDAY_DAY_FIVE is ხუთშაბათი xutšabati.",
+    "expected_answer": "Thursday day five when friday day six is პარასკევი p'arask'evi is ხუთშაბათი xutšabati.",
+    "time": 6.875874996185303,
+    "answer_length": 98,
+    "retrieval_time": 3.0994415283203125e-06,
+    "generation_time": 6.849613189697266
+  },
+  {
+    "question": "Generate a description based on the following triples: (Amharic, SATURDAY_DAY_SEVEN, ቅዳሜ ḳədame (First)) | (Amharic, THURSDAY_DAY_FIVE, ሐሙስ hamus)",
+    "answer": "In Amharic, the term for Thursday (day five) is ሐሙስ hamus, and the term for Saturday (day seven) is ቅዳሜ ḳədame (First).",
+    "expected_answer": "Saturday day seven when thursday day five is ሐሙስ hamus is ቅዳሜ ḳədame (first.",
+    "time": 10.408908128738403,
+    "answer_length": 119,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 10.381358861923218
+  },
+  {
+    "question": "Generate a description based on the following triples: (Malay, FRIDAY_DAY_SIX, Jumaat [♀4 ]) | (Malay, MONDAY_DAY_TWO, Isnin)",
+    "answer": "In Malay, FRIDAY_DAY_SIX is Jumaat [♀4 ] and MONDAY_DAY_TWO is Isnin.",
+    "expected_answer": "Friday day six when monday day two is isnin is jumaat [♀ 4.",
+    "time": 6.105884075164795,
+    "answer_length": 69,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 6.079531192779541
+  },
+  {
+    "question": "Generate a description based on the following triples: (Indonesian, TUESDAY_DAY_THREE, Selasa) | (Indonesian, THURSDAY_DAY_FIVE, Kamis)",
+    "answer": "In Indonesian, Tuesday (day three) is Selasa and Thursday (day five) is Kamis.",
+    "expected_answer": "Tuesday day three when thursday day five is kamis is selasa.",
+    "time": 8.058150291442871,
+    "answer_length": 78,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 8.030169010162354
+  },
+  {
+    "question": "Generate a description based on the following triples: (Khowar, THURSDAY_DAY_FIVE, پچھمبے pachhambey) | (Khowar, FRIDAY_DAY_SIX, آدینہ [♀3 ] adina)",
+    "answer": "In Khowar, Thursday (day five) is پچھمبے pachhambey and Friday (day six) is آدینہ [♀3] adina.",
+    "expected_answer": "Friday day six when thursday day five is پچھمبے pachhambey is آدینہ [♀3] adina.",
+    "time": 7.946288824081421,
+    "answer_length": 93,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 7.919682025909424
+  },
+  {
+    "question": "Generate a description based on the following triples: (Lamar, POVERTY_RATE, 16.1%) | (Lamar, MARKET_INCOME_PER_CAPITA, $16,420)",
+    "answer": "Lamar has a poverty rate of 16.1% and a market income per capita of $16,420.",
+    "expected_answer": "The poverty rate in the county that has a market income per capita of $16,420 is 16.1%.",
+    "time": 4.940772771835327,
+    "answer_length": 76,
+    "retrieval_time": 1.9073486328125e-06,
+    "generation_time": 4.9152069091796875
+  },
+  {
+    "question": "Generate a description based on the following triples: (Marshall, STATUS, Transitional) | (Marshall, POVERTY_RATE, 14.7%)",
+    "answer": "Marshall has a poverty rate of 14.7% and its status is transitional.",
+    "expected_answer": "The status of the county that has a 14.7% poverty rate is transitional.",
+    "time": 4.318090915679932,
+    "answer_length": 68,
+    "retrieval_time": 3.0994415283203125e-06,
+    "generation_time": 4.2898547649383545
+  },
+  {
+    "question": "Generate a description based on the following triples: (Tallapoosa, POVERTY_RATE, 16.6%) | (Tallapoosa, MARKET_INCOME_PER_CAPITA, $20,518)",
+    "answer": "Tallapoosa has a market income per capita of $20,518 and a poverty rate of 16.6%.",
+    "expected_answer": "The povery rate of the county with market income per capita of $20,518 is 16.6%.",
+    "time": 5.075147867202759,
+    "answer_length": 81,
+    "retrieval_time": 1.9073486328125e-06,
+    "generation_time": 5.048105001449585
+  },
+  {
+    "question": "Generate a description based on the following triples: (Фермата Farma, MAIN_PRESENTERS, TBA (Season 1)) | (Фермата Farma, REGION/COUNTRY, Bulgaria)",
+    "answer": "Фермата Farma is a Bulgarian show, and its main presenter for Season 1 is TBA.",
+    "expected_answer": "The main presenter for Bulgaria is TBA (season 1).",
+    "time": 9.818625926971436,
+    "answer_length": 78,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 9.791804075241089
+  },
+  {
+    "question": "Generate a description based on the following triples: (La Granja, MAIN_PRESENTERS, Sergio Lagos (Season 1-3))",
+    "answer": "La Granja's main presenters include Sergio Lagos (Season 1-3).",
+    "expected_answer": "The main presenter of La Granja is Sergio Lagos (season 1 - 3).",
+    "time": 16.596996068954468,
+    "answer_length": 62,
+    "retrieval_time": 1.9073486328125e-06,
+    "generation_time": 16.56914210319519
+  },
+  {
+    "question": "Generate a description based on the following triples: (BP6 / DT1, OPENING, 6 November 1999) | (BP6 / DT1, STATION_NAME_TAMIL, புக்கிட் பாஞ்சாங்) | (BP6 / DT1, STATION_NAME_ENGLISH, Bukit Panjang)",
+    "answer": "Bukit Panjang station (Tamil name: புக்கிட் பாஞ்சாங்; code: BP6/DT1) opened on 6 November 1999.",
+    "expected_answer": "Bukit Panjang station, Tamil name புக்கிட் பாஞ்சாங், opened on 6 November 1999.",
+    "time": 12.171601295471191,
+    "answer_length": 95,
+    "retrieval_time": 1.9073486328125e-06,
+    "generation_time": 12.144087791442871
+  },
+  {
+    "question": "Generate a description based on the following triples: (BP14, STATION_NAME_CHINESE, 十里广场) | (BP14, STATION_NAME_ENGLISH, Ten Mile Junction)",
+    "answer": "The alpha-numeric code BP14 refers to the station whose English name is Ten Mile Junction and Chinese name is 十里广场.",
+    "expected_answer": "The alpha-numeric code for Ten Mile Junction station (Chinese name: 十里广场) is BP14.",
+    "time": 4.59381890296936,
+    "answer_length": 115,
+    "retrieval_time": 1.1920928955078125e-06,
+    "generation_time": 4.581490993499756
+  },
+  {
+    "question": "Generate a description based on the following triples: (SE2, STATION_NAME_ENGLISH, Rumbia) | (SE2, OPENING, 18 January 2003)",
+    "answer": "Rumbia (station code SE2) opened on 18 January 2003.",
+    "expected_answer": "Rumbia, station code SE2, opened on Jan 18th 2003.",
+    "time": 5.889702081680298,
+    "answer_length": 52,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 5.864278078079224
+  },
+  {
+    "question": "Generate a description based on the following triples: (PTC / NE17, OPENING, 29 January 2005) | (PTC / NE17, STATION_NAME_ENGLISH, Punggol)",
+    "answer": "Punggol station, with station code PTC / NE17, opened on 29 January 2005.",
+    "expected_answer": "Punggol, station code PTC / NE17, started operation on 29 January 2005.",
+    "time": 11.05757188796997,
+    "answer_length": 73,
+    "retrieval_time": 1.9073486328125e-06,
+    "generation_time": 11.033526182174683
+  },
+  {
+    "question": "Generate a description based on the following triples: (PW5, STATION_NAME_ENGLISH, Nibong) | ([TABLECONTEXT], ALPHA-NUMERIC_CODE, PW5) | (PW5, OPENING, TBA) | ([TABLECONTEXT], [TITLE], List of Singapore LRT stations)",
+    "answer": "In the List of Singapore LRT stations, the alpha-numeric code PW5 corresponds to the station named Nibong, whose opening is to be announced (TBA).",
+    "expected_answer": "Singapore's new LRT station PW5, Nibong, is yet to be opened for operation.",
+    "time": 8.297997951507568,
+    "answer_length": 146,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 8.269761800765991
+  },
+  {
+    "question": "Generate a description based on the following triples: (Baník Ostrava (1), THIRD_PLACE, Sigma Olomouc)",
+    "answer": "When Baník Ostrava (1) was the champion, Sigma Olomouc was in third place.",
+    "expected_answer": "Sigma olomouc had third place when the champions is baník ostrava (1).",
+    "time": 15.45833706855774,
+    "answer_length": 74,
+    "retrieval_time": 1.9073486328125e-06,
+    "generation_time": 15.430732727050781
+  },
+  {
+    "question": "Generate a description based on the following triples: (Louisiana 3, CANDIDATES, Dave Treen (R) Unopposed) | (Louisiana 3, INCUMBENT, Dave Treen)",
+    "answer": "For Louisiana 3, the incumbent is Dave Treen and the candidate is Dave Treen (R) Unopposed.",
+    "expected_answer": "Dave treen (r) unopposed ran against Dave Treen.",
+    "time": 8.298657178878784,
+    "answer_length": 91,
+    "retrieval_time": 1.9073486328125e-06,
+    "generation_time": 8.272439956665039
+  },
+  {
+    "question": "Generate a description based on the following triples: (Louisiana 3, INCUMBENT, Dave Treen)",
+    "answer": "Dave Treen is the incumbent of Louisiana 3.",
+    "expected_answer": "Dave Treen served louisiana.",
+    "time": 7.56315016746521,
+    "answer_length": 43,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 7.535475015640259
+  },
+  {
+    "question": "Generate a description based on the following triples: (Jerry Huckaby, PARTY, Democratic) | (Jerry Huckaby, FIRST_ELECTED, 1976) | (Louisiana 5, RESULT, Re-elected) | (Louisiana 5, INCUMBENT, Jerry Huckaby) | (Louisiana 5, CANDIDATES, Jerry Huckaby (D) Unopposed)",
+    "answer": "Jerry Huckaby, a Democrat first elected in 1976, was the incumbent of Louisiana 5 district. The candidates for Louisiana 5 district were Jerry Huckaby (D) unopposed, and the result was re-elected.",
+    "expected_answer": "Jerry Huckaby was first elected in 1976.0.",
+    "time": 13.717193365097046,
+    "answer_length": 196,
+    "retrieval_time": 2.86102294921875e-06,
+    "generation_time": 13.695626974105835
+  },
+  {
+    "question": "Generate a description based on the following triples: (Ferruccio Busoni, DIED, 1924)",
+    "answer": "Ferruccio Busoni died in 1924.",
+    "expected_answer": "Ferruccio Busoni died in 1924.",
+    "time": 3.455948829650879,
+    "answer_length": 30,
+    "retrieval_time": 2.1457672119140625e-06,
+    "generation_time": 3.4418208599090576
+  },
+  {
+    "question": "Generate a description based on the following triples: (Baiti, FORMER_NAME, Beidi) | (Baiti, POPULATION_(2005), 572)",
+    "answer": "Baiti's former name is Beidi, and its population in 2005 was 572.",
+    "expected_answer": "With the population in 2005 of 572, the former name is beidi.",
+    "time": 6.567996978759766,
+    "answer_length": 65,
+    "retrieval_time": 1.9073486328125e-06,
+    "generation_time": 6.5514140129089355
+  },
+  {
+    "question": "Generate a description based on the following triples: ([TABLECONTEXT], [TITLE], Charlotte Eagles Year-by-year) | ([TABLECONTEXT], YEAR, 1998) | (1998, PLAYOFFS, Quarterfinals)",
+    "answer": "Charlotte Eagles Year-by-year: In 1998, they entered the quarterfinals in the Playoffs.",
+    "expected_answer": "Charlotte Eagles entered quaterfinals in Playoffs in 1998",
+    "time": 6.211089849472046,
+    "answer_length": 87,
+    "retrieval_time": 1.9073486328125e-06,
+    "generation_time": 6.198401927947998
+  }
+]
