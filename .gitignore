@@ -9,8 +9,8 @@ entity_forest_cache/*.pkl
 vec_db_cache/
 abstract_forest_cache/*.pkl
 extracted_data/
-datasets/unified/
-datasets/raw/
+# datasets/unified/  # 取消注释以允许上传
+# datasets/raw/      # 取消注释以允许上传
 *.log
 .DS_Store
 *.pyc
