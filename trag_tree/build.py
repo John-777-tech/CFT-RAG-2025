@@ -214,13 +214,14 @@ def build_abstract_forest_and_entity_mapping(
     
     print(f"按文件/source分组：{len(abstracts_by_file)} 个组（每个组将构建一棵树），{len(abstracts_no_file)} 个未分组abstracts")
     
-    # Step 3: 为每个文件构建AbstractTree
+    # Step 3: 为每个文件构建AbstractTree（并发模式）
     abstract_forest = []  # AbstractTree列表
     all_pair_id_to_node = {}  # 全局pair_id到node的映射
     file_to_tree_map = {}  # 文件到AbstractTree的映射
     
-    for filename, file_abstracts in abstracts_by_file.items():
-        print(f"正在为文件 '{filename}' 构建AbstractTree（{len(file_abstracts)} 个abstracts）...")
+    def build_tree_for_file(filename, file_abstracts):
+        """为单个文件构建AbstractTree（用于并发执行）"""
+        print(f"正在为文件 '{filename}' 构建AbstractTree（{len(file_abstracts)} 个abstracts）...", flush=True)
         
         # 创建该文件的AbstractNode列表
         file_abstract_nodes = []
@@ -259,17 +260,64 @@ def build_abstract_forest_and_entity_mapping(
             )
             file_abstract_nodes.append(node)
             file_pair_id_to_node[pair_id] = node
-            all_pair_id_to_node[pair_id] = node
         
         # 为该文件构建AbstractTree（使用LLM建立层级关系）
+        file_abstract_tree = None
         if file_abstract_nodes:
             # 从环境变量获取模型名称，默认为ge2.5-pro
             import os
             model_name = os.environ.get("MODEL_NAME") or "ge2.5-pro"
             file_abstract_tree = AbstractTree(file_abstract_nodes, build_hierarchy=True, use_llm=True, model_name=model_name)
-            abstract_forest.append(file_abstract_tree)
-            file_to_tree_map[filename] = file_abstract_tree
-            print(f"✓ 文件 '{filename}' 的AbstractTree构建完成，包含 {len(file_abstract_nodes)} 个abstracts")
+            print(f"✓ 文件 '{filename}' 的AbstractTree构建完成，包含 {len(file_abstract_nodes)} 个abstracts", flush=True)
+        
+        return filename, file_abstract_tree, file_pair_id_to_node
+    
+    # 使用并发模式构建多个文件的AbstractTree
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    import os
+    
+    max_tree_workers = min(5, len(abstracts_by_file))  # 最多5个并发线程构建树
+    
+    if len(abstracts_by_file) > 1 and max_tree_workers > 1:
+        print(f"使用并发模式构建 {len(abstracts_by_file)} 个AbstractTree（最大并发数: {max_tree_workers}）...", flush=True)
+        
+        with ThreadPoolExecutor(max_workers=max_tree_workers) as executor:
+            # 提交所有任务
+            future_to_filename = {
+                executor.submit(build_tree_for_file, filename, file_abstracts): filename
+                for filename, file_abstracts in abstracts_by_file.items()
+            }
+            
+            # 收集结果
+            for future in as_completed(future_to_filename):
+                filename = future_to_filename[future]
+                try:
+                    filename_result, file_abstract_tree, file_pair_id_to_node = future.result()
+                    
+                    if file_abstract_tree:
+                        abstract_forest.append(file_abstract_tree)
+                        file_to_tree_map[filename_result] = file_abstract_tree
+                        
+                        # 更新全局映射
+                        for pair_id, node in file_pair_id_to_node.items():
+                            all_pair_id_to_node[pair_id] = node
+                            
+                except Exception as e:
+                    print(f"  ✗ 文件 '{filename}' 的AbstractTree构建失败: {e}", flush=True)
+                    import traceback
+                    traceback.print_exc()
+    else:
+        # 串行模式（单个文件或禁用并发）
+        for filename, file_abstracts in abstracts_by_file.items():
+            filename_result, file_abstract_tree, file_pair_id_to_node = build_tree_for_file(filename, file_abstracts)
+            
+            if file_abstract_tree:
+                abstract_forest.append(file_abstract_tree)
+                file_to_tree_map[filename_result] = file_abstract_tree
+                
+                # 更新全局映射
+                for pair_id, node in file_pair_id_to_node.items():
+                    all_pair_id_to_node[pair_id] = node
     
     # 处理未分组的abstracts（如果有）
     if abstracts_no_file:

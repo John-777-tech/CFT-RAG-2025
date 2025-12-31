@@ -33,11 +33,11 @@ def split_string_by_headings(text: str):
     
     if has_headings:
         # 有标题：按标题分割
-        for line in lines:
+    for line in lines:
             if line.strip().startswith("#"):
-                concat_block()
-            current_block.append(line)
-        concat_block()
+            concat_block()
+        current_block.append(line)
+    concat_block()
     else:
         # 没有标题：按段落（空行）分割，每个段落作为一个chunk
         # 但合并太短的段落（少于50字符）到下一个段落
@@ -112,13 +112,13 @@ def collect_chunks_from_file(file_path: str):
                                 
                                 # 如果没有从annotations获取，检查其他文本字段
                                 if not chunk_text:
-                                    text_fields = ['answer', 'text', 'target', 'expected_answer']
-                                    for field in text_fields:
-                                        if field in item:
-                                            text = item[field]
-                                            if isinstance(text, str) and text.strip():
+                                text_fields = ['answer', 'text', 'target', 'expected_answer']
+                                for field in text_fields:
+                                    if field in item:
+                                        text = item[field]
+                                        if isinstance(text, str) and text.strip():
                                                 chunk_text = text.strip()
-                                                break
+                                            break
                                 
                                 if chunk_text:
                                     chunks.append(chunk_text)
@@ -197,9 +197,87 @@ def collect_chunks(dir_or_file: str):
     return chunks
 
 
+def generate_abstract_with_llm_concurrent(chunk1: str, chunk2: str = None, model_name: str = "gpt-3.5-turbo") -> str:
+    """
+    并发版本的单个abstract生成（用于线程池）
+    
+    Args:
+        chunk1: 第一个chunk的文本
+        chunk2: 第二个chunk的文本（可选）
+        model_name: LLM模型名称
+        
+    Returns:
+        生成的摘要文本
+    """
+    return generate_abstract_with_llm(chunk1, chunk2, model_name)
+
+
+def generate_abstracts_batch_concurrent(chunk_pairs: list[tuple[str, str | None]], model_name: str = "gpt-3.5-turbo", max_workers: int = 10) -> list[str]:
+    """
+    并发批量生成abstracts，使用线程池并行处理多个chunk pairs
+    
+    Args:
+        chunk_pairs: [(chunk1, chunk2), ...] 列表，chunk2可以为None
+        model_name: LLM模型名称
+        max_workers: 最大并发线程数（默认10）
+        
+    Returns:
+        生成的abstract列表
+    """
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    import time
+    
+    if not chunk_pairs:
+        return []
+    
+    print(f"  使用并发模式生成 {len(chunk_pairs)} 个abstracts（最大并发数: {max_workers}）...", flush=True)
+    
+    results = [None] * len(chunk_pairs)
+    completed_count = 0
+    start_time = time.time()
+    
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        # 提交所有任务
+        future_to_idx = {
+            executor.submit(generate_abstract_with_llm_concurrent, chunk1, chunk2, model_name): idx
+            for idx, (chunk1, chunk2) in enumerate(chunk_pairs)
+        }
+        
+        # 收集结果
+        for future in as_completed(future_to_idx):
+            idx = future_to_idx[future]
+            try:
+                abstract_text = future.result()
+                results[idx] = abstract_text
+                completed_count += 1
+                
+                # 每完成10个显示进度
+                if completed_count % 10 == 0 or completed_count == len(chunk_pairs):
+                    elapsed = time.time() - start_time
+                    speed = completed_count / elapsed if elapsed > 0 else 0
+                    print(f"  ✓ 已完成 {completed_count}/{len(chunk_pairs)} 个abstracts (速度: {speed:.2f} 个/秒)", flush=True)
+                    
+            except Exception as e:
+                print(f"  ⚠ abstract {idx} 生成失败: {e}，使用简单合并作为fallback", flush=True)
+                # 使用简单合并作为fallback
+                chunk1, chunk2 = chunk_pairs[idx]
+                results[idx] = chunk1 + ("\n" + chunk2 if chunk2 else "")
+    
+    # 确保所有结果都有值
+    for idx, result in enumerate(results):
+        if result is None:
+            chunk1, chunk2 = chunk_pairs[idx]
+            results[idx] = chunk1 + ("\n" + chunk2 if chunk2 else "")
+    
+    elapsed = time.time() - start_time
+    print(f"  ✓ 并发生成完成，总耗时: {elapsed:.2f}秒，平均速度: {len(chunk_pairs)/elapsed:.2f} 个/秒", flush=True)
+    
+    return results
+
+
 def generate_abstracts_batch(chunk_pairs: list[tuple[str, str | None]], model_name: str = "gpt-3.5-turbo") -> list[str]:
     """
-    批量生成abstracts，一次性处理多个chunk pairs
+    批量生成abstracts，一次性处理多个chunk pairs（保留原实现作为fallback）
     
     Args:
         chunk_pairs: [(chunk1, chunk2), ...] 列表，chunk2可以为None
@@ -493,76 +571,42 @@ def expand_chunks_to_tree_nodes(chunks: list[str], use_llm_summary: bool = True,
             })
         
         # 分批处理
-        for batch_start in range(0, len(chunk_pairs), batch_size):
-            batch_end = min(batch_start + batch_size, len(chunk_pairs))
-            batch_pairs = chunk_pairs[batch_start:batch_end]
-            batch_meta = pair_metadata[batch_start:batch_end]
+        # 使用并发模式生成abstracts（更快）
+        use_concurrent = True  # 是否使用并发模式
+        max_workers = 10  # 最大并发线程数
+        
+        if use_concurrent and len(chunk_pairs) > 5:
+            # 使用并发模式：将chunk_pairs分成多个批次，每批并发处理
+            batch_size_concurrent = 50  # 每批并发处理50个
+            all_abstracts = []
             
-            print(f"  正在生成abstract {batch_start + 1}-{batch_end}/{total_pairs}...", flush=True)
-            
-            try:
-                # 批量生成abstracts
-                batch_abstracts = generate_abstracts_batch(batch_pairs, model_name)
+            for batch_start in range(0, len(chunk_pairs), batch_size_concurrent):
+                batch_end = min(batch_start + batch_size_concurrent, len(chunk_pairs))
+                batch_pairs = chunk_pairs[batch_start:batch_end]
+                batch_meta = pair_metadata[batch_start:batch_end]
                 
-                # 验证返回的abstracts数量
-                if len(batch_abstracts) != len(batch_pairs):
-                    print(f"  ⚠ 警告：批量返回的abstracts数量不匹配（期望{len(batch_pairs)}，得到{len(batch_abstracts)}）")
-                    # 如果数量不匹配，尝试调整
-                    if len(batch_abstracts) < len(batch_pairs):
-                        # 如果返回的太少，使用简单合并作为fallback
-                        print(f"  ⚠ 返回的abstracts太少，对缺失的pairs使用简单合并")
-                        while len(batch_abstracts) < len(batch_pairs):
-                            idx = len(batch_abstracts)
-                            chunk1, chunk2 = batch_pairs[idx]
-                            fallback_text = chunk1
-                            if chunk2:
-                                fallback_text = chunk1 + "\n" + chunk2
-                            batch_abstracts.append(fallback_text)
-                    elif len(batch_abstracts) > len(batch_pairs):
-                        # 如果返回的太多，只取前面的
-                        batch_abstracts = batch_abstracts[:len(batch_pairs)]
+                print(f"  正在并发生成abstract {batch_start + 1}-{batch_end}/{total_pairs}...", flush=True)
+                
+                try:
+                    # 并发生成abstracts
+                    batch_abstracts = generate_abstracts_batch_concurrent(batch_pairs, model_name, max_workers=max_workers)
+                except Exception as e:
+                    print(f"  ⚠ 并发生成失败，回退到批量模式: {e}", flush=True)
+                    # 回退到批量模式
+                    try:
+                        batch_abstracts = generate_abstracts_batch(batch_pairs, model_name)
+                    except Exception as e2:
+                        print(f"  ⚠ 批量生成也失败，使用简单合并: {e2}", flush=True)
+                        batch_abstracts = []
+                        for chunk1, chunk2 in batch_pairs:
+                            batch_abstracts.append(chunk1 + ("\n" + chunk2 if chunk2 else ""))
                 
                 # 处理返回的abstracts
-                for idx, (abstract_text, meta_info) in enumerate(zip(batch_abstracts, batch_meta)):
-                    if not abstract_text or len(abstract_text.strip()) == 0:
-                        # 如果摘要为空，使用简单合并作为fallback
-                        chunk1, chunk2 = batch_pairs[idx]
-                        abstract_text = chunk1
-                        if chunk2:
-                            abstract_text = chunk1 + "\n" + chunk2
-                    
-                    meta = {
-                        "type": "tree_node",
-                        "pair_id": meta_info["pair_id"],
-                        "chunk_ids": meta_info["chunk_ids"],
-                        "covered_chunks": meta_info["chunk_ids"],
-                    }
-                    if meta_info["file_source"]:
-                        meta["source_file"] = meta_info["file_source"]
-                    
-                    items.append({
-                        "text": abstract_text,
-                        "meta": meta
-                    })
-                
-                # 显示进度
-                if (batch_end) % 50 == 0 or batch_end == total_pairs:
-                    print(f"  ✓ 已完成 {batch_end}/{total_pairs} 个abstracts", flush=True)
-                
-            except Exception as e:
-                print(f"  ✗ 批量生成abstract {batch_start}-{batch_end} 失败: {e}")
-                print(f"  ⚠ 回退到单独生成模式...")
-                # 回退到单独生成
-                for idx, (chunk1, chunk2) in enumerate(batch_pairs):
+                for idx, abstract_text in enumerate(batch_abstracts):
                     meta_info = batch_meta[idx]
-                    try:
-                        abstract_text = generate_abstract_with_llm(chunk1, chunk2, model_name)
-                    except Exception as e2:
-                        print(f"    ✗ 单独生成abstract {meta_info['pair_id']} 也失败: {e2}")
-                        # 最终回退到简单合并
-                        abstract_text = chunk1
-                        if chunk2:
-                            abstract_text = chunk1 + "\n" + chunk2
+                    if not abstract_text or len(abstract_text.strip()) == 0:
+                        chunk1, chunk2 = batch_pairs[idx]
+                        abstract_text = chunk1 + ("\n" + chunk2 if chunk2 else "")
                     
                     meta = {
                         "type": "tree_node",
@@ -577,16 +621,104 @@ def expand_chunks_to_tree_nodes(chunks: list[str], use_llm_summary: bool = True,
                         "text": abstract_text,
                         "meta": meta
                     })
+                
+                all_abstracts.extend(batch_abstracts)
+        else:
+            # 使用原来的批量模式（小数据集或禁用并发时）
+            for batch_start in range(0, len(chunk_pairs), batch_size):
+                batch_end = min(batch_start + batch_size, len(chunk_pairs))
+                batch_pairs = chunk_pairs[batch_start:batch_end]
+                batch_meta = pair_metadata[batch_start:batch_end]
+                
+                print(f"  正在生成abstract {batch_start + 1}-{batch_end}/{total_pairs}...", flush=True)
+                
+                try:
+                    # 批量生成abstracts
+                    batch_abstracts = generate_abstracts_batch(batch_pairs, model_name)
+                    
+                    # 验证返回的abstracts数量
+                    if len(batch_abstracts) != len(batch_pairs):
+                        print(f"  ⚠ 警告：批量返回的abstracts数量不匹配（期望{len(batch_pairs)}，得到{len(batch_abstracts)}）")
+                        # 如果数量不匹配，尝试调整
+                        if len(batch_abstracts) < len(batch_pairs):
+                            # 如果返回的太少，使用简单合并作为fallback
+                            print(f"  ⚠ 返回的abstracts太少，对缺失的pairs使用简单合并")
+                            while len(batch_abstracts) < len(batch_pairs):
+                                idx = len(batch_abstracts)
+                                chunk1, chunk2 = batch_pairs[idx]
+                                fallback_text = chunk1
+                                if chunk2:
+                                    fallback_text = chunk1 + "\n" + chunk2
+                                batch_abstracts.append(fallback_text)
+                        elif len(batch_abstracts) > len(batch_pairs):
+                            # 如果返回的太多，只取前面的
+                            batch_abstracts = batch_abstracts[:len(batch_pairs)]
+                    
+                    # 处理返回的abstracts
+                    for idx, (abstract_text, meta_info) in enumerate(zip(batch_abstracts, batch_meta)):
+                        if not abstract_text or len(abstract_text.strip()) == 0:
+                            # 如果摘要为空，使用简单合并作为fallback
+                            chunk1, chunk2 = batch_pairs[idx]
+                            abstract_text = chunk1
+                            if chunk2:
+                                abstract_text = chunk1 + "\n" + chunk2
+                        
+                        meta = {
+                            "type": "tree_node",
+                            "pair_id": meta_info["pair_id"],
+                            "chunk_ids": meta_info["chunk_ids"],
+                            "covered_chunks": meta_info["chunk_ids"],
+                        }
+                        if meta_info["file_source"]:
+                            meta["source_file"] = meta_info["file_source"]
+                        
+                        items.append({
+                            "text": abstract_text,
+                            "meta": meta
+                        })
+                    
+                    # 显示进度
+                    if (batch_end) % 50 == 0 or batch_end == total_pairs:
+                        print(f"  ✓ 已完成 {batch_end}/{total_pairs} 个abstracts", flush=True)
+                
+                except Exception as e:
+                    print(f"  ✗ 批量生成abstract {batch_start}-{batch_end} 失败: {e}")
+                    print(f"  ⚠ 回退到单独生成模式...")
+                    # 回退到单独生成
+                    for idx, (chunk1, chunk2) in enumerate(batch_pairs):
+                        meta_info = batch_meta[idx]
+                        try:
+                            abstract_text = generate_abstract_with_llm(chunk1, chunk2, model_name)
+                        except Exception as e2:
+                            print(f"    ✗ 单独生成abstract {meta_info['pair_id']} 也失败: {e2}")
+                            # 最终回退到简单合并
+                            abstract_text = chunk1
+                            if chunk2:
+                                abstract_text = chunk1 + "\n" + chunk2
+                        
+                        meta = {
+                            "type": "tree_node",
+                            "pair_id": meta_info["pair_id"],
+                            "chunk_ids": meta_info["chunk_ids"],
+                            "covered_chunks": meta_info["chunk_ids"],
+                        }
+                        if meta_info["file_source"]:
+                            meta["source_file"] = meta_info["file_source"]
+                        
+                        items.append({
+                            "text": abstract_text,
+                            "meta": meta
+                        })
     else:
         # 不使用LLM，简单合并
-        for i in range(0, len(chunks), 2):
+    for i in range(0, len(chunks), 2):
             chunk1 = chunks[i]
             chunk2 = chunks[i + 1] if i + 1 < len(chunks) else None
-            related_chunk_ids = [i]
-            
+        related_chunk_ids = [i]
+
             if chunk2:
-                related_chunk_ids.append(i + 1)
-            
+            related_chunk_ids.append(i + 1)
+
             abstract_text = chunk1
             if chunk2:
                 abstract_text = chunk1 + "\n" + chunk2
@@ -603,8 +735,8 @@ def expand_chunks_to_tree_nodes(chunks: list[str], use_llm_summary: bool = True,
             items.append({
                 "text": abstract_text,
                 "meta": meta
-            })
-            pair_id += 1
+        })
+        pair_id += 1
 
     return items
 
@@ -719,7 +851,7 @@ def load_vec_db(key: str, dir_or_file: str):
     
     # 确保目标目录不存在或为空
     if os.path.exists(index_path):
-        import shutil
+    import shutil
         shutil.rmtree(index_path, ignore_errors=True)
     os.makedirs(index_path, exist_ok=True)
     
@@ -729,23 +861,34 @@ def load_vec_db(key: str, dir_or_file: str):
     # 确保保存完成
     try:
         db.force_save()
-    except:
-        pass
+        # 等待一下确保文件写入完成
+        import time
+        time.sleep(0.5)
+    except Exception as e:
+        print(f"Warning: force_save failed: {e}")
     
     # Get table_name from the map
     db_id = id(db)
     if hasattr(build_index_on_chunks, '_db_table_map'):
         table_name = build_index_on_chunks._db_table_map.get(db_id, "default_table")
-        # Store table_name for the db instance
-        if not hasattr(load_vec_db, '_db_table_map'):
-            load_vec_db._db_table_map = {}
-        load_vec_db._db_table_map[id(db)] = table_name
     else:
         # 如果没有map，尝试从db获取
         keys = db.get_all_keys()
         table_name = keys[0] if keys else "default_table"
-        if not hasattr(load_vec_db, '_db_table_map'):
-            load_vec_db._db_table_map = {}
-        load_vec_db._db_table_map[id(db)] = table_name
+    
+    # Store table_name for the db instance
+            if not hasattr(load_vec_db, '_db_table_map'):
+                load_vec_db._db_table_map = {}
+            load_vec_db._db_table_map[id(db)] = table_name
+    
+    # 验证数据库已正确保存
+    try:
+        keys_after_save = db.get_all_keys()
+        if keys_after_save:
+            print(f"✓ 数据库已保存，表名: {keys_after_save[0]}, 记录数: {db.get_len(keys_after_save[0])}")
+        else:
+            print(f"⚠ 警告：数据库保存后未找到表")
+    except Exception as e:
+        print(f"⚠ 警告：验证数据库保存时出错: {e}")
     
     return db
